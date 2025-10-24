@@ -3070,6 +3070,325 @@ export const UNIVERSITIES: University[] = [
               },
             ],
           },
+          {
+            id: 'english',
+            name: 'Department of English',
+            shortName: 'ENG',
+            programs: [
+              {
+                id: 'baenglish',
+                name: 'BA in English',
+                shortName: 'BA English',
+                courses: [
+                  // 1st Semester - Core and GED Courses
+                  {
+                    id: 'eng1011',
+                    code: 'ENG 1011',
+                    name: 'English I',
+                    instructors: ['Prof. Anisul Haque', 'Dr. Rowshan Ara'],
+                  },
+                  {
+                    id: 'eng1101',
+                    code: 'ENG 1101',
+                    name: 'Introduction to Literature',
+                    instructors: ['Dr. Habibur Rahman', 'Prof. Shamima Nasrin'],
+                  },
+                  {
+                    id: 'bds1201',
+                    code: 'BDS 1201',
+                    name: 'History of the Emergence of Bangladesh',
+                    instructors: ['Dr. Md. Shahin Alam', 'Farhana Yasmin'],
+                  },
+
+                  // 2nd Semester - Core and GED Courses
+                  {
+                    id: 'eng1013',
+                    code: 'ENG 1013',
+                    name: 'English II',
+                    instructors: ['Dr. Salahuddin Ahmed', 'Tahmina Khatun'],
+                  },
+                  {
+                    id: 'eng1201',
+                    code: 'ENG 1201',
+                    name: 'Introduction to Linguistics',
+                    instructors: ['Dr. Kamal Hossain', 'Fatima Rahman'],
+                  },
+                  {
+                    id: 'cst1101',
+                    code: 'CST 1101',
+                    name: 'Introduction to Computer',
+                    instructors: ['Dr. Syed Akhter Hossain', 'Mahbubul Alam'],
+                  },
+
+                  // 3rd Semester - Core and GED Courses
+                  {
+                    id: 'eng2101',
+                    code: 'ENG 2101',
+                    name: 'Phonetics and Phonology',
+                    instructors: ['Dr. Mohammad Hasan', 'Prof. Nasrin Akhter'],
+                  },
+                  {
+                    id: 'eng2201',
+                    code: 'ENG 2201',
+                    name: 'Introduction to Poetry',
+                    instructors: ['Dr. Kamrul Islam', 'Eng. Tareq Ahmed'],
+                  },
+                  {
+                    id: 'eng2301',
+                    code: 'ENG 2301',
+                    name: 'Introduction to Drama',
+                    instructors: ['Prof. Abdul Mannan', 'Dr. Shahana Parveen'],
+                  },
+                  {
+                    id: 'bng1101',
+                    code: 'BNG 1101',
+                    name: 'Bangla Language and Literature',
+                    instructors: ['Prof. Nabila Chowdhury', 'Dr. Shahriar Rahman'],
+                  },
+
+                  // 4th Semester - Core Courses
+                  {
+                    id: 'eng2401',
+                    code: 'ENG 2401',
+                    name: 'Introduction to Prose: Fiction and Non-fiction',
+                    instructors: ['Dr. Mumit Khan', 'Md. Eunus Ali'],
+                  },
+                  {
+                    id: 'eng2501',
+                    code: 'ENG 2501',
+                    name: '16th and 17th Century Literature',
+                    instructors: ['Mosabbir Ahmed', 'Dr. Rahman Khan'],
+                  },
+                  {
+                    id: 'eng2601',
+                    code: 'ENG 2601',
+                    name: 'English for Specific Purposes',
+                    instructors: ['Dr. Mohammad Karim', 'Sabbir Ahmed'],
+                  },
+
+                  // 5th Semester - Core Courses
+                  {
+                    id: 'eng3101',
+                    code: 'ENG 3101',
+                    name: 'Romantic Literature',
+                    instructors: ['Prof. Jahangir Alam', 'Rashed Khan'],
+                  },
+                  {
+                    id: 'eng3201',
+                    code: 'ENG 3201',
+                    name: 'Victorian Prose and Poetry',
+                    instructors: ['Dr. Farhan Rahman', 'Nusrat Jahan'],
+                  },
+
+                  // 6th Semester - Core Courses
+                  {
+                    id: 'eng3301',
+                    code: 'ENG 3301',
+                    name: '18th Century Literature',
+                    instructors: ['Dr. Habibur Rahman', 'Prof. Shamima Nasrin'],
+                  },
+                  {
+                    id: 'eng3401',
+                    code: 'ENG 3401',
+                    name: 'American Literature',
+                    instructors: ['Dr. Md. Shahin Alam', 'Farhana Yasmin'],
+                  },
+                  {
+                    id: 'eng3501',
+                    code: 'ENG 3501',
+                    name: 'Shakespeare',
+                    instructors: ['Dr. Kamal Hossain', 'Fatima Rahman'],
+                  },
+
+                  // 7th Semester - Core Courses
+                  {
+                    id: 'eng3601',
+                    code: 'ENG 3601',
+                    name: 'Modern Literature',
+                    instructors: ['Dr. Mohammad Hasan', 'Prof. Nasrin Akhter'],
+                  },
+                  {
+                    id: 'eng3701',
+                    code: 'ENG 3701',
+                    name: 'Postcolonial Literature',
+                    instructors: ['Dr. Kamrul Islam', 'Eng. Tareq Ahmed'],
+                  },
+                  {
+                    id: 'eng3801',
+                    code: 'ENG 3801',
+                    name: 'Literary Criticism and Theory',
+                    instructors: ['Prof. Abdul Mannan', 'Dr. Shahana Parveen'],
+                  },
+
+                  // 8th Semester - Core Courses
+                  {
+                    id: 'eng4101',
+                    code: 'ENG 4101',
+                    name: 'Contemporary Literature',
+                    instructors: ['Dr. Syed Akhter Hossain', 'Mahbubul Alam'],
+                  },
+                  {
+                    id: 'eng4201',
+                    code: 'ENG 4201',
+                    name: 'World Literature',
+                    instructors: ['Prof. Nabila Chowdhury', 'Dr. Shahriar Rahman'],
+                  },
+                  {
+                    id: 'eng4301',
+                    code: 'ENG 4301',
+                    name: 'Chaucer and Medieval Literature',
+                    instructors: ['Dr. Mumit Khan', 'Md. Eunus Ali'],
+                  },
+
+                  // 9th Semester - Core Courses
+                  {
+                    id: 'eng4401',
+                    code: 'ENG 4401',
+                    name: 'Modernism and Postmodernism',
+                    instructors: ['Mosabbir Ahmed', 'Dr. Rahman Khan'],
+                  },
+                  {
+                    id: 'eng4501',
+                    code: 'ENG 4501',
+                    name: 'South Asian Literature',
+                    instructors: ['Dr. Mohammad Karim', 'Sabbir Ahmed'],
+                  },
+                  {
+                    id: 'eng4601',
+                    code: 'ENG 4601',
+                    name: 'African Literature',
+                    instructors: ['Prof. Jahangir Alam', 'Rashed Khan'],
+                  },
+
+                  // 10th Semester - Core Courses
+                  {
+                    id: 'eng4701',
+                    code: 'ENG 4701',
+                    name: 'Restoration and 18th Century Drama',
+                    instructors: ['Dr. Farhan Rahman', 'Nusrat Jahan'],
+                  },
+                  {
+                    id: 'eng4801',
+                    code: 'ENG 4801',
+                    name: 'Women Writers',
+                    instructors: ['Dr. Habibur Rahman', 'Prof. Shamima Nasrin'],
+                  },
+                  {
+                    id: 'eng4901',
+                    code: 'ENG 4901',
+                    name: 'Translation Studies',
+                    instructors: ['Dr. Md. Shahin Alam', 'Farhana Yasmin'],
+                  },
+
+                  // Elective Courses
+                  {
+                    id: 'eng3111',
+                    code: 'ENG 3111',
+                    name: 'History of English Literature',
+                    instructors: ['Dr. Kamal Hossain', 'Fatima Rahman'],
+                  },
+                  {
+                    id: 'eng3211',
+                    code: 'ENG 3211',
+                    name: 'Popular Literature',
+                    instructors: ['Dr. Mohammad Hasan', 'Prof. Nasrin Akhter'],
+                  },
+                  {
+                    id: 'eng3311',
+                    code: 'ENG 3311',
+                    name: 'Creative Writing',
+                    instructors: ['Dr. Kamrul Islam', 'Eng. Tareq Ahmed'],
+                  },
+                  {
+                    id: 'eng3411',
+                    code: 'ENG 3411',
+                    name: 'Film Studies',
+                    instructors: ['Prof. Abdul Mannan', 'Dr. Shahana Parveen'],
+                  },
+                  {
+                    id: 'eng3511',
+                    code: 'ENG 3511',
+                    name: 'Cultural Studies',
+                    instructors: ['Dr. Syed Akhter Hossain', 'Mahbubul Alam'],
+                  },
+                  {
+                    id: 'eng3611',
+                    code: 'ENG 3611',
+                    name: 'Fantasy and Science Fiction',
+                    instructors: ['Prof. Nabila Chowdhury', 'Dr. Shahriar Rahman'],
+                  },
+                  {
+                    id: 'eng3711',
+                    code: 'ENG 3711',
+                    name: 'Gothic Literature',
+                    instructors: ['Dr. Mumit Khan', 'Md. Eunus Ali'],
+                  },
+                  {
+                    id: 'eng3811',
+                    code: 'ENG 3811',
+                    name: 'Children\'s Literature',
+                    instructors: ['Mosabbir Ahmed', 'Dr. Rahman Khan'],
+                  },
+                  {
+                    id: 'eng4111',
+                    code: 'ENG 4111',
+                    name: 'Gender Studies',
+                    instructors: ['Dr. Mohammad Karim', 'Sabbir Ahmed'],
+                  },
+                  {
+                    id: 'eng4211',
+                    code: 'ENG 4211',
+                    name: 'Postmodern Fiction',
+                    instructors: ['Prof. Jahangir Alam', 'Rashed Khan'],
+                  },
+                  {
+                    id: 'eng4311',
+                    code: 'ENG 4311',
+                    name: 'Comparative Literature',
+                    instructors: ['Dr. Farhan Rahman', 'Nusrat Jahan'],
+                  },
+                  {
+                    id: 'eng4411',
+                    code: 'ENG 4411',
+                    name: 'Classical Literature',
+                    instructors: ['Dr. Habibur Rahman', 'Prof. Shamima Nasrin'],
+                  },
+                  {
+                    id: 'eng4511',
+                    code: 'ENG 4511',
+                    name: 'Mythology',
+                    instructors: ['Dr. Md. Shahin Alam', 'Farhana Yasmin'],
+                  },
+                  {
+                    id: 'eng4611',
+                    code: 'ENG 4611',
+                    name: 'Literature and Psychology',
+                    instructors: ['Dr. Kamal Hossain', 'Fatima Rahman'],
+                  },
+                  {
+                    id: 'eng4711',
+                    code: 'ENG 4711',
+                    name: 'Travel Writing',
+                    instructors: ['Dr. Mohammad Hasan', 'Prof. Nasrin Akhter'],
+                  },
+                  {
+                    id: 'eng4811',
+                    code: 'ENG 4811',
+                    name: 'Ecocriticism',
+                    instructors: ['Dr. Kamrul Islam', 'Eng. Tareq Ahmed'],
+                  },
+
+                  // Research/Project
+                  {
+                    id: 'eng4999',
+                    code: 'ENG 4999',
+                    name: 'Research Project/Thesis',
+                    instructors: ['All Faculty Members'],
+                  },
+                ],
+              },
+            ],
+          },
         ],
       },
       {
