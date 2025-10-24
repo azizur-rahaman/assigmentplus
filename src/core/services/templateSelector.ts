@@ -23,9 +23,9 @@ export class TemplateSelector {
       {
         name: 'Default',
         colors: {
-          primary: '#1e40af',
-          secondary: '#475569',
-          accent: '#f97316',
+          primary: '#000000',      // Black for main text
+          secondary: '#4a4a4a',    // Dark gray for secondary text
+          accent: '#f47920',       // UIU Orange for highlights
         },
         fonts: {
           title: 24,
