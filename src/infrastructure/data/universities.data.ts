@@ -2338,6 +2338,738 @@ export const UNIVERSITIES: University[] = [
               },
             ],
           },
+          {
+            id: 'ce',
+            name: 'Department of Civil Engineering',
+            shortName: 'CE',
+            courses: [
+              // 1st Year 1st Semester
+              {
+                id: 'eng1011',
+                code: 'ENG 1011',
+                name: 'English I',
+                instructors: ['Prof. Anisul Haque', 'Dr. Rowshan Ara'],
+              },
+              {
+                id: 'math1101',
+                code: 'MATH 1101',
+                name: 'Differential and Integral Calculus',
+                instructors: ['Dr. Kamal Hossain', 'Fatima Rahman'],
+              },
+              {
+                id: 'act2111',
+                code: 'ACT 2111',
+                name: 'Financial and Managerial Accounting',
+                instructors: ['Dr. Mohammad Hasan', 'Prof. Nasrin Akhter'],
+              },
+              {
+                id: 'chem1211',
+                code: 'CHEM 1211',
+                name: 'Chemistry',
+                instructors: ['Dr. Kamrul Islam', 'Eng. Tareq Ahmed'],
+              },
+              {
+                id: 'ce1201',
+                code: 'CE 1201',
+                name: 'Surveying',
+                instructors: ['Prof. Abdul Mannan', 'Dr. Shahana Parveen'],
+              },
+              {
+                id: 'ce1100',
+                code: 'CE 1100',
+                name: 'Civil Engineering Drawing I',
+                instructors: ['Dr. Syed Akhter Hossain', 'Mahbubul Alam'],
+              },
+              {
+                id: 'chem1212',
+                code: 'CHEM 1212',
+                name: 'Chemistry Lab',
+                instructors: ['Prof. Nabila Chowdhury', 'Dr. Shahriar Rahman'],
+              },
+              {
+                id: 'ce1202',
+                code: 'CE 1202',
+                name: 'Practical Surveying',
+                instructors: ['Dr. Mumit Khan', 'Md. Eunus Ali'],
+              },
+
+              // 1st Year 2nd Semester
+              {
+                id: 'eng1013',
+                code: 'ENG 1013',
+                name: 'English II',
+                instructors: ['Dr. Salahuddin Ahmed', 'Tahmina Khatun'],
+              },
+              {
+                id: 'math1201',
+                code: 'MATH 1201',
+                name: 'Linear Algebra, Ordinary and Partial Differential equations',
+                instructors: ['Mosabbir Ahmed', 'Dr. Rahman Khan'],
+              },
+              {
+                id: 'ce1101',
+                code: 'CE 1101',
+                name: 'Engineering Mechanics',
+                instructors: ['Dr. Mohammad Karim', 'Sabbir Ahmed'],
+              },
+              {
+                id: 'phy1201',
+                code: 'PHY 1201',
+                name: 'Physics',
+                instructors: ['Prof. Jahangir Alam', 'Rashed Khan'],
+              },
+              {
+                id: 'eee1201',
+                code: 'EEE 1201',
+                name: 'Basic Electrical Engineering',
+                instructors: ['Dr. Farhan Rahman', 'Nusrat Jahan'],
+              },
+              {
+                id: 'bds1201',
+                code: 'BDS 1201',
+                name: 'History of the Emergence of Bangladesh',
+                instructors: ['Dr. Habibur Rahman', 'Prof. Shamima Nasrin'],
+              },
+              {
+                id: 'ce1200',
+                code: 'CE 1200',
+                name: 'Civil Engineering Drawing II',
+                instructors: ['Dr. Md. Shahin Alam', 'Farhana Yasmin'],
+              },
+              {
+                id: 'phy1202',
+                code: 'PHY 1202',
+                name: 'Physics Lab',
+                instructors: ['Dr. Kamal Hossain', 'Fatima Rahman'],
+              },
+
+              // 2nd Year 1st Semester
+              {
+                id: 'math2101',
+                code: 'MATH 2101',
+                name: 'Matrices and Vector Analysis',
+                instructors: ['Dr. Mohammad Hasan', 'Prof. Nasrin Akhter'],
+              },
+              {
+                id: 'ce2101',
+                code: 'CE 2101',
+                name: 'Engineering Materials',
+                instructors: ['Dr. Kamrul Islam', 'Eng. Tareq Ahmed'],
+              },
+              {
+                id: 'ce2201',
+                code: 'CE 2201',
+                name: 'Engineering Geology and Geomorphology',
+                instructors: ['Prof. Abdul Mannan', 'Dr. Shahana Parveen'],
+              },
+              {
+                id: 'ce2111',
+                code: 'CE 2111',
+                name: 'Mechanics of Solids I',
+                instructors: ['Dr. Syed Akhter Hossain', 'Mahbubul Alam'],
+              },
+              {
+                id: 'ce2171',
+                code: 'CE 2171',
+                name: 'Fluid Mechanics',
+                instructors: ['Prof. Nabila Chowdhury', 'Dr. Shahriar Rahman'],
+              },
+              {
+                id: 'cse2100',
+                code: 'CSE 2100',
+                name: 'Computer Programming Lab',
+                instructors: ['Dr. Mumit Khan', 'Md. Eunus Ali'],
+              },
+              {
+                id: 'ce2102',
+                code: 'CE 2102',
+                name: 'Engineering Materials Laboratory',
+                instructors: ['Dr. Salahuddin Ahmed', 'Tahmina Khatun'],
+              },
+              {
+                id: 'ce2172',
+                code: 'CE 2172',
+                name: 'Fluid Mechanics Laboratory',
+                instructors: ['Mosabbir Ahmed', 'Dr. Rahman Khan'],
+              },
+
+              // 2nd Year 2nd Semester
+              {
+                id: 'math2103',
+                code: 'MATH 2103',
+                name: 'Laplace Transformation, Probability and Statistics',
+                instructors: ['Dr. Mohammad Karim', 'Sabbir Ahmed'],
+              },
+              {
+                id: 'ce2203',
+                code: 'CE 2203',
+                name: 'Numerical Analysis and Computer Programming',
+                instructors: ['Prof. Jahangir Alam', 'Rashed Khan'],
+              },
+              {
+                id: 'ce2211',
+                code: 'CE 2211',
+                name: 'Mechanics of Solids II',
+                instructors: ['Dr. Farhan Rahman', 'Nusrat Jahan'],
+              },
+              {
+                id: 'ce2271',
+                code: 'CE 2271',
+                name: 'Engineering Hydrology',
+                instructors: ['Dr. Habibur Rahman', 'Prof. Shamima Nasrin'],
+              },
+              {
+                id: 'eco4101',
+                code: 'ECO 4101',
+                name: 'Economics',
+                instructors: ['Dr. Md. Shahin Alam', 'Farhana Yasmin'],
+              },
+              {
+                id: 'ce2200',
+                code: 'CE 2200',
+                name: 'Details of Construction',
+                instructors: ['Dr. Kamal Hossain', 'Fatima Rahman'],
+              },
+              {
+                id: 'ce2104',
+                code: 'CE 2104',
+                name: 'GIS and Remote Sensing Lab',
+                instructors: ['Dr. Mohammad Hasan', 'Prof. Nasrin Akhter'],
+              },
+              {
+                id: 'ce2212',
+                code: 'CE 2212',
+                name: 'Structural Mechanics and Materials Laboratory',
+                instructors: ['Dr. Kamrul Islam', 'Eng. Tareq Ahmed'],
+              },
+
+              // 3rd Year 1st Semester
+              {
+                id: 'ce3111',
+                code: 'CE 3111',
+                name: 'Structural Analysis and Design I',
+                instructors: ['Prof. Abdul Mannan', 'Dr. Shahana Parveen'],
+              },
+              {
+                id: 'ce3113',
+                code: 'CE 3113',
+                name: 'Design of Concrete Structures',
+                instructors: ['Dr. Syed Akhter Hossain', 'Mahbubul Alam'],
+              },
+              {
+                id: 'ce3131',
+                code: 'CE 3131',
+                name: 'Water Supply Engineering',
+                instructors: ['Prof. Nabila Chowdhury', 'Dr. Shahriar Rahman'],
+              },
+              {
+                id: 'ce3241',
+                code: 'CE 3241',
+                name: 'Soil Mechanics',
+                instructors: ['Dr. Mumit Khan', 'Md. Eunus Ali'],
+              },
+              {
+                id: 'sdv1107',
+                code: 'SDV 1107',
+                name: 'Introduction to Sustainable Development',
+                instructors: ['Dr. Salahuddin Ahmed', 'Tahmina Khatun'],
+              },
+              {
+                id: 'ce2100',
+                code: 'CE 2100',
+                name: 'Construction Detailing and Estimation Lab',
+                instructors: ['Mosabbir Ahmed', 'Dr. Rahman Khan'],
+              },
+              {
+                id: 'ce3132',
+                code: 'CE 3132',
+                name: 'Environmental Engineering Laboratory',
+                instructors: ['Dr. Mohammad Karim', 'Sabbir Ahmed'],
+              },
+              {
+                id: 'ce3142',
+                code: 'CE 3142',
+                name: 'Geotechnical Engineering Laboratory',
+                instructors: ['Prof. Jahangir Alam', 'Rashed Khan'],
+              },
+
+              // 3rd Year 2nd Semester
+              {
+                id: 'ce3211',
+                code: 'CE 3211',
+                name: 'Design of Steel Structures',
+                instructors: ['Dr. Farhan Rahman', 'Nusrat Jahan'],
+              },
+              {
+                id: 'ce3231',
+                code: 'CE 3231',
+                name: 'Wastewater Engineering',
+                instructors: ['Dr. Habibur Rahman', 'Prof. Shamima Nasrin'],
+              },
+              {
+                id: 'ce4141',
+                code: 'CE 4141',
+                name: 'Foundation Engineering',
+                instructors: ['Dr. Md. Shahin Alam', 'Farhana Yasmin'],
+              },
+              {
+                id: 'ce3251',
+                code: 'CE 3251',
+                name: 'Transportation Planning and Traffic Engineering',
+                instructors: ['Dr. Kamal Hossain', 'Fatima Rahman'],
+              },
+              {
+                id: 'ce3171',
+                code: 'CE 3171',
+                name: 'Open Channel Flow',
+                instructors: ['Dr. Mohammad Hasan', 'Prof. Nasrin Akhter'],
+              },
+              {
+                id: 'arch3200',
+                code: 'ARCH 3200',
+                name: 'Architectural, Engineering & Planning Appreciation',
+                instructors: ['Dr. Kamrul Islam', 'Eng. Tareq Ahmed'],
+              },
+              {
+                id: 'ce3112',
+                code: 'CE 3112',
+                name: 'Reinforced Concrete Structure Design Lab',
+                instructors: ['Prof. Abdul Mannan', 'Dr. Shahana Parveen'],
+              },
+              {
+                id: 'ce3172',
+                code: 'CE 3172',
+                name: 'Open Channel Flow Laboratory',
+                instructors: ['Dr. Syed Akhter Hossain', 'Mahbubul Alam'],
+              },
+
+              // 4th Year 1st Semester
+              {
+                id: 'ce3201',
+                code: 'CE 3201',
+                name: 'Project Planning and Construction Management',
+                instructors: ['Prof. Nabila Chowdhury', 'Dr. Shahriar Rahman'],
+              },
+              {
+                id: 'ce4111',
+                code: 'CE 4111',
+                name: 'Structural Analysis and Design II',
+                instructors: ['Dr. Mumit Khan', 'Md. Eunus Ali'],
+              },
+              {
+                id: 'ce4151',
+                code: 'CE 4151',
+                name: 'Highway Design and Railway Engineering',
+                instructors: ['Dr. Salahuddin Ahmed', 'Tahmina Khatun'],
+              },
+              {
+                id: 'ce4171',
+                code: 'CE 4171',
+                name: 'Irrigation and Flood Control',
+                instructors: ['Mosabbir Ahmed', 'Dr. Rahman Khan'],
+              },
+              {
+                id: 'ce3212',
+                code: 'CE 3212',
+                name: 'Steel Structures Design Lab',
+                instructors: ['Dr. Mohammad Karim', 'Sabbir Ahmed'],
+              },
+              {
+                id: 'ce4152',
+                code: 'CE 4152',
+                name: 'Highway Materials and Traffic Engineering Design Lab',
+                instructors: ['Prof. Jahangir Alam', 'Rashed Khan'],
+              },
+              {
+                id: 'ce4000a',
+                code: 'CE 4000A',
+                name: 'Final Year Design Project I',
+                instructors: ['All Faculty Members'],
+              },
+
+              // 4th Year 2nd Semester
+              {
+                id: 'ce4201',
+                code: 'CE 4201',
+                name: 'Engineering Ethics and Professional Practices',
+                instructors: ['Dr. Farhan Rahman', 'Nusrat Jahan'],
+              },
+              {
+                id: 'ce4110',
+                code: 'CE 4110',
+                name: 'Computer Applications in Civil Engineering',
+                instructors: ['Dr. Habibur Rahman', 'Prof. Shamima Nasrin'],
+              },
+              {
+                id: 'ce4202',
+                code: 'CE 4202',
+                name: 'Industrial Attachment and Professional Practices',
+                instructors: ['Dr. Md. Shahin Alam', 'Farhana Yasmin'],
+              },
+              {
+                id: 'ce4000b',
+                code: 'CE 4000B',
+                name: 'Final Year Design Project II',
+                instructors: ['All Faculty Members'],
+              },
+
+              // Optional/Elective Courses
+              {
+                id: 'ce4221',
+                code: 'CE 4221',
+                name: 'Advanced Structural Analysis',
+                instructors: ['Dr. Kamal Hossain', 'Fatima Rahman'],
+              },
+              {
+                id: 'ce4222',
+                code: 'CE 4222',
+                name: 'Earthquake Engineering',
+                instructors: ['Dr. Mohammad Hasan', 'Prof. Nasrin Akhter'],
+              },
+              {
+                id: 'ce4223',
+                code: 'CE 4223',
+                name: 'Bridge Engineering',
+                instructors: ['Dr. Kamrul Islam', 'Eng. Tareq Ahmed'],
+              },
+              {
+                id: 'ce4224',
+                code: 'CE 4224',
+                name: 'Pre-stressed Concrete Design',
+                instructors: ['Prof. Abdul Mannan', 'Dr. Shahana Parveen'],
+              },
+              {
+                id: 'ce4225',
+                code: 'CE 4225',
+                name: 'Coastal and Offshore Engineering',
+                instructors: ['Dr. Syed Akhter Hossain', 'Mahbubul Alam'],
+              },
+              {
+                id: 'ce4226',
+                code: 'CE 4226',
+                name: 'Rock Mechanics',
+                instructors: ['Prof. Nabila Chowdhury', 'Dr. Shahriar Rahman'],
+              },
+              {
+                id: 'ce4227',
+                code: 'CE 4227',
+                name: 'Pavement Design and Maintenance',
+                instructors: ['Dr. Mumit Khan', 'Md. Eunus Ali'],
+              },
+              {
+                id: 'ce4228',
+                code: 'CE 4228',
+                name: 'Urban Planning and Development',
+                instructors: ['Dr. Salahuddin Ahmed', 'Tahmina Khatun'],
+              },
+              {
+                id: 'ce4229',
+                code: 'CE 4229',
+                name: 'Water Resources Engineering',
+                instructors: ['Mosabbir Ahmed', 'Dr. Rahman Khan'],
+              },
+              {
+                id: 'ce4230',
+                code: 'CE 4230',
+                name: 'Environmental Impact Assessment',
+                instructors: ['Dr. Mohammad Karim', 'Sabbir Ahmed'],
+              },
+              {
+                id: 'ce4231',
+                code: 'CE 4231',
+                name: 'Waste Management',
+                instructors: ['Prof. Jahangir Alam', 'Rashed Khan'],
+              },
+              {
+                id: 'ce4232',
+                code: 'CE 4232',
+                name: 'Air Quality Management',
+                instructors: ['Dr. Farhan Rahman', 'Nusrat Jahan'],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: 'sohss',
+        name: 'School of Humanities and Social Sciences',
+        shortName: 'SoHSS',
+        departments: [
+          {
+            id: 'eds',
+            name: 'Department of Environment and Development Studies',
+            shortName: 'EDS',
+            programs: [
+              {
+                id: 'bsseds',
+                name: 'BSS in Environment and Development Studies',
+                shortName: 'BSSEDS',
+                courses: [
+                  // Compulsory General Courses
+                  {
+                    id: 'eng1011',
+                    code: 'ENG 1011',
+                    name: 'English I',
+                    instructors: ['Prof. Anisul Haque', 'Dr. Rowshan Ara'],
+                  },
+                  {
+                    id: 'eng1013',
+                    code: 'ENG 1013',
+                    name: 'English II',
+                    instructors: ['Dr. Salahuddin Ahmed', 'Tahmina Khatun'],
+                  },
+                  {
+                    id: 'soc2301',
+                    code: 'SOC 2301',
+                    name: 'Environmental Sociology',
+                    instructors: ['Dr. Habibur Rahman', 'Prof. Shamima Nasrin'],
+                  },
+                  {
+                    id: 'cst1101',
+                    code: 'CST 1101',
+                    name: 'Introduction to Computer',
+                    instructors: ['Dr. Syed Akhter Hossain', 'Mahbubul Alam'],
+                  },
+                  {
+                    id: 'bds1201',
+                    code: 'BDS 1201',
+                    name: 'Bangladesh Studies',
+                    instructors: ['Dr. Md. Shahin Alam', 'Farhana Yasmin'],
+                  },
+                  {
+                    id: 'ant2101',
+                    code: 'ANT 2101',
+                    name: 'Ecological Anthropology',
+                    instructors: ['Dr. Kamal Hossain', 'Fatima Rahman'],
+                  },
+
+                  // Compulsory Foundation Courses
+                  {
+                    id: 'eds1101',
+                    code: 'EDS 1101',
+                    name: 'Introduction to Environmental Studies',
+                    instructors: ['Dr. Mohammad Hasan', 'Prof. Nasrin Akhter'],
+                  },
+                  {
+                    id: 'eds1201',
+                    code: 'EDS 1201',
+                    name: 'Introduction to Development Studies',
+                    instructors: ['Dr. Kamrul Islam', 'Eng. Tareq Ahmed'],
+                  },
+                  {
+                    id: 'eds2101',
+                    code: 'EDS 2101',
+                    name: 'Environment, Development and Sustainability',
+                    instructors: ['Prof. Abdul Mannan', 'Dr. Shahana Parveen'],
+                  },
+
+                  // Core Courses
+                  {
+                    id: 'eds1301',
+                    code: 'EDS 1301',
+                    name: 'Introduction to Environmental and Natural Resource Development',
+                    instructors: ['Dr. Mumit Khan', 'Md. Eunus Ali'],
+                  },
+                  {
+                    id: 'eds2201',
+                    code: 'EDS 2201',
+                    name: 'GIS and Remote Sensing-I',
+                    instructors: ['Prof. Nabila Chowdhury', 'Dr. Shahriar Rahman'],
+                  },
+                  {
+                    id: 'eds1401',
+                    code: 'EDS 1401',
+                    name: 'Population, Poverty and the Environment',
+                    instructors: ['Mosabbir Ahmed', 'Dr. Rahman Khan'],
+                  },
+                  {
+                    id: 'eds2301',
+                    code: 'EDS 2301',
+                    name: 'Development Geography and Globalization',
+                    instructors: ['Dr. Mohammad Karim', 'Sabbir Ahmed'],
+                  },
+                  {
+                    id: 'eds2401',
+                    code: 'EDS 2401',
+                    name: 'Gender and Sustainable Development',
+                    instructors: ['Prof. Jahangir Alam', 'Rashed Khan'],
+                  },
+                  {
+                    id: 'eds2501',
+                    code: 'EDS 2501',
+                    name: 'Development and Climate Change',
+                    instructors: ['Dr. Farhan Rahman', 'Nusrat Jahan'],
+                  },
+                  {
+                    id: 'eds3101',
+                    code: 'EDS 3101',
+                    name: 'Environmental Law and Policy',
+                    instructors: ['Barrister Ahmed Hassan', 'Advocate Sultana Begum'],
+                  },
+                  {
+                    id: 'eds3201',
+                    code: 'EDS 3201',
+                    name: 'Quantitative Research Methodology',
+                    instructors: ['Dr. Habibur Rahman', 'Prof. Shamima Nasrin'],
+                  },
+                  {
+                    id: 'eds3301',
+                    code: 'EDS 3301',
+                    name: 'Political Ecology',
+                    instructors: ['Dr. Md. Shahin Alam', 'Farhana Yasmin'],
+                  },
+                  {
+                    id: 'eds3401',
+                    code: 'EDS 3401',
+                    name: 'Environmental Ethics',
+                    instructors: ['Dr. Kamal Hossain', 'Fatima Rahman'],
+                  },
+                  {
+                    id: 'eds3501',
+                    code: 'EDS 3501',
+                    name: 'Environmental Issues in Bangladesh',
+                    instructors: ['Dr. Mohammad Hasan', 'Prof. Nasrin Akhter'],
+                  },
+                  {
+                    id: 'eds3601',
+                    code: 'EDS 3601',
+                    name: 'Environmental Analysis',
+                    instructors: ['Dr. Kamrul Islam', 'Eng. Tareq Ahmed'],
+                  },
+                  {
+                    id: 'stat2101',
+                    code: 'STAT 2101',
+                    name: 'Statistics',
+                    instructors: ['Prof. Abdul Mannan', 'Dr. Shahana Parveen'],
+                  },
+                  {
+                    id: 'eco2201',
+                    code: 'ECO 2201',
+                    name: 'Development Economics',
+                    instructors: ['Dr. Syed Akhter Hossain', 'Mahbubul Alam'],
+                  },
+                  {
+                    id: 'eds1501',
+                    code: 'EDS 1501',
+                    name: 'Environment: Science and Society',
+                    instructors: ['Prof. Nabila Chowdhury', 'Dr. Shahriar Rahman'],
+                  },
+                  {
+                    id: 'eds4101',
+                    code: 'EDS 4101',
+                    name: 'Urban Development and Environmental Management',
+                    instructors: ['Dr. Mumit Khan', 'Md. Eunus Ali'],
+                  },
+                  {
+                    id: 'eds4201',
+                    code: 'EDS 4201',
+                    name: 'Environmental Pollution Control',
+                    instructors: ['Mosabbir Ahmed', 'Dr. Rahman Khan'],
+                  },
+                  {
+                    id: 'eds4301',
+                    code: 'EDS 4301',
+                    name: 'Environment, Health and Safety',
+                    instructors: ['Dr. Mohammad Karim', 'Sabbir Ahmed'],
+                  },
+                  {
+                    id: 'eds4401',
+                    code: 'EDS 4401',
+                    name: 'Qualitative Research Methodology',
+                    instructors: ['Prof. Jahangir Alam', 'Rashed Khan'],
+                  },
+                  {
+                    id: 'eds4501',
+                    code: 'EDS 4501',
+                    name: 'GIS and Remote Sensing-II',
+                    instructors: ['Dr. Farhan Rahman', 'Nusrat Jahan'],
+                  },
+                  {
+                    id: 'eds4601',
+                    code: 'EDS 4601',
+                    name: 'Environmental Hazards and Disaster Management',
+                    instructors: ['Dr. Habibur Rahman', 'Prof. Shamima Nasrin'],
+                  },
+                  {
+                    id: 'eds4701',
+                    code: 'EDS 4701',
+                    name: 'Techniques of Environmental Valuation',
+                    instructors: ['Dr. Md. Shahin Alam', 'Farhana Yasmin'],
+                  },
+                  {
+                    id: 'eds4801',
+                    code: 'EDS 4801',
+                    name: 'Environmental and Social Impact Assessment (ESIA)',
+                    instructors: ['Dr. Kamal Hossain', 'Fatima Rahman'],
+                  },
+
+                  // Elective Courses
+                  {
+                    id: 'soc3101',
+                    code: 'SOC 3101',
+                    name: 'Social Inequality',
+                    instructors: ['Dr. Mohammad Hasan', 'Prof. Nasrin Akhter'],
+                  },
+                  {
+                    id: 'eds3701',
+                    code: 'EDS 3701',
+                    name: 'Environment, Conflict and Security',
+                    instructors: ['Dr. Kamrul Islam', 'Eng. Tareq Ahmed'],
+                  },
+                  {
+                    id: 'ant3101',
+                    code: 'ANT 3101',
+                    name: 'Cultural Ecology',
+                    instructors: ['Prof. Abdul Mannan', 'Dr. Shahana Parveen'],
+                  },
+                  {
+                    id: 'bio3101',
+                    code: 'BIO 3101',
+                    name: 'Environmental Biology, Ecology and Conservation',
+                    instructors: ['Dr. Syed Akhter Hossain', 'Mahbubul Alam'],
+                  },
+                  {
+                    id: 'eds3801',
+                    code: 'EDS 3801',
+                    name: "People's Participation in Environmental Management",
+                    instructors: ['Prof. Nabila Chowdhury', 'Dr. Shahriar Rahman'],
+                  },
+                  {
+                    id: 'eco3201',
+                    code: 'ECO 3201',
+                    name: 'Environmental Economics',
+                    instructors: ['Dr. Mumit Khan', 'Md. Eunus Ali'],
+                  },
+                  {
+                    id: 'agr3101',
+                    code: 'AGR 3101',
+                    name: 'Sustainable Agriculture',
+                    instructors: ['Mosabbir Ahmed', 'Dr. Rahman Khan'],
+                  },
+                  {
+                    id: 'eds3901',
+                    code: 'EDS 3901',
+                    name: 'Environment, Development and Livelihoods',
+                    instructors: ['Dr. Mohammad Karim', 'Sabbir Ahmed'],
+                  },
+
+                  // Individual Research/Practicum/Internship
+                  {
+                    id: 'eds4901',
+                    code: 'EDS 4901',
+                    name: 'Research Project/Monograph',
+                    instructors: ['All Faculty Members'],
+                  },
+                  {
+                    id: 'eds4902',
+                    code: 'EDS 4902',
+                    name: 'Practicum and Internship',
+                    instructors: ['All Faculty Members'],
+                  },
+                ],
+              },
+            ],
+          },
         ],
       },
       {

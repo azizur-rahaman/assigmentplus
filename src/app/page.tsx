@@ -222,7 +222,6 @@ export default function Home() {
         courseId: '',
         courseName: '',
         courseCode: '',
-        submittedTo: '',
       }));
     } else if (name === 'schoolId') {
       setFormData((prev) => ({
@@ -235,7 +234,6 @@ export default function Home() {
         courseId: '',
         courseName: '',
         courseCode: '',
-        submittedTo: '',
       }));
     } else if (name === 'departmentId') {
       setFormData((prev) => ({
@@ -246,7 +244,6 @@ export default function Home() {
         courseId: '',
         courseName: '',
         courseCode: '',
-        submittedTo: '',
       }));
     } else if (name === 'programId') {
       setFormData((prev) => ({
@@ -255,13 +252,11 @@ export default function Home() {
         courseId: '',
         courseName: '',
         courseCode: '',
-        submittedTo: '',
       }));
     } else if (name === 'courseId') {
       setFormData((prev) => ({
         ...prev,
         [name]: value,
-        submittedTo: '',
       }));
     } else {
       setFormData((prev) => ({ ...prev, [name]: value }));
@@ -461,20 +456,15 @@ export default function Home() {
               error={errors.assignmentTitle}
             />
 
-            {/* Instructor Selection */}
-            <SelectField
+            {/* Instructor Input */}
+            <InputField
               label="Submitted To (Instructor)"
               name="submittedTo"
               value={formData.submittedTo}
-              onChange={handleSelectChange}
-              options={instructors.map(instructor => ({
-                value: instructor,
-                label: instructor
-              }))}
-              placeholder="Select instructor"
+              onChange={handleChange}
+              placeholder="e.g., Dr. Rahman Khan"
               required
               error={errors.submittedTo}
-              disabled={!formData.courseId}
             />
 
             {/* Student Information */}
