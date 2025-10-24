@@ -3392,6 +3392,763 @@ export const UNIVERSITIES: University[] = [
         ],
       },
       {
+        id: 'sols',
+        name: 'School of Life Sciences',
+        shortName: 'SoLS',
+        departments: [
+          {
+            id: 'pharmacy',
+            name: 'Department of Pharmacy',
+            shortName: 'Pharmacy',
+            programs: [
+              {
+                id: 'bpharm',
+                name: 'Bachelor of Pharmacy',
+                shortName: 'B.Pharm.',
+                courses: [
+                  // Year 1: 1st Semester
+                  {
+                    id: 'pharm1101',
+                    code: 'PHARM 1101',
+                    name: 'Introduction to Pharmacy',
+                    instructors: ['Dr. Mohammad Hasan', 'Prof. Nasrin Akhter'],
+                  },
+                  {
+                    id: 'pharm1201',
+                    code: 'PHARM 1201',
+                    name: 'Inorganic Pharmacy',
+                    instructors: ['Dr. Kamrul Islam', 'Eng. Tareq Ahmed'],
+                  },
+                  {
+                    id: 'pharm1202',
+                    code: 'PHARM 1202',
+                    name: 'Inorganic Pharmacy Laboratory',
+                    instructors: ['Prof. Abdul Mannan', 'Dr. Shahana Parveen'],
+                  },
+                  {
+                    id: 'pharm1301',
+                    code: 'PHARM 1301',
+                    name: 'Organic Pharmacy',
+                    instructors: ['Dr. Syed Akhter Hossain', 'Mahbubul Alam'],
+                  },
+                  {
+                    id: 'pharm1302',
+                    code: 'PHARM 1302',
+                    name: 'Organic Pharmacy Laboratory',
+                    instructors: ['Prof. Nabila Chowdhury', 'Dr. Shahriar Rahman'],
+                  },
+                  {
+                    id: 'eng1011',
+                    code: 'ENG 1011',
+                    name: 'English',
+                    instructors: ['Prof. Anisul Haque', 'Dr. Rowshan Ara'],
+                  },
+                  {
+                    id: 'math1301',
+                    code: 'MATH 1301',
+                    name: 'Fundamentals of Mathematics',
+                    instructors: ['Dr. Kamal Hossain', 'Fatima Rahman'],
+                  },
+                  {
+                    id: 'cst1201',
+                    code: 'CST 1201',
+                    name: 'Introduction to Computer Sciences',
+                    instructors: ['Dr. Mumit Khan', 'Md. Eunus Ali'],
+                  },
+
+                  // Year 1: 2nd Semester
+                  {
+                    id: 'pharm1401',
+                    code: 'PHARM 1401',
+                    name: 'Physical Pharmacy-I',
+                    instructors: ['Mosabbir Ahmed', 'Dr. Rahman Khan'],
+                  },
+                  {
+                    id: 'pharm1501',
+                    code: 'PHARM 1501',
+                    name: 'Pharmacognosy & Natural Product Chemistry-I',
+                    instructors: ['Dr. Mohammad Karim', 'Sabbir Ahmed'],
+                  },
+                  {
+                    id: 'pharm1502',
+                    code: 'PHARM 1502',
+                    name: 'Pharmacognosy & Natural Product Chemistry-I Laboratory',
+                    instructors: ['Prof. Jahangir Alam', 'Rashed Khan'],
+                  },
+                  {
+                    id: 'pharm1601',
+                    code: 'PHARM 1601',
+                    name: 'Physiology-I',
+                    instructors: ['Dr. Farhan Rahman', 'Nusrat Jahan'],
+                  },
+                  {
+                    id: 'pharm1701',
+                    code: 'PHARM 1701',
+                    name: 'Basic Anatomy',
+                    instructors: ['Dr. Habibur Rahman', 'Prof. Shamima Nasrin'],
+                  },
+                  {
+                    id: 'bng1101',
+                    code: 'BNG 1101',
+                    name: 'Bangla Language and Literature',
+                    instructors: ['Dr. Md. Shahin Alam', 'Farhana Yasmin'],
+                  },
+                  {
+                    id: 'bds1201',
+                    code: 'BDS 1201',
+                    name: 'Bangladesh Studies',
+                    instructors: ['Dr. Salahuddin Ahmed', 'Tahmina Khatun'],
+                  },
+                  {
+                    id: 'pharm1801',
+                    code: 'PHARM 1801',
+                    name: 'Oral Assessment-I',
+                    instructors: ['All Faculty Members'],
+                  },
+
+                  // Year 2: 1st Semester
+                  {
+                    id: 'pharm2101',
+                    code: 'PHARM 2101',
+                    name: 'Physical Pharmacy-II',
+                    instructors: ['Dr. Mohammad Hasan', 'Prof. Nasrin Akhter'],
+                  },
+                  {
+                    id: 'pharm2102',
+                    code: 'PHARM 2102',
+                    name: 'Physical Pharmacy-II Laboratory',
+                    instructors: ['Dr. Kamrul Islam', 'Eng. Tareq Ahmed'],
+                  },
+                  {
+                    id: 'pharm2201',
+                    code: 'PHARM 2201',
+                    name: 'Pharmacognosy & Natural Product Chemistry-II',
+                    instructors: ['Prof. Abdul Mannan', 'Dr. Shahana Parveen'],
+                  },
+                  {
+                    id: 'pharm2202',
+                    code: 'PHARM 2202',
+                    name: 'Pharmacognosy & Natural Product Chemistry-II Laboratory',
+                    instructors: ['Dr. Syed Akhter Hossain', 'Mahbubul Alam'],
+                  },
+                  {
+                    id: 'pharm2301',
+                    code: 'PHARM 2301',
+                    name: 'Physiology-II',
+                    instructors: ['Prof. Nabila Chowdhury', 'Dr. Shahriar Rahman'],
+                  },
+                  {
+                    id: 'pharm2302',
+                    code: 'PHARM 2302',
+                    name: 'Physiology-II Laboratory',
+                    instructors: ['Dr. Mumit Khan', 'Md. Eunus Ali'],
+                  },
+                  {
+                    id: 'pharm2401',
+                    code: 'PHARM 2401',
+                    name: 'Pharmaceutical Microbiology-I',
+                    instructors: ['Mosabbir Ahmed', 'Dr. Rahman Khan'],
+                  },
+                  {
+                    id: 'pharm2402',
+                    code: 'PHARM 2402',
+                    name: 'Pharmaceutical Microbiology-I Laboratory',
+                    instructors: ['Dr. Mohammad Karim', 'Sabbir Ahmed'],
+                  },
+                  {
+                    id: 'pharm2501',
+                    code: 'PHARM 2501',
+                    name: 'Basic Pharmaceutics',
+                    instructors: ['Prof. Jahangir Alam', 'Rashed Khan'],
+                  },
+                  {
+                    id: 'stat2201',
+                    code: 'STAT 2201',
+                    name: 'Biostatistics',
+                    instructors: ['Dr. Farhan Rahman', 'Nusrat Jahan'],
+                  },
+
+                  // Year 2: 2nd Semester
+                  {
+                    id: 'pharm2601',
+                    code: 'PHARM 2601',
+                    name: 'Pharmaceutical Analysis-I',
+                    instructors: ['Dr. Habibur Rahman', 'Prof. Shamima Nasrin'],
+                  },
+                  {
+                    id: 'pharm2602',
+                    code: 'PHARM 2602',
+                    name: 'Pharmaceutical Analysis-I Laboratory',
+                    instructors: ['Dr. Md. Shahin Alam', 'Farhana Yasmin'],
+                  },
+                  {
+                    id: 'pharm2701',
+                    code: 'PHARM 2701',
+                    name: 'Pharmaceutical Microbiology-II',
+                    instructors: ['Dr. Kamal Hossain', 'Fatima Rahman'],
+                  },
+                  {
+                    id: 'pharm2702',
+                    code: 'PHARM 2702',
+                    name: 'Pharmaceutical Microbiology-II Laboratory',
+                    instructors: ['Dr. Salahuddin Ahmed', 'Tahmina Khatun'],
+                  },
+                  {
+                    id: 'pharm2801',
+                    code: 'PHARM 2801',
+                    name: 'Pharmacology-I',
+                    instructors: ['Dr. Mohammad Hasan', 'Prof. Nasrin Akhter'],
+                  },
+                  {
+                    id: 'pharm2901',
+                    code: 'PHARM 2901',
+                    name: 'Pharmaceutical Technology-I',
+                    instructors: ['Dr. Kamrul Islam', 'Eng. Tareq Ahmed'],
+                  },
+                  {
+                    id: 'pharm2902',
+                    code: 'PHARM 2902',
+                    name: 'Pharmaceutical Technology-I Laboratory',
+                    instructors: ['Prof. Abdul Mannan', 'Dr. Shahana Parveen'],
+                  },
+                  {
+                    id: 'bio2101',
+                    code: 'BIO 2101',
+                    name: 'Biochemistry & Molecular Biology',
+                    instructors: ['Dr. Syed Akhter Hossain', 'Mahbubul Alam'],
+                  },
+                  {
+                    id: 'pharm2001',
+                    code: 'PHARM 2001',
+                    name: 'Oral Assessment-II',
+                    instructors: ['All Faculty Members'],
+                  },
+
+                  // Year 3: 1st Semester
+                  {
+                    id: 'pharm3101',
+                    code: 'PHARM 3101',
+                    name: 'Pharmaceutical Analysis-II',
+                    instructors: ['Prof. Nabila Chowdhury', 'Dr. Shahriar Rahman'],
+                  },
+                  {
+                    id: 'pharm3102',
+                    code: 'PHARM 3102',
+                    name: 'Pharmaceutical Analysis-II Laboratory',
+                    instructors: ['Dr. Mumit Khan', 'Md. Eunus Ali'],
+                  },
+                  {
+                    id: 'pharm3201',
+                    code: 'PHARM 3201',
+                    name: 'Pharmacology-II',
+                    instructors: ['Mosabbir Ahmed', 'Dr. Rahman Khan'],
+                  },
+                  {
+                    id: 'pharm3301',
+                    code: 'PHARM 3301',
+                    name: 'Medicinal Chemistry-I',
+                    instructors: ['Dr. Mohammad Karim', 'Sabbir Ahmed'],
+                  },
+                  {
+                    id: 'pharm3401',
+                    code: 'PHARM 3401',
+                    name: 'Pharmaceutical Technology-II',
+                    instructors: ['Prof. Jahangir Alam', 'Rashed Khan'],
+                  },
+                  {
+                    id: 'pharm3402',
+                    code: 'PHARM 3402',
+                    name: 'Pharmaceutical Technology-II Laboratory',
+                    instructors: ['Dr. Farhan Rahman', 'Nusrat Jahan'],
+                  },
+                  {
+                    id: 'path3101',
+                    code: 'PATH 3101',
+                    name: 'Pathology and Clinical Biochemistry',
+                    instructors: ['Dr. Habibur Rahman', 'Prof. Shamima Nasrin'],
+                  },
+
+                  // Year 3: 2nd Semester
+                  {
+                    id: 'pharm3501',
+                    code: 'PHARM 3501',
+                    name: 'Medicinal Chemistry-II',
+                    instructors: ['Dr. Md. Shahin Alam', 'Farhana Yasmin'],
+                  },
+                  {
+                    id: 'pharm3601',
+                    code: 'PHARM 3601',
+                    name: 'Pharmaceutical Technology-III',
+                    instructors: ['Dr. Kamal Hossain', 'Fatima Rahman'],
+                  },
+                  {
+                    id: 'pharm3602',
+                    code: 'PHARM 3602',
+                    name: 'Pharmaceutical Technology-III Laboratory',
+                    instructors: ['Dr. Salahuddin Ahmed', 'Tahmina Khatun'],
+                  },
+                  {
+                    id: 'pharm3701',
+                    code: 'PHARM 3701',
+                    name: 'Pharmaceutical Biotechnology',
+                    instructors: ['Dr. Mohammad Hasan', 'Prof. Nasrin Akhter'],
+                  },
+                  {
+                    id: 'pharm3801',
+                    code: 'PHARM 3801',
+                    name: 'Biopharmaceutics & Pharmacokinetics-I',
+                    instructors: ['Dr. Kamrul Islam', 'Eng. Tareq Ahmed'],
+                  },
+                  {
+                    id: 'pharm3901',
+                    code: 'PHARM 3901',
+                    name: 'Pharmaceutical Packaging Technology',
+                    instructors: ['Prof. Abdul Mannan', 'Dr. Shahana Parveen'],
+                  },
+                  {
+                    id: 'pharm3001',
+                    code: 'PHARM 3001',
+                    name: 'Hospital, Clinical & Community Pharmacy',
+                    instructors: ['Dr. Syed Akhter Hossain', 'Mahbubul Alam'],
+                  },
+                  {
+                    id: 'pharm3002',
+                    code: 'PHARM 3002',
+                    name: 'Oral Assessment-III',
+                    instructors: ['All Faculty Members'],
+                  },
+
+                  // Year 4: 1st Semester
+                  {
+                    id: 'pharm4101',
+                    code: 'PHARM 4101',
+                    name: 'Medicinal Chemistry-III',
+                    instructors: ['Prof. Nabila Chowdhury', 'Dr. Shahriar Rahman'],
+                  },
+                  {
+                    id: 'pharm4201',
+                    code: 'PHARM 4201',
+                    name: 'Pharmacology-III',
+                    instructors: ['Dr. Mumit Khan', 'Md. Eunus Ali'],
+                  },
+                  {
+                    id: 'pharm4301',
+                    code: 'PHARM 4301',
+                    name: 'Biopharmaceutics & Pharmacokinetics-II',
+                    instructors: ['Mosabbir Ahmed', 'Dr. Rahman Khan'],
+                  },
+                  {
+                    id: 'pharm4401',
+                    code: 'PHARM 4401',
+                    name: 'Pharmaceutical Quality Control and Validation',
+                    instructors: ['Dr. Mohammad Karim', 'Sabbir Ahmed'],
+                  },
+                  {
+                    id: 'pharm4501',
+                    code: 'PHARM 4501',
+                    name: 'Pharmaceutical Engineering',
+                    instructors: ['Prof. Jahangir Alam', 'Rashed Khan'],
+                  },
+                  {
+                    id: 'pharm4601',
+                    code: 'PHARM 4601',
+                    name: 'Pharmacy Practice',
+                    instructors: ['Dr. Farhan Rahman', 'Nusrat Jahan'],
+                  },
+
+                  // Year 4: 2nd Semester
+                  {
+                    id: 'pharm4701',
+                    code: 'PHARM 4701',
+                    name: 'Pharmacology-IV',
+                    instructors: ['Dr. Habibur Rahman', 'Prof. Shamima Nasrin'],
+                  },
+                  {
+                    id: 'pharm4801',
+                    code: 'PHARM 4801',
+                    name: 'Cosmetology',
+                    instructors: ['Dr. Md. Shahin Alam', 'Farhana Yasmin'],
+                  },
+                  {
+                    id: 'pharm4901',
+                    code: 'PHARM 4901',
+                    name: 'Pharmaceutical Regulatory Affairs',
+                    instructors: ['Dr. Kamal Hossain', 'Fatima Rahman'],
+                  },
+                  {
+                    id: 'pharm4001',
+                    code: 'PHARM 4001',
+                    name: 'Food Technology, Nutraceuticals and Alternative Medicines',
+                    instructors: ['Dr. Salahuddin Ahmed', 'Tahmina Khatun'],
+                  },
+                  {
+                    id: 'pharm4002',
+                    code: 'PHARM 4002',
+                    name: 'Oral Assessment-IV',
+                    instructors: ['All Faculty Members'],
+                  },
+
+                  // Training and Project
+                  {
+                    id: 'pharm4003',
+                    code: 'PHARM 4003',
+                    name: 'In-plant Training',
+                    instructors: ['All Faculty Members'],
+                  },
+                  {
+                    id: 'pharm4999',
+                    code: 'PHARM 4999',
+                    name: 'Project',
+                    instructors: ['All Faculty Members'],
+                  },
+                  {
+                    id: 'pharm4004',
+                    code: 'PHARM 4004',
+                    name: 'Hospital Training',
+                    instructors: ['All Faculty Members'],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            id: 'bge',
+            name: 'Department of Biotechnology and Genetic Engineering',
+            shortName: 'BGE',
+            programs: [
+              {
+                id: 'bsbge',
+                name: 'B.Sc. in Biotechnology and Genetic Engineering',
+                shortName: 'B.Sc. BGE',
+                courses: [
+                  // General Education (GED) Courses
+                  {
+                    id: 'eng1011',
+                    code: 'ENG 1011',
+                    name: 'Basic English',
+                    instructors: ['Prof. Anisul Haque', 'Dr. Rowshan Ara'],
+                  },
+                  {
+                    id: 'gst1013',
+                    code: 'GST 1013',
+                    name: 'History of the Emergence of Bangladesh',
+                    instructors: ['Dr. Habibur Rahman', 'Prof. Shamima Nasrin'],
+                  },
+                  {
+                    id: 'math1301',
+                    code: 'MATH 1301',
+                    name: 'Fundamentals of Mathematics',
+                    instructors: ['Dr. Kamal Hossain', 'Fatima Rahman'],
+                  },
+                  {
+                    id: 'chem1101',
+                    code: 'CHEM 1101',
+                    name: 'Biophysical Chemistry',
+                    instructors: ['Dr. Mohammad Karim', 'Sabbir Ahmed'],
+                  },
+                  {
+                    id: 'chem1201',
+                    code: 'CHEM 1201',
+                    name: 'Bioorganic Chemistry',
+                    instructors: ['Prof. Jahangir Alam', 'Rashed Khan'],
+                  },
+                  {
+                    id: 'phy1101',
+                    code: 'PHY 1101',
+                    name: 'Physics for Biologists-I',
+                    instructors: ['Dr. Farhan Rahman', 'Nusrat Jahan'],
+                  },
+                  {
+                    id: 'phy1201',
+                    code: 'PHY 1201',
+                    name: 'Physics for Biologists-II',
+                    instructors: ['Dr. Mohammad Hasan', 'Prof. Nasrin Akhter'],
+                  },
+                  {
+                    id: 'cst1201',
+                    code: 'CST 1201',
+                    name: 'Basics of Computing and Information Technology',
+                    instructors: ['Dr. Mumit Khan', 'Md. Eunus Ali'],
+                  },
+                  {
+                    id: 'cst1301',
+                    code: 'CST 1301',
+                    name: 'Software fundamentals in Computation',
+                    instructors: ['Mosabbir Ahmed', 'Dr. Rahman Khan'],
+                  },
+                  {
+                    id: 'stat2301',
+                    code: 'STAT 2301',
+                    name: 'Biostatistics',
+                    instructors: ['Dr. Kamrul Islam', 'Eng. Tareq Ahmed'],
+                  },
+
+                  // Core BGE Courses - Foundation
+                  {
+                    id: 'bge1101',
+                    code: 'BGE 1101',
+                    name: 'General Biology',
+                    instructors: ['Dr. Syed Akhter Hossain', 'Mahbubul Alam'],
+                  },
+                  {
+                    id: 'bge1201',
+                    code: 'BGE 1201',
+                    name: 'Basic Biochemistry',
+                    instructors: ['Prof. Nabila Chowdhury', 'Dr. Shahriar Rahman'],
+                  },
+                  {
+                    id: 'bge1301',
+                    code: 'BGE 1301',
+                    name: 'Introductory Biotechnology and Genetic Engineering',
+                    instructors: ['Prof. Abdul Mannan', 'Dr. Shahana Parveen'],
+                  },
+                  {
+                    id: 'bge1401',
+                    code: 'BGE 1401',
+                    name: 'Basic Microbiology',
+                    instructors: ['Dr. Mohammad Hasan', 'Prof. Nasrin Akhter'],
+                  },
+
+                  // Molecular Level Courses
+                  {
+                    id: 'bge2101',
+                    code: 'BGE 2101',
+                    name: 'Enzymes and Enzyme Kinetics',
+                    instructors: ['Dr. Kamrul Islam', 'Eng. Tareq Ahmed'],
+                  },
+                  {
+                    id: 'bge2201',
+                    code: 'BGE 2201',
+                    name: 'Basics of Molecular Biology',
+                    instructors: ['Dr. Syed Akhter Hossain', 'Mahbubul Alam'],
+                  },
+                  {
+                    id: 'bge2301',
+                    code: 'BGE 2301',
+                    name: 'Protein Structure and Function',
+                    instructors: ['Prof. Nabila Chowdhury', 'Dr. Shahriar Rahman'],
+                  },
+                  {
+                    id: 'bge2401',
+                    code: 'BGE 2401',
+                    name: 'Molecular Genetics',
+                    instructors: ['Prof. Abdul Mannan', 'Dr. Shahana Parveen'],
+                  },
+                  {
+                    id: 'bge3101',
+                    code: 'BGE 3101',
+                    name: 'Advanced Molecular Biology',
+                    instructors: ['Dr. Mohammad Hasan', 'Prof. Nasrin Akhter'],
+                  },
+
+                  // Cellular Level Courses
+                  {
+                    id: 'bge2501',
+                    code: 'BGE 2501',
+                    name: 'Bioenergetics and Metabolism',
+                    instructors: ['Dr. Kamrul Islam', 'Eng. Tareq Ahmed'],
+                  },
+                  {
+                    id: 'bge2601',
+                    code: 'BGE 2601',
+                    name: 'Cell Biology',
+                    instructors: ['Dr. Syed Akhter Hossain', 'Mahbubul Alam'],
+                  },
+                  {
+                    id: 'bge2701',
+                    code: 'BGE 2701',
+                    name: 'Human Physiology',
+                    instructors: ['Prof. Nabila Chowdhury', 'Dr. Shahriar Rahman'],
+                  },
+                  {
+                    id: 'bge3201',
+                    code: 'BGE 3201',
+                    name: 'Cellular Communication and Signaling',
+                    instructors: ['Prof. Abdul Mannan', 'Dr. Shahana Parveen'],
+                  },
+
+                  // Techniques and Methods
+                  {
+                    id: 'bge2801',
+                    code: 'BGE 2801',
+                    name: 'Animal and Plant Tissue Culture',
+                    instructors: ['Dr. Mohammad Hasan', 'Prof. Nasrin Akhter'],
+                  },
+                  {
+                    id: 'bge3301',
+                    code: 'BGE 3301',
+                    name: 'Recombinant DNA Technology',
+                    instructors: ['Dr. Kamrul Islam', 'Eng. Tareq Ahmed'],
+                  },
+                  {
+                    id: 'bge3401',
+                    code: 'BGE 3401',
+                    name: 'Methods in Biotechnology',
+                    instructors: ['Dr. Syed Akhter Hossain', 'Mahbubul Alam'],
+                  },
+
+                  // Specialized Areas - Genomics and Bioinformatics
+                  {
+                    id: 'bge3501',
+                    code: 'BGE 3501',
+                    name: 'Genomics, Proteomics and Bioinformatics',
+                    instructors: ['Prof. Nabila Chowdhury', 'Dr. Shahriar Rahman'],
+                  },
+                  {
+                    id: 'bge4101',
+                    code: 'BGE 4101',
+                    name: 'Computational Genomics and System Biology',
+                    instructors: ['Prof. Abdul Mannan', 'Dr. Shahana Parveen'],
+                  },
+
+                  // Applied Biotechnology
+                  {
+                    id: 'bge3601',
+                    code: 'BGE 3601',
+                    name: 'Agriculture Biotechnology',
+                    instructors: ['Dr. Mohammad Hasan', 'Prof. Nasrin Akhter'],
+                  },
+                  {
+                    id: 'bge3701',
+                    code: 'BGE 3701',
+                    name: 'Animal Biotechnology',
+                    instructors: ['Dr. Kamrul Islam', 'Eng. Tareq Ahmed'],
+                  },
+                  {
+                    id: 'bge3801',
+                    code: 'BGE 3801',
+                    name: 'Medical Biotechnology',
+                    instructors: ['Dr. Syed Akhter Hossain', 'Mahbubul Alam'],
+                  },
+                  {
+                    id: 'bge4201',
+                    code: 'BGE 4201',
+                    name: 'Environmental Biotechnology',
+                    instructors: ['Prof. Nabila Chowdhury', 'Dr. Shahriar Rahman'],
+                  },
+                  {
+                    id: 'bge4301',
+                    code: 'BGE 4301',
+                    name: 'Aquaculture and Marine Biotechnology',
+                    instructors: ['Prof. Abdul Mannan', 'Dr. Shahana Parveen'],
+                  },
+
+                  // Molecular Biology of Diseases
+                  {
+                    id: 'bge2901',
+                    code: 'BGE 2901',
+                    name: 'Molecular Biology of the Diseases',
+                    instructors: ['Dr. Mohammad Hasan', 'Prof. Nasrin Akhter'],
+                  },
+
+                  // Genetics and Development
+                  {
+                    id: 'bge3001',
+                    code: 'BGE 3001',
+                    name: 'Microbial Genetics',
+                    instructors: ['Dr. Kamrul Islam', 'Eng. Tareq Ahmed'],
+                  },
+                  {
+                    id: 'bge3102',
+                    code: 'BGE 3102',
+                    name: 'Developmental Biology',
+                    instructors: ['Dr. Syed Akhter Hossain', 'Mahbubul Alam'],
+                  },
+
+                  // Industrial Biotechnology
+                  {
+                    id: 'bge3901',
+                    code: 'BGE 3901',
+                    name: 'Fermentation Technology and Bioprocessing',
+                    instructors: ['Prof. Nabila Chowdhury', 'Dr. Shahriar Rahman'],
+                  },
+                  {
+                    id: 'bge4401',
+                    code: 'BGE 4401',
+                    name: 'Biotechnology of Microbial System',
+                    instructors: ['Prof. Abdul Mannan', 'Dr. Shahana Parveen'],
+                  },
+
+                  // Ethics and Business
+                  {
+                    id: 'bge4501',
+                    code: 'BGE 4501',
+                    name: 'GMOs, Biosafety and Bioethics',
+                    instructors: ['Dr. Mohammad Hasan', 'Prof. Nasrin Akhter'],
+                  },
+                  {
+                    id: 'bge4601',
+                    code: 'BGE 4601',
+                    name: 'Business Perspective of Biotechnology',
+                    instructors: ['Dr. Kamrul Islam', 'Eng. Tareq Ahmed'],
+                  },
+
+                  // Immunology and Pathology
+                  {
+                    id: 'bge2102',
+                    code: 'BGE 2102',
+                    name: 'Basic Immunology',
+                    instructors: ['Dr. Syed Akhter Hossain', 'Mahbubul Alam'],
+                  },
+                  {
+                    id: 'bge4701',
+                    code: 'BGE 4701',
+                    name: 'Virology and Oncology',
+                    instructors: ['Prof. Nabila Chowdhury', 'Dr. Shahriar Rahman'],
+                  },
+
+                  // Laboratory Courses
+                  {
+                    id: 'bge1501',
+                    code: 'BGE 1501',
+                    name: 'Lab Experiments-I',
+                    instructors: ['All Faculty Members'],
+                  },
+                  {
+                    id: 'bge2001',
+                    code: 'BGE 2001',
+                    name: 'Lab Experiments-II',
+                    instructors: ['All Faculty Members'],
+                  },
+                  {
+                    id: 'bge2202',
+                    code: 'BGE 2202',
+                    name: 'Lab Experiments-III',
+                    instructors: ['All Faculty Members'],
+                  },
+                  {
+                    id: 'bge3202',
+                    code: 'BGE 3202',
+                    name: 'Lab Experiments-IV',
+                    instructors: ['All Faculty Members'],
+                  },
+                  {
+                    id: 'bge4001',
+                    code: 'BGE 4001',
+                    name: 'Lab Experiments-V',
+                    instructors: ['All Faculty Members'],
+                  },
+
+                  // Capstone
+                  {
+                    id: 'bge4998',
+                    code: 'BGE 4998',
+                    name: 'Internship',
+                    instructors: ['All Faculty Members'],
+                  },
+                  {
+                    id: 'bge4999',
+                    code: 'BGE 4999',
+                    name: 'Thesis/Project',
+                    instructors: ['All Faculty Members'],
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+      {
         id: 'law',
         name: 'School of Law',
         shortName: 'LAW',
