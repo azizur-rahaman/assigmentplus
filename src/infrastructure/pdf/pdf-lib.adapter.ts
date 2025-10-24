@@ -90,10 +90,10 @@ export class PdfLibAdapter implements IPdfGenerator {
         font: helveticaBold,
         color: primaryColor,
       });
-      yPosition -= 40;
+      yPosition -= 30;
 
-      // School/Department header
-      const schoolText = cover.department;
+      // School header
+      const schoolText = cover.school;
       const schoolWidth = timesRomanFont.widthOfTextAtSize(schoolText, 14);
       page.drawText(schoolText, {
         x: (width - schoolWidth) / 2,
@@ -102,7 +102,19 @@ export class PdfLibAdapter implements IPdfGenerator {
         font: timesRomanFont,
         color: secondaryColor,
       });
-      yPosition -= 60;
+      yPosition -= 25;
+
+      // Department/Program - Show program if exists, otherwise department
+      const deptText = cover.program || cover.department;
+      const deptWidth = timesRomanFont.widthOfTextAtSize(deptText, 12);
+      page.drawText(deptText, {
+        x: (width - deptWidth) / 2,
+        y: yPosition,
+        size: 12,
+        font: timesRomanFont,
+        color: secondaryColor,
+      });
+      yPosition -= 50;
 
       // Course Name and Code
       const courseTitle = `${cover.courseName} (${cover.courseCode})`;
@@ -147,7 +159,16 @@ export class PdfLibAdapter implements IPdfGenerator {
       });
       yPosition -= 25;
 
-      page.drawText(schoolText, {
+      page.drawText(cover.department, {
+        x: leftX,
+        y: yPosition,
+        size: templateConfig.fonts.body,
+        font: timesRomanFont,
+        color: secondaryColor,
+      });
+      yPosition -= 25;
+
+      page.drawText(cover.school, {
         x: leftX,
         y: yPosition,
         size: templateConfig.fonts.body,

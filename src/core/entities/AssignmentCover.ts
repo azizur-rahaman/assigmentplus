@@ -3,6 +3,7 @@
 export class AssignmentCover {
   constructor(
     public readonly universityName: string,
+    public readonly school: string,
     public readonly department: string,
     public readonly courseName: string,
     public readonly courseCode: string,
@@ -13,7 +14,8 @@ export class AssignmentCover {
     public readonly section: string,
     public readonly trimester: string,
     public readonly submissionDate: string,
-    public readonly universityLogo?: string
+    public readonly universityLogo?: string,
+    public readonly program?: string
   ) {
     this.validate();
   }
@@ -21,6 +23,9 @@ export class AssignmentCover {
   private validate(): void {
     if (!this.universityName || this.universityName.trim().length === 0) {
       throw new Error('University name is required');
+    }
+    if (!this.school || this.school.trim().length === 0) {
+      throw new Error('School is required');
     }
     if (!this.department || this.department.trim().length === 0) {
       throw new Error('Department is required');
@@ -57,7 +62,9 @@ export class AssignmentCover {
   public toJSON() {
     return {
       universityName: this.universityName,
+      school: this.school,
       department: this.department,
+      program: this.program,
       courseName: this.courseName,
       courseCode: this.courseCode,
       assignmentTitle: this.assignmentTitle,

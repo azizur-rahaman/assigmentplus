@@ -14,6 +14,10 @@ export function validateCoverData(data: Partial<CoverData>): ValidationError[] {
     errors.push({ field: 'universityId', message: 'University is required' });
   }
 
+  if (!data.schoolId?.trim()) {
+    errors.push({ field: 'schoolId', message: 'School is required' });
+  }
+
   if (!data.departmentId?.trim()) {
     errors.push({ field: 'departmentId', message: 'Department is required' });
   }
@@ -44,6 +48,10 @@ export function validateCoverData(data: Partial<CoverData>): ValidationError[] {
   
   if (!data.studentId?.trim()) {
     errors.push({ field: 'studentId', message: 'Student ID is required' });
+  }
+  
+  if (!data.school?.trim()) {
+    errors.push({ field: 'school', message: 'School is required' });
   }
   
   if (!data.department?.trim()) {

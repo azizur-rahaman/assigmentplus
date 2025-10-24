@@ -12,13 +12,21 @@ import { validateCoverData } from '@/utils/validators';
 import { LocalStorageAdapter } from '@/infrastructure/storage/localStorage.adapter';
 import { 
   getAllUniversities, 
-  getDepartmentsByUniversity, 
+  getSchoolsByUniversity,
+  getDepartmentsBySchool,
+  getProgramsByDepartment,
   getCoursesByDepartment,
+  getCoursesByProgram,
   getUniversityById,
+  getSchoolById,
   getDepartmentById,
+  getProgramById,
   getCourseById,
+  departmentHasPrograms,
   type University,
+  type School,
   type Department,
+  type Program,
   type Course
 } from '@/infrastructure/data/universities.data';
 import { SECTIONS, TRIMESTERS, ASSIGNMENT_TYPES } from '@/infrastructure/data/options.data';
@@ -29,8 +37,12 @@ export default function Home() {
   const [formData, setFormData] = useState<CoverData>({
     universityId: '',
     universityName: '',
+    schoolId: '',
+    school: '',
     departmentId: '',
     department: '',
+    programId: '',
+    program: '',
     courseId: '',
     courseName: '',
     courseCode: '',
@@ -50,15 +62,18 @@ export default function Home() {
 
   // Cascading dropdown options
   const [universities] = useState<University[]>(getAllUniversities());
+  const [schools, setSchools] = useState<School[]>([]);
   const [departments, setDepartments] = useState<Department[]>([]);
+  const [programs, setPrograms] = useState<Program[]>([]);
   const [courses, setCourses] = useState<Course[]>([]);
   const [instructors, setInstructors] = useState<string[]>([]);
+  const [showProgramSelect, setShowProgramSelect] = useState(false);
 
-  // Update departments when university changes
+  // Update schools when university changes
   useEffect(() => {
     if (formData.universityId) {
-      const depts = getDepartmentsByUniversity(formData.universityId);
-      setDepartments(depts);
+      const schoolsData = getSchoolsByUniversity(formData.universityId);
+      setSchools(schoolsData);
       
       // Update university name and logo
       const uni = getUniversityById(formData.universityId);
@@ -70,20 +85,56 @@ export default function Home() {
         }));
       }
     } else {
+      setSchools([]);
       setDepartments([]);
       setCourses([]);
       setInstructors([]);
     }
   }, [formData.universityId]);
 
-  // Update courses when department changes
+  // Update departments when school changes
   useEffect(() => {
-    if (formData.universityId && formData.departmentId) {
-      const coursesData = getCoursesByDepartment(formData.universityId, formData.departmentId);
-      setCourses(coursesData);
+    if (formData.universityId && formData.schoolId) {
+      const depts = getDepartmentsBySchool(formData.universityId, formData.schoolId);
+      setDepartments(depts);
+      
+      // Update school name
+      const schoolData = getSchoolById(formData.universityId, formData.schoolId);
+      if (schoolData) {
+        setFormData(prev => ({
+          ...prev,
+          school: schoolData.name,
+        }));
+      }
+    } else {
+      setDepartments([]);
+      setPrograms([]);
+      setCourses([]);
+      setInstructors([]);
+    }
+  }, [formData.universityId, formData.schoolId]);
+
+  // Update programs/courses when department changes
+  useEffect(() => {
+    if (formData.universityId && formData.schoolId && formData.departmentId) {
+      // Check if department has programs
+      const hasPrograms = departmentHasPrograms(formData.universityId, formData.schoolId, formData.departmentId);
+      setShowProgramSelect(hasPrograms);
+      
+      if (hasPrograms) {
+        // Load programs
+        const programsData = getProgramsByDepartment(formData.universityId, formData.schoolId, formData.departmentId);
+        setPrograms(programsData);
+        setCourses([]);
+      } else {
+        // Load courses directly
+        const coursesData = getCoursesByDepartment(formData.universityId, formData.schoolId, formData.departmentId);
+        setCourses(coursesData);
+        setPrograms([]);
+      }
       
       // Update department name
-      const dept = getDepartmentById(formData.universityId, formData.departmentId);
+      const dept = getDepartmentById(formData.universityId, formData.schoolId, formData.departmentId);
       if (dept) {
         setFormData(prev => ({
           ...prev,
@@ -91,15 +142,43 @@ export default function Home() {
         }));
       }
     } else {
+      setPrograms([]);
+      setCourses([]);
+      setInstructors([]);
+      setShowProgramSelect(false);
+    }
+  }, [formData.universityId, formData.schoolId, formData.departmentId]);
+
+  // Update courses when program changes (for departments with programs)
+  useEffect(() => {
+    if (formData.universityId && formData.schoolId && formData.departmentId && formData.programId && showProgramSelect) {
+      const coursesData = getCoursesByProgram(formData.universityId, formData.schoolId, formData.departmentId, formData.programId);
+      setCourses(coursesData);
+      
+      // Update program name
+      const prog = getProgramById(formData.universityId, formData.schoolId, formData.departmentId, formData.programId);
+      if (prog) {
+        setFormData(prev => ({
+          ...prev,
+          program: prog.name,
+        }));
+      }
+    } else if (showProgramSelect && !formData.programId) {
       setCourses([]);
       setInstructors([]);
     }
-  }, [formData.universityId, formData.departmentId]);
+  }, [formData.universityId, formData.schoolId, formData.departmentId, formData.programId, showProgramSelect]);
 
   // Update instructors when course changes
   useEffect(() => {
-    if (formData.universityId && formData.departmentId && formData.courseId) {
-      const course = getCourseById(formData.universityId, formData.departmentId, formData.courseId);
+    if (formData.universityId && formData.schoolId && formData.departmentId && formData.courseId) {
+      const course = getCourseById(
+        formData.universityId, 
+        formData.schoolId, 
+        formData.departmentId, 
+        formData.courseId,
+        formData.programId
+      );
       if (course) {
         setInstructors(course.instructors);
         setFormData(prev => ({
@@ -111,7 +190,7 @@ export default function Home() {
     } else {
       setInstructors([]);
     }
-  }, [formData.universityId, formData.departmentId, formData.courseId]);
+  }, [formData.universityId, formData.schoolId, formData.departmentId, formData.courseId, formData.programId]);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
@@ -134,14 +213,42 @@ export default function Home() {
       setFormData((prev) => ({
         ...prev,
         [name]: value,
+        schoolId: '',
+        school: '',
         departmentId: '',
         department: '',
+        programId: '',
+        program: '',
+        courseId: '',
+        courseName: '',
+        courseCode: '',
+        submittedTo: '',
+      }));
+    } else if (name === 'schoolId') {
+      setFormData((prev) => ({
+        ...prev,
+        [name]: value,
+        departmentId: '',
+        department: '',
+        programId: '',
+        program: '',
         courseId: '',
         courseName: '',
         courseCode: '',
         submittedTo: '',
       }));
     } else if (name === 'departmentId') {
+      setFormData((prev) => ({
+        ...prev,
+        [name]: value,
+        programId: '',
+        program: '',
+        courseId: '',
+        courseName: '',
+        courseCode: '',
+        submittedTo: '',
+      }));
+    } else if (name === 'programId') {
       setFormData((prev) => ({
         ...prev,
         [name]: value,
@@ -273,9 +380,25 @@ export default function Home() {
               error={errors.universityId}
             />
 
+            {/* School Selection */}
+            <SelectField
+              label="Select School/Faculty"
+              name="schoolId"
+              value={formData.schoolId}
+              onChange={handleSelectChange}
+              options={schools.map(school => ({
+                value: school.id,
+                label: school.name
+              }))}
+              placeholder="Choose your school"
+              required
+              error={errors.schoolId}
+              disabled={!formData.universityId}
+            />
+
             {/* Department Selection */}
             <SelectField
-              label="Select Department/School"
+              label="Select Department/Program"
               name="departmentId"
               value={formData.departmentId}
               onChange={handleSelectChange}
@@ -286,8 +409,26 @@ export default function Home() {
               placeholder="Choose your department"
               required
               error={errors.departmentId}
-              disabled={!formData.universityId}
+              disabled={!formData.schoolId}
             />
+
+            {/* Program Selection - Only shown if department has programs */}
+            {showProgramSelect && (
+              <SelectField
+                label="Select Program"
+                name="programId"
+                value={formData.programId || ''}
+                onChange={handleSelectChange}
+                options={programs.map(prog => ({
+                  value: prog.id,
+                  label: prog.name
+                }))}
+                placeholder="Choose your program"
+                required
+                error={errors.programId}
+                disabled={!formData.departmentId}
+              />
+            )}
 
             {/* Course Selection */}
             <SelectField
@@ -302,7 +443,7 @@ export default function Home() {
               placeholder="Choose your course"
               required
               error={errors.courseId}
-              disabled={!formData.departmentId}
+              disabled={showProgramSelect ? !formData.programId : !formData.departmentId}
             />
 
             {/* Assignment Title */}

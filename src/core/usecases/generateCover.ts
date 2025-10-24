@@ -11,6 +11,7 @@ export class GenerateCoverUseCase {
     // Create entity from input data
     const cover = new AssignmentCover(
       data.universityName,
+      data.school,
       data.department,
       data.courseName,
       data.courseCode,
@@ -21,7 +22,8 @@ export class GenerateCoverUseCase {
       data.section,
       data.trimester,
       data.submissionDate,
-      data.universityLogo
+      data.universityLogo,
+      data.program
     );
 
     // Generate PDF using the service
