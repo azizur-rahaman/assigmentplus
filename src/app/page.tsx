@@ -558,7 +558,7 @@ export default function Home() {
         </div>
 
         <footer className="text-center mt-8 text-gray-600 text-sm">
-          <p>Built with Clean Architecture • Next.js • pdf-lib</p>
+<p>© 2025 CG4Academy. All rights reserved.</p>
         </footer>
       </div>
     </div>
