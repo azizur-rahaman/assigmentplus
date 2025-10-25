@@ -293,7 +293,7 @@ export default function Home() {
       console.log('Sending request to generate PDF...', formData);
       
       const response = await fetch(
-        `/api/generate`, {
+        `${baseUrl}/api/generate`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
