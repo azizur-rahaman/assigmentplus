@@ -30,6 +30,7 @@ import {
   type Course
 } from '@/infrastructure/data/universities.data';
 import { SECTIONS, TRIMESTERS, ASSIGNMENT_TYPES } from '@/infrastructure/data/options.data';
+import { baseUrl } from '@/utils/baseUrl';
 
 const storage = new LocalStorageAdapter();
 
@@ -291,7 +292,8 @@ export default function Home() {
     try {
       console.log('Sending request to generate PDF...', formData);
       
-      const response = await fetch('/api/generate', {
+      const response = await fetch(
+        `${baseUrl}/api/generate`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
