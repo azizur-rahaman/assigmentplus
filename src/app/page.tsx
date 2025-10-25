@@ -59,7 +59,7 @@ export default function Home() {
 
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [loading, setLoading] = useState(false);
-  const [showPreview, setShowPreview] = useState(false);
+  const [showPreview, setShowPreview] = useState(true);
 
   // State for "Other" option selections
   const [showOtherUniversity, setShowOtherUniversity] = useState(false);
@@ -790,32 +790,15 @@ export default function Home() {
               error={errors.submissionDate}
             />
 
-            <div className="mt-6 space-y-3">
+            <div className="mt-6">
               <GenerateButton onClick={handleGenerate} loading={loading} />
-              <button
-                onClick={() => setShowPreview(!showPreview)}
-                className="w-full bg-gray-200 text-gray-700 py-2 px-6 rounded-md font-semibold hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400 transition-colors"
-              >
-                {showPreview ? 'Hide Preview' : 'Show Preview'}
-              </button>
             </div>
           </div>
 
           {/* Preview Section */}
           <div className="bg-white rounded-lg shadow-lg p-6">
-            <h2 className="text-2xl font-bold text-gray-800 mb-6">
-              {showPreview ? 'Live Preview' : 'Ready to Generate'}
-            </h2>
-            {showPreview ? (
-              <CoverPreview data={formData} />
-            ) : (
-              <div className="flex items-center justify-center h-full text-gray-400">
-                <div className="text-center">
-                  <div className="text-6xl mb-4">📄</div>
-                  <p>Fill in the details and click "Show Preview"</p>
-                </div>
-              </div>
-            )}
+            <h2 className="text-2xl font-bold text-gray-800 mb-6">Live Preview</h2>
+            <CoverPreview data={formData} />
           </div>
         </div>
 
