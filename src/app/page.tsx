@@ -476,7 +476,7 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 py-8 px-4">
       <div className="max-w-7xl mx-auto">
         <header className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-blue-900 mb-2">aissngment+</h1>
+          <h1 className="text-4xl font-bold text-blue-900 mb-2">Assignment+</h1>
           <p className="text-gray-600">Generate Professional Assignment Cover Pages</p>
         </header>
 
