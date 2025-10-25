@@ -61,6 +61,16 @@ export default function Home() {
   const [loading, setLoading] = useState(false);
   const [showPreview, setShowPreview] = useState(false);
 
+  // State for "Other" option selections
+  const [showOtherUniversity, setShowOtherUniversity] = useState(false);
+  const [showOtherSchool, setShowOtherSchool] = useState(false);
+  const [showOtherDepartment, setShowOtherDepartment] = useState(false);
+  const [showOtherProgram, setShowOtherProgram] = useState(false);
+  const [showOtherCourse, setShowOtherCourse] = useState(false);
+  const [showOtherAssignment, setShowOtherAssignment] = useState(false);
+  const [showOtherSection, setShowOtherSection] = useState(false);
+  const [showOtherTrimester, setShowOtherTrimester] = useState(false);
+
   // Cascading dropdown options
   const [universities] = useState<University[]>(getAllUniversities());
   const [schools, setSchools] = useState<School[]>([]);
@@ -209,58 +219,147 @@ export default function Home() {
   const handleSelectChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const { name, value } = e.target;
     
-    // Reset dependent fields when parent selection changes
-    if (name === 'universityId') {
-      setFormData((prev) => ({
-        ...prev,
-        [name]: value,
-        schoolId: '',
-        school: '',
-        departmentId: '',
-        department: '',
-        programId: '',
-        program: '',
-        courseId: '',
-        courseName: '',
-        courseCode: '',
-      }));
-    } else if (name === 'schoolId') {
-      setFormData((prev) => ({
-        ...prev,
-        [name]: value,
-        departmentId: '',
-        department: '',
-        programId: '',
-        program: '',
-        courseId: '',
-        courseName: '',
-        courseCode: '',
-      }));
-    } else if (name === 'departmentId') {
-      setFormData((prev) => ({
-        ...prev,
-        [name]: value,
-        programId: '',
-        program: '',
-        courseId: '',
-        courseName: '',
-        courseCode: '',
-      }));
-    } else if (name === 'programId') {
-      setFormData((prev) => ({
-        ...prev,
-        [name]: value,
-        courseId: '',
-        courseName: '',
-        courseCode: '',
-      }));
-    } else if (name === 'courseId') {
-      setFormData((prev) => ({
-        ...prev,
-        [name]: value,
-      }));
+    // Handle "Other" option selections
+    if (value === 'other') {
+      if (name === 'universityId') {
+        setShowOtherUniversity(true);
+        setFormData((prev) => ({
+          ...prev,
+          universityId: 'other',
+          universityName: '',
+          universityLogo: '',
+          schoolId: '',
+          school: '',
+          departmentId: '',
+          department: '',
+          programId: '',
+          program: '',
+          courseId: '',
+          courseName: '',
+          courseCode: '',
+        }));
+      } else if (name === 'schoolId') {
+        setShowOtherSchool(true);
+        setFormData((prev) => ({
+          ...prev,
+          schoolId: 'other',
+          school: '',
+          departmentId: '',
+          department: '',
+          programId: '',
+          program: '',
+          courseId: '',
+          courseName: '',
+          courseCode: '',
+        }));
+      } else if (name === 'departmentId') {
+        setShowOtherDepartment(true);
+        setFormData((prev) => ({
+          ...prev,
+          departmentId: 'other',
+          department: '',
+          programId: '',
+          program: '',
+          courseId: '',
+          courseName: '',
+          courseCode: '',
+        }));
+      } else if (name === 'programId') {
+        setShowOtherProgram(true);
+        setFormData((prev) => ({
+          ...prev,
+          programId: 'other',
+          program: '',
+          courseId: '',
+          courseName: '',
+          courseCode: '',
+        }));
+      } else if (name === 'courseId') {
+        setShowOtherCourse(true);
+        setFormData((prev) => ({
+          ...prev,
+          courseId: 'other',
+          courseName: '',
+          courseCode: '',
+        }));
+      } else if (name === 'assignmentTitle') {
+        setShowOtherAssignment(true);
+        setFormData((prev) => ({ ...prev, assignmentTitle: '' }));
+      } else if (name === 'section') {
+        setShowOtherSection(true);
+        setFormData((prev) => ({ ...prev, section: '' }));
+      } else if (name === 'trimester') {
+        setShowOtherTrimester(true);
+        setFormData((prev) => ({ ...prev, trimester: '' }));
+      }
     } else {
-      setFormData((prev) => ({ ...prev, [name]: value }));
+      // Reset "Other" states when not selecting "Other"
+      if (name === 'universityId') {
+        setShowOtherUniversity(false);
+        setFormData((prev) => ({
+          ...prev,
+          [name]: value,
+          schoolId: '',
+          school: '',
+          departmentId: '',
+          department: '',
+          programId: '',
+          program: '',
+          courseId: '',
+          courseName: '',
+          courseCode: '',
+        }));
+      } else if (name === 'schoolId') {
+        setShowOtherSchool(false);
+        setFormData((prev) => ({
+          ...prev,
+          [name]: value,
+          departmentId: '',
+          department: '',
+          programId: '',
+          program: '',
+          courseId: '',
+          courseName: '',
+          courseCode: '',
+        }));
+      } else if (name === 'departmentId') {
+        setShowOtherDepartment(false);
+        setFormData((prev) => ({
+          ...prev,
+          [name]: value,
+          programId: '',
+          program: '',
+          courseId: '',
+          courseName: '',
+          courseCode: '',
+        }));
+      } else if (name === 'programId') {
+        setShowOtherProgram(false);
+        setFormData((prev) => ({
+          ...prev,
+          [name]: value,
+          courseId: '',
+          courseName: '',
+          courseCode: '',
+        }));
+      } else if (name === 'courseId') {
+        setShowOtherCourse(false);
+        setFormData((prev) => ({
+          ...prev,
+          [name]: value,
+        }));
+      } else if (name === 'assignmentTitle') {
+        setShowOtherAssignment(false);
+        setFormData((prev) => ({ ...prev, [name]: value }));
+      } else if (name === 'section') {
+        setShowOtherSection(false);
+        setFormData((prev) => ({ ...prev, [name]: value }));
+      } else if (name === 'trimester') {
+        setShowOtherTrimester(false);
+        setFormData((prev) => ({ ...prev, [name]: value }));
+      } else {
+        setFormData((prev) => ({ ...prev, [name]: value }));
+      }
     }
 
     // Clear error for this field
@@ -368,14 +467,30 @@ export default function Home() {
               name="universityId"
               value={formData.universityId}
               onChange={handleSelectChange}
-              options={universities.map(uni => ({
-                value: uni.id,
-                label: uni.name
-              }))}
+              options={[
+                ...universities.map(uni => ({
+                  value: uni.id,
+                  label: uni.name
+                })),
+                { value: 'other', label: 'Other (Please specify)' }
+              ]}
               placeholder="Choose your university"
               required
               error={errors.universityId}
             />
+            
+            {/* Custom University Input */}
+            {showOtherUniversity && (
+              <InputField
+                label="University Name"
+                name="universityName"
+                value={formData.universityName}
+                onChange={handleChange}
+                placeholder="Enter your university name"
+                required
+                error={errors.universityName}
+              />
+            )}
 
             {/* School Selection */}
             <SelectField
@@ -383,15 +498,31 @@ export default function Home() {
               name="schoolId"
               value={formData.schoolId}
               onChange={handleSelectChange}
-              options={schools.map(school => ({
-                value: school.id,
-                label: school.name
-              }))}
+              options={[
+                ...schools.map(school => ({
+                  value: school.id,
+                  label: school.name
+                })),
+                { value: 'other', label: 'Other (Please specify)' }
+              ]}
               placeholder="Choose your school"
               required
               error={errors.schoolId}
               disabled={!formData.universityId}
             />
+            
+            {/* Custom School Input */}
+            {showOtherSchool && (
+              <InputField
+                label="School/Faculty Name"
+                name="school"
+                value={formData.school}
+                onChange={handleChange}
+                placeholder="Enter your school/faculty name"
+                required
+                error={errors.school}
+              />
+            )}
 
             {/* Department Selection */}
             <SelectField
@@ -399,32 +530,66 @@ export default function Home() {
               name="departmentId"
               value={formData.departmentId}
               onChange={handleSelectChange}
-              options={departments.map(dept => ({
-                value: dept.id,
-                label: dept.name
-              }))}
+              options={[
+                ...departments.map(dept => ({
+                  value: dept.id,
+                  label: dept.name
+                })),
+                { value: 'other', label: 'Other (Please specify)' }
+              ]}
               placeholder="Choose your department"
               required
               error={errors.departmentId}
               disabled={!formData.schoolId}
             />
+            
+            {/* Custom Department Input */}
+            {showOtherDepartment && (
+              <InputField
+                label="Department/Program Name"
+                name="department"
+                value={formData.department}
+                onChange={handleChange}
+                placeholder="Enter your department/program name"
+                required
+                error={errors.department}
+              />
+            )}
 
             {/* Program Selection - Only shown if department has programs */}
             {showProgramSelect && (
-              <SelectField
-                label="Select Program"
-                name="programId"
-                value={formData.programId || ''}
-                onChange={handleSelectChange}
-                options={programs.map(prog => ({
-                  value: prog.id,
-                  label: prog.name
-                }))}
-                placeholder="Choose your program"
-                required
-                error={errors.programId}
-                disabled={!formData.departmentId}
-              />
+              <>
+                <SelectField
+                  label="Select Program"
+                  name="programId"
+                  value={formData.programId || ''}
+                  onChange={handleSelectChange}
+                  options={[
+                    ...programs.map(prog => ({
+                      value: prog.id,
+                      label: prog.name
+                    })),
+                    { value: 'other', label: 'Other (Please specify)' }
+                  ]}
+                  placeholder="Choose your program"
+                  required
+                  error={errors.programId}
+                  disabled={!formData.departmentId}
+                />
+                
+                {/* Custom Program Input */}
+                {showOtherProgram && (
+                  <InputField
+                    label="Program Name"
+                    name="program"
+                    value={formData.program}
+                    onChange={handleChange}
+                    placeholder="Enter your program name"
+                    required
+                    error={errors.program}
+                  />
+                )}
+              </>
             )}
 
             {/* Course Selection */}
@@ -433,15 +598,42 @@ export default function Home() {
               name="courseId"
               value={formData.courseId}
               onChange={handleSelectChange}
-              options={courses.map(course => ({
-                value: course.id,
-                label: `${course.code} - ${course.name}`
-              }))}
+              options={[
+                ...courses.map(course => ({
+                  value: course.id,
+                  label: `${course.code} - ${course.name}`
+                })),
+                { value: 'other', label: 'Other (Please specify)' }
+              ]}
               placeholder="Choose your course"
               required
               error={errors.courseId}
               disabled={showProgramSelect ? !formData.programId : !formData.departmentId}
             />
+            
+            {/* Custom Course Input */}
+            {showOtherCourse && (
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <InputField
+                  label="Course Code"
+                  name="courseCode"
+                  value={formData.courseCode}
+                  onChange={handleChange}
+                  placeholder="e.g., CSE101"
+                  required
+                  error={errors.courseCode}
+                />
+                <InputField
+                  label="Course Name"
+                  name="courseName"
+                  value={formData.courseName}
+                  onChange={handleChange}
+                  placeholder="e.g., Introduction to Programming"
+                  required
+                  error={errors.courseName}
+                />
+              </div>
+            )}
 
             {/* Assignment Title */}
             <SelectField
@@ -449,14 +641,30 @@ export default function Home() {
               name="assignmentTitle"
               value={formData.assignmentTitle}
               onChange={handleSelectChange}
-              options={ASSIGNMENT_TYPES.map(type => ({
-                value: type,
-                label: type
-              }))}
+              options={[
+                ...ASSIGNMENT_TYPES.map(type => ({
+                  value: type,
+                  label: type
+                })),
+                { value: 'other', label: 'Other (Please specify)' }
+              ]}
               placeholder="Select assignment type"
               required
               error={errors.assignmentTitle}
             />
+            
+            {/* Custom Assignment Title Input */}
+            {showOtherAssignment && (
+              <InputField
+                label="Assignment Title"
+                name="assignmentTitle"
+                value={formData.assignmentTitle}
+                onChange={handleChange}
+                placeholder="Enter your assignment title"
+                required
+                error={errors.assignmentTitle}
+              />
+            )}
 
             {/* Instructor Input */}
             <InputField
@@ -475,7 +683,7 @@ export default function Home() {
               name="submittedBy"
               value={formData.submittedBy}
               onChange={handleChange}
-              placeholder="e.g., Kaspia Tasmim Trisha"
+              placeholder="e.g., Azizur Rahaman"
               required
               error={errors.submittedBy}
             />
@@ -496,29 +704,61 @@ export default function Home() {
                 name="section"
                 value={formData.section}
                 onChange={handleSelectChange}
-                options={SECTIONS.map(sec => ({
-                  value: sec,
-                  label: `Section ${sec}`
-                }))}
+                options={[
+                  ...SECTIONS.map(sec => ({
+                    value: sec,
+                    label: `Section ${sec}`
+                  })),
+                  { value: 'other', label: 'Other (Please specify)' }
+                ]}
                 placeholder="Select section"
                 required
                 error={errors.section}
               />
             </div>
+            
+            {/* Custom Section Input */}
+            {showOtherSection && (
+              <InputField
+                label="Section"
+                name="section"
+                value={formData.section}
+                onChange={handleChange}
+                placeholder="Enter your section"
+                required
+                error={errors.section}
+              />
+            )}
 
             <SelectField
               label="Trimester"
               name="trimester"
               value={formData.trimester}
               onChange={handleSelectChange}
-              options={TRIMESTERS.map(tri => ({
-                value: tri,
-                label: tri
-              }))}
+              options={[
+                ...TRIMESTERS.map(tri => ({
+                  value: tri,
+                  label: tri
+                })),
+                { value: 'other', label: 'Other (Please specify)' }
+              ]}
               placeholder="Select trimester"
               required
               error={errors.trimester}
             />
+            
+            {/* Custom Trimester Input */}
+            {showOtherTrimester && (
+              <InputField
+                label="Trimester"
+                name="trimester"
+                value={formData.trimester}
+                onChange={handleChange}
+                placeholder="Enter your trimester (e.g., Fall 2024)"
+                required
+                error={errors.trimester}
+              />
+            )}
 
             <InputField
               label="Submission Date"
