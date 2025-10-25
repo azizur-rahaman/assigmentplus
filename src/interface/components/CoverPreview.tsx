@@ -15,7 +15,7 @@ export default function CoverPreview({ data }: CoverPreviewProps) {
       <div className="text-center mb-6">
         <div className="text-4xl mb-4">🎓</div>
         <h2 className="text-xl font-bold text-blue-900">{data.universityName || 'United International University'}</h2>
-        <p className="text-sm text-gray-600">School of Business and Economics</p>
+        <p className="text-sm text-gray-600">{data.school || 'School of Science and Engineering'}</p>
       </div>
 
       <div className="text-center mb-6">
@@ -31,7 +31,7 @@ export default function CoverPreview({ data }: CoverPreviewProps) {
         <div>
           <h4 className="font-bold text-blue-900 mb-2">SUBMITTED TO:</h4>
           <p className="text-sm text-gray-700">{data.submittedTo || '-'}</p>
-          <p className="text-sm text-gray-600">School of Business and Economics</p>
+          <p className="text-sm text-gray-600">{data.school || '-'}</p>
           <p className="text-sm text-gray-600">{data.universityName || 'United International University'}</p>
         </div>
 
@@ -39,7 +39,6 @@ export default function CoverPreview({ data }: CoverPreviewProps) {
           <h4 className="font-bold text-blue-900 mb-2">SUBMITTED BY:</h4>
           <p className="text-sm text-gray-700">{data.submittedBy || '-'}</p>
           <p className="text-sm text-gray-600">Id: {data.studentId || '-'}</p>
-          <p className="text-sm text-gray-600">Department: {data.department || '-'}</p>
           <p className="text-sm text-gray-600">Section: {data.section || '-'}</p>
           <p className="text-sm text-gray-600">Trimester: {data.trimester || '-'}</p>
         </div>
