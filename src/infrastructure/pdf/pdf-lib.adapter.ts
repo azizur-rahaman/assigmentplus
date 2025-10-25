@@ -139,56 +139,49 @@ export class PdfLibAdapter implements IPdfGenerator {
       });
       yPosition -= 80;
 
+      // Store the current yPosition for both columns to align them
+      const bothColumnsY = yPosition;
+      
       // Left column - Submitted To
       const leftX = 100;
       page.drawText('SUBMITTED TO :', {
         x: leftX,
-        y: yPosition,
+        y: bothColumnsY,
         size: templateConfig.fonts.heading,
         font: timesRomanBold,
         color: primaryColor,
       });
-      yPosition -= 30;
+      let leftY = bothColumnsY - 30;
 
       page.drawText(cover.submittedTo, {
         x: leftX,
-        y: yPosition,
+        y: leftY,
         size: templateConfig.fonts.body,
         font: timesRomanFont,
         color: secondaryColor,
       });
-      yPosition -= 25;
-
-      page.drawText(cover.department, {
-        x: leftX,
-        y: yPosition,
-        size: templateConfig.fonts.body,
-        font: timesRomanFont,
-        color: secondaryColor,
-      });
-      yPosition -= 25;
+      leftY -= 25;
 
       page.drawText(cover.school, {
         x: leftX,
-        y: yPosition,
+        y: leftY,
         size: templateConfig.fonts.body,
         font: timesRomanFont,
         color: secondaryColor,
       });
-      yPosition -= 25;
+      leftY -= 25;
 
       page.drawText(cover.universityName, {
         x: leftX,
-        y: yPosition,
+        y: leftY,
         size: templateConfig.fonts.body,
         font: timesRomanFont,
         color: secondaryColor,
       });
-      yPosition -= 60;
 
-      // Right column - Submitted By
+      // Right column - Submitted By (aligned with left column)
       const rightX = width - 300;
-      let rightY = height - 360;
+      let rightY = bothColumnsY;
       
       page.drawText('SUBMITTED BY :', {
         x: rightX,
@@ -209,15 +202,6 @@ export class PdfLibAdapter implements IPdfGenerator {
       rightY -= 25;
 
       page.drawText(`Id : ${cover.studentId}`, {
-        x: rightX,
-        y: rightY,
-        size: templateConfig.fonts.body,
-        font: timesRomanFont,
-        color: secondaryColor,
-      });
-      rightY -= 25;
-
-      page.drawText(`Department : ${cover.department}`, {
         x: rightX,
         y: rightY,
         size: templateConfig.fonts.body,
