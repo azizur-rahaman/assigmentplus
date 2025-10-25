@@ -219,58 +219,72 @@ export default function Home() {
   const handleSelectChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const { name, value } = e.target;
     
-    // Handle "Other" option selections
+    // Handle "Other" option selections with cascading behavior
     if (value === 'other') {
       if (name === 'universityId') {
+        // If university is "Other", make all subsequent fields custom inputs
         setShowOtherUniversity(true);
+        setShowOtherSchool(true);
+        setShowOtherDepartment(true);
+        setShowOtherProgram(true);
+        setShowOtherCourse(true);
         setFormData((prev) => ({
           ...prev,
           universityId: 'other',
           universityName: '',
           universityLogo: '',
-          schoolId: '',
+          schoolId: 'other',
           school: '',
-          departmentId: '',
+          departmentId: 'other',
           department: '',
-          programId: '',
+          programId: 'other',
           program: '',
-          courseId: '',
+          courseId: 'other',
           courseName: '',
           courseCode: '',
         }));
       } else if (name === 'schoolId') {
+        // If school is "Other", make all subsequent fields custom inputs
         setShowOtherSchool(true);
+        setShowOtherDepartment(true);
+        setShowOtherProgram(true);
+        setShowOtherCourse(true);
         setFormData((prev) => ({
           ...prev,
           schoolId: 'other',
           school: '',
-          departmentId: '',
+          departmentId: 'other',
           department: '',
-          programId: '',
+          programId: 'other',
           program: '',
-          courseId: '',
+          courseId: 'other',
           courseName: '',
           courseCode: '',
         }));
       } else if (name === 'departmentId') {
+        // If department is "Other", make all subsequent fields custom inputs
         setShowOtherDepartment(true);
+        setShowOtherProgram(true);
+        setShowOtherCourse(true);
         setFormData((prev) => ({
           ...prev,
           departmentId: 'other',
           department: '',
-          programId: '',
+          programId: 'other',
           program: '',
-          courseId: '',
+          courseId: 'other',
           courseName: '',
           courseCode: '',
         }));
       } else if (name === 'programId') {
+        // If program is "Other", make all subsequent fields custom inputs
         setShowOtherProgram(true);
+        setShowOtherCourse(true);
         setFormData((prev) => ({
           ...prev,
           programId: 'other',
           program: '',
-          courseId: '',
+          courseId: 'other',
           courseName: '',
           courseCode: '',
         }));
@@ -296,6 +310,10 @@ export default function Home() {
       // Reset "Other" states when not selecting "Other"
       if (name === 'universityId') {
         setShowOtherUniversity(false);
+        setShowOtherSchool(false);
+        setShowOtherDepartment(false);
+        setShowOtherProgram(false);
+        setShowOtherCourse(false);
         setFormData((prev) => ({
           ...prev,
           [name]: value,
@@ -311,6 +329,9 @@ export default function Home() {
         }));
       } else if (name === 'schoolId') {
         setShowOtherSchool(false);
+        setShowOtherDepartment(false);
+        setShowOtherProgram(false);
+        setShowOtherCourse(false);
         setFormData((prev) => ({
           ...prev,
           [name]: value,
@@ -324,6 +345,8 @@ export default function Home() {
         }));
       } else if (name === 'departmentId') {
         setShowOtherDepartment(false);
+        setShowOtherProgram(false);
+        setShowOtherCourse(false);
         setFormData((prev) => ({
           ...prev,
           [name]: value,
@@ -335,6 +358,7 @@ export default function Home() {
         }));
       } else if (name === 'programId') {
         setShowOtherProgram(false);
+        setShowOtherCourse(false);
         setFormData((prev) => ({
           ...prev,
           [name]: value,
@@ -493,26 +517,25 @@ export default function Home() {
             )}
 
             {/* School Selection */}
-            <SelectField
-              label="Select School/Faculty"
-              name="schoolId"
-              value={formData.schoolId}
-              onChange={handleSelectChange}
-              options={[
-                ...schools.map(school => ({
-                  value: school.id,
-                  label: school.name
-                })),
-                { value: 'other', label: 'Other (Please specify)' }
-              ]}
-              placeholder="Choose your school"
-              required
-              error={errors.schoolId}
-              disabled={!formData.universityId}
-            />
-            
-            {/* Custom School Input */}
-            {showOtherSchool && (
+            {!showOtherSchool ? (
+              <SelectField
+                label="Select School/Faculty"
+                name="schoolId"
+                value={formData.schoolId}
+                onChange={handleSelectChange}
+                options={[
+                  ...schools.map(school => ({
+                    value: school.id,
+                    label: school.name
+                  })),
+                  { value: 'other', label: 'Other (Please specify)' }
+                ]}
+                placeholder="Choose your school"
+                required
+                error={errors.schoolId}
+                disabled={!formData.universityId}
+              />
+            ) : (
               <InputField
                 label="School/Faculty Name"
                 name="school"
@@ -525,26 +548,25 @@ export default function Home() {
             )}
 
             {/* Department Selection */}
-            <SelectField
-              label="Select Department/Program"
-              name="departmentId"
-              value={formData.departmentId}
-              onChange={handleSelectChange}
-              options={[
-                ...departments.map(dept => ({
-                  value: dept.id,
-                  label: dept.name
-                })),
-                { value: 'other', label: 'Other (Please specify)' }
-              ]}
-              placeholder="Choose your department"
-              required
-              error={errors.departmentId}
-              disabled={!formData.schoolId}
-            />
-            
-            {/* Custom Department Input */}
-            {showOtherDepartment && (
+            {!showOtherDepartment ? (
+              <SelectField
+                label="Select Department/Program"
+                name="departmentId"
+                value={formData.departmentId}
+                onChange={handleSelectChange}
+                options={[
+                  ...departments.map(dept => ({
+                    value: dept.id,
+                    label: dept.name
+                  })),
+                  { value: 'other', label: 'Other (Please specify)' }
+                ]}
+                placeholder="Choose your department"
+                required
+                error={errors.departmentId}
+                disabled={!formData.schoolId}
+              />
+            ) : (
               <InputField
                 label="Department/Program Name"
                 name="department"
@@ -556,29 +578,28 @@ export default function Home() {
               />
             )}
 
-            {/* Program Selection - Only shown if department has programs */}
-            {showProgramSelect && (
+            {/* Program Selection - Only shown if department has programs or if using custom input */}
+            {(showProgramSelect || showOtherProgram) && (
               <>
-                <SelectField
-                  label="Select Program"
-                  name="programId"
-                  value={formData.programId || ''}
-                  onChange={handleSelectChange}
-                  options={[
-                    ...programs.map(prog => ({
-                      value: prog.id,
-                      label: prog.name
-                    })),
-                    { value: 'other', label: 'Other (Please specify)' }
-                  ]}
-                  placeholder="Choose your program"
-                  required
-                  error={errors.programId}
-                  disabled={!formData.departmentId}
-                />
-                
-                {/* Custom Program Input */}
-                {showOtherProgram && (
+                {!showOtherProgram ? (
+                  <SelectField
+                    label="Select Program"
+                    name="programId"
+                    value={formData.programId || ''}
+                    onChange={handleSelectChange}
+                    options={[
+                      ...programs.map(prog => ({
+                        value: prog.id,
+                        label: prog.name
+                      })),
+                      { value: 'other', label: 'Other (Please specify)' }
+                    ]}
+                    placeholder="Choose your program"
+                    required
+                    error={errors.programId}
+                    disabled={!formData.departmentId}
+                  />
+                ) : (
                   <InputField
                     label="Program Name"
                     name="program"
@@ -593,26 +614,25 @@ export default function Home() {
             )}
 
             {/* Course Selection */}
-            <SelectField
-              label="Select Course"
-              name="courseId"
-              value={formData.courseId}
-              onChange={handleSelectChange}
-              options={[
-                ...courses.map(course => ({
-                  value: course.id,
-                  label: `${course.code} - ${course.name}`
-                })),
-                { value: 'other', label: 'Other (Please specify)' }
-              ]}
-              placeholder="Choose your course"
-              required
-              error={errors.courseId}
-              disabled={showProgramSelect ? !formData.programId : !formData.departmentId}
-            />
-            
-            {/* Custom Course Input */}
-            {showOtherCourse && (
+            {!showOtherCourse ? (
+              <SelectField
+                label="Select Course"
+                name="courseId"
+                value={formData.courseId}
+                onChange={handleSelectChange}
+                options={[
+                  ...courses.map(course => ({
+                    value: course.id,
+                    label: `${course.code} - ${course.name}`
+                  })),
+                  { value: 'other', label: 'Other (Please specify)' }
+                ]}
+                placeholder="Choose your course"
+                required
+                error={errors.courseId}
+                disabled={!showOtherDepartment && !showOtherProgram && (showProgramSelect ? !formData.programId : !formData.departmentId)}
+              />
+            ) : (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <InputField
                   label="Course Code"
