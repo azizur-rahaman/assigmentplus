@@ -29,7 +29,7 @@ import {
   type Department,
   type Program,
   type Course
-} from '@/features/cover-generator/data/datasources/universities.data';
+} from '@/features/cover-generator/data/datasources/UniversitiesDataSource';
 import { SECTIONS, TRIMESTERS, ASSIGNMENT_TYPES } from '@/features/cover-generator/data/datasources/options.data';
 import { baseUrl, apiBaseUrl } from '@/shared/utils';
 

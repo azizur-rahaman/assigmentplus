@@ -1,0 +1,63 @@
+{
+  "id": "du",
+  "name": "University of Dhaka",
+  "shortName": "DU",
+  "logo": "/logos/du-logo.png",
+  "schools": [
+    {
+      "id": "business",
+      "name": "Faculty of Business Studies",
+      "shortName": "FBS",
+      "departments": [
+        {
+          "id": "mba",
+          "name": "MBA Program",
+          "shortName": "MBA",
+          "courses": [
+            {
+              "id": "mba501",
+              "code": "MBA 501",
+              "name": "Managerial Economics",
+              "instructors": [
+                "Dr. Habibur Rahman",
+                "Prof. Shamima Nasrin"
+              ]
+            },
+            {
+              "id": "mba502",
+              "code": "MBA 502",
+              "name": "Organizational Behavior",
+              "instructors": [
+                "Dr. Md. Shahin Alam",
+                "Farhana Yasmin"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arts",
+      "name": "Faculty of Arts",
+      "shortName": "Arts",
+      "departments": [
+        {
+          "id": "english",
+          "name": "Department of English",
+          "shortName": "ENG",
+          "courses": [
+            {
+              "id": "eng101",
+              "code": "ENG 101",
+              "name": "English Literature",
+              "instructors": [
+                "Prof. Anisul Haque",
+                "Dr. Rowshan Ara"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3387 @@
+{
+  "id": "diu",
+  "name": "Dhaka International University",
+  "shortName": "DIU",
+  "logo": "/logos/diu-logo.png",
+  "schools": [
+    {
+      "id": "fse",
+      "name": "Faculty of Science and Engineering",
+      "shortName": "FSE",
+      "departments": [
+        {
+          "id": "civil",
+          "name": "Department of Civil Engineering",
+          "shortName": "Civil",
+          "courses": [
+            {
+              "id": "phy101",
+              "code": "PHY 101",
+              "name": "Optics, Waves & Oscillation, Heat & Thermodynamics",
+              "instructors": [
+                "Dr. Ahmed Rahman",
+                "Prof. Nasrin Akhter"
+              ]
+            },
+            {
+              "id": "chem101",
+              "code": "CHEM 101",
+              "name": "Chemistry",
+              "instructors": [
+                "Dr. Kamal Hossain",
+                "Prof. Fatima Rahman"
+              ]
+            },
+            {
+              "id": "math101",
+              "code": "MATH 101",
+              "name": "Differential and Integral Calculus",
+              "instructors": [
+                "Prof. Anisul Haque",
+                "Dr. Rowshan Ara"
+              ]
+            },
+            {
+              "id": "eng101",
+              "code": "ENG 101",
+              "name": "Basic English Language",
+              "instructors": [
+                "Prof. Sultana Begum",
+                "Dr. Ashraf Ali"
+              ]
+            },
+            {
+              "id": "ce101",
+              "code": "CE 101",
+              "name": "Civil Engineering Drawing",
+              "instructors": [
+                "Eng. Sazzad Ahmed",
+                "Nazmin Akter"
+              ]
+            },
+            {
+              "id": "eng102",
+              "code": "ENG 102",
+              "name": "Communicative English",
+              "instructors": [
+                "Prof. Sultana Begum",
+                "Dr. Ashraf Ali"
+              ]
+            },
+            {
+              "id": "phy102",
+              "code": "PHY 102",
+              "name": "Structure of Matter, Electricity and Magnetism and Modern Physics",
+              "instructors": [
+                "Dr. Ahmed Rahman",
+                "Prof. Nasrin Akhter"
+              ]
+            },
+            {
+              "id": "math102",
+              "code": "MATH 102",
+              "name": "Matrices and Three-Dimensional Coordinate Geometry",
+              "instructors": [
+                "Prof. Anisul Haque",
+                "Dr. Rowshan Ara"
+              ]
+            },
+            {
+              "id": "ban101",
+              "code": "BAN 101",
+              "name": "Bangla Language & Literature",
+              "instructors": [
+                "Prof. Habibur Rahman",
+                "Dr. Shamima Nasrin"
+              ]
+            },
+            {
+              "id": "ce102",
+              "code": "CE 102",
+              "name": "Construction Materials",
+              "instructors": [
+                "Dr. Mohammad Karim",
+                "Eng. Tahmina Khatun"
+              ]
+            },
+            {
+              "id": "ce103",
+              "code": "CE 103",
+              "name": "Geoinformatics: Surveying",
+              "instructors": [
+                "Eng. Sazzad Ahmed",
+                "Mohammad Morshed"
+              ]
+            },
+            {
+              "id": "phy101l",
+              "code": "PHY 101L",
+              "name": "Engineering Physics Lab",
+              "instructors": [
+                "Dr. Ahmed Rahman",
+                "Prof. Nasrin Akhter"
+              ]
+            },
+            {
+              "id": "chem101l",
+              "code": "CHEM 101L",
+              "name": "Inorganic Quantitative Analysis Lab",
+              "instructors": [
+                "Dr. Kamal Hossain",
+                "Prof. Fatima Rahman"
+              ]
+            },
+            {
+              "id": "math201",
+              "code": "MATH 201",
+              "name": "Differential Equations and Statistics",
+              "instructors": [
+                "Prof. Anisul Haque",
+                "Dr. Rowshan Ara"
+              ]
+            },
+            {
+              "id": "ce201",
+              "code": "CE 201",
+              "name": "Engineering Geology and Geomorphology",
+              "instructors": [
+                "Dr. Salahuddin Ahmed",
+                "Eng. Jaber Hossain"
+              ]
+            },
+            {
+              "id": "ce202",
+              "code": "CE 202",
+              "name": "Mechanics of Solid I",
+              "instructors": [
+                "Dr. Mohammad Karim",
+                "Eng. Ashraful Islam"
+              ]
+            },
+            {
+              "id": "ee201",
+              "code": "EE 201",
+              "name": "Basic Electrical Engineering",
+              "instructors": [
+                "Eng. Mahmudul Hassan",
+                "Shagor Hasan"
+              ]
+            },
+            {
+              "id": "ce203",
+              "code": "CE 203",
+              "name": "Practical Surveying",
+              "instructors": [
+                "Eng. Sazzad Ahmed",
+                "Mohammad Morshed"
+              ]
+            },
+            {
+              "id": "ce204",
+              "code": "CE 204",
+              "name": "Construction Materials Sessional",
+              "instructors": [
+                "Dr. Mohammad Karim",
+                "Eng. Tahmina Khatun"
+              ]
+            },
+            {
+              "id": "ce205",
+              "code": "CE 205",
+              "name": "Computer Aided Drafting",
+              "instructors": [
+                "Eng. Sazzad Ahmed",
+                "Md. Asif"
+              ]
+            },
+            {
+              "id": "ce206",
+              "code": "CE 206",
+              "name": "Details of Constructions",
+              "instructors": [
+                "Dr. Salahuddin Ahmed",
+                "Tabassima Faria"
+              ]
+            },
+            {
+              "id": "math202",
+              "code": "MATH 202",
+              "name": "Laplace Transform, Fourier and Vector Analysis",
+              "instructors": [
+                "Prof. Anisul Haque",
+                "Dr. Rowshan Ara"
+              ]
+            },
+            {
+              "id": "econ201",
+              "code": "ECON 201",
+              "name": "Principles of Economics",
+              "instructors": [
+                "Dr. Habibur Rahman",
+                "Prof. Shamima Nasrin"
+              ]
+            },
+            {
+              "id": "ce207",
+              "code": "CE 207",
+              "name": "Mechanics of Solids II",
+              "instructors": [
+                "Dr. Mohammad Karim",
+                "Eng. Ashraful Islam"
+              ]
+            },
+            {
+              "id": "ce208",
+              "code": "CE 208",
+              "name": "Fluid Mechanics",
+              "instructors": [
+                "Dr. Salahuddin Ahmed",
+                "Eng. Robin Ali"
+              ]
+            },
+            {
+              "id": "math203",
+              "code": "MATH 203",
+              "name": "Numerical Methods",
+              "instructors": [
+                "Prof. Anisul Haque",
+                "Dr. Rowshan Ara"
+              ]
+            },
+            {
+              "id": "ce208l",
+              "code": "CE 208L",
+              "name": "Fluid Mechanics Sessional",
+              "instructors": [
+                "Dr. Salahuddin Ahmed",
+                "Eng. Robin Ali"
+              ]
+            },
+            {
+              "id": "ce209",
+              "code": "CE 209",
+              "name": "Quantity Surveying",
+              "instructors": [
+                "Eng. Sazzad Ahmed",
+                "Abhijeet Debnath"
+              ]
+            },
+            {
+              "id": "ce210",
+              "code": "CE 210",
+              "name": "Structural Mechanics Sessional",
+              "instructors": [
+                "Dr. Mohammad Karim",
+                "Eng. Ashraful Islam"
+              ]
+            },
+            {
+              "id": "cse201",
+              "code": "CSE 201",
+              "name": "Computer Programming Sessional",
+              "instructors": [
+                "Md. Asif",
+                "Shahin Sheikh"
+              ]
+            },
+            {
+              "id": "ce301",
+              "code": "CE 301",
+              "name": "Structural Analysis and Design I",
+              "instructors": [
+                "Dr. Mohammad Karim",
+                "Eng. Saniul Haque Mahi"
+              ]
+            },
+            {
+              "id": "ce302",
+              "code": "CE 302",
+              "name": "Design of Concrete Structure I",
+              "instructors": [
+                "Dr. Salahuddin Ahmed",
+                "Eng. Ashraful Islam"
+              ]
+            },
+            {
+              "id": "ce303",
+              "code": "CE 303",
+              "name": "Environmental Engineering I",
+              "instructors": [
+                "Dr. Ahmed Rahman",
+                "Eng. Tahmina Khatun"
+              ]
+            },
+            {
+              "id": "ce304",
+              "code": "CE 304",
+              "name": "Principles of Soil Mechanics",
+              "instructors": [
+                "Dr. Mohammad Karim",
+                "Eng. Jaber Hossain"
+              ]
+            },
+            {
+              "id": "ce305",
+              "code": "CE 305",
+              "name": "Engineering Hydrology",
+              "instructors": [
+                "Dr. Salahuddin Ahmed",
+                "Eng. Robin Ali"
+              ]
+            },
+            {
+              "id": "soc301",
+              "code": "SOC 301",
+              "name": "Sociology and Accounting",
+              "instructors": [
+                "Dr. Habibur Rahman",
+                "Prof. Shamima Nasrin"
+              ]
+            },
+            {
+              "id": "ce303l",
+              "code": "CE 303L",
+              "name": "Environmental Engineering Sessional",
+              "instructors": [
+                "Dr. Ahmed Rahman",
+                "Eng. Tahmina Khatun"
+              ]
+            },
+            {
+              "id": "ce304l",
+              "code": "CE 304L",
+              "name": "Geotechnical Engineering Laboratory",
+              "instructors": [
+                "Dr. Mohammad Karim",
+                "Eng. Jaber Hossain"
+              ]
+            },
+            {
+              "id": "ce306",
+              "code": "CE 306",
+              "name": "Structural Analysis and Design II",
+              "instructors": [
+                "Dr. Mohammad Karim",
+                "Eng. Saniul Haque Mahi"
+              ]
+            },
+            {
+              "id": "ce307",
+              "code": "CE 307",
+              "name": "Design of Concrete Structure II",
+              "instructors": [
+                "Dr. Salahuddin Ahmed",
+                "Eng. Ashraful Islam"
+              ]
+            },
+            {
+              "id": "ce308",
+              "code": "CE 308",
+              "name": "Environmental Engineering II",
+              "instructors": [
+                "Dr. Ahmed Rahman",
+                "Eng. Tahmina Khatun"
+              ]
+            },
+            {
+              "id": "ce309",
+              "code": "CE 309",
+              "name": "Foundation Engineering",
+              "instructors": [
+                "Dr. Mohammad Karim",
+                "Eng. Jaber Hossain"
+              ]
+            },
+            {
+              "id": "ce310",
+              "code": "CE 310",
+              "name": "Transportation Planning and Traffic Engineering",
+              "instructors": [
+                "Eng. Sazzad Ahmed",
+                "Mohammad Morshed"
+              ]
+            },
+            {
+              "id": "ce311",
+              "code": "CE 311",
+              "name": "Hydraulic Engineering",
+              "instructors": [
+                "Dr. Salahuddin Ahmed",
+                "Eng. Robin Ali"
+              ]
+            },
+            {
+              "id": "ce312",
+              "code": "CE 312",
+              "name": "Bridge Design Sessional",
+              "instructors": [
+                "Dr. Mohammad Karim",
+                "Eng. Ashraful Islam"
+              ]
+            },
+            {
+              "id": "ce313",
+              "code": "CE 313",
+              "name": "Highway Materials Sessional",
+              "instructors": [
+                "Eng. Sazzad Ahmed",
+                "Mohammad Morshed"
+              ]
+            },
+            {
+              "id": "ce311l",
+              "code": "CE 311L",
+              "name": "Hydraulic Engineering Sessional",
+              "instructors": [
+                "Dr. Salahuddin Ahmed",
+                "Eng. Robin Ali"
+              ]
+            },
+            {
+              "id": "bus401",
+              "code": "BUS 401",
+              "name": "Business and Career Development",
+              "instructors": [
+                "Dr. Habibur Rahman",
+                "Prof. Ahmed Ali"
+              ]
+            },
+            {
+              "id": "ce401",
+              "code": "CE 401",
+              "name": "Structural Analysis and Design III",
+              "instructors": [
+                "Dr. Mohammad Karim",
+                "Eng. Saniul Haque Mahi"
+              ]
+            },
+            {
+              "id": "ce402",
+              "code": "CE 402",
+              "name": "Pavement Design and Railway Engineering",
+              "instructors": [
+                "Eng. Sazzad Ahmed",
+                "Mohammad Morshed"
+              ]
+            },
+            {
+              "id": "ce403",
+              "code": "CE 403",
+              "name": "Irrigation and Flood Management",
+              "instructors": [
+                "Dr. Salahuddin Ahmed",
+                "Eng. Robin Ali"
+              ]
+            },
+            {
+              "id": "ce404",
+              "code": "CE 404",
+              "name": "Design of Steel Structures Sessional",
+              "instructors": [
+                "Dr. Mohammad Karim",
+                "Eng. Ashraful Islam"
+              ]
+            },
+            {
+              "id": "ce405",
+              "code": "CE 405",
+              "name": "Building Design Sessional",
+              "instructors": [
+                "Dr. Salahuddin Ahmed",
+                "Eng. Saniul Haque Mahi"
+              ]
+            },
+            {
+              "id": "ce490a",
+              "code": "CE 490A",
+              "name": "Undergraduate Thesis",
+              "instructors": [
+                "All Faculty Members"
+              ]
+            },
+            {
+              "id": "ce491a",
+              "code": "CE 491A",
+              "name": "Capstone Project",
+              "instructors": [
+                "All Faculty Members"
+              ]
+            },
+            {
+              "id": "ce4xx1",
+              "code": "CE 4XX1",
+              "name": "Optional Course I (Elective)",
+              "instructors": [
+                "Department Faculty"
+              ]
+            },
+            {
+              "id": "ce4xx2",
+              "code": "CE 4XX2",
+              "name": "Optional Course II (Elective)",
+              "instructors": [
+                "Department Faculty"
+              ]
+            },
+            {
+              "id": "ce406",
+              "code": "CE 406",
+              "name": "Professional Practice, Communication and Ethics",
+              "instructors": [
+                "Eng. Sazzad Ahmed",
+                "Dr. Mohammad Karim"
+              ]
+            },
+            {
+              "id": "ce407",
+              "code": "CE 407",
+              "name": "Project Planning and Management",
+              "instructors": [
+                "Dr. Salahuddin Ahmed",
+                "Eng. Saniul Haque Mahi"
+              ]
+            },
+            {
+              "id": "ce408",
+              "code": "CE 408",
+              "name": "Pavement Design and Traffic Studies Sessional",
+              "instructors": [
+                "Eng. Sazzad Ahmed",
+                "Mohammad Morshed"
+              ]
+            },
+            {
+              "id": "ce490b",
+              "code": "CE 490B",
+              "name": "Undergraduate Thesis",
+              "instructors": [
+                "All Faculty Members"
+              ]
+            },
+            {
+              "id": "ce491b",
+              "code": "CE 491B",
+              "name": "Capstone Project",
+              "instructors": [
+                "All Faculty Members"
+              ]
+            },
+            {
+              "id": "ce4xx3",
+              "code": "CE 4XX3",
+              "name": "Optional Course I (Elective)",
+              "instructors": [
+                "Department Faculty"
+              ]
+            },
+            {
+              "id": "ce4xx4",
+              "code": "CE 4XX4",
+              "name": "Optional Course II (Elective)",
+              "instructors": [
+                "Department Faculty"
+              ]
+            },
+            {
+              "id": "ce4xx5",
+              "code": "CE 4XX5",
+              "name": "Optional Course III (Elective)",
+              "instructors": [
+                "Department Faculty"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "eee",
+          "name": "Department of Electrical and Electronic Engineering",
+          "shortName": "EEE",
+          "courses": [
+            {
+              "id": "eee1101",
+              "code": "EEE 1101",
+              "name": "Electrical Circuits I",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Mahmudul Hassan"
+              ]
+            },
+            {
+              "id": "eee1102",
+              "code": "EEE 1102",
+              "name": "Electrical Circuits II",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Shagor Hasan"
+              ]
+            },
+            {
+              "id": "eee1103",
+              "code": "EEE 1103",
+              "name": "Electrical Circuits Laboratory",
+              "instructors": [
+                "Eng. Mahmudul Hassan",
+                "Shafin Shadman Ahmed"
+              ]
+            },
+            {
+              "id": "eee1104",
+              "code": "EEE 1104",
+              "name": "Circuit Simulation Laboratory",
+              "instructors": [
+                "Eng. Shagor Hasan",
+                "Fahatin Binta Faruque"
+              ]
+            },
+            {
+              "id": "eee2101",
+              "code": "EEE 2101",
+              "name": "Electronics I",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Sayed Hasan Murad"
+              ]
+            },
+            {
+              "id": "eee2201",
+              "code": "EEE 2201",
+              "name": "Electronics II",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Mahim Al Masud"
+              ]
+            },
+            {
+              "id": "eee2202",
+              "code": "EEE 2202",
+              "name": "Electronics Laboratory",
+              "instructors": [
+                "Eng. Mahim Al Masud",
+                "Numayer Andalib Zaman"
+              ]
+            },
+            {
+              "id": "eee2103",
+              "code": "EEE 2103",
+              "name": "Energy Conversion I",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Md. Biplob Hossain"
+              ]
+            },
+            {
+              "id": "eee2203",
+              "code": "EEE 2203",
+              "name": "Energy Conversion II",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Md. Fahid Hasan Mojumder"
+              ]
+            },
+            {
+              "id": "eee2204",
+              "code": "EEE 2204",
+              "name": "Energy Conversion Laboratory",
+              "instructors": [
+                "Eng. Md. Biplob Hossain",
+                "Md. Fahid Hasan Mojumder"
+              ]
+            },
+            {
+              "id": "eee2105",
+              "code": "EEE 2105",
+              "name": "Electrical Properties of Materials",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Mahmudul Hassan"
+              ]
+            },
+            {
+              "id": "eee2301",
+              "code": "EEE 2301",
+              "name": "Electromagnetic Fields and Waves",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Shagor Hasan"
+              ]
+            },
+            {
+              "id": "eee2107",
+              "code": "EEE 2107",
+              "name": "Continuous Signals and Linear Systems",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Sayed Hasan Murad"
+              ]
+            },
+            {
+              "id": "eee3201",
+              "code": "EEE 3201",
+              "name": "Digital Signal Processing",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Mahim Al Masud"
+              ]
+            },
+            {
+              "id": "eee3202",
+              "code": "EEE 3202",
+              "name": "Digital Signal Processing Laboratory",
+              "instructors": [
+                "Eng. Mahim Al Masud",
+                "Numayer Andalib Zaman"
+              ]
+            },
+            {
+              "id": "eee3101",
+              "code": "EEE 3101",
+              "name": "Transmission and Distribution of Electrical Power",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Mahmudul Hassan"
+              ]
+            },
+            {
+              "id": "eee3103",
+              "code": "EEE 3103",
+              "name": "Power System Analysis",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Md. Biplob Hossain"
+              ]
+            },
+            {
+              "id": "eee3104",
+              "code": "EEE 3104",
+              "name": "Power System Analysis Laboratory",
+              "instructors": [
+                "Eng. Md. Biplob Hossain",
+                "Md. Fahid Hasan Mojumder"
+              ]
+            },
+            {
+              "id": "eee4101",
+              "code": "EEE 4101",
+              "name": "Power Stations and Substations",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Mahmudul Hassan"
+              ]
+            },
+            {
+              "id": "eee4103",
+              "code": "EEE 4103",
+              "name": "Power System Protection",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Shagor Hasan"
+              ]
+            },
+            {
+              "id": "eee4105",
+              "code": "EEE 4105",
+              "name": "High Voltage Engineering",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Sayed Hasan Murad"
+              ]
+            },
+            {
+              "id": "eee4107",
+              "code": "EEE 4107",
+              "name": "Renewable Energy",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Mahim Al Masud"
+              ]
+            },
+            {
+              "id": "eee4109",
+              "code": "EEE 4109",
+              "name": "Power System Operation and Control",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Md. Biplob Hossain"
+              ]
+            },
+            {
+              "id": "eee4111",
+              "code": "EEE 4111",
+              "name": "Special Machines",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Mahmudul Hassan"
+              ]
+            },
+            {
+              "id": "eee4113",
+              "code": "EEE 4113",
+              "name": "Energy Economics",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Shagor Hasan"
+              ]
+            },
+            {
+              "id": "eee4115",
+              "code": "EEE 4115",
+              "name": "Power System Reliability",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Md. Biplob Hossain"
+              ]
+            },
+            {
+              "id": "eee3301",
+              "code": "EEE 3301",
+              "name": "Communication Engineering",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Sayed Hasan Murad"
+              ]
+            },
+            {
+              "id": "eee3302",
+              "code": "EEE 3302",
+              "name": "Communication Engineering Laboratory",
+              "instructors": [
+                "Eng. Sayed Hasan Murad",
+                "Numayer Andalib Zaman"
+              ]
+            },
+            {
+              "id": "eee4301",
+              "code": "EEE 4301",
+              "name": "Telecommunication Engineering",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Mahim Al Masud"
+              ]
+            },
+            {
+              "id": "eee4303",
+              "code": "EEE 4303",
+              "name": "Optical Fiber Communication",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Sayed Hasan Murad"
+              ]
+            },
+            {
+              "id": "eee4305",
+              "code": "EEE 4305",
+              "name": "Microwave Engineering",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Shagor Hasan"
+              ]
+            },
+            {
+              "id": "eee4307",
+              "code": "EEE 4307",
+              "name": "Wireless and Cellular Communication",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Mahim Al Masud"
+              ]
+            },
+            {
+              "id": "eee4309",
+              "code": "EEE 4309",
+              "name": "Satellite and Radar Communication",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Sayed Hasan Murad"
+              ]
+            },
+            {
+              "id": "eee3401",
+              "code": "EEE 3401",
+              "name": "Control Systems",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Md. Biplob Hossain"
+              ]
+            },
+            {
+              "id": "eee3402",
+              "code": "EEE 3402",
+              "name": "Control Systems Laboratory",
+              "instructors": [
+                "Eng. Md. Biplob Hossain",
+                "Md. Fahid Hasan Mojumder"
+              ]
+            },
+            {
+              "id": "eee2501",
+              "code": "EEE 2501",
+              "name": "Digital Electronics",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Mahmudul Hassan"
+              ]
+            },
+            {
+              "id": "eee2502",
+              "code": "EEE 2502",
+              "name": "Digital Electronics Laboratory",
+              "instructors": [
+                "Eng. Mahmudul Hassan",
+                "Shafin Shadman Ahmed"
+              ]
+            },
+            {
+              "id": "eee3501",
+              "code": "EEE 3501",
+              "name": "Measurement and Instrumentation",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Shagor Hasan"
+              ]
+            },
+            {
+              "id": "eee3601",
+              "code": "EEE 3601",
+              "name": "Power Electronics",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Md. Biplob Hossain"
+              ]
+            },
+            {
+              "id": "eee3602",
+              "code": "EEE 3602",
+              "name": "Power Electronics Laboratory",
+              "instructors": [
+                "Eng. Md. Biplob Hossain",
+                "Md. Fahid Hasan Mojumder"
+              ]
+            },
+            {
+              "id": "eee3701",
+              "code": "EEE 3701",
+              "name": "Microprocessor and Interfacing",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Mahim Al Masud"
+              ]
+            },
+            {
+              "id": "eee3702",
+              "code": "EEE 3702",
+              "name": "Microprocessor and Interfacing Laboratory",
+              "instructors": [
+                "Eng. Mahim Al Masud",
+                "Numayer Andalib Zaman"
+              ]
+            },
+            {
+              "id": "eee4701",
+              "code": "EEE 4701",
+              "name": "Microprocessor System Design",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Mahim Al Masud"
+              ]
+            },
+            {
+              "id": "eee4703",
+              "code": "EEE 4703",
+              "name": "Embedded System Design",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Sayed Hasan Murad"
+              ]
+            },
+            {
+              "id": "eee1501",
+              "code": "EEE 1501",
+              "name": "Engineering Drawing & Services Design Laboratory",
+              "instructors": [
+                "Eng. Mahmudul Hassan",
+                "Shafin Shadman Ahmed"
+              ]
+            },
+            {
+              "id": "eee4201",
+              "code": "EEE 4201",
+              "name": "VLSI Circuits",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Mahim Al Masud"
+              ]
+            },
+            {
+              "id": "eee4203",
+              "code": "EEE 4203",
+              "name": "Optoelectronic Devices",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Shagor Hasan"
+              ]
+            },
+            {
+              "id": "eee4205",
+              "code": "EEE 4205",
+              "name": "Biomedical Electronics",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Sayed Hasan Murad"
+              ]
+            },
+            {
+              "id": "eee4207",
+              "code": "EEE 4207",
+              "name": "Solid State Devices",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Mahmudul Hassan"
+              ]
+            },
+            {
+              "id": "eee4209",
+              "code": "EEE 4209",
+              "name": "Compound Semiconductor Devices",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Shagor Hasan"
+              ]
+            },
+            {
+              "id": "eee4211",
+              "code": "EEE 4211",
+              "name": "Nano-Electronics and Nanotechnology",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Mahim Al Masud"
+              ]
+            },
+            {
+              "id": "eee4401",
+              "code": "EEE 4401",
+              "name": "Random Signal Processing",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Sayed Hasan Murad"
+              ]
+            },
+            {
+              "id": "eee4403",
+              "code": "EEE 4403",
+              "name": "Digital Filter Design",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Mahim Al Masud"
+              ]
+            },
+            {
+              "id": "eee3801",
+              "code": "EEE 3801",
+              "name": "Web Design and Software Development Fundamentals",
+              "instructors": [
+                "Eng. Mahim Al Masud",
+                "Numayer Andalib Zaman"
+              ]
+            },
+            {
+              "id": "eee4501",
+              "code": "EEE 4501",
+              "name": "Machine Learning and Artificial Neural Network",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Mahim Al Masud"
+              ]
+            },
+            {
+              "id": "eee4503",
+              "code": "EEE 4503",
+              "name": "Information and Coding Theory",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Sayed Hasan Murad"
+              ]
+            },
+            {
+              "id": "eee4505",
+              "code": "EEE 4505",
+              "name": "Data Communication and Computer Networks",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Eng. Mahim Al Masud"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cse",
+          "name": "Department of Computer Science and Engineering",
+          "shortName": "CSE",
+          "courses": [
+            {
+              "id": "cse1101",
+              "code": "CSE 1101",
+              "name": "Structured Programming Languages",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Md. Safwan Zaher Asif"
+              ]
+            },
+            {
+              "id": "cse1102",
+              "code": "CSE 1102",
+              "name": "Structured Programming Languages Lab",
+              "instructors": [
+                "Md. Manirujjaman",
+                "Anik Mahmud Shanto"
+              ]
+            },
+            {
+              "id": "cse1201",
+              "code": "CSE 1201",
+              "name": "Object-Oriented Programming Languages",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Safwan Ishrak"
+              ]
+            },
+            {
+              "id": "cse1202",
+              "code": "CSE 1202",
+              "name": "Object-Oriented Programming Languages Lab",
+              "instructors": [
+                "Md. Habibul Basar Faruq",
+                "Shobnom Mushtary"
+              ]
+            },
+            {
+              "id": "cse2101",
+              "code": "CSE 2101",
+              "name": "Data Structures",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Jayed Bin Azad"
+              ]
+            },
+            {
+              "id": "cse2102",
+              "code": "CSE 2102",
+              "name": "Data Structures Lab",
+              "instructors": [
+                "Md. Fazle Rabbi Rizon",
+                "Md. Toufiqur Rahman"
+              ]
+            },
+            {
+              "id": "cse2201",
+              "code": "CSE 2201",
+              "name": "Algorithms",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Md. Safwan Zaher Asif"
+              ]
+            },
+            {
+              "id": "cse2202",
+              "code": "CSE 2202",
+              "name": "Algorithms Lab",
+              "instructors": [
+                "Md. Manirujjaman",
+                "Anik Mahmud Shanto"
+              ]
+            },
+            {
+              "id": "phy1101",
+              "code": "PHY 1101",
+              "name": "Physics",
+              "instructors": [
+                "Dr. Ahmed Rahman",
+                "Prof. Nasrin Akhter"
+              ]
+            },
+            {
+              "id": "phy1102",
+              "code": "PHY 1102",
+              "name": "Physics Lab",
+              "instructors": [
+                "Dr. Ahmed Rahman",
+                "Prof. Nasrin Akhter"
+              ]
+            },
+            {
+              "id": "math1101",
+              "code": "MATH 1101",
+              "name": "Linear Algebra and Coordinate Geometry",
+              "instructors": [
+                "Prof. Anisul Haque",
+                "Dr. Rowshan Ara"
+              ]
+            },
+            {
+              "id": "math1201",
+              "code": "MATH 1201",
+              "name": "Differential and Integral Calculus",
+              "instructors": [
+                "Prof. Anisul Haque",
+                "Dr. Rowshan Ara"
+              ]
+            },
+            {
+              "id": "math2101",
+              "code": "MATH 2101",
+              "name": "Discrete Mathematics",
+              "instructors": [
+                "Prof. Anisul Haque",
+                "Dr. Rowshan Ara"
+              ]
+            },
+            {
+              "id": "math2201",
+              "code": "MATH 2201",
+              "name": "Differential Equations and Vector Analysis",
+              "instructors": [
+                "Prof. Anisul Haque",
+                "Dr. Rowshan Ara"
+              ]
+            },
+            {
+              "id": "math3101",
+              "code": "MATH 3101",
+              "name": "Statistical Methods and Probability",
+              "instructors": [
+                "Prof. Anisul Haque",
+                "Dr. Rowshan Ara"
+              ]
+            },
+            {
+              "id": "math3201",
+              "code": "MATH 3201",
+              "name": "Complex Variables and Transforms",
+              "instructors": [
+                "Prof. Anisul Haque",
+                "Dr. Rowshan Ara"
+              ]
+            },
+            {
+              "id": "math4101",
+              "code": "MATH 4101",
+              "name": "Numerical Analysis",
+              "instructors": [
+                "Prof. Anisul Haque",
+                "Dr. Rowshan Ara"
+              ]
+            },
+            {
+              "id": "ee1201",
+              "code": "EE 1201",
+              "name": "Electrical Circuits",
+              "instructors": [
+                "Eng. Mahmudul Hassan",
+                "Shagor Hasan"
+              ]
+            },
+            {
+              "id": "ee2101",
+              "code": "EE 2101",
+              "name": "Electronic Devices and Circuit",
+              "instructors": [
+                "Eng. Sayed Hasan Murad",
+                "Mahim Al Masud"
+              ]
+            },
+            {
+              "id": "ee2102",
+              "code": "EE 2102",
+              "name": "Electronic Devices and Circuit Lab",
+              "instructors": [
+                "Eng. Mahim Al Masud",
+                "Numayer Andalib Zaman"
+              ]
+            },
+            {
+              "id": "cse2301",
+              "code": "CSE 2301",
+              "name": "Digital Logic Design",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Safwan Ishrak"
+              ]
+            },
+            {
+              "id": "cse2302",
+              "code": "CSE 2302",
+              "name": "Digital Logic Design Lab",
+              "instructors": [
+                "Md. Habibul Basar Faruq",
+                "Shobnom Mushtary"
+              ]
+            },
+            {
+              "id": "cse2401",
+              "code": "CSE 2401",
+              "name": "Computer Architecture",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Jayed Bin Azad"
+              ]
+            },
+            {
+              "id": "cse3301",
+              "code": "CSE 3301",
+              "name": "Microprocessor and Assembly Language",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Md. Fazle Rabbi Rizon"
+              ]
+            },
+            {
+              "id": "cse3302",
+              "code": "CSE 3302",
+              "name": "Microprocessor and Assembly Language Lab",
+              "instructors": [
+                "Md. Toufiqur Rahman",
+                "Md. Safwan Zaher Asif"
+              ]
+            },
+            {
+              "id": "chem1101",
+              "code": "CHEM 1101",
+              "name": "Chemistry",
+              "instructors": [
+                "Dr. Kamal Hossain",
+                "Prof. Fatima Rahman"
+              ]
+            },
+            {
+              "id": "eng1101",
+              "code": "ENG 1101",
+              "name": "Communicative English",
+              "instructors": [
+                "Prof. Sultana Begum",
+                "Dr. Ashraf Ali"
+              ]
+            },
+            {
+              "id": "eng4101",
+              "code": "ENG 4101",
+              "name": "Technical Writing and Presentation",
+              "instructors": [
+                "Prof. Sultana Begum",
+                "Dr. Ashraf Ali"
+              ]
+            },
+            {
+              "id": "eng1201",
+              "code": "ENG 1201",
+              "name": "Engineering Drawing Lab",
+              "instructors": [
+                "Md. Manirujjaman",
+                "Anik Mahmud Shanto"
+              ]
+            },
+            {
+              "id": "ban1101",
+              "code": "BAN 1101",
+              "name": "Bangladesh Studies",
+              "instructors": [
+                "Prof. Habibur Rahman",
+                "Dr. Shamima Nasrin"
+              ]
+            },
+            {
+              "id": "econ1101",
+              "code": "ECON 1101",
+              "name": "Engineering Economics",
+              "instructors": [
+                "Dr. Habibur Rahman",
+                "Prof. Ahmed Ali"
+              ]
+            },
+            {
+              "id": "acc1101",
+              "code": "ACC 1101",
+              "name": "Financial and Managerial Accounting",
+              "instructors": [
+                "Dr. Kamal Hossain",
+                "Fatima Rahman"
+              ]
+            },
+            {
+              "id": "bus2101",
+              "code": "BUS 2101",
+              "name": "Business Strategy Management",
+              "instructors": [
+                "Dr. Habibur Rahman",
+                "Prof. Ahmed Ali"
+              ]
+            },
+            {
+              "id": "bus4501",
+              "code": "BUS 4501",
+              "name": "Entrepreneurship: Innovation and Commercialization",
+              "instructors": [
+                "Dr. Salahuddin Ahmed",
+                "Prof. Ahmed Ali"
+              ]
+            },
+            {
+              "id": "eth2101",
+              "code": "ETH 2101",
+              "name": "Professional Ethics and Environmental Protection",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Prof. Sultana Begum"
+              ]
+            },
+            {
+              "id": "cse3401",
+              "code": "CSE 3401",
+              "name": "Compiler Design",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Safwan Ishrak"
+              ]
+            },
+            {
+              "id": "cse3101",
+              "code": "CSE 3101",
+              "name": "Operating System",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Md. Habibul Basar Faruq"
+              ]
+            },
+            {
+              "id": "cse3102",
+              "code": "CSE 3102",
+              "name": "Operating System Lab",
+              "instructors": [
+                "Shobnom Mushtary",
+                "Jayed Bin Azad"
+              ]
+            },
+            {
+              "id": "cse3201",
+              "code": "CSE 3201",
+              "name": "Data Communication",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Md. Fazle Rabbi Rizon"
+              ]
+            },
+            {
+              "id": "cse3501",
+              "code": "CSE 3501",
+              "name": "Computer Networking",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Md. Toufiqur Rahman"
+              ]
+            },
+            {
+              "id": "cse3502",
+              "code": "CSE 3502",
+              "name": "Computer Networking Lab",
+              "instructors": [
+                "Md. Safwan Zaher Asif",
+                "Md. Manirujjaman"
+              ]
+            },
+            {
+              "id": "cse3601",
+              "code": "CSE 3601",
+              "name": "Database Management System",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Anik Mahmud Shanto"
+              ]
+            },
+            {
+              "id": "cse3602",
+              "code": "CSE 3602",
+              "name": "Database Management Systems Lab",
+              "instructors": [
+                "Safwan Ishrak",
+                "Md. Habibul Basar Faruq"
+              ]
+            },
+            {
+              "id": "cse3701",
+              "code": "CSE 3701",
+              "name": "Software Engineering",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Shobnom Mushtary"
+              ]
+            },
+            {
+              "id": "cse4201",
+              "code": "CSE 4201",
+              "name": "Software Development Management",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Jayed Bin Azad"
+              ]
+            },
+            {
+              "id": "cse4202",
+              "code": "CSE 4202",
+              "name": "Software Development Management Lab",
+              "instructors": [
+                "Md. Fazle Rabbi Rizon",
+                "Md. Toufiqur Rahman"
+              ]
+            },
+            {
+              "id": "cse4301",
+              "code": "CSE 4301",
+              "name": "Software Testing and Quality Assurance",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Md. Safwan Zaher Asif"
+              ]
+            },
+            {
+              "id": "cse4302",
+              "code": "CSE 4302",
+              "name": "Software Testing and Quality Assurance Lab",
+              "instructors": [
+                "Md. Manirujjaman",
+                "Anik Mahmud Shanto"
+              ]
+            },
+            {
+              "id": "cse4401",
+              "code": "CSE 4401",
+              "name": "Software Integration and Maintenance",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Safwan Ishrak"
+              ]
+            },
+            {
+              "id": "cse3801",
+              "code": "CSE 3801",
+              "name": "Markup and Scripting Languages",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Md. Habibul Basar Faruq"
+              ]
+            },
+            {
+              "id": "cse3802",
+              "code": "CSE 3802",
+              "name": "Markup and Scripting Languages Lab",
+              "instructors": [
+                "Shobnom Mushtary",
+                "Jayed Bin Azad"
+              ]
+            },
+            {
+              "id": "cse4501",
+              "code": "CSE 4501",
+              "name": "Computer and Cyber Security",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Md. Fazle Rabbi Rizon"
+              ]
+            },
+            {
+              "id": "cse4601",
+              "code": "CSE 4601",
+              "name": "System Configuration and Performance Evaluation Lab",
+              "instructors": [
+                "Md. Toufiqur Rahman",
+                "Md. Safwan Zaher Asif"
+              ]
+            },
+            {
+              "id": "cse3901",
+              "code": "CSE 3901",
+              "name": "Information System Management",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Md. Manirujjaman"
+              ]
+            },
+            {
+              "id": "cse4701",
+              "code": "CSE 4701",
+              "name": "Artificial Intelligence",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Anik Mahmud Shanto"
+              ]
+            },
+            {
+              "id": "cse4702",
+              "code": "CSE 4702",
+              "name": "Artificial Intelligence Lab",
+              "instructors": [
+                "Safwan Ishrak",
+                "Md. Habibul Basar Faruq"
+              ]
+            },
+            {
+              "id": "cse4801",
+              "code": "CSE 4801",
+              "name": "Computer Graphics and Multimedia",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Shobnom Mushtary"
+              ]
+            },
+            {
+              "id": "cse4802",
+              "code": "CSE 4802",
+              "name": "Computer Graphics and Multimedia Lab",
+              "instructors": [
+                "Jayed Bin Azad",
+                "Md. Fazle Rabbi Rizon"
+              ]
+            },
+            {
+              "id": "cse4901",
+              "code": "CSE 4901",
+              "name": "Mobile Application and Development",
+              "instructors": [
+                "Dr. Abdul Based",
+                "Md. Toufiqur Rahman"
+              ]
+            },
+            {
+              "id": "cse4902",
+              "code": "CSE 4902",
+              "name": "Mobile Application and Development Lab",
+              "instructors": [
+                "Md. Safwan Zaher Asif",
+                "Md. Manirujjaman"
+              ]
+            },
+            {
+              "id": "cse4990",
+              "code": "CSE 4990",
+              "name": "Capstone Project Design",
+              "instructors": [
+                "All Faculty Members"
+              ]
+            },
+            {
+              "id": "cse4xx1",
+              "code": "CSE 4XX1",
+              "name": "Elective Course 1",
+              "instructors": [
+                "Department Faculty"
+              ]
+            },
+            {
+              "id": "cse4xx2",
+              "code": "CSE 4XX2",
+              "name": "Elective Course 2",
+              "instructors": [
+                "Department Faculty"
+              ]
+            },
+            {
+              "id": "cse4xx3",
+              "code": "CSE 4XX3",
+              "name": "Elective Course 3",
+              "instructors": [
+                "Department Faculty"
+              ]
+            },
+            {
+              "id": "cse4xx4",
+              "code": "CSE 4XX4",
+              "name": "Elective Course 4",
+              "instructors": [
+                "Department Faculty"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pharmacy",
+          "name": "Department of Pharmacy",
+          "shortName": "Pharmacy",
+          "courses": [
+            {
+              "id": "phar1101",
+              "code": "PHAR 1101",
+              "name": "Introduction to Pharmacy",
+              "instructors": [
+                "Md. Akbar Hossain",
+                "Rana Ahmed"
+              ]
+            },
+            {
+              "id": "phar1102",
+              "code": "PHAR 1102",
+              "name": "Inorganic Pharmacy-I",
+              "instructors": [
+                "Dr. Shimul Halder",
+                "Md. Mizanur Rahman"
+              ]
+            },
+            {
+              "id": "phar1103",
+              "code": "PHAR 1103",
+              "name": "Inorganic Pharmacy-I Lab",
+              "instructors": [
+                "Tasnim Shammi",
+                "Khadija Akhter Poly"
+              ]
+            },
+            {
+              "id": "phar1104",
+              "code": "PHAR 1104",
+              "name": "Physical Pharmacy-I",
+              "instructors": [
+                "Md. Akbar Hossain",
+                "Adiba Firuj"
+              ]
+            },
+            {
+              "id": "phar1105",
+              "code": "PHAR 1105",
+              "name": "Physical Pharmacy-I Lab",
+              "instructors": [
+                "Md. Hamedul Islam",
+                "Progga Paramita Paul"
+              ]
+            },
+            {
+              "id": "ban1101",
+              "code": "BAN 1101",
+              "name": "Bengali Language & Literature",
+              "instructors": [
+                "Prof. Habibur Rahman",
+                "Dr. Shamima Nasrin"
+              ]
+            },
+            {
+              "id": "eng1101",
+              "code": "ENG 1101",
+              "name": "Basic English Language",
+              "instructors": [
+                "Prof. Sultana Begum",
+                "Dr. Ashraf Ali"
+              ]
+            },
+            {
+              "id": "cse1101",
+              "code": "CSE 1101",
+              "name": "Fundamentals of Computer",
+              "instructors": [
+                "Md. Safwan Zaher Asif",
+                "Md. Manirujjaman"
+              ]
+            },
+            {
+              "id": "cse1102",
+              "code": "CSE 1102",
+              "name": "Fundamentals of Computer Lab",
+              "instructors": [
+                "Anik Mahmud Shanto",
+                "Safwan Ishrak"
+              ]
+            },
+            {
+              "id": "phar1201",
+              "code": "PHAR 1201",
+              "name": "Inorganic Pharmacy-II",
+              "instructors": [
+                "Dr. Shimul Halder",
+                "Md. Mizanur Rahman"
+              ]
+            },
+            {
+              "id": "phar1202",
+              "code": "PHAR 1202",
+              "name": "Inorganic Pharmacy-II Lab",
+              "instructors": [
+                "Tasnim Shammi",
+                "Khadija Akhter Poly"
+              ]
+            },
+            {
+              "id": "phar1203",
+              "code": "PHAR 1203",
+              "name": "Organic Pharmacy-I",
+              "instructors": [
+                "Md. Akbar Hossain",
+                "Adiba Firuj"
+              ]
+            },
+            {
+              "id": "phar1204",
+              "code": "PHAR 1204",
+              "name": "Organic Pharmacy-I Lab",
+              "instructors": [
+                "Md. Hamedul Islam",
+                "Progga Paramita Paul"
+              ]
+            },
+            {
+              "id": "phar1205",
+              "code": "PHAR 1205",
+              "name": "Physical Pharmacy-II",
+              "instructors": [
+                "Md. Akbar Hossain",
+                "As-Sazzad Mahmud"
+              ]
+            },
+            {
+              "id": "phar1206",
+              "code": "PHAR 1206",
+              "name": "Physical Pharmacy-II Lab",
+              "instructors": [
+                "Farhana Rahman Trisha",
+                "Rana Ahmed"
+              ]
+            },
+            {
+              "id": "phar1207",
+              "code": "PHAR 1207",
+              "name": "Pharmacognosy-I",
+              "instructors": [
+                "Dr. Shimul Halder",
+                "Md. Mizanur Rahman"
+              ]
+            },
+            {
+              "id": "phar1208",
+              "code": "PHAR 1208",
+              "name": "Pharmacognosy-I Lab",
+              "instructors": [
+                "Tasnim Shammi",
+                "Khadija Akhter Poly"
+              ]
+            },
+            {
+              "id": "ban1201",
+              "code": "BAN 1201",
+              "name": "History of The Emergence of Independent Bangladesh",
+              "instructors": [
+                "Prof. Habibur Rahman",
+                "Dr. Shamima Nasrin"
+              ]
+            },
+            {
+              "id": "phar2101",
+              "code": "PHAR 2101",
+              "name": "Organic Pharmacy-II",
+              "instructors": [
+                "Md. Akbar Hossain",
+                "Adiba Firuj"
+              ]
+            },
+            {
+              "id": "phar2102",
+              "code": "PHAR 2102",
+              "name": "Organic Pharmacy-II Lab",
+              "instructors": [
+                "Md. Hamedul Islam",
+                "Progga Paramita Paul"
+              ]
+            },
+            {
+              "id": "phar2103",
+              "code": "PHAR 2103",
+              "name": "Pharmacognosy-II",
+              "instructors": [
+                "Dr. Shimul Halder",
+                "Md. Mizanur Rahman"
+              ]
+            },
+            {
+              "id": "phar2104",
+              "code": "PHAR 2104",
+              "name": "Pharmacognosy-II Lab",
+              "instructors": [
+                "Tasnim Shammi",
+                "Khadija Akhter Poly"
+              ]
+            },
+            {
+              "id": "phar2105",
+              "code": "PHAR 2105",
+              "name": "Basic Anatomy and Physiology",
+              "instructors": [
+                "Dr. Shimul Halder",
+                "As-Sazzad Mahmud"
+              ]
+            },
+            {
+              "id": "phar2106",
+              "code": "PHAR 2106",
+              "name": "Pharmaceutical Microbiology-I",
+              "instructors": [
+                "Dr. Asaduzzaman Shishir",
+                "Shamim Khandaker"
+              ]
+            },
+            {
+              "id": "phar2107",
+              "code": "PHAR 2107",
+              "name": "Pharmaceutical Microbiology-I Lab",
+              "instructors": [
+                "Alfi Anjum Rashid",
+                "Taslima Akter Tisha"
+              ]
+            },
+            {
+              "id": "phar2108",
+              "code": "PHAR 2108",
+              "name": "Nutraceuticals, Dietary Supplements & Herbal Products",
+              "instructors": [
+                "Md. Akbar Hossain",
+                "Rana Ahmed"
+              ]
+            },
+            {
+              "id": "math2101",
+              "code": "MATH 2101",
+              "name": "Mathematics & Biostatistics",
+              "instructors": [
+                "Prof. Anisul Haque",
+                "Dr. Rowshan Ara"
+              ]
+            },
+            {
+              "id": "phar2201",
+              "code": "PHAR 2201",
+              "name": "Physiology-I",
+              "instructors": [
+                "Dr. Shimul Halder",
+                "As-Sazzad Mahmud"
+              ]
+            },
+            {
+              "id": "phar2202",
+              "code": "PHAR 2202",
+              "name": "Physiology-I Lab",
+              "instructors": [
+                "Farhana Rahman Trisha",
+                "Rana Ahmed"
+              ]
+            },
+            {
+              "id": "phar2203",
+              "code": "PHAR 2203",
+              "name": "Pharmaceutical Microbiology-II",
+              "instructors": [
+                "Dr. Asaduzzaman Shishir",
+                "Shamim Khandaker"
+              ]
+            },
+            {
+              "id": "phar2204",
+              "code": "PHAR 2204",
+              "name": "Pharmaceutical Technology-I",
+              "instructors": [
+                "Md. Akbar Hossain",
+                "Md. Mizanur Rahman"
+              ]
+            },
+            {
+              "id": "phar2205",
+              "code": "PHAR 2205",
+              "name": "Pharmaceutical Technology-I Lab",
+              "instructors": [
+                "Tasnim Shammi",
+                "Khadija Akhter Poly"
+              ]
+            },
+            {
+              "id": "phar2206",
+              "code": "PHAR 2206",
+              "name": "Pharmacology-I",
+              "instructors": [
+                "Dr. Shimul Halder",
+                "Adiba Firuj"
+              ]
+            },
+            {
+              "id": "phar2207",
+              "code": "PHAR 2207",
+              "name": "Pharmacology-I Lab",
+              "instructors": [
+                "Md. Hamedul Islam",
+                "Progga Paramita Paul"
+              ]
+            },
+            {
+              "id": "phar2208",
+              "code": "PHAR 2208",
+              "name": "Pharmaceutical Biotechnology",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Dr. Amelia Ferdaus Sara"
+              ]
+            },
+            {
+              "id": "phar3101",
+              "code": "PHAR 3101",
+              "name": "Biochemistry & Cellular Biology",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Md. Shameem Ali"
+              ]
+            },
+            {
+              "id": "phar3102",
+              "code": "PHAR 3102",
+              "name": "Biochemistry & Cellular Biology-Lab",
+              "instructors": [
+                "Ovi Sikder",
+                "Zitu Barman"
+              ]
+            },
+            {
+              "id": "phar3103",
+              "code": "PHAR 3103",
+              "name": "Physiology-II",
+              "instructors": [
+                "Dr. Shimul Halder",
+                "As-Sazzad Mahmud"
+              ]
+            },
+            {
+              "id": "phar3104",
+              "code": "PHAR 3104",
+              "name": "Physiology-II Lab",
+              "instructors": [
+                "Farhana Rahman Trisha",
+                "Rana Ahmed"
+              ]
+            },
+            {
+              "id": "phar3105",
+              "code": "PHAR 3105",
+              "name": "Pharmaceutical Analysis-I",
+              "instructors": [
+                "Md. Akbar Hossain",
+                "Md. Mizanur Rahman"
+              ]
+            },
+            {
+              "id": "phar3106",
+              "code": "PHAR 3106",
+              "name": "Pharmaceutical Analysis-I Lab",
+              "instructors": [
+                "Tasnim Shammi",
+                "Khadija Akhter Poly"
+              ]
+            },
+            {
+              "id": "phar3107",
+              "code": "PHAR 3107",
+              "name": "Pharmaceutical Technology-II",
+              "instructors": [
+                "Md. Akbar Hossain",
+                "Adiba Firuj"
+              ]
+            },
+            {
+              "id": "phar3108",
+              "code": "PHAR 3108",
+              "name": "Pharmaceutical Technology-II Lab",
+              "instructors": [
+                "Md. Hamedul Islam",
+                "Progga Paramita Paul"
+              ]
+            },
+            {
+              "id": "phar3109",
+              "code": "PHAR 3109",
+              "name": "Pharmacology-II",
+              "instructors": [
+                "Dr. Shimul Halder",
+                "As-Sazzad Mahmud"
+              ]
+            },
+            {
+              "id": "phar3110",
+              "code": "PHAR 3110",
+              "name": "Pharmacology-II Lab",
+              "instructors": [
+                "Farhana Rahman Trisha",
+                "Rana Ahmed"
+              ]
+            },
+            {
+              "id": "phar3201",
+              "code": "PHAR 3201",
+              "name": "Medicinal Chemistry-I",
+              "instructors": [
+                "Md. Akbar Hossain",
+                "Md. Mizanur Rahman"
+              ]
+            },
+            {
+              "id": "phar3202",
+              "code": "PHAR 3202",
+              "name": "Medicinal Chemistry-I Lab",
+              "instructors": [
+                "Tasnim Shammi",
+                "Khadija Akhter Poly"
+              ]
+            },
+            {
+              "id": "phar3203",
+              "code": "PHAR 3203",
+              "name": "Pharmaceutical Analysis-II",
+              "instructors": [
+                "Md. Akbar Hossain",
+                "Adiba Firuj"
+              ]
+            },
+            {
+              "id": "phar3204",
+              "code": "PHAR 3204",
+              "name": "Pharmaceutical Analysis-II Lab",
+              "instructors": [
+                "Md. Hamedul Islam",
+                "Progga Paramita Paul"
+              ]
+            },
+            {
+              "id": "phar3205",
+              "code": "PHAR 3205",
+              "name": "Pharmaceutical Technology-III",
+              "instructors": [
+                "Md. Akbar Hossain",
+                "Md. Mizanur Rahman"
+              ]
+            },
+            {
+              "id": "phar3206",
+              "code": "PHAR 3206",
+              "name": "Pharmaceutical Technology-III Lab",
+              "instructors": [
+                "Tasnim Shammi",
+                "Khadija Akhter Poly"
+              ]
+            },
+            {
+              "id": "phar3207",
+              "code": "PHAR 3207",
+              "name": "Pharmacology-III",
+              "instructors": [
+                "Dr. Shimul Halder",
+                "As-Sazzad Mahmud"
+              ]
+            },
+            {
+              "id": "phar3208",
+              "code": "PHAR 3208",
+              "name": "Pharmacology-III Lab",
+              "instructors": [
+                "Farhana Rahman Trisha",
+                "Rana Ahmed"
+              ]
+            },
+            {
+              "id": "phar4101",
+              "code": "PHAR 4101",
+              "name": "Medicinal Chemistry-II",
+              "instructors": [
+                "Md. Akbar Hossain",
+                "Md. Mizanur Rahman"
+              ]
+            },
+            {
+              "id": "phar4102",
+              "code": "PHAR 4102",
+              "name": "Medicinal Chemistry-II Lab",
+              "instructors": [
+                "Tasnim Shammi",
+                "Khadija Akhter Poly"
+              ]
+            },
+            {
+              "id": "phar4103",
+              "code": "PHAR 4103",
+              "name": "Hospital & Community Pharmacy",
+              "instructors": [
+                "Md. Akbar Hossain",
+                "Adiba Firuj"
+              ]
+            },
+            {
+              "id": "phar4104",
+              "code": "PHAR 4104",
+              "name": "Clinical Pathology",
+              "instructors": [
+                "Dr. Shimul Halder",
+                "As-Sazzad Mahmud"
+              ]
+            },
+            {
+              "id": "phar4105",
+              "code": "PHAR 4105",
+              "name": "Pharmaceutical Analysis-III",
+              "instructors": [
+                "Md. Akbar Hossain",
+                "Md. Hamedul Islam"
+              ]
+            },
+            {
+              "id": "phar4106",
+              "code": "PHAR 4106",
+              "name": "Pharmaceutical Analysis-III Lab",
+              "instructors": [
+                "Progga Paramita Paul",
+                "Rana Ahmed"
+              ]
+            },
+            {
+              "id": "phar4107",
+              "code": "PHAR 4107",
+              "name": "Medicinal Chemistry-III",
+              "instructors": [
+                "Md. Akbar Hossain",
+                "Md. Mizanur Rahman"
+              ]
+            },
+            {
+              "id": "phar4108",
+              "code": "PHAR 4108",
+              "name": "Biopharmaceutics & Pharmacokinetics-I",
+              "instructors": [
+                "Dr. Shimul Halder",
+                "Adiba Firuj"
+              ]
+            },
+            {
+              "id": "phar4109",
+              "code": "PHAR 4109",
+              "name": "Biopharmaceutics & Pharmacokinetics-I Lab",
+              "instructors": [
+                "Md. Hamedul Islam",
+                "Progga Paramita Paul"
+              ]
+            },
+            {
+              "id": "phar4110",
+              "code": "PHAR 4110",
+              "name": "Pharmaceutical Engineering",
+              "instructors": [
+                "Md. Akbar Hossain",
+                "As-Sazzad Mahmud"
+              ]
+            },
+            {
+              "id": "phar4201",
+              "code": "PHAR 4201",
+              "name": "Clinical Pharmacy",
+              "instructors": [
+                "Dr. Shimul Halder",
+                "Md. Akbar Hossain"
+              ]
+            },
+            {
+              "id": "phar4202",
+              "code": "PHAR 4202",
+              "name": "Cosmetology",
+              "instructors": [
+                "Md. Akbar Hossain",
+                "Tasnim Shammi"
+              ]
+            },
+            {
+              "id": "phar4203",
+              "code": "PHAR 4203",
+              "name": "Cosmetology-Lab",
+              "instructors": [
+                "Khadija Akhter Poly",
+                "Adiba Firuj"
+              ]
+            },
+            {
+              "id": "phar4204",
+              "code": "PHAR 4204",
+              "name": "Advanced Pharmacology & Toxicology",
+              "instructors": [
+                "Dr. Shimul Halder",
+                "As-Sazzad Mahmud"
+              ]
+            },
+            {
+              "id": "phar4205",
+              "code": "PHAR 4205",
+              "name": "Biopharmaceutics & Pharmacokinetics-II",
+              "instructors": [
+                "Dr. Shimul Halder",
+                "Adiba Firuj"
+              ]
+            },
+            {
+              "id": "phar4206",
+              "code": "PHAR 4206",
+              "name": "Biopharmaceutics & Pharmacokinetics-II Lab",
+              "instructors": [
+                "Md. Hamedul Islam",
+                "Progga Paramita Paul"
+              ]
+            },
+            {
+              "id": "phar4207",
+              "code": "PHAR 4207",
+              "name": "Pharmaceutical Quality Control & Analytical Method Validation",
+              "instructors": [
+                "Md. Akbar Hossain",
+                "Md. Mizanur Rahman"
+              ]
+            },
+            {
+              "id": "phar4208",
+              "code": "PHAR 4208",
+              "name": "Pharmaceutical Quality Control & Analytical Method Validation Lab",
+              "instructors": [
+                "Tasnim Shammi",
+                "Khadija Akhter Poly"
+              ]
+            },
+            {
+              "id": "phar4209",
+              "code": "PHAR 4209",
+              "name": "Pharmaceutical Regulatory Affairs",
+              "instructors": [
+                "Md. Akbar Hossain",
+                "Farhana Rahman Trisha"
+              ]
+            },
+            {
+              "id": "phar4210",
+              "code": "PHAR 4210",
+              "name": "Pharmaceutical Marketing & Management",
+              "instructors": [
+                "Md. Akbar Hossain",
+                "Rana Ahmed"
+              ]
+            },
+            {
+              "id": "phar4990",
+              "code": "PHAR 4990",
+              "name": "Project",
+              "instructors": [
+                "All Faculty Members"
+              ]
+            },
+            {
+              "id": "phar4991",
+              "code": "PHAR 4991",
+              "name": "In-Plant Training",
+              "instructors": [
+                "All Faculty Members"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "microbiology",
+          "name": "Department of Microbiology",
+          "shortName": "Microbiology",
+          "courses": [
+            {
+              "id": "mbio1101",
+              "code": "MBIO 1101",
+              "name": "General Microbiology",
+              "instructors": [
+                "Dr. Md. Asaduzzaman Shishir",
+                "Shamim Khandaker"
+              ]
+            },
+            {
+              "id": "mbio1102",
+              "code": "MBIO 1102",
+              "name": "Basic Techniques in Microbiology",
+              "instructors": [
+                "Dr. Md. Asaduzzaman Shishir",
+                "Alfi Anjum Rashid"
+              ]
+            },
+            {
+              "id": "mbio1103",
+              "code": "MBIO 1103",
+              "name": "Microbial Diversity and Ecology",
+              "instructors": [
+                "Dr. Md. Asaduzzaman Shishir",
+                "Taslima Akter Tisha"
+              ]
+            },
+            {
+              "id": "mbio1104",
+              "code": "MBIO 1104",
+              "name": "Microbiology Lab-I",
+              "instructors": [
+                "Shamim Khandaker",
+                "Alfi Anjum Rashid"
+              ]
+            },
+            {
+              "id": "mbio1201",
+              "code": "MBIO 1201",
+              "name": "Bacteriology",
+              "instructors": [
+                "Dr. Md. Asaduzzaman Shishir",
+                "Shamim Khandaker"
+              ]
+            },
+            {
+              "id": "mbio1202",
+              "code": "MBIO 1202",
+              "name": "Microbiology Lab-II",
+              "instructors": [
+                "Alfi Anjum Rashid",
+                "Taslima Akter Tisha"
+              ]
+            },
+            {
+              "id": "mbio2101",
+              "code": "MBIO 2101",
+              "name": "Microbial Metabolism: Catabolic Pathways",
+              "instructors": [
+                "Dr. Md. Asaduzzaman Shishir",
+                "Shamim Khandaker"
+              ]
+            },
+            {
+              "id": "mbio2102",
+              "code": "MBIO 2102",
+              "name": "Environmental Microbiology",
+              "instructors": [
+                "Dr. Md. Asaduzzaman Shishir",
+                "Alfi Anjum Rashid"
+              ]
+            },
+            {
+              "id": "mbio2103",
+              "code": "MBIO 2103",
+              "name": "Agricultural Microbiology",
+              "instructors": [
+                "Dr. Md. Asaduzzaman Shishir",
+                "Taslima Akter Tisha"
+              ]
+            },
+            {
+              "id": "mbio2104",
+              "code": "MBIO 2104",
+              "name": "Microbiology Lab-III",
+              "instructors": [
+                "Shamim Khandaker",
+                "Alfi Anjum Rashid"
+              ]
+            },
+            {
+              "id": "mbio2201",
+              "code": "MBIO 2201",
+              "name": "Applied Mycology",
+              "instructors": [
+                "Dr. Md. Asaduzzaman Shishir",
+                "Shamim Khandaker"
+              ]
+            },
+            {
+              "id": "mbio2202",
+              "code": "MBIO 2202",
+              "name": "Medical Microbiology-I",
+              "instructors": [
+                "Dr. Md. Asaduzzaman Shishir",
+                "Alfi Anjum Rashid"
+              ]
+            },
+            {
+              "id": "mbio2203",
+              "code": "MBIO 2203",
+              "name": "Food Microbiology",
+              "instructors": [
+                "Dr. Md. Asaduzzaman Shishir",
+                "Taslima Akter Tisha"
+              ]
+            },
+            {
+              "id": "mbio2204",
+              "code": "MBIO 2204",
+              "name": "Microbiology Lab-IV",
+              "instructors": [
+                "Shamim Khandaker",
+                "Alfi Anjum Rashid"
+              ]
+            },
+            {
+              "id": "mbio3101",
+              "code": "MBIO 3101",
+              "name": "Microbial Metabolism: Anabolic Pathways",
+              "instructors": [
+                "Dr. Md. Asaduzzaman Shishir",
+                "Shamim Khandaker"
+              ]
+            },
+            {
+              "id": "mbio3102",
+              "code": "MBIO 3102",
+              "name": "Medical Microbiology-II",
+              "instructors": [
+                "Dr. Md. Asaduzzaman Shishir",
+                "Alfi Anjum Rashid"
+              ]
+            },
+            {
+              "id": "mbio3103",
+              "code": "MBIO 3103",
+              "name": "Industrial Microbiology",
+              "instructors": [
+                "Dr. Md. Asaduzzaman Shishir",
+                "Taslima Akter Tisha"
+              ]
+            },
+            {
+              "id": "mbio3104",
+              "code": "MBIO 3104",
+              "name": "Microbiology Lab-V",
+              "instructors": [
+                "Shamim Khandaker",
+                "Alfi Anjum Rashid"
+              ]
+            },
+            {
+              "id": "mbio3201",
+              "code": "MBIO 3201",
+              "name": "Virology",
+              "instructors": [
+                "Dr. Md. Asaduzzaman Shishir",
+                "Shamim Khandaker"
+              ]
+            },
+            {
+              "id": "mbio3202",
+              "code": "MBIO 3202",
+              "name": "Immunology",
+              "instructors": [
+                "Dr. Md. Asaduzzaman Shishir",
+                "Alfi Anjum Rashid"
+              ]
+            },
+            {
+              "id": "mbio3203",
+              "code": "MBIO 3203",
+              "name": "Fermentation Technology",
+              "instructors": [
+                "Dr. Md. Asaduzzaman Shishir",
+                "Taslima Akter Tisha"
+              ]
+            },
+            {
+              "id": "mbio3204",
+              "code": "MBIO 3204",
+              "name": "Pharmaceutical Microbiology",
+              "instructors": [
+                "Dr. Md. Asaduzzaman Shishir",
+                "Shamim Khandaker"
+              ]
+            },
+            {
+              "id": "mbio3205",
+              "code": "MBIO 3205",
+              "name": "Quality Control of Food and Agricultural Products",
+              "instructors": [
+                "Dr. Md. Asaduzzaman Shishir",
+                "Alfi Anjum Rashid"
+              ]
+            },
+            {
+              "id": "mbio3206",
+              "code": "MBIO 3206",
+              "name": "Microbiology Lab-VI",
+              "instructors": [
+                "Shamim Khandaker",
+                "Taslima Akter Tisha"
+              ]
+            },
+            {
+              "id": "mbio4101",
+              "code": "MBIO 4101",
+              "name": "Advanced Virology",
+              "instructors": [
+                "Dr. Md. Asaduzzaman Shishir",
+                "Shamim Khandaker"
+              ]
+            },
+            {
+              "id": "mbio4102",
+              "code": "MBIO 4102",
+              "name": "Advanced Immunology",
+              "instructors": [
+                "Dr. Md. Asaduzzaman Shishir",
+                "Alfi Anjum Rashid"
+              ]
+            },
+            {
+              "id": "mbio4103",
+              "code": "MBIO 4103",
+              "name": "Analytical Techniques in Life Sciences",
+              "instructors": [
+                "Dr. Md. Asaduzzaman Shishir",
+                "Taslima Akter Tisha"
+              ]
+            },
+            {
+              "id": "mbio4104",
+              "code": "MBIO 4104",
+              "name": "Epidemiology, Public Health and Bioethics",
+              "instructors": [
+                "Dr. Md. Asaduzzaman Shishir",
+                "Shamim Khandaker"
+              ]
+            },
+            {
+              "id": "mbio4105",
+              "code": "MBIO 4105",
+              "name": "Microbiology Lab-VII",
+              "instructors": [
+                "Alfi Anjum Rashid",
+                "Taslima Akter Tisha"
+              ]
+            },
+            {
+              "id": "mbio4201",
+              "code": "MBIO 4201",
+              "name": "Antibiotics: Mechanisms of Actions and Bacterial Resistance",
+              "instructors": [
+                "Dr. Md. Asaduzzaman Shishir",
+                "Shamim Khandaker"
+              ]
+            },
+            {
+              "id": "mbio4202",
+              "code": "MBIO 4202",
+              "name": "Environmental Pollution and Bioremediation",
+              "instructors": [
+                "Dr. Md. Asaduzzaman Shishir",
+                "Alfi Anjum Rashid"
+              ]
+            },
+            {
+              "id": "mbio4203",
+              "code": "MBIO 4203",
+              "name": "Clinical and Diagnostic Microbiology",
+              "instructors": [
+                "Dr. Md. Asaduzzaman Shishir",
+                "Taslima Akter Tisha"
+              ]
+            },
+            {
+              "id": "mbio4204",
+              "code": "MBIO 4204",
+              "name": "Microbiology Lab-VIII",
+              "instructors": [
+                "Shamim Khandaker",
+                "Alfi Anjum Rashid"
+              ]
+            },
+            {
+              "id": "mbio4990",
+              "code": "MBIO 4990",
+              "name": "Research Project",
+              "instructors": [
+                "All Faculty Members"
+              ]
+            },
+            {
+              "id": "bio1201",
+              "code": "BIO 1201",
+              "name": "Fundamental Biochemistry",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Dr. Amelia Ferdaus Sara"
+              ]
+            },
+            {
+              "id": "bio1301",
+              "code": "BIO 1301",
+              "name": "Human Physiology",
+              "instructors": [
+                "Dr. Shimul Halder",
+                "As-Sazzad Mahmud"
+              ]
+            },
+            {
+              "id": "bio2101",
+              "code": "BIO 2101",
+              "name": "Basic Concept of Genetics",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Md. Shameem Ali"
+              ]
+            },
+            {
+              "id": "bio2201",
+              "code": "BIO 2201",
+              "name": "Enzymes and Bioenergetics",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Ovi Sikder"
+              ]
+            },
+            {
+              "id": "bio3101",
+              "code": "BIO 3101",
+              "name": "Cell Biology",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Zitu Barman"
+              ]
+            },
+            {
+              "id": "bio3102",
+              "code": "BIO 3102",
+              "name": "Biosafety and Biosecurity",
+              "instructors": [
+                "Dr. Md. Asaduzzaman Shishir",
+                "Shamim Khandaker"
+              ]
+            },
+            {
+              "id": "bio3201",
+              "code": "BIO 3201",
+              "name": "Molecular Biology",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Dr. Amelia Ferdaus Sara"
+              ]
+            },
+            {
+              "id": "bio3202",
+              "code": "BIO 3202",
+              "name": "Genomics and Bioinformatics",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Md. Shameem Ali"
+              ]
+            },
+            {
+              "id": "bio4101",
+              "code": "BIO 4101",
+              "name": "Biotechnology and Genetic Engineering",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Ovi Sikder"
+              ]
+            },
+            {
+              "id": "cse1101",
+              "code": "CSE 1101",
+              "name": "Computer Fundamentals",
+              "instructors": [
+                "Md. Safwan Zaher Asif",
+                "Md. Manirujjaman"
+              ]
+            },
+            {
+              "id": "cse1201",
+              "code": "CSE 1201",
+              "name": "Computer Programming",
+              "instructors": [
+                "Anik Mahmud Shanto",
+                "Safwan Ishrak"
+              ]
+            },
+            {
+              "id": "eng1101",
+              "code": "ENG 1101",
+              "name": "Basic English",
+              "instructors": [
+                "Prof. Sultana Begum",
+                "Dr. Ashraf Ali"
+              ]
+            },
+            {
+              "id": "chem1101",
+              "code": "CHEM 1101",
+              "name": "Fundamental Chemistry",
+              "instructors": [
+                "Dr. Kamal Hossain",
+                "Prof. Fatima Rahman"
+              ]
+            },
+            {
+              "id": "chem1102",
+              "code": "CHEM 1102",
+              "name": "Chemistry Lab",
+              "instructors": [
+                "Dr. Kamal Hossain",
+                "Prof. Fatima Rahman"
+              ]
+            },
+            {
+              "id": "chem2101",
+              "code": "CHEM 2101",
+              "name": "Biologically Important Organic Compounds",
+              "instructors": [
+                "Dr. Kamal Hossain",
+                "Prof. Fatima Rahman"
+              ]
+            },
+            {
+              "id": "ban1101",
+              "code": "BAN 1101",
+              "name": "Bengali Language and Literature",
+              "instructors": [
+                "Prof. Habibur Rahman",
+                "Dr. Shamima Nasrin"
+              ]
+            },
+            {
+              "id": "ban1201",
+              "code": "BAN 1201",
+              "name": "History of Emergence of Bangladesh",
+              "instructors": [
+                "Prof. Habibur Rahman",
+                "Dr. Shamima Nasrin"
+              ]
+            },
+            {
+              "id": "math1101",
+              "code": "MATH 1101",
+              "name": "Mathematics",
+              "instructors": [
+                "Prof. Anisul Haque",
+                "Dr. Rowshan Ara"
+              ]
+            },
+            {
+              "id": "math2101",
+              "code": "MATH 2101",
+              "name": "Biostatistics",
+              "instructors": [
+                "Prof. Anisul Haque",
+                "Dr. Rowshan Ara"
+              ]
+            },
+            {
+              "id": "res4101",
+              "code": "RES 4101",
+              "name": "Scientific Research Methodology",
+              "instructors": [
+                "Dr. Md. Asaduzzaman Shishir",
+                "Dr. Tania Mannan"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bmb",
+          "name": "Department of Biochemistry and Molecular Biology",
+          "shortName": "BMB",
+          "courses": [
+            {
+              "id": "bmb1101",
+              "code": "BMB 1101",
+              "name": "Introductory Biochemistry I",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Dr. Amelia Ferdaus Sara"
+              ]
+            },
+            {
+              "id": "bmb1102",
+              "code": "BMB 1102",
+              "name": "Introductory Molecular Biology",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Md. Shameem Ali"
+              ]
+            },
+            {
+              "id": "bmb1103",
+              "code": "BMB 1103",
+              "name": "Biophysical Chemistry",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Ovi Sikder"
+              ]
+            },
+            {
+              "id": "bmb1104",
+              "code": "BMB 1104",
+              "name": "Bioorganic Chemistry",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Zitu Barman"
+              ]
+            },
+            {
+              "id": "bmb1105",
+              "code": "BMB 1105",
+              "name": "Biochemistry & Molecular Biology Lab I",
+              "instructors": [
+                "Dr. Amelia Ferdaus Sara",
+                "Md. Shahed Alam"
+              ]
+            },
+            {
+              "id": "bmb1201",
+              "code": "BMB 1201",
+              "name": "Introductory Biochemistry II",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Dr. Amelia Ferdaus Sara"
+              ]
+            },
+            {
+              "id": "bmb1202",
+              "code": "BMB 1202",
+              "name": "Reaction Mechanisms",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Md. Shameem Ali"
+              ]
+            },
+            {
+              "id": "bmb1203",
+              "code": "BMB 1203",
+              "name": "Biochemistry & Molecular Biology Lab II",
+              "instructors": [
+                "Ovi Sikder",
+                "Zitu Barman"
+              ]
+            },
+            {
+              "id": "bmb2101",
+              "code": "BMB 2101",
+              "name": "Metabolism I",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Dr. Amelia Ferdaus Sara"
+              ]
+            },
+            {
+              "id": "bmb2102",
+              "code": "BMB 2102",
+              "name": "Enzymes & Bioenergetics",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Md. Shameem Ali"
+              ]
+            },
+            {
+              "id": "bmb2103",
+              "code": "BMB 2103",
+              "name": "Biochemistry & Molecular Biology Lab III",
+              "instructors": [
+                "Ovi Sikder",
+                "Md. Rejaul Islam"
+              ]
+            },
+            {
+              "id": "bmb2201",
+              "code": "BMB 2201",
+              "name": "Metabolism II",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Dr. Amelia Ferdaus Sara"
+              ]
+            },
+            {
+              "id": "bmb2202",
+              "code": "BMB 2202",
+              "name": "Biochemistry & Molecular Biology Lab IV",
+              "instructors": [
+                "Zitu Barman",
+                "Md. Shahed Alam"
+              ]
+            },
+            {
+              "id": "bmb2104",
+              "code": "BMB 2104",
+              "name": "Molecular Biology I",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Md. Shameem Ali"
+              ]
+            },
+            {
+              "id": "bmb2203",
+              "code": "BMB 2203",
+              "name": "Molecular Biology II",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Dr. Amelia Ferdaus Sara"
+              ]
+            },
+            {
+              "id": "bmb2204",
+              "code": "BMB 2204",
+              "name": "Molecular Genetics",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Md. Shameem Ali"
+              ]
+            },
+            {
+              "id": "bmb2105",
+              "code": "BMB 2105",
+              "name": "Human Physiology I",
+              "instructors": [
+                "Dr. Shimul Halder",
+                "As-Sazzad Mahmud"
+              ]
+            },
+            {
+              "id": "bmb2106",
+              "code": "BMB 2106",
+              "name": "Microbiology",
+              "instructors": [
+                "Dr. Md. Asaduzzaman Shishir",
+                "Shamim Khandaker"
+              ]
+            },
+            {
+              "id": "bmb2107",
+              "code": "BMB 2107",
+              "name": "Microbiology Lab",
+              "instructors": [
+                "Alfi Anjum Rashid",
+                "Taslima Akter Tisha"
+              ]
+            },
+            {
+              "id": "bmb2205",
+              "code": "BMB 2205",
+              "name": "Human Physiology II",
+              "instructors": [
+                "Dr. Shimul Halder",
+                "As-Sazzad Mahmud"
+              ]
+            },
+            {
+              "id": "bmb3101",
+              "code": "BMB 3101",
+              "name": "Nutritional Biochemistry I",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Ovi Sikder"
+              ]
+            },
+            {
+              "id": "bmb3102",
+              "code": "BMB 3102",
+              "name": "Immunology",
+              "instructors": [
+                "Dr. Md. Asaduzzaman Shishir",
+                "Alfi Anjum Rashid"
+              ]
+            },
+            {
+              "id": "bmb3103",
+              "code": "BMB 3103",
+              "name": "Endocrinology",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Dr. Amelia Ferdaus Sara"
+              ]
+            },
+            {
+              "id": "bmb3104",
+              "code": "BMB 3104",
+              "name": "Biochemistry & Molecular Biology Lab V",
+              "instructors": [
+                "Zitu Barman",
+                "Md. Rejaul Islam"
+              ]
+            },
+            {
+              "id": "bmb3201",
+              "code": "BMB 3201",
+              "name": "Nutritional Biochemistry II",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Ovi Sikder"
+              ]
+            },
+            {
+              "id": "bmb3202",
+              "code": "BMB 3202",
+              "name": "Advanced Immunology",
+              "instructors": [
+                "Dr. Md. Asaduzzaman Shishir",
+                "Shamim Khandaker"
+              ]
+            },
+            {
+              "id": "bmb3203",
+              "code": "BMB 3203",
+              "name": "Plant Biochemistry",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Md. Shameem Ali"
+              ]
+            },
+            {
+              "id": "bmb3204",
+              "code": "BMB 3204",
+              "name": "Chemistry of Natural Products",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Dr. Amelia Ferdaus Sara"
+              ]
+            },
+            {
+              "id": "bmb3205",
+              "code": "BMB 3205",
+              "name": "Biotechnology & Genetic Engineering",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Md. Shameem Ali"
+              ]
+            },
+            {
+              "id": "bmb3206",
+              "code": "BMB 3206",
+              "name": "Pharmaceutical Sciences",
+              "instructors": [
+                "Md. Akbar Hossain",
+                "Dr. Shimul Halder"
+              ]
+            },
+            {
+              "id": "bmb3207",
+              "code": "BMB 3207",
+              "name": "Biochemistry & Molecular Biology Lab VI",
+              "instructors": [
+                "Ovi Sikder",
+                "Md. Shahed Alam"
+              ]
+            },
+            {
+              "id": "bmb4101",
+              "code": "BMB 4101",
+              "name": "Cell Biology I",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Zitu Barman"
+              ]
+            },
+            {
+              "id": "bmb4102",
+              "code": "BMB 4102",
+              "name": "Clinical Biochemistry I",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Dr. Amelia Ferdaus Sara"
+              ]
+            },
+            {
+              "id": "bmb4103",
+              "code": "BMB 4103",
+              "name": "Virology",
+              "instructors": [
+                "Dr. Md. Asaduzzaman Shishir",
+                "Shamim Khandaker"
+              ]
+            },
+            {
+              "id": "bmb4104",
+              "code": "BMB 4104",
+              "name": "Genomics and Proteomics",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Md. Shameem Ali"
+              ]
+            },
+            {
+              "id": "bmb4105",
+              "code": "BMB 4105",
+              "name": "Industrial Biotechnology",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Ovi Sikder"
+              ]
+            },
+            {
+              "id": "bmb4106",
+              "code": "BMB 4106",
+              "name": "Biochemistry & Molecular Biology Lab VII",
+              "instructors": [
+                "Md. Rejaul Islam",
+                "Zitu Barman"
+              ]
+            },
+            {
+              "id": "bmb4201",
+              "code": "BMB 4201",
+              "name": "Cell Biology II",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Dr. Amelia Ferdaus Sara"
+              ]
+            },
+            {
+              "id": "bmb4202",
+              "code": "BMB 4202",
+              "name": "Clinical Biochemistry II",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Md. Shameem Ali"
+              ]
+            },
+            {
+              "id": "bmb4203",
+              "code": "BMB 4203",
+              "name": "Cancer Biology",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Dr. Amelia Ferdaus Sara"
+              ]
+            },
+            {
+              "id": "bmb4204",
+              "code": "BMB 4204",
+              "name": "Neurochemistry",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Ovi Sikder"
+              ]
+            },
+            {
+              "id": "bmb4205",
+              "code": "BMB 4205",
+              "name": "Bioinformatics",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Md. Shameem Ali"
+              ]
+            },
+            {
+              "id": "bmb4990",
+              "code": "BMB 4990",
+              "name": "Capstone Project Design",
+              "instructors": [
+                "All Faculty Members"
+              ]
+            },
+            {
+              "id": "ban1101",
+              "code": "BAN 1101",
+              "name": "Bengali Language and Literature",
+              "instructors": [
+                "Prof. Habibur Rahman",
+                "Dr. Shamima Nasrin"
+              ]
+            },
+            {
+              "id": "eng1101",
+              "code": "ENG 1101",
+              "name": "Basic English",
+              "instructors": [
+                "Prof. Sultana Begum",
+                "Dr. Ashraf Ali"
+              ]
+            },
+            {
+              "id": "bot1101",
+              "code": "BOT 1101",
+              "name": "Botany",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Md. Shameem Ali"
+              ]
+            },
+            {
+              "id": "zoo1101",
+              "code": "ZOO 1101",
+              "name": "Zoology",
+              "instructors": [
+                "Dr. Shimul Halder",
+                "As-Sazzad Mahmud"
+              ]
+            },
+            {
+              "id": "cse1101",
+              "code": "CSE 1101",
+              "name": "Computer Fundamentals",
+              "instructors": [
+                "Md. Safwan Zaher Asif",
+                "Md. Manirujjaman"
+              ]
+            },
+            {
+              "id": "cse1102",
+              "code": "CSE 1102",
+              "name": "Computer Fundamentals Lab",
+              "instructors": [
+                "Anik Mahmud Shanto",
+                "Safwan Ishrak"
+              ]
+            },
+            {
+              "id": "math1101",
+              "code": "MATH 1101",
+              "name": "Mathematics",
+              "instructors": [
+                "Prof. Anisul Haque",
+                "Dr. Rowshan Ara"
+              ]
+            },
+            {
+              "id": "stat1101",
+              "code": "STAT 1101",
+              "name": "Basic Statistics",
+              "instructors": [
+                "Prof. Anisul Haque",
+                "Dr. Rowshan Ara"
+              ]
+            },
+            {
+              "id": "stat2101",
+              "code": "STAT 2101",
+              "name": "Biostatistics",
+              "instructors": [
+                "Prof. Anisul Haque",
+                "Dr. Rowshan Ara"
+              ]
+            },
+            {
+              "id": "stat2102",
+              "code": "STAT 2102",
+              "name": "Biostatistics Lab",
+              "instructors": [
+                "Prof. Anisul Haque",
+                "Dr. Rowshan Ara"
+              ]
+            },
+            {
+              "id": "ban1201",
+              "code": "BAN 1201",
+              "name": "History of Emergence of Bangladesh",
+              "instructors": [
+                "Prof. Habibur Rahman",
+                "Dr. Shamima Nasrin"
+              ]
+            },
+            {
+              "id": "eth3101",
+              "code": "ETH 3101",
+              "name": "Professional Ethics",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Prof. Sultana Begum"
+              ]
+            },
+            {
+              "id": "res4101",
+              "code": "RES 4101",
+              "name": "Research Methodology",
+              "instructors": [
+                "Dr. Tania Mannan",
+                "Dr. Amelia Ferdaus Sara"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

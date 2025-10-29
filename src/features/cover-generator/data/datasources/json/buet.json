@@ -1,0 +1,56 @@
+{
+  "id": "buet",
+  "name": "Bangladesh University of Engineering and Technology",
+  "shortName": "BUET",
+  "logo": "/logos/buet-logo.png",
+  "schools": [
+    {
+      "id": "engineering",
+      "name": "Faculty of Engineering",
+      "shortName": "Engineering",
+      "departments": [
+        {
+          "id": "eee",
+          "name": "Department of Electrical and Electronic Engineering",
+          "shortName": "EEE",
+          "courses": [
+            {
+              "id": "eee101",
+              "code": "EEE 101",
+              "name": "Basic Electrical Engineering",
+              "instructors": [
+                "Dr. Mohammad Hasan",
+                "Prof. Nasrin Akhter"
+              ]
+            },
+            {
+              "id": "eee201",
+              "code": "EEE 201",
+              "name": "Electronic Circuits",
+              "instructors": [
+                "Dr. Kamrul Islam",
+                "Eng. Tareq Ahmed"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ce",
+          "name": "Department of Civil Engineering",
+          "shortName": "CE",
+          "courses": [
+            {
+              "id": "ce101",
+              "code": "CE 101",
+              "name": "Engineering Mechanics",
+              "instructors": [
+                "Prof. Abdul Mannan",
+                "Dr. Shahana Parveen"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
