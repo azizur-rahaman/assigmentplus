@@ -1,15 +1,14 @@
 // API Route: POST /api/generate - Generate cover page
 
 import { NextRequest, NextResponse } from 'next/server';
-import { GenerateCoverUseCase } from '@/core/usecases/generateCover';
-import { PdfGeneratorService } from '@/core/services/pdfGenerator';
-import { PdfLibAdapter } from '@/infrastructure/pdf/pdf-lib.adapter';
-import { CoverData } from '@/types/cover';
+import { CoverGeneratorController } from '@/features/cover-generator';
+import type { CoverData } from '@/shared/types';
+import type { TemplateType } from '@/features/cover-generator';
 
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { data, template = 'default' } = body as { data: CoverData; template?: string };
+    const { data, template = 'default' } = body as { data: CoverData; template?: TemplateType };
 
     console.log('Received request:', { data, template });
 
@@ -22,20 +21,29 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Wire up dependencies (could be moved to a factory)
-    const pdfAdapter = new PdfLibAdapter();
-    const pdfService = new PdfGeneratorService(pdfAdapter);
-    const useCase = new GenerateCoverUseCase(pdfService);
+    // Use the controller facade
+    const controller = new CoverGeneratorController();
 
-    console.log('Executing use case...');
+    console.log('Generating cover via controller...');
     
-    // Execute use case
-    const pdfBytes = await useCase.execute(data, template);
+    // Generate PDF using use case
+    const result = await controller.generateCover(data, template);
 
-    console.log('PDF generated successfully, size:', pdfBytes.length, 'bytes');
+    if (!result.success || !result.pdfBlob) {
+      console.error('Generation failed:', result.error);
+      return NextResponse.json(
+        { success: false, error: result.error || 'Failed to generate PDF' },
+        { status: 500 }
+      );
+    }
 
-    // Return PDF as response (convert Uint8Array to Buffer)
-    return new NextResponse(Buffer.from(pdfBytes), {
+    console.log('PDF generated successfully');
+
+    // Convert blob to buffer and return
+    const arrayBuffer = await result.pdfBlob.arrayBuffer();
+    const buffer = Buffer.from(arrayBuffer);
+
+    return new NextResponse(buffer, {
       status: 200,
       headers: {
         'Content-Type': 'application/pdf',

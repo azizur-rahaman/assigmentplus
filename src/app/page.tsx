@@ -2,14 +2,15 @@
 
 import { useState, useEffect } from 'react';
 import toast from 'react-hot-toast';
-import InputField from '@/interface/components/InputField';
-import SelectField from '@/interface/components/SelectField';
-import GenerateButton from '@/interface/components/GenerateButton';
-import CoverPreview from '@/interface/components/CoverPreview';
-import { CoverData } from '@/types/cover';
-import { getCurrentDate } from '@/utils/dateFormatter';
-import { validateCoverData } from '@/utils/validators';
-import { LocalStorageAdapter } from '@/infrastructure/storage/localStorage.adapter';
+import { 
+  InputField, 
+  SelectField, 
+  GenerateButton, 
+  CoverPreview 
+} from '@/features/cover-generator';
+import { LocalStorageService } from '@/features/cover-generator';
+import type { CoverData } from '@/shared/types';
+import { getCurrentDate, validateCoverData } from '@/shared/utils';
 import { 
   getAllUniversities, 
   getSchoolsByUniversity,
@@ -30,9 +31,9 @@ import {
   type Course
 } from '@/infrastructure/data/universities.data';
 import { SECTIONS, TRIMESTERS, ASSIGNMENT_TYPES } from '@/infrastructure/data/options.data';
-import { baseUrl, apiBaseUrl } from '@/utils/baseUrl';
+import { baseUrl, apiBaseUrl } from '@/shared/utils';
 
-const storage = new LocalStorageAdapter();
+const storage = new LocalStorageService();
 
 export default function Home() {
   const [formData, setFormData] = useState<CoverData>({
