@@ -1,7 +1,7 @@
 // Presentation Controller: Cover Generator Facade
 
-import { GenerateCoverUseCase } from '../application/use-cases/GenerateCoverUseCase';
-import type { CoverData } from '../application/use-cases/GenerateCoverUseCase';
+import { GenerateCoverUseCase } from '../domain/usecases/GenerateCoverUseCase';
+import type { CoverData } from '../domain/usecases/GenerateCoverUseCase';
 import type { TemplateType } from '../domain/value-objects/Template';
 
 export interface GenerateCoverResponse {
@@ -22,7 +22,7 @@ export class CoverGeneratorController {
     // Lazy load the adapter only on server side to avoid bundling fs module
     // This will be called from API routes, not from client components
     if (typeof window === 'undefined') {
-      const { PdfLibAdapter } = require('../infrastructure/adapters/PdfLibAdapter');
+      const { PdfLibAdapter } = require('../data/repositories/PdfLibAdapter');
       this.useCase = new GenerateCoverUseCase(new PdfLibAdapter());
     } else {
       // On client side, we don't instantiate the use case

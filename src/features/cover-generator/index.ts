@@ -5,14 +5,16 @@ export { AssignmentCover } from './domain/entities/AssignmentCover';
 export { Template } from './domain/value-objects/Template';
 export type { TemplateType } from './domain/value-objects/Template';
 
-// Application
-export { GenerateCoverUseCase } from './application/use-cases/GenerateCoverUseCase';
-export type { CoverData } from './application/use-cases/GenerateCoverUseCase';
-export type { IPdfGenerator } from './application/ports/IPdfGenerator';
-export type { IStorageService } from './application/ports/IStorageService';
+// Domain Use Cases
+export { GenerateCoverUseCase } from './domain/usecases/GenerateCoverUseCase';
+export type { CoverData } from './domain/usecases/GenerateCoverUseCase';
 
-// Infrastructure (client-safe only)
-export { LocalStorageService } from './infrastructure/services/LocalStorageService';
+// Domain Repositories (Interfaces)
+export type { IPdfGenerator } from './domain/repositories/IPdfGenerator';
+export type { IStorageService } from './domain/repositories/IStorageService';
+
+// Data Layer (client-safe only)
+export { LocalStorageService } from './data/repositories/LocalStorageService';
 // Note: PdfLibAdapter is not exported to avoid bundling server-only code in client
 
 // Presentation

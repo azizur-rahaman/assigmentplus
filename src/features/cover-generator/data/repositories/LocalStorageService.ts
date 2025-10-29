@@ -1,6 +1,6 @@
 // Infrastructure Service: Local Storage
 
-import { IStorageService } from '../../application/ports/IStorageService';
+import { IStorageService } from '../../domain/repositories/IStorageService';
 
 /**
  * Implementation of storage service using browser's localStorage

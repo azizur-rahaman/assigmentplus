@@ -3,7 +3,7 @@
 import { PDFDocument, rgb, StandardFonts } from 'pdf-lib';
 import { AssignmentCover } from '../../domain/entities/AssignmentCover';
 import { Template } from '../../domain/value-objects/Template';
-import { IPdfGenerator } from '../../application/ports/IPdfGenerator';
+import { IPdfGenerator } from '../../domain/repositories/IPdfGenerator';
 import * as fs from 'fs';
 import * as path from 'path';
 

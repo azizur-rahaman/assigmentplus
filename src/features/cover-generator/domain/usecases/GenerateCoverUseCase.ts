@@ -1,8 +1,8 @@
 // Use Case: Generate Assignment Cover
 
-import { AssignmentCover } from '../../domain/entities/AssignmentCover';
-import { Template, TemplateType } from '../../domain/value-objects/Template';
-import { IPdfGenerator } from '../ports/IPdfGenerator';
+import { AssignmentCover } from '../entities/AssignmentCover';
+import { Template, TemplateType } from '../value-objects/Template';
+import { IPdfGenerator } from '../repositories/IPdfGenerator';
 
 export interface CoverData {
   universityName: string;
