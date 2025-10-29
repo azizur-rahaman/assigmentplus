@@ -1,0 +1,17 @@
+{
+  "id": "engineering",
+  "name": "Faculty of Engineering",
+  "shortName": "Engineering",
+  "departments": [
+    {
+      "id": "eee",
+      "name": "Department of Electrical and Electronic Engineering",
+      "shortName": "EEE"
+    },
+    {
+      "id": "ce",
+      "name": "Department of Civil Engineering",
+      "shortName": "CE"
+    }
+  ]
+}

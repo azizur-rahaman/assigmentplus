@@ -1,0 +1,11 @@
+[
+  {
+    "id": "eng101",
+    "code": "ENG 101",
+    "name": "English Literature",
+    "instructors": [
+      "Prof. Anisul Haque",
+      "Dr. Rowshan Ara"
+    ]
+  }
+]

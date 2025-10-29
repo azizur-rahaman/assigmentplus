@@ -1,0 +1,12 @@
+{
+  "id": "arts",
+  "name": "Faculty of Arts",
+  "shortName": "Arts",
+  "departments": [
+    {
+      "id": "english",
+      "name": "Department of English",
+      "shortName": "ENG"
+    }
+  ]
+}

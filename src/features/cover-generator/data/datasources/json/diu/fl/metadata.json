@@ -1,0 +1,12 @@
+{
+  "id": "fl",
+  "name": "Faculty of Law",
+  "shortName": "FL",
+  "departments": [
+    {
+      "id": "law",
+      "name": "Department of Law",
+      "shortName": "Law"
+    }
+  ]
+}

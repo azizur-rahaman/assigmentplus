@@ -1,0 +1,639 @@
+[
+  {
+    "id": "bus501",
+    "code": "BUS 501",
+    "name": "Business Communications",
+    "instructors": [
+      "Prof. Ahmed Ali",
+      "Nasrin Sultana"
+    ]
+  },
+  {
+    "id": "acc502",
+    "code": "ACC 502",
+    "name": "Financial Accounting",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Fatima Rahman"
+    ]
+  },
+  {
+    "id": "bus503",
+    "code": "BUS 503",
+    "name": "Business Mathematics",
+    "instructors": [
+      "Mosabbir Ahmed",
+      "Dr. Rahman Khan"
+    ]
+  },
+  {
+    "id": "bus508",
+    "code": "BUS 508",
+    "name": "Applied Business Statistics",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Fatima Rahman"
+    ]
+  },
+  {
+    "id": "mgt506",
+    "code": "MGT 506",
+    "name": "Management & Organization Behavior",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "bus507",
+    "code": "BUS 507",
+    "name": "Business Law",
+    "instructors": [
+      "Barrister Ahmed Hassan",
+      "Advocate Sultana Begum"
+    ]
+  },
+  {
+    "id": "econ508",
+    "code": "ECON 508",
+    "name": "Micro Economics",
+    "instructors": [
+      "Dr. Habibur Rahman",
+      "Prof. Shamima Nasrin"
+    ]
+  },
+  {
+    "id": "econ509",
+    "code": "ECON 509",
+    "name": "Macro Economics",
+    "instructors": [
+      "Dr. Md. Shahin Alam",
+      "Farhana Yasmin"
+    ]
+  },
+  {
+    "id": "acc605",
+    "code": "ACC 605",
+    "name": "Managerial Accounting",
+    "instructors": [
+      "Dr. Mohammad Hasan",
+      "Prof. Nasrin Akhter"
+    ]
+  },
+  {
+    "id": "mis608",
+    "code": "MIS 608",
+    "name": "E-Business",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "mkt601",
+    "code": "MKT 601",
+    "name": "Marketing Management",
+    "instructors": [
+      "Prof. Ahmed Ali",
+      "Nasrin Sultana"
+    ]
+  },
+  {
+    "id": "fin602",
+    "code": "FIN 602",
+    "name": "Managerial Finance",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Sabbir Ahmed"
+    ]
+  },
+  {
+    "id": "hrm604",
+    "code": "HRM 604",
+    "name": "Human Resource Management",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "bsa640",
+    "code": "BSA 640",
+    "name": "Business Analytics",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "bus606",
+    "code": "BUS 606",
+    "name": "International Business",
+    "instructors": [
+      "Prof. Kamal Uddin",
+      "Dr. Nasrin Ahmed"
+    ]
+  },
+  {
+    "id": "scm620",
+    "code": "SCM 620",
+    "name": "Supply Chain Management",
+    "instructors": [
+      "Prof. Abdul Mannan",
+      "Dr. Shahana Parveen"
+    ]
+  },
+  {
+    "id": "opm603",
+    "code": "OPM 603",
+    "name": "Operations Management",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "am610",
+    "code": "AM 610",
+    "name": "Apparel Management",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Sabbir Ahmed"
+    ]
+  },
+  {
+    "id": "mis640",
+    "code": "MIS 640",
+    "name": "Management Information Systems",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "mgt607",
+    "code": "MGT 607",
+    "name": "Strategic Management",
+    "instructors": [
+      "Mosabbir Ahmed",
+      "Dr. Rahman Khan"
+    ]
+  },
+  {
+    "id": "fin621",
+    "code": "FIN 621",
+    "name": "Corporate Finance",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Sabbir Ahmed"
+    ]
+  },
+  {
+    "id": "fin623",
+    "code": "FIN 623",
+    "name": "Security Analysis & Portfolio Management",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Fatima Rahman"
+    ]
+  },
+  {
+    "id": "fin615",
+    "code": "FIN 615",
+    "name": "Financial Risk Management",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Sabbir Ahmed"
+    ]
+  },
+  {
+    "id": "fin638",
+    "code": "FIN 638",
+    "name": "Fintech",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "fin632",
+    "code": "FIN 632",
+    "name": "Financial Analytics",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "fin625",
+    "code": "FIN 625",
+    "name": "International Financial Management",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Fatima Rahman"
+    ]
+  },
+  {
+    "id": "fin626",
+    "code": "FIN 626",
+    "name": "Management of Financial Institutions",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Sabbir Ahmed"
+    ]
+  },
+  {
+    "id": "fin629",
+    "code": "FIN 629",
+    "name": "Financial Statement Analysis",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Fatima Rahman"
+    ]
+  },
+  {
+    "id": "mkt611",
+    "code": "MKT 611",
+    "name": "Consumer Behavior",
+    "instructors": [
+      "Prof. Ahmed Ali",
+      "Nasrin Sultana"
+    ]
+  },
+  {
+    "id": "mkt619",
+    "code": "MKT 619",
+    "name": "Brand Management",
+    "instructors": [
+      "Dr. Rahim Sheikh",
+      "Ayesha Khan"
+    ]
+  },
+  {
+    "id": "mkt615",
+    "code": "MKT 615",
+    "name": "Services Marketing",
+    "instructors": [
+      "Prof. Ahmed Ali",
+      "Nasrin Sultana"
+    ]
+  },
+  {
+    "id": "mkt616",
+    "code": "MKT 616",
+    "name": "Marketing Research",
+    "instructors": [
+      "Dr. Rahim Sheikh",
+      "Ayesha Khan"
+    ]
+  },
+  {
+    "id": "mkt617",
+    "code": "MKT 617",
+    "name": "Strategic Marketing",
+    "instructors": [
+      "Prof. Ahmed Ali",
+      "Nasrin Sultana"
+    ]
+  },
+  {
+    "id": "mkt612",
+    "code": "MKT 612",
+    "name": "Global Marketing",
+    "instructors": [
+      "Dr. Rahim Sheikh",
+      "Ayesha Khan"
+    ]
+  },
+  {
+    "id": "mkt621",
+    "code": "MKT 621",
+    "name": "Marketing Analytics",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "hrm634",
+    "code": "HRM 634",
+    "name": "Employee Appraisal and Compensation Management",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "hrm636",
+    "code": "HRM 636",
+    "name": "Organization Design and Development",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "hrm648",
+    "code": "HRM 648",
+    "name": "Learning and Development Management",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "hrm639",
+    "code": "HRM 639",
+    "name": "International Human Resource Management",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "hrm640",
+    "code": "HRM 640",
+    "name": "Strategic Human Resource Management",
+    "instructors": [
+      "Mosabbir Ahmed",
+      "Dr. Rahman Khan"
+    ]
+  },
+  {
+    "id": "hrm647",
+    "code": "HRM 647",
+    "name": "Human Resources Analytics",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "scm621",
+    "code": "SCM 621",
+    "name": "Demand Planning and Procurement Management",
+    "instructors": [
+      "Prof. Abdul Mannan",
+      "Dr. Shahana Parveen"
+    ]
+  },
+  {
+    "id": "scm623",
+    "code": "SCM 623",
+    "name": "Global Supply Chain & Logistics Management",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "scm624",
+    "code": "SCM 624",
+    "name": "Supply Chain Risk Management",
+    "instructors": [
+      "Prof. Abdul Mannan",
+      "Dr. Shahana Parveen"
+    ]
+  },
+  {
+    "id": "scm628",
+    "code": "SCM 628",
+    "name": "Supply Chain Analytics",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "mis643",
+    "code": "MIS 643",
+    "name": "Enterprise Resource Planning",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "mis641",
+    "code": "MIS 641",
+    "name": "System Analysis and Design",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "mis642",
+    "code": "MIS 642",
+    "name": "Database Management",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "mis646",
+    "code": "MIS 646",
+    "name": "Applied Artificial Intelligence",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "mis647",
+    "code": "MIS 647",
+    "name": "Advanced Database Management",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "bsa641",
+    "code": "BSA 641",
+    "name": "Business Database System Development",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "bsa642",
+    "code": "BSA 642",
+    "name": "Business Data Warehousing",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "bsa643",
+    "code": "BSA 643",
+    "name": "Applied Decision Modeling",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "bsa644",
+    "code": "BSA 644",
+    "name": "Advanced Analytics",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "bsa648",
+    "code": "BSA 648",
+    "name": "Big Data Analytics and Data Visualization",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "bsa650",
+    "code": "BSA 650",
+    "name": "Predictive Analytics for Business",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "acc611",
+    "code": "ACC 611",
+    "name": "Advanced Managerial Accounting & Control System",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Fatima Rahman"
+    ]
+  },
+  {
+    "id": "acc612",
+    "code": "ACC 612",
+    "name": "Advanced Financial Accounting I",
+    "instructors": [
+      "Dr. Mohammad Hasan",
+      "Prof. Nasrin Akhter"
+    ]
+  },
+  {
+    "id": "acc613",
+    "code": "ACC 613",
+    "name": "Advanced Financial Accounting II",
+    "instructors": [
+      "Dr. Kamrul Islam",
+      "Eng. Tareq Ahmed"
+    ]
+  },
+  {
+    "id": "acc663",
+    "code": "ACC 663",
+    "name": "Advanced Auditing and Assurance",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Fatima Rahman"
+    ]
+  },
+  {
+    "id": "acc664",
+    "code": "ACC 664",
+    "name": "Corporate Financial Reporting & IFRSs",
+    "instructors": [
+      "Dr. Mohammad Hasan",
+      "Prof. Nasrin Akhter"
+    ]
+  },
+  {
+    "id": "acc667",
+    "code": "ACC 667",
+    "name": "Corporate Tax Accounting & Planning",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Fatima Rahman"
+    ]
+  },
+  {
+    "id": "bm651",
+    "code": "BM 651",
+    "name": "Banking Law and Practice",
+    "instructors": [
+      "Barrister Ahmed Hassan",
+      "Advocate Sultana Begum"
+    ]
+  },
+  {
+    "id": "bm652",
+    "code": "BM 652",
+    "name": "Credit Management and Bank",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Sabbir Ahmed"
+    ]
+  },
+  {
+    "id": "bm653",
+    "code": "BM 653",
+    "name": "International Trade Payment and Finance",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Fatima Rahman"
+    ]
+  },
+  {
+    "id": "bm656",
+    "code": "BM 656",
+    "name": "E-Banking",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "bm660",
+    "code": "BM 660",
+    "name": "Risk Management in Banks",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Sabbir Ahmed"
+    ]
+  },
+  {
+    "id": "bus691",
+    "code": "BUS 691",
+    "name": "Research Methodology",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Fatima Rahman"
+    ]
+  },
+  {
+    "id": "bus692",
+    "code": "BUS 692",
+    "name": "Project Management",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "con803",
+    "code": "CON 803",
+    "name": "Organization Consulting Project (OCP)",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  },
+  {
+    "id": "con802",
+    "code": "CON 802",
+    "name": "Dissertation",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  }
+]

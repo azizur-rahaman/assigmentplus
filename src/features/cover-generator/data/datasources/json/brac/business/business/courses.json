@@ -1,0 +1,11 @@
+[
+  {
+    "id": "bus101",
+    "code": "BUS 101",
+    "name": "Introduction to Business",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  }
+]

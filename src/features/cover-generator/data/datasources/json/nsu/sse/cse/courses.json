@@ -1,0 +1,20 @@
+[
+  {
+    "id": "cse115",
+    "code": "CSE 115",
+    "name": "Programming Language I",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "cse225",
+    "code": "CSE 225",
+    "name": "Data Structures and Algorithms",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  }
+]

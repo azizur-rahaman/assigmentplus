@@ -1,0 +1,487 @@
+[
+  {
+    "id": "mbio1101",
+    "code": "MBIO 1101",
+    "name": "General Microbiology",
+    "instructors": [
+      "Dr. Md. Asaduzzaman Shishir",
+      "Shamim Khandaker"
+    ]
+  },
+  {
+    "id": "mbio1102",
+    "code": "MBIO 1102",
+    "name": "Basic Techniques in Microbiology",
+    "instructors": [
+      "Dr. Md. Asaduzzaman Shishir",
+      "Alfi Anjum Rashid"
+    ]
+  },
+  {
+    "id": "mbio1103",
+    "code": "MBIO 1103",
+    "name": "Microbial Diversity and Ecology",
+    "instructors": [
+      "Dr. Md. Asaduzzaman Shishir",
+      "Taslima Akter Tisha"
+    ]
+  },
+  {
+    "id": "mbio1104",
+    "code": "MBIO 1104",
+    "name": "Microbiology Lab-I",
+    "instructors": [
+      "Shamim Khandaker",
+      "Alfi Anjum Rashid"
+    ]
+  },
+  {
+    "id": "mbio1201",
+    "code": "MBIO 1201",
+    "name": "Bacteriology",
+    "instructors": [
+      "Dr. Md. Asaduzzaman Shishir",
+      "Shamim Khandaker"
+    ]
+  },
+  {
+    "id": "mbio1202",
+    "code": "MBIO 1202",
+    "name": "Microbiology Lab-II",
+    "instructors": [
+      "Alfi Anjum Rashid",
+      "Taslima Akter Tisha"
+    ]
+  },
+  {
+    "id": "mbio2101",
+    "code": "MBIO 2101",
+    "name": "Microbial Metabolism: Catabolic Pathways",
+    "instructors": [
+      "Dr. Md. Asaduzzaman Shishir",
+      "Shamim Khandaker"
+    ]
+  },
+  {
+    "id": "mbio2102",
+    "code": "MBIO 2102",
+    "name": "Environmental Microbiology",
+    "instructors": [
+      "Dr. Md. Asaduzzaman Shishir",
+      "Alfi Anjum Rashid"
+    ]
+  },
+  {
+    "id": "mbio2103",
+    "code": "MBIO 2103",
+    "name": "Agricultural Microbiology",
+    "instructors": [
+      "Dr. Md. Asaduzzaman Shishir",
+      "Taslima Akter Tisha"
+    ]
+  },
+  {
+    "id": "mbio2104",
+    "code": "MBIO 2104",
+    "name": "Microbiology Lab-III",
+    "instructors": [
+      "Shamim Khandaker",
+      "Alfi Anjum Rashid"
+    ]
+  },
+  {
+    "id": "mbio2201",
+    "code": "MBIO 2201",
+    "name": "Applied Mycology",
+    "instructors": [
+      "Dr. Md. Asaduzzaman Shishir",
+      "Shamim Khandaker"
+    ]
+  },
+  {
+    "id": "mbio2202",
+    "code": "MBIO 2202",
+    "name": "Medical Microbiology-I",
+    "instructors": [
+      "Dr. Md. Asaduzzaman Shishir",
+      "Alfi Anjum Rashid"
+    ]
+  },
+  {
+    "id": "mbio2203",
+    "code": "MBIO 2203",
+    "name": "Food Microbiology",
+    "instructors": [
+      "Dr. Md. Asaduzzaman Shishir",
+      "Taslima Akter Tisha"
+    ]
+  },
+  {
+    "id": "mbio2204",
+    "code": "MBIO 2204",
+    "name": "Microbiology Lab-IV",
+    "instructors": [
+      "Shamim Khandaker",
+      "Alfi Anjum Rashid"
+    ]
+  },
+  {
+    "id": "mbio3101",
+    "code": "MBIO 3101",
+    "name": "Microbial Metabolism: Anabolic Pathways",
+    "instructors": [
+      "Dr. Md. Asaduzzaman Shishir",
+      "Shamim Khandaker"
+    ]
+  },
+  {
+    "id": "mbio3102",
+    "code": "MBIO 3102",
+    "name": "Medical Microbiology-II",
+    "instructors": [
+      "Dr. Md. Asaduzzaman Shishir",
+      "Alfi Anjum Rashid"
+    ]
+  },
+  {
+    "id": "mbio3103",
+    "code": "MBIO 3103",
+    "name": "Industrial Microbiology",
+    "instructors": [
+      "Dr. Md. Asaduzzaman Shishir",
+      "Taslima Akter Tisha"
+    ]
+  },
+  {
+    "id": "mbio3104",
+    "code": "MBIO 3104",
+    "name": "Microbiology Lab-V",
+    "instructors": [
+      "Shamim Khandaker",
+      "Alfi Anjum Rashid"
+    ]
+  },
+  {
+    "id": "mbio3201",
+    "code": "MBIO 3201",
+    "name": "Virology",
+    "instructors": [
+      "Dr. Md. Asaduzzaman Shishir",
+      "Shamim Khandaker"
+    ]
+  },
+  {
+    "id": "mbio3202",
+    "code": "MBIO 3202",
+    "name": "Immunology",
+    "instructors": [
+      "Dr. Md. Asaduzzaman Shishir",
+      "Alfi Anjum Rashid"
+    ]
+  },
+  {
+    "id": "mbio3203",
+    "code": "MBIO 3203",
+    "name": "Fermentation Technology",
+    "instructors": [
+      "Dr. Md. Asaduzzaman Shishir",
+      "Taslima Akter Tisha"
+    ]
+  },
+  {
+    "id": "mbio3204",
+    "code": "MBIO 3204",
+    "name": "Pharmaceutical Microbiology",
+    "instructors": [
+      "Dr. Md. Asaduzzaman Shishir",
+      "Shamim Khandaker"
+    ]
+  },
+  {
+    "id": "mbio3205",
+    "code": "MBIO 3205",
+    "name": "Quality Control of Food and Agricultural Products",
+    "instructors": [
+      "Dr. Md. Asaduzzaman Shishir",
+      "Alfi Anjum Rashid"
+    ]
+  },
+  {
+    "id": "mbio3206",
+    "code": "MBIO 3206",
+    "name": "Microbiology Lab-VI",
+    "instructors": [
+      "Shamim Khandaker",
+      "Taslima Akter Tisha"
+    ]
+  },
+  {
+    "id": "mbio4101",
+    "code": "MBIO 4101",
+    "name": "Advanced Virology",
+    "instructors": [
+      "Dr. Md. Asaduzzaman Shishir",
+      "Shamim Khandaker"
+    ]
+  },
+  {
+    "id": "mbio4102",
+    "code": "MBIO 4102",
+    "name": "Advanced Immunology",
+    "instructors": [
+      "Dr. Md. Asaduzzaman Shishir",
+      "Alfi Anjum Rashid"
+    ]
+  },
+  {
+    "id": "mbio4103",
+    "code": "MBIO 4103",
+    "name": "Analytical Techniques in Life Sciences",
+    "instructors": [
+      "Dr. Md. Asaduzzaman Shishir",
+      "Taslima Akter Tisha"
+    ]
+  },
+  {
+    "id": "mbio4104",
+    "code": "MBIO 4104",
+    "name": "Epidemiology, Public Health and Bioethics",
+    "instructors": [
+      "Dr. Md. Asaduzzaman Shishir",
+      "Shamim Khandaker"
+    ]
+  },
+  {
+    "id": "mbio4105",
+    "code": "MBIO 4105",
+    "name": "Microbiology Lab-VII",
+    "instructors": [
+      "Alfi Anjum Rashid",
+      "Taslima Akter Tisha"
+    ]
+  },
+  {
+    "id": "mbio4201",
+    "code": "MBIO 4201",
+    "name": "Antibiotics: Mechanisms of Actions and Bacterial Resistance",
+    "instructors": [
+      "Dr. Md. Asaduzzaman Shishir",
+      "Shamim Khandaker"
+    ]
+  },
+  {
+    "id": "mbio4202",
+    "code": "MBIO 4202",
+    "name": "Environmental Pollution and Bioremediation",
+    "instructors": [
+      "Dr. Md. Asaduzzaman Shishir",
+      "Alfi Anjum Rashid"
+    ]
+  },
+  {
+    "id": "mbio4203",
+    "code": "MBIO 4203",
+    "name": "Clinical and Diagnostic Microbiology",
+    "instructors": [
+      "Dr. Md. Asaduzzaman Shishir",
+      "Taslima Akter Tisha"
+    ]
+  },
+  {
+    "id": "mbio4204",
+    "code": "MBIO 4204",
+    "name": "Microbiology Lab-VIII",
+    "instructors": [
+      "Shamim Khandaker",
+      "Alfi Anjum Rashid"
+    ]
+  },
+  {
+    "id": "mbio4990",
+    "code": "MBIO 4990",
+    "name": "Research Project",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  },
+  {
+    "id": "bio1201",
+    "code": "BIO 1201",
+    "name": "Fundamental Biochemistry",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Dr. Amelia Ferdaus Sara"
+    ]
+  },
+  {
+    "id": "bio1301",
+    "code": "BIO 1301",
+    "name": "Human Physiology",
+    "instructors": [
+      "Dr. Shimul Halder",
+      "As-Sazzad Mahmud"
+    ]
+  },
+  {
+    "id": "bio2101",
+    "code": "BIO 2101",
+    "name": "Basic Concept of Genetics",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Md. Shameem Ali"
+    ]
+  },
+  {
+    "id": "bio2201",
+    "code": "BIO 2201",
+    "name": "Enzymes and Bioenergetics",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Ovi Sikder"
+    ]
+  },
+  {
+    "id": "bio3101",
+    "code": "BIO 3101",
+    "name": "Cell Biology",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Zitu Barman"
+    ]
+  },
+  {
+    "id": "bio3102",
+    "code": "BIO 3102",
+    "name": "Biosafety and Biosecurity",
+    "instructors": [
+      "Dr. Md. Asaduzzaman Shishir",
+      "Shamim Khandaker"
+    ]
+  },
+  {
+    "id": "bio3201",
+    "code": "BIO 3201",
+    "name": "Molecular Biology",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Dr. Amelia Ferdaus Sara"
+    ]
+  },
+  {
+    "id": "bio3202",
+    "code": "BIO 3202",
+    "name": "Genomics and Bioinformatics",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Md. Shameem Ali"
+    ]
+  },
+  {
+    "id": "bio4101",
+    "code": "BIO 4101",
+    "name": "Biotechnology and Genetic Engineering",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Ovi Sikder"
+    ]
+  },
+  {
+    "id": "cse1101",
+    "code": "CSE 1101",
+    "name": "Computer Fundamentals",
+    "instructors": [
+      "Md. Safwan Zaher Asif",
+      "Md. Manirujjaman"
+    ]
+  },
+  {
+    "id": "cse1201",
+    "code": "CSE 1201",
+    "name": "Computer Programming",
+    "instructors": [
+      "Anik Mahmud Shanto",
+      "Safwan Ishrak"
+    ]
+  },
+  {
+    "id": "eng1101",
+    "code": "ENG 1101",
+    "name": "Basic English",
+    "instructors": [
+      "Prof. Sultana Begum",
+      "Dr. Ashraf Ali"
+    ]
+  },
+  {
+    "id": "chem1101",
+    "code": "CHEM 1101",
+    "name": "Fundamental Chemistry",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Prof. Fatima Rahman"
+    ]
+  },
+  {
+    "id": "chem1102",
+    "code": "CHEM 1102",
+    "name": "Chemistry Lab",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Prof. Fatima Rahman"
+    ]
+  },
+  {
+    "id": "chem2101",
+    "code": "CHEM 2101",
+    "name": "Biologically Important Organic Compounds",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Prof. Fatima Rahman"
+    ]
+  },
+  {
+    "id": "ban1101",
+    "code": "BAN 1101",
+    "name": "Bengali Language and Literature",
+    "instructors": [
+      "Prof. Habibur Rahman",
+      "Dr. Shamima Nasrin"
+    ]
+  },
+  {
+    "id": "ban1201",
+    "code": "BAN 1201",
+    "name": "History of Emergence of Bangladesh",
+    "instructors": [
+      "Prof. Habibur Rahman",
+      "Dr. Shamima Nasrin"
+    ]
+  },
+  {
+    "id": "math1101",
+    "code": "MATH 1101",
+    "name": "Mathematics",
+    "instructors": [
+      "Prof. Anisul Haque",
+      "Dr. Rowshan Ara"
+    ]
+  },
+  {
+    "id": "math2101",
+    "code": "MATH 2101",
+    "name": "Biostatistics",
+    "instructors": [
+      "Prof. Anisul Haque",
+      "Dr. Rowshan Ara"
+    ]
+  },
+  {
+    "id": "res4101",
+    "code": "RES 4101",
+    "name": "Scientific Research Methodology",
+    "instructors": [
+      "Dr. Md. Asaduzzaman Shishir",
+      "Dr. Tania Mannan"
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "id": "fass",
+  "name": "Faculty of Arts and Social Sciences",
+  "shortName": "FASS",
+  "departments": [
+    {
+      "id": "english",
+      "name": "Department of English",
+      "shortName": "English"
+    },
+    {
+      "id": "sociology",
+      "name": "Department of Sociology",
+      "shortName": "Sociology"
+    },
+    {
+      "id": "political_science",
+      "name": "Department of Political Science",
+      "shortName": "Political Science"
+    },
+    {
+      "id": "economics",
+      "name": "Department of Economics",
+      "shortName": "Economics"
+    },
+    {
+      "id": "development_studies",
+      "name": "Department of Development Studies",
+      "shortName": "Development Studies"
+    }
+  ]
+}

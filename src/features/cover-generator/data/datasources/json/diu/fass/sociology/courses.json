@@ -1,0 +1,426 @@
+[
+  {
+    "id": "0314-1101",
+    "code": "0314-1101",
+    "name": "Introduction to Sociology [Part-I]",
+    "instructors": [
+      "Jamsedur Rahman",
+      "Tahmina Khan"
+    ]
+  },
+  {
+    "id": "0314-1102",
+    "code": "0314-1102",
+    "name": "Introduction to Anthropology",
+    "instructors": [
+      "Tanjila Shabnam",
+      "Dr. Moshfeka Khatun"
+    ]
+  },
+  {
+    "id": "0312-1103",
+    "code": "0312-1103",
+    "name": "Elements of Political Science",
+    "instructors": [
+      "Abdur Rahim Mollah",
+      "Md. Nasimuzzaman Khan"
+    ]
+  },
+  {
+    "id": "0222-1104",
+    "code": "0222-1104",
+    "name": "Liberation War and the Emergence of Bangladesh",
+    "instructors": [
+      "Md. Touhiduzzaman",
+      "Bushra Islam"
+    ]
+  },
+  {
+    "id": "0232-1105",
+    "code": "0232-1105",
+    "name": "Bengali Language and Literature",
+    "instructors": [
+      "Md. Sohel Rana",
+      "Tanjuma Mohima"
+    ]
+  },
+  {
+    "id": "0613-1106",
+    "code": "0613-1106",
+    "name": "Fundamentals of Computer",
+    "instructors": [
+      "Farhana Islam",
+      "Rokeya Parvin"
+    ]
+  },
+  {
+    "id": "0314-1207",
+    "code": "0314-1207",
+    "name": "Introduction to Sociology [Part-II]",
+    "instructors": [
+      "Jamsedur Rahman",
+      "Kamrunnahar Koli"
+    ]
+  },
+  {
+    "id": "0314-1208",
+    "code": "0314-1208",
+    "name": "Cultural Anthropology",
+    "instructors": [
+      "Tanjila Shabnam",
+      "Farhana Yasmin"
+    ]
+  },
+  {
+    "id": "0314-1209",
+    "code": "0314-1209",
+    "name": "History of Political Thought",
+    "instructors": [
+      "Sharmin Sultana",
+      "Abdur Rahim Mollah"
+    ]
+  },
+  {
+    "id": "0311-1210",
+    "code": "0311-1210",
+    "name": "Principles of Economics",
+    "instructors": [
+      "Tahmina Khan",
+      "Dr. Moshfeka Khatun"
+    ]
+  },
+  {
+    "id": "0231-1211",
+    "code": "0231-1211",
+    "name": "Basic English Language",
+    "instructors": [
+      "Md. Nasimuzzaman Khan",
+      "Md. Touhiduzzaman"
+    ]
+  },
+  {
+    "id": "0314-1212",
+    "code": "0314-1212",
+    "name": "Seminar &Viva-voce",
+    "instructors": [
+      "Jamsedur Rahman",
+      "Tanjila Shabnam"
+    ]
+  },
+  {
+    "id": "0421-2113",
+    "code": "0421-2113",
+    "name": "Criminology",
+    "instructors": [
+      "Bushra Islam",
+      "Md. Sohel Rana"
+    ]
+  },
+  {
+    "id": "0314-2114",
+    "code": "0314-2114",
+    "name": "Social Problems in Bangladesh",
+    "instructors": [
+      "Tanjuma Mohima",
+      "Farhana Islam"
+    ]
+  },
+  {
+    "id": "0314-2115",
+    "code": "0314-2115",
+    "name": "Western Social Thought",
+    "instructors": [
+      "Rokeya Parvin",
+      "Kamrunnahar Koli"
+    ]
+  },
+  {
+    "id": "0312-2116",
+    "code": "0312-2116",
+    "name": "Political Development in Bangladesh",
+    "instructors": [
+      "Farhana Yasmin",
+      "Sharmin Sultana"
+    ]
+  },
+  {
+    "id": "03142117",
+    "code": "03142117",
+    "name": "Social Demography",
+    "instructors": [
+      "Abdur Rahim Mollah",
+      "Tahmina Khan"
+    ]
+  },
+  {
+    "id": "0231-2118",
+    "code": "0231-2118",
+    "name": "Functional English",
+    "instructors": [
+      "Dr. Moshfeka Khatun",
+      "Md. Nasimuzzaman Khan"
+    ]
+  },
+  {
+    "id": "0223-2219",
+    "code": "0223-2219",
+    "name": "Social Psychology",
+    "instructors": [
+      "Md. Touhiduzzaman",
+      "Bushra Islam"
+    ]
+  },
+  {
+    "id": "0314-2220",
+    "code": "0314-2220",
+    "name": "Social History",
+    "instructors": [
+      "Jamsedur Rahman",
+      "Md. Sohel Rana"
+    ]
+  },
+  {
+    "id": "0314-2221",
+    "code": "0314-2221",
+    "name": "Sociology of Education",
+    "instructors": [
+      "Tanjila Shabnam",
+      "Tanjuma Mohima"
+    ]
+  },
+  {
+    "id": "0320-2222",
+    "code": "0320-2222",
+    "name": "Sociology of Mass Communication",
+    "instructors": [
+      "Farhana Islam",
+      "Rokeya Parvin"
+    ]
+  },
+  {
+    "id": "0314-2223",
+    "code": "0314-2223",
+    "name": "Social Structure of Bangladesh",
+    "instructors": [
+      "Kamrunnahar Koli",
+      "Farhana Yasmin"
+    ]
+  },
+  {
+    "id": "0314-2224",
+    "code": "0314-2224",
+    "name": "Seminar & Viva-voce",
+    "instructors": [
+      "Jamsedur Rahman",
+      "Tanjila Shabnam"
+    ]
+  },
+  {
+    "id": "0542-3125",
+    "code": "0542-3125",
+    "name": "Elementary Social Statistics",
+    "instructors": [
+      "Sharmin Sultana",
+      "Abdur Rahim Mollah"
+    ]
+  },
+  {
+    "id": "0314-3126",
+    "code": "0314-3126",
+    "name": "Classical Sociological Theory",
+    "instructors": [
+      "Tahmina Khan",
+      "Dr. Moshfeka Khatun"
+    ]
+  },
+  {
+    "id": "0314-3127",
+    "code": "0314-3127",
+    "name": "Industrial Sociology",
+    "instructors": [
+      "Md. Nasimuzzaman Khan",
+      "Md. Touhiduzzaman"
+    ]
+  },
+  {
+    "id": "0222-3128",
+    "code": "0222-3128",
+    "name": "World Civilization",
+    "instructors": [
+      "Bushra Islam",
+      "Md. Sohel Rana"
+    ]
+  },
+  {
+    "id": "0314-3129",
+    "code": "0314-3129",
+    "name": "Social Thought in the East",
+    "instructors": [
+      "Tanjuma Mohima",
+      "Farhana Islam"
+    ]
+  },
+  {
+    "id": "0314-3130",
+    "code": "0314-3130",
+    "name": "Political Sociology",
+    "instructors": [
+      "Rokeya Parvin",
+      "Kamrunnahar Koli"
+    ]
+  },
+  {
+    "id": "0542-3231",
+    "code": "0542-3231",
+    "name": "Advanced Statistics",
+    "instructors": [
+      "Farhana Yasmin",
+      "Sharmin Sultana"
+    ]
+  },
+  {
+    "id": "0314-3232",
+    "code": "0314-3232",
+    "name": "Contemporary Sociological Theory",
+    "instructors": [
+      "Jamsedur Rahman",
+      "Abdur Rahim Mollah"
+    ]
+  },
+  {
+    "id": "0314-3233",
+    "code": "0314-3233",
+    "name": "Social Research Methods (Part-I)",
+    "instructors": [
+      "Tanjila Shabnam",
+      "Tahmina Khan"
+    ]
+  },
+  {
+    "id": "0314-3234",
+    "code": "0314-3234",
+    "name": "Rural Sociology",
+    "instructors": [
+      "Dr. Moshfeka Khatun",
+      "Md. Nasimuzzaman Khan"
+    ]
+  },
+  {
+    "id": "0314-3235",
+    "code": "0314-3235",
+    "name": "Gender and Development",
+    "instructors": [
+      "Md. Touhiduzzaman",
+      "Bushra Islam"
+    ]
+  },
+  {
+    "id": "0314-3236",
+    "code": "0314-3236",
+    "name": "Seminar &Viva-voce",
+    "instructors": [
+      "Jamsedur Rahman",
+      "Tanjila Shabnam"
+    ]
+  },
+  {
+    "id": "0314-4137",
+    "code": "0314-4137",
+    "name": "Medical Sociology",
+    "instructors": [
+      "Md. Sohel Rana",
+      "Tanjuma Mohima"
+    ]
+  },
+  {
+    "id": "0314-4138",
+    "code": "0314-4138",
+    "name": "Social Inequality",
+    "instructors": [
+      "Farhana Islam",
+      "Rokeya Parvin"
+    ]
+  },
+  {
+    "id": "0314-4139",
+    "code": "0314-4139",
+    "name": "Social Research Methods (Part-ii)",
+    "instructors": [
+      "Kamrunnahar Koli",
+      "Farhana Yasmin"
+    ]
+  },
+  {
+    "id": "0314-4140",
+    "code": "0314-4140",
+    "name": "Urban Sociology",
+    "instructors": [
+      "Sharmin Sultana",
+      "Abdur Rahim Mollah"
+    ]
+  },
+  {
+    "id": "0314-4141",
+    "code": "0314-4141",
+    "name": "Environmental Sociology",
+    "instructors": [
+      "Tahmina Khan",
+      "Dr. Moshfeka Khatun"
+    ]
+  },
+  {
+    "id": "0314-4142",
+    "code": "0314-4142",
+    "name": "Sociology of Development and Under Development",
+    "instructors": [
+      "Md. Nasimuzzaman Khan",
+      "Md. Touhiduzzaman"
+    ]
+  },
+  {
+    "id": "0314-4243",
+    "code": "0314-4243",
+    "name": "Post-modernism",
+    "instructors": [
+      "Jamsedur Rahman",
+      "Bushra Islam"
+    ]
+  },
+  {
+    "id": "0314-4244",
+    "code": "0314-4244",
+    "name": "Sociology of Globalization",
+    "instructors": [
+      "Tanjila Shabnam",
+      "Md. Sohel Rana"
+    ]
+  },
+  {
+    "id": "0314-4245",
+    "code": "0314-4245",
+    "name": "Sociology of Disaster",
+    "instructors": [
+      "Tanjuma Mohima",
+      "Farhana Islam"
+    ]
+  },
+  {
+    "id": "0314-4246",
+    "code": "0314-4246",
+    "name": "Research Monograph",
+    "instructors": [
+      "Jamsedur Rahman",
+      "Tanjila Shabnam",
+      "Abdur Rahim Mollah"
+    ]
+  },
+  {
+    "id": "0314-4247",
+    "code": "0314-4247",
+    "name": "Comprehensive & Viva-voce",
+    "instructors": [
+      "Jamsedur Rahman",
+      "Tanjila Shabnam"
+    ]
+  }
+]

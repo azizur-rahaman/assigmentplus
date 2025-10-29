@@ -1,0 +1,12 @@
+{
+  "id": "engineering",
+  "name": "School of Engineering and Computer Science",
+  "shortName": "SECS",
+  "departments": [
+    {
+      "id": "cse",
+      "name": "Department of Computer Science",
+      "shortName": "CSE"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "universities": [
+    {
+      "id": "brac",
+      "name": "BRAC University",
+      "shortName": "BRACU",
+      "logo": "/logos/brac-logo.png"
+    },
+    {
+      "id": "buet",
+      "name": "Bangladesh University of Engineering and Technology",
+      "shortName": "BUET",
+      "logo": "/logos/buet-logo.png"
+    },
+    {
+      "id": "diu",
+      "name": "Dhaka International University",
+      "shortName": "DIU",
+      "logo": "/logos/diu-logo.png"
+    },
+    {
+      "id": "du",
+      "name": "University of Dhaka",
+      "shortName": "DU",
+      "logo": "/logos/du-logo.png"
+    },
+    {
+      "id": "nsu",
+      "name": "North South University",
+      "shortName": "NSU",
+      "logo": "/logos/nsu-logo.png"
+    },
+    {
+      "id": "uiu",
+      "name": "United International University",
+      "shortName": "UIU",
+      "logo": "/logos/uiu-logo.png"
+    }
+  ]
+}

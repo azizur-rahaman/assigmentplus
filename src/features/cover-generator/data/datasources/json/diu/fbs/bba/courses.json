@@ -1,0 +1,432 @@
+[
+  {
+    "id": "eng1101",
+    "code": "ENG 1101",
+    "name": "English Fundamentals",
+    "instructors": [
+      "Md. Azmir Hossain",
+      "Md. Bazlur Rahman"
+    ]
+  },
+  {
+    "id": "ban1101",
+    "code": "BAN 1101",
+    "name": "Bangla Language",
+    "instructors": [
+      "Md. Siddique Alam Khan",
+      "Bushra Ferdousi"
+    ]
+  },
+  {
+    "id": "mgt1101",
+    "code": "MGT 1101",
+    "name": "Principles of Management",
+    "instructors": [
+      "Md. Azmir Hossain",
+      "Rabeya Sarker"
+    ]
+  },
+  {
+    "id": "acc1101",
+    "code": "ACC 1101",
+    "name": "Principles of Accounting",
+    "instructors": [
+      "Md. Ruhul Amin",
+      "Sohag Datta"
+    ]
+  },
+  {
+    "id": "eco1101",
+    "code": "ECO 1101",
+    "name": "Principles of Economics",
+    "instructors": [
+      "Mohammad Rezaur Rahman",
+      "Hasina Parvin Jolly"
+    ]
+  },
+  {
+    "id": "mkt1101",
+    "code": "MKT 1101",
+    "name": "Principles of Marketing",
+    "instructors": [
+      "Sayma Sharmen",
+      "Sadia Mahjabeen"
+    ]
+  },
+  {
+    "id": "cse1101",
+    "code": "CSE 1101",
+    "name": "Introduction to Computer",
+    "instructors": [
+      "Swadrul Wola Choudhury",
+      "Tahmina Akter Arzin"
+    ]
+  },
+  {
+    "id": "ban1201",
+    "code": "BAN 1201",
+    "name": "Emergence of Bangladesh",
+    "instructors": [
+      "Md. Siddique Alam Khan",
+      "Bushra Ferdousi"
+    ]
+  },
+  {
+    "id": "eng1201",
+    "code": "ENG 1201",
+    "name": "Business Communication",
+    "instructors": [
+      "Md. Azmir Hossain",
+      "Sharmin Akter"
+    ]
+  },
+  {
+    "id": "acc1201",
+    "code": "ACC 1201",
+    "name": "Financial Accounting",
+    "instructors": [
+      "Md. Ruhul Amin",
+      "Afrin Rahman Mili"
+    ]
+  },
+  {
+    "id": "eco1201",
+    "code": "ECO 1201",
+    "name": "Microeconomics",
+    "instructors": [
+      "Mohammad Rezaur Rahman",
+      "Md. Mahedi Hasan"
+    ]
+  },
+  {
+    "id": "mat1201",
+    "code": "MAT 1201",
+    "name": "Business Mathematics",
+    "instructors": [
+      "Md. Shahriya Mannan",
+      "Md. Noyan Hossain"
+    ]
+  },
+  {
+    "id": "mgt1201",
+    "code": "MGT 1201",
+    "name": "Organizational Behavior",
+    "instructors": [
+      "Md. Azmir Hossain",
+      "Rabeya Sarker"
+    ]
+  },
+  {
+    "id": "acc2101",
+    "code": "ACC 2101",
+    "name": "Cost and Management Accounting",
+    "instructors": [
+      "Md. Ruhul Amin",
+      "Sohag Datta"
+    ]
+  },
+  {
+    "id": "eco2101",
+    "code": "ECO 2101",
+    "name": "Macroeconomics",
+    "instructors": [
+      "Mohammad Rezaur Rahman",
+      "Hasina Parvin Jolly"
+    ]
+  },
+  {
+    "id": "mgt2101",
+    "code": "MGT 2101",
+    "name": "Production and Operations Management",
+    "instructors": [
+      "Md. Azmir Hossain",
+      "Sayma Sharmen"
+    ]
+  },
+  {
+    "id": "mkt2101",
+    "code": "MKT 2101",
+    "name": "Marketing Management",
+    "instructors": [
+      "Sayma Sharmen",
+      "Sadia Mahjabeen"
+    ]
+  },
+  {
+    "id": "fin2101",
+    "code": "FIN 2101",
+    "name": "Business Finance",
+    "instructors": [
+      "Md. Bazlur Rahman",
+      "Swadrul Wola Choudhury"
+    ]
+  },
+  {
+    "id": "sta2101",
+    "code": "STA 2101",
+    "name": "Business Statistics",
+    "instructors": [
+      "Md. Shahriya Mannan",
+      "Md. Noyan Hossain"
+    ]
+  },
+  {
+    "id": "hrm2201",
+    "code": "HRM 2201",
+    "name": "Human Resource Management",
+    "instructors": [
+      "Md. Azmir Hossain",
+      "Rabeya Sarker"
+    ]
+  },
+  {
+    "id": "fin2201",
+    "code": "FIN 2201",
+    "name": "Financial Management",
+    "instructors": [
+      "Md. Bazlur Rahman",
+      "Tahmina Akter Arzin"
+    ]
+  },
+  {
+    "id": "mgt2201",
+    "code": "MGT 2201",
+    "name": "Business Policy and Strategy",
+    "instructors": [
+      "Md. Azmir Hossain",
+      "Md. Siddique Alam Khan"
+    ]
+  },
+  {
+    "id": "mkt2201",
+    "code": "MKT 2201",
+    "name": "Consumer Behavior",
+    "instructors": [
+      "Sayma Sharmen",
+      "Sadia Mahjabeen"
+    ]
+  },
+  {
+    "id": "law2201",
+    "code": "LAW 2201",
+    "name": "Business Law",
+    "instructors": [
+      "Bushra Ferdousi",
+      "Sharmin Akter"
+    ]
+  },
+  {
+    "id": "sta2201",
+    "code": "STA 2201",
+    "name": "Research Methodology",
+    "instructors": [
+      "Md. Shahriya Mannan",
+      "Afrin Rahman Mili"
+    ]
+  },
+  {
+    "id": "mgt3101",
+    "code": "MGT 3101",
+    "name": "Entrepreneurship Development",
+    "instructors": [
+      "Md. Azmir Hossain",
+      "Mohammad Rezaur Rahman"
+    ]
+  },
+  {
+    "id": "fin3101",
+    "code": "FIN 3101",
+    "name": "Investment Analysis and Portfolio Management",
+    "instructors": [
+      "Md. Bazlur Rahman",
+      "Swadrul Wola Choudhury"
+    ]
+  },
+  {
+    "id": "mkt3101",
+    "code": "MKT 3101",
+    "name": "Services Marketing",
+    "instructors": [
+      "Sayma Sharmen",
+      "Sadia Mahjabeen"
+    ]
+  },
+  {
+    "id": "acc3101",
+    "code": "ACC 3101",
+    "name": "Taxation in Bangladesh",
+    "instructors": [
+      "Md. Ruhul Amin",
+      "Sohag Datta"
+    ]
+  },
+  {
+    "id": "hrm3101",
+    "code": "HRM 3101",
+    "name": "Compensation Management",
+    "instructors": [
+      "Rabeya Sarker",
+      "Hasina Parvin Jolly"
+    ]
+  },
+  {
+    "id": "mis3101",
+    "code": "MIS 3101",
+    "name": "Management Information Systems",
+    "instructors": [
+      "Swadrul Wola Choudhury",
+      "Md. Mahedi Hasan"
+    ]
+  },
+  {
+    "id": "fin3201",
+    "code": "FIN 3201",
+    "name": "Banking and Insurance",
+    "instructors": [
+      "Md. Bazlur Rahman",
+      "Tahmina Akter Arzin"
+    ]
+  },
+  {
+    "id": "mkt3201",
+    "code": "MKT 3201",
+    "name": "International Marketing",
+    "instructors": [
+      "Sayma Sharmen",
+      "Sadia Mahjabeen"
+    ]
+  },
+  {
+    "id": "acc3201",
+    "code": "ACC 3201",
+    "name": "Auditing",
+    "instructors": [
+      "Md. Ruhul Amin",
+      "Sohag Datta"
+    ]
+  },
+  {
+    "id": "hrm3201",
+    "code": "HRM 3201",
+    "name": "Industrial Relations and Labor Law",
+    "instructors": [
+      "Rabeya Sarker",
+      "Md. Noyan Hossain"
+    ]
+  },
+  {
+    "id": "mgt3201",
+    "code": "MGT 3201",
+    "name": "Project Management",
+    "instructors": [
+      "Md. Azmir Hossain",
+      "Mohammad Rezaur Rahman"
+    ]
+  },
+  {
+    "id": "int3201",
+    "code": "INT 3201",
+    "name": "Internship",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  },
+  {
+    "id": "fin4101",
+    "code": "FIN 4101",
+    "name": "Corporate Finance",
+    "instructors": [
+      "Md. Bazlur Rahman",
+      "Swadrul Wola Choudhury"
+    ]
+  },
+  {
+    "id": "mkt4101",
+    "code": "MKT 4101",
+    "name": "Brand Management",
+    "instructors": [
+      "Sayma Sharmen",
+      "Sadia Mahjabeen"
+    ]
+  },
+  {
+    "id": "acc4101",
+    "code": "ACC 4101",
+    "name": "Advanced Accounting",
+    "instructors": [
+      "Md. Ruhul Amin",
+      "Sohag Datta"
+    ]
+  },
+  {
+    "id": "hrm4101",
+    "code": "HRM 4101",
+    "name": "Training and Development",
+    "instructors": [
+      "Rabeya Sarker",
+      "Hasina Parvin Jolly"
+    ]
+  },
+  {
+    "id": "mgt4101",
+    "code": "MGT 4101",
+    "name": "International Business",
+    "instructors": [
+      "Md. Azmir Hossain",
+      "Md. Siddique Alam Khan"
+    ]
+  },
+  {
+    "id": "bus4101",
+    "code": "BUS 4101",
+    "name": "Business Ethics and Corporate Governance",
+    "instructors": [
+      "Bushra Ferdousi",
+      "Md. Shahriya Mannan"
+    ]
+  },
+  {
+    "id": "fin4201",
+    "code": "FIN 4201",
+    "name": "Financial Market and Institutions",
+    "instructors": [
+      "Md. Bazlur Rahman",
+      "Tahmina Akter Arzin"
+    ]
+  },
+  {
+    "id": "mkt4201",
+    "code": "MKT 4201",
+    "name": "Digital Marketing",
+    "instructors": [
+      "Sayma Sharmen",
+      "Sadia Mahjabeen"
+    ]
+  },
+  {
+    "id": "scm4201",
+    "code": "SCM 4201",
+    "name": "Supply Chain Management",
+    "instructors": [
+      "Mohammad Rezaur Rahman",
+      "Afrin Rahman Mili"
+    ]
+  },
+  {
+    "id": "mgt4201",
+    "code": "MGT 4201",
+    "name": "Knowledge Management",
+    "instructors": [
+      "Md. Azmir Hossain",
+      "Sharmin Akter"
+    ]
+  },
+  {
+    "id": "bus4990",
+    "code": "BUS 4990",
+    "name": "Thesis/Project",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "id": "business",
+  "name": "Faculty of Business Studies",
+  "shortName": "FBS",
+  "departments": [
+    {
+      "id": "mba",
+      "name": "MBA Program",
+      "shortName": "MBA"
+    }
+  ]
+}

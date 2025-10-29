@@ -1,0 +1,12 @@
+{
+  "id": "law",
+  "name": "School of Law",
+  "shortName": "LAW",
+  "departments": [
+    {
+      "id": "llb",
+      "name": "Bachelor of Laws (LLB)",
+      "shortName": "LLB"
+    }
+  ]
+}

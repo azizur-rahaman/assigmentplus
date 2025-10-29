@@ -1,0 +1,571 @@
+[
+  {
+    "id": "pharm1101",
+    "code": "PHARM 1101",
+    "name": "Introduction to Pharmacy",
+    "instructors": [
+      "Dr. Mohammad Hasan",
+      "Prof. Nasrin Akhter"
+    ]
+  },
+  {
+    "id": "pharm1201",
+    "code": "PHARM 1201",
+    "name": "Inorganic Pharmacy",
+    "instructors": [
+      "Dr. Kamrul Islam",
+      "Eng. Tareq Ahmed"
+    ]
+  },
+  {
+    "id": "pharm1202",
+    "code": "PHARM 1202",
+    "name": "Inorganic Pharmacy Laboratory",
+    "instructors": [
+      "Prof. Abdul Mannan",
+      "Dr. Shahana Parveen"
+    ]
+  },
+  {
+    "id": "pharm1301",
+    "code": "PHARM 1301",
+    "name": "Organic Pharmacy",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "pharm1302",
+    "code": "PHARM 1302",
+    "name": "Organic Pharmacy Laboratory",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "eng1011",
+    "code": "ENG 1011",
+    "name": "English",
+    "instructors": [
+      "Prof. Anisul Haque",
+      "Dr. Rowshan Ara"
+    ]
+  },
+  {
+    "id": "math1301",
+    "code": "MATH 1301",
+    "name": "Fundamentals of Mathematics",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Fatima Rahman"
+    ]
+  },
+  {
+    "id": "cst1201",
+    "code": "CST 1201",
+    "name": "Introduction to Computer Sciences",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "pharm1401",
+    "code": "PHARM 1401",
+    "name": "Physical Pharmacy-I",
+    "instructors": [
+      "Mosabbir Ahmed",
+      "Dr. Rahman Khan"
+    ]
+  },
+  {
+    "id": "pharm1501",
+    "code": "PHARM 1501",
+    "name": "Pharmacognosy & Natural Product Chemistry-I",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Sabbir Ahmed"
+    ]
+  },
+  {
+    "id": "pharm1502",
+    "code": "PHARM 1502",
+    "name": "Pharmacognosy & Natural Product Chemistry-I Laboratory",
+    "instructors": [
+      "Prof. Jahangir Alam",
+      "Rashed Khan"
+    ]
+  },
+  {
+    "id": "pharm1601",
+    "code": "PHARM 1601",
+    "name": "Physiology-I",
+    "instructors": [
+      "Dr. Farhan Rahman",
+      "Nusrat Jahan"
+    ]
+  },
+  {
+    "id": "pharm1701",
+    "code": "PHARM 1701",
+    "name": "Basic Anatomy",
+    "instructors": [
+      "Dr. Habibur Rahman",
+      "Prof. Shamima Nasrin"
+    ]
+  },
+  {
+    "id": "bng1101",
+    "code": "BNG 1101",
+    "name": "Bangla Language and Literature",
+    "instructors": [
+      "Dr. Md. Shahin Alam",
+      "Farhana Yasmin"
+    ]
+  },
+  {
+    "id": "bds1201",
+    "code": "BDS 1201",
+    "name": "Bangladesh Studies",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "pharm1801",
+    "code": "PHARM 1801",
+    "name": "Oral Assessment-I",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  },
+  {
+    "id": "pharm2101",
+    "code": "PHARM 2101",
+    "name": "Physical Pharmacy-II",
+    "instructors": [
+      "Dr. Mohammad Hasan",
+      "Prof. Nasrin Akhter"
+    ]
+  },
+  {
+    "id": "pharm2102",
+    "code": "PHARM 2102",
+    "name": "Physical Pharmacy-II Laboratory",
+    "instructors": [
+      "Dr. Kamrul Islam",
+      "Eng. Tareq Ahmed"
+    ]
+  },
+  {
+    "id": "pharm2201",
+    "code": "PHARM 2201",
+    "name": "Pharmacognosy & Natural Product Chemistry-II",
+    "instructors": [
+      "Prof. Abdul Mannan",
+      "Dr. Shahana Parveen"
+    ]
+  },
+  {
+    "id": "pharm2202",
+    "code": "PHARM 2202",
+    "name": "Pharmacognosy & Natural Product Chemistry-II Laboratory",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "pharm2301",
+    "code": "PHARM 2301",
+    "name": "Physiology-II",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "pharm2302",
+    "code": "PHARM 2302",
+    "name": "Physiology-II Laboratory",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "pharm2401",
+    "code": "PHARM 2401",
+    "name": "Pharmaceutical Microbiology-I",
+    "instructors": [
+      "Mosabbir Ahmed",
+      "Dr. Rahman Khan"
+    ]
+  },
+  {
+    "id": "pharm2402",
+    "code": "PHARM 2402",
+    "name": "Pharmaceutical Microbiology-I Laboratory",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Sabbir Ahmed"
+    ]
+  },
+  {
+    "id": "pharm2501",
+    "code": "PHARM 2501",
+    "name": "Basic Pharmaceutics",
+    "instructors": [
+      "Prof. Jahangir Alam",
+      "Rashed Khan"
+    ]
+  },
+  {
+    "id": "stat2201",
+    "code": "STAT 2201",
+    "name": "Biostatistics",
+    "instructors": [
+      "Dr. Farhan Rahman",
+      "Nusrat Jahan"
+    ]
+  },
+  {
+    "id": "pharm2601",
+    "code": "PHARM 2601",
+    "name": "Pharmaceutical Analysis-I",
+    "instructors": [
+      "Dr. Habibur Rahman",
+      "Prof. Shamima Nasrin"
+    ]
+  },
+  {
+    "id": "pharm2602",
+    "code": "PHARM 2602",
+    "name": "Pharmaceutical Analysis-I Laboratory",
+    "instructors": [
+      "Dr. Md. Shahin Alam",
+      "Farhana Yasmin"
+    ]
+  },
+  {
+    "id": "pharm2701",
+    "code": "PHARM 2701",
+    "name": "Pharmaceutical Microbiology-II",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Fatima Rahman"
+    ]
+  },
+  {
+    "id": "pharm2702",
+    "code": "PHARM 2702",
+    "name": "Pharmaceutical Microbiology-II Laboratory",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "pharm2801",
+    "code": "PHARM 2801",
+    "name": "Pharmacology-I",
+    "instructors": [
+      "Dr. Mohammad Hasan",
+      "Prof. Nasrin Akhter"
+    ]
+  },
+  {
+    "id": "pharm2901",
+    "code": "PHARM 2901",
+    "name": "Pharmaceutical Technology-I",
+    "instructors": [
+      "Dr. Kamrul Islam",
+      "Eng. Tareq Ahmed"
+    ]
+  },
+  {
+    "id": "pharm2902",
+    "code": "PHARM 2902",
+    "name": "Pharmaceutical Technology-I Laboratory",
+    "instructors": [
+      "Prof. Abdul Mannan",
+      "Dr. Shahana Parveen"
+    ]
+  },
+  {
+    "id": "bio2101",
+    "code": "BIO 2101",
+    "name": "Biochemistry & Molecular Biology",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "pharm2001",
+    "code": "PHARM 2001",
+    "name": "Oral Assessment-II",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  },
+  {
+    "id": "pharm3101",
+    "code": "PHARM 3101",
+    "name": "Pharmaceutical Analysis-II",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "pharm3102",
+    "code": "PHARM 3102",
+    "name": "Pharmaceutical Analysis-II Laboratory",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "pharm3201",
+    "code": "PHARM 3201",
+    "name": "Pharmacology-II",
+    "instructors": [
+      "Mosabbir Ahmed",
+      "Dr. Rahman Khan"
+    ]
+  },
+  {
+    "id": "pharm3301",
+    "code": "PHARM 3301",
+    "name": "Medicinal Chemistry-I",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Sabbir Ahmed"
+    ]
+  },
+  {
+    "id": "pharm3401",
+    "code": "PHARM 3401",
+    "name": "Pharmaceutical Technology-II",
+    "instructors": [
+      "Prof. Jahangir Alam",
+      "Rashed Khan"
+    ]
+  },
+  {
+    "id": "pharm3402",
+    "code": "PHARM 3402",
+    "name": "Pharmaceutical Technology-II Laboratory",
+    "instructors": [
+      "Dr. Farhan Rahman",
+      "Nusrat Jahan"
+    ]
+  },
+  {
+    "id": "path3101",
+    "code": "PATH 3101",
+    "name": "Pathology and Clinical Biochemistry",
+    "instructors": [
+      "Dr. Habibur Rahman",
+      "Prof. Shamima Nasrin"
+    ]
+  },
+  {
+    "id": "pharm3501",
+    "code": "PHARM 3501",
+    "name": "Medicinal Chemistry-II",
+    "instructors": [
+      "Dr. Md. Shahin Alam",
+      "Farhana Yasmin"
+    ]
+  },
+  {
+    "id": "pharm3601",
+    "code": "PHARM 3601",
+    "name": "Pharmaceutical Technology-III",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Fatima Rahman"
+    ]
+  },
+  {
+    "id": "pharm3602",
+    "code": "PHARM 3602",
+    "name": "Pharmaceutical Technology-III Laboratory",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "pharm3701",
+    "code": "PHARM 3701",
+    "name": "Pharmaceutical Biotechnology",
+    "instructors": [
+      "Dr. Mohammad Hasan",
+      "Prof. Nasrin Akhter"
+    ]
+  },
+  {
+    "id": "pharm3801",
+    "code": "PHARM 3801",
+    "name": "Biopharmaceutics & Pharmacokinetics-I",
+    "instructors": [
+      "Dr. Kamrul Islam",
+      "Eng. Tareq Ahmed"
+    ]
+  },
+  {
+    "id": "pharm3901",
+    "code": "PHARM 3901",
+    "name": "Pharmaceutical Packaging Technology",
+    "instructors": [
+      "Prof. Abdul Mannan",
+      "Dr. Shahana Parveen"
+    ]
+  },
+  {
+    "id": "pharm3001",
+    "code": "PHARM 3001",
+    "name": "Hospital, Clinical & Community Pharmacy",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "pharm3002",
+    "code": "PHARM 3002",
+    "name": "Oral Assessment-III",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  },
+  {
+    "id": "pharm4101",
+    "code": "PHARM 4101",
+    "name": "Medicinal Chemistry-III",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "pharm4201",
+    "code": "PHARM 4201",
+    "name": "Pharmacology-III",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "pharm4301",
+    "code": "PHARM 4301",
+    "name": "Biopharmaceutics & Pharmacokinetics-II",
+    "instructors": [
+      "Mosabbir Ahmed",
+      "Dr. Rahman Khan"
+    ]
+  },
+  {
+    "id": "pharm4401",
+    "code": "PHARM 4401",
+    "name": "Pharmaceutical Quality Control and Validation",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Sabbir Ahmed"
+    ]
+  },
+  {
+    "id": "pharm4501",
+    "code": "PHARM 4501",
+    "name": "Pharmaceutical Engineering",
+    "instructors": [
+      "Prof. Jahangir Alam",
+      "Rashed Khan"
+    ]
+  },
+  {
+    "id": "pharm4601",
+    "code": "PHARM 4601",
+    "name": "Pharmacy Practice",
+    "instructors": [
+      "Dr. Farhan Rahman",
+      "Nusrat Jahan"
+    ]
+  },
+  {
+    "id": "pharm4701",
+    "code": "PHARM 4701",
+    "name": "Pharmacology-IV",
+    "instructors": [
+      "Dr. Habibur Rahman",
+      "Prof. Shamima Nasrin"
+    ]
+  },
+  {
+    "id": "pharm4801",
+    "code": "PHARM 4801",
+    "name": "Cosmetology",
+    "instructors": [
+      "Dr. Md. Shahin Alam",
+      "Farhana Yasmin"
+    ]
+  },
+  {
+    "id": "pharm4901",
+    "code": "PHARM 4901",
+    "name": "Pharmaceutical Regulatory Affairs",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Fatima Rahman"
+    ]
+  },
+  {
+    "id": "pharm4001",
+    "code": "PHARM 4001",
+    "name": "Food Technology, Nutraceuticals and Alternative Medicines",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "pharm4002",
+    "code": "PHARM 4002",
+    "name": "Oral Assessment-IV",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  },
+  {
+    "id": "pharm4003",
+    "code": "PHARM 4003",
+    "name": "In-plant Training",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  },
+  {
+    "id": "pharm4999",
+    "code": "PHARM 4999",
+    "name": "Project",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  },
+  {
+    "id": "pharm4004",
+    "code": "PHARM 4004",
+    "name": "Hospital Training",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  }
+]

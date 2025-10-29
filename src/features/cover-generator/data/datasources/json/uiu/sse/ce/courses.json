@@ -1,0 +1,639 @@
+[
+  {
+    "id": "eng1011",
+    "code": "ENG 1011",
+    "name": "English I",
+    "instructors": [
+      "Prof. Anisul Haque",
+      "Dr. Rowshan Ara"
+    ]
+  },
+  {
+    "id": "math1101",
+    "code": "MATH 1101",
+    "name": "Differential and Integral Calculus",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Fatima Rahman"
+    ]
+  },
+  {
+    "id": "act2111",
+    "code": "ACT 2111",
+    "name": "Financial and Managerial Accounting",
+    "instructors": [
+      "Dr. Mohammad Hasan",
+      "Prof. Nasrin Akhter"
+    ]
+  },
+  {
+    "id": "chem1211",
+    "code": "CHEM 1211",
+    "name": "Chemistry",
+    "instructors": [
+      "Dr. Kamrul Islam",
+      "Eng. Tareq Ahmed"
+    ]
+  },
+  {
+    "id": "ce1201",
+    "code": "CE 1201",
+    "name": "Surveying",
+    "instructors": [
+      "Prof. Abdul Mannan",
+      "Dr. Shahana Parveen"
+    ]
+  },
+  {
+    "id": "ce1100",
+    "code": "CE 1100",
+    "name": "Civil Engineering Drawing I",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "chem1212",
+    "code": "CHEM 1212",
+    "name": "Chemistry Lab",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "ce1202",
+    "code": "CE 1202",
+    "name": "Practical Surveying",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "eng1013",
+    "code": "ENG 1013",
+    "name": "English II",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "math1201",
+    "code": "MATH 1201",
+    "name": "Linear Algebra, Ordinary and Partial Differential equations",
+    "instructors": [
+      "Mosabbir Ahmed",
+      "Dr. Rahman Khan"
+    ]
+  },
+  {
+    "id": "ce1101",
+    "code": "CE 1101",
+    "name": "Engineering Mechanics",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Sabbir Ahmed"
+    ]
+  },
+  {
+    "id": "phy1201",
+    "code": "PHY 1201",
+    "name": "Physics",
+    "instructors": [
+      "Prof. Jahangir Alam",
+      "Rashed Khan"
+    ]
+  },
+  {
+    "id": "eee1201",
+    "code": "EEE 1201",
+    "name": "Basic Electrical Engineering",
+    "instructors": [
+      "Dr. Farhan Rahman",
+      "Nusrat Jahan"
+    ]
+  },
+  {
+    "id": "bds1201",
+    "code": "BDS 1201",
+    "name": "History of the Emergence of Bangladesh",
+    "instructors": [
+      "Dr. Habibur Rahman",
+      "Prof. Shamima Nasrin"
+    ]
+  },
+  {
+    "id": "ce1200",
+    "code": "CE 1200",
+    "name": "Civil Engineering Drawing II",
+    "instructors": [
+      "Dr. Md. Shahin Alam",
+      "Farhana Yasmin"
+    ]
+  },
+  {
+    "id": "phy1202",
+    "code": "PHY 1202",
+    "name": "Physics Lab",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Fatima Rahman"
+    ]
+  },
+  {
+    "id": "math2101",
+    "code": "MATH 2101",
+    "name": "Matrices and Vector Analysis",
+    "instructors": [
+      "Dr. Mohammad Hasan",
+      "Prof. Nasrin Akhter"
+    ]
+  },
+  {
+    "id": "ce2101",
+    "code": "CE 2101",
+    "name": "Engineering Materials",
+    "instructors": [
+      "Dr. Kamrul Islam",
+      "Eng. Tareq Ahmed"
+    ]
+  },
+  {
+    "id": "ce2201",
+    "code": "CE 2201",
+    "name": "Engineering Geology and Geomorphology",
+    "instructors": [
+      "Prof. Abdul Mannan",
+      "Dr. Shahana Parveen"
+    ]
+  },
+  {
+    "id": "ce2111",
+    "code": "CE 2111",
+    "name": "Mechanics of Solids I",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "ce2171",
+    "code": "CE 2171",
+    "name": "Fluid Mechanics",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "cse2100",
+    "code": "CSE 2100",
+    "name": "Computer Programming Lab",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "ce2102",
+    "code": "CE 2102",
+    "name": "Engineering Materials Laboratory",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "ce2172",
+    "code": "CE 2172",
+    "name": "Fluid Mechanics Laboratory",
+    "instructors": [
+      "Mosabbir Ahmed",
+      "Dr. Rahman Khan"
+    ]
+  },
+  {
+    "id": "math2103",
+    "code": "MATH 2103",
+    "name": "Laplace Transformation, Probability and Statistics",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Sabbir Ahmed"
+    ]
+  },
+  {
+    "id": "ce2203",
+    "code": "CE 2203",
+    "name": "Numerical Analysis and Computer Programming",
+    "instructors": [
+      "Prof. Jahangir Alam",
+      "Rashed Khan"
+    ]
+  },
+  {
+    "id": "ce2211",
+    "code": "CE 2211",
+    "name": "Mechanics of Solids II",
+    "instructors": [
+      "Dr. Farhan Rahman",
+      "Nusrat Jahan"
+    ]
+  },
+  {
+    "id": "ce2271",
+    "code": "CE 2271",
+    "name": "Engineering Hydrology",
+    "instructors": [
+      "Dr. Habibur Rahman",
+      "Prof. Shamima Nasrin"
+    ]
+  },
+  {
+    "id": "eco4101",
+    "code": "ECO 4101",
+    "name": "Economics",
+    "instructors": [
+      "Dr. Md. Shahin Alam",
+      "Farhana Yasmin"
+    ]
+  },
+  {
+    "id": "ce2200",
+    "code": "CE 2200",
+    "name": "Details of Construction",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Fatima Rahman"
+    ]
+  },
+  {
+    "id": "ce2104",
+    "code": "CE 2104",
+    "name": "GIS and Remote Sensing Lab",
+    "instructors": [
+      "Dr. Mohammad Hasan",
+      "Prof. Nasrin Akhter"
+    ]
+  },
+  {
+    "id": "ce2212",
+    "code": "CE 2212",
+    "name": "Structural Mechanics and Materials Laboratory",
+    "instructors": [
+      "Dr. Kamrul Islam",
+      "Eng. Tareq Ahmed"
+    ]
+  },
+  {
+    "id": "ce3111",
+    "code": "CE 3111",
+    "name": "Structural Analysis and Design I",
+    "instructors": [
+      "Prof. Abdul Mannan",
+      "Dr. Shahana Parveen"
+    ]
+  },
+  {
+    "id": "ce3113",
+    "code": "CE 3113",
+    "name": "Design of Concrete Structures",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "ce3131",
+    "code": "CE 3131",
+    "name": "Water Supply Engineering",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "ce3241",
+    "code": "CE 3241",
+    "name": "Soil Mechanics",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "sdv1107",
+    "code": "SDV 1107",
+    "name": "Introduction to Sustainable Development",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "ce2100",
+    "code": "CE 2100",
+    "name": "Construction Detailing and Estimation Lab",
+    "instructors": [
+      "Mosabbir Ahmed",
+      "Dr. Rahman Khan"
+    ]
+  },
+  {
+    "id": "ce3132",
+    "code": "CE 3132",
+    "name": "Environmental Engineering Laboratory",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Sabbir Ahmed"
+    ]
+  },
+  {
+    "id": "ce3142",
+    "code": "CE 3142",
+    "name": "Geotechnical Engineering Laboratory",
+    "instructors": [
+      "Prof. Jahangir Alam",
+      "Rashed Khan"
+    ]
+  },
+  {
+    "id": "ce3211",
+    "code": "CE 3211",
+    "name": "Design of Steel Structures",
+    "instructors": [
+      "Dr. Farhan Rahman",
+      "Nusrat Jahan"
+    ]
+  },
+  {
+    "id": "ce3231",
+    "code": "CE 3231",
+    "name": "Wastewater Engineering",
+    "instructors": [
+      "Dr. Habibur Rahman",
+      "Prof. Shamima Nasrin"
+    ]
+  },
+  {
+    "id": "ce4141",
+    "code": "CE 4141",
+    "name": "Foundation Engineering",
+    "instructors": [
+      "Dr. Md. Shahin Alam",
+      "Farhana Yasmin"
+    ]
+  },
+  {
+    "id": "ce3251",
+    "code": "CE 3251",
+    "name": "Transportation Planning and Traffic Engineering",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Fatima Rahman"
+    ]
+  },
+  {
+    "id": "ce3171",
+    "code": "CE 3171",
+    "name": "Open Channel Flow",
+    "instructors": [
+      "Dr. Mohammad Hasan",
+      "Prof. Nasrin Akhter"
+    ]
+  },
+  {
+    "id": "arch3200",
+    "code": "ARCH 3200",
+    "name": "Architectural, Engineering & Planning Appreciation",
+    "instructors": [
+      "Dr. Kamrul Islam",
+      "Eng. Tareq Ahmed"
+    ]
+  },
+  {
+    "id": "ce3112",
+    "code": "CE 3112",
+    "name": "Reinforced Concrete Structure Design Lab",
+    "instructors": [
+      "Prof. Abdul Mannan",
+      "Dr. Shahana Parveen"
+    ]
+  },
+  {
+    "id": "ce3172",
+    "code": "CE 3172",
+    "name": "Open Channel Flow Laboratory",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "ce3201",
+    "code": "CE 3201",
+    "name": "Project Planning and Construction Management",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "ce4111",
+    "code": "CE 4111",
+    "name": "Structural Analysis and Design II",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "ce4151",
+    "code": "CE 4151",
+    "name": "Highway Design and Railway Engineering",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "ce4171",
+    "code": "CE 4171",
+    "name": "Irrigation and Flood Control",
+    "instructors": [
+      "Mosabbir Ahmed",
+      "Dr. Rahman Khan"
+    ]
+  },
+  {
+    "id": "ce3212",
+    "code": "CE 3212",
+    "name": "Steel Structures Design Lab",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Sabbir Ahmed"
+    ]
+  },
+  {
+    "id": "ce4152",
+    "code": "CE 4152",
+    "name": "Highway Materials and Traffic Engineering Design Lab",
+    "instructors": [
+      "Prof. Jahangir Alam",
+      "Rashed Khan"
+    ]
+  },
+  {
+    "id": "ce4000a",
+    "code": "CE 4000A",
+    "name": "Final Year Design Project I",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  },
+  {
+    "id": "ce4201",
+    "code": "CE 4201",
+    "name": "Engineering Ethics and Professional Practices",
+    "instructors": [
+      "Dr. Farhan Rahman",
+      "Nusrat Jahan"
+    ]
+  },
+  {
+    "id": "ce4110",
+    "code": "CE 4110",
+    "name": "Computer Applications in Civil Engineering",
+    "instructors": [
+      "Dr. Habibur Rahman",
+      "Prof. Shamima Nasrin"
+    ]
+  },
+  {
+    "id": "ce4202",
+    "code": "CE 4202",
+    "name": "Industrial Attachment and Professional Practices",
+    "instructors": [
+      "Dr. Md. Shahin Alam",
+      "Farhana Yasmin"
+    ]
+  },
+  {
+    "id": "ce4000b",
+    "code": "CE 4000B",
+    "name": "Final Year Design Project II",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  },
+  {
+    "id": "ce4221",
+    "code": "CE 4221",
+    "name": "Advanced Structural Analysis",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Fatima Rahman"
+    ]
+  },
+  {
+    "id": "ce4222",
+    "code": "CE 4222",
+    "name": "Earthquake Engineering",
+    "instructors": [
+      "Dr. Mohammad Hasan",
+      "Prof. Nasrin Akhter"
+    ]
+  },
+  {
+    "id": "ce4223",
+    "code": "CE 4223",
+    "name": "Bridge Engineering",
+    "instructors": [
+      "Dr. Kamrul Islam",
+      "Eng. Tareq Ahmed"
+    ]
+  },
+  {
+    "id": "ce4224",
+    "code": "CE 4224",
+    "name": "Pre-stressed Concrete Design",
+    "instructors": [
+      "Prof. Abdul Mannan",
+      "Dr. Shahana Parveen"
+    ]
+  },
+  {
+    "id": "ce4225",
+    "code": "CE 4225",
+    "name": "Coastal and Offshore Engineering",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "ce4226",
+    "code": "CE 4226",
+    "name": "Rock Mechanics",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "ce4227",
+    "code": "CE 4227",
+    "name": "Pavement Design and Maintenance",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "ce4228",
+    "code": "CE 4228",
+    "name": "Urban Planning and Development",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "ce4229",
+    "code": "CE 4229",
+    "name": "Water Resources Engineering",
+    "instructors": [
+      "Mosabbir Ahmed",
+      "Dr. Rahman Khan"
+    ]
+  },
+  {
+    "id": "ce4230",
+    "code": "CE 4230",
+    "name": "Environmental Impact Assessment",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Sabbir Ahmed"
+    ]
+  },
+  {
+    "id": "ce4231",
+    "code": "CE 4231",
+    "name": "Waste Management",
+    "instructors": [
+      "Prof. Jahangir Alam",
+      "Rashed Khan"
+    ]
+  },
+  {
+    "id": "ce4232",
+    "code": "CE 4232",
+    "name": "Air Quality Management",
+    "instructors": [
+      "Dr. Farhan Rahman",
+      "Nusrat Jahan"
+    ]
+  }
+]

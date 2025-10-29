@@ -1,0 +1,12 @@
+{
+  "id": "eds",
+  "name": "Department of Environment and Development Studies",
+  "shortName": "EDS",
+  "programs": [
+    {
+      "id": "bsseds",
+      "name": "BSS in Environment and Development Studies",
+      "shortName": "BSSEDS"
+    }
+  ]
+}

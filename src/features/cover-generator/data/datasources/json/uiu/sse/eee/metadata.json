@@ -1,0 +1,12 @@
+{
+  "id": "eee",
+  "name": "Department of Electrical and Electronics Engineering",
+  "shortName": "EEE",
+  "programs": [
+    {
+      "id": "bseee",
+      "name": "B.Sc. in Electrical & Electronic Engineering",
+      "shortName": "BSc EEE"
+    }
+  ]
+}

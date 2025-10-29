@@ -1,0 +1,505 @@
+[
+  {
+    "id": "bmb1101",
+    "code": "BMB 1101",
+    "name": "Introductory Biochemistry I",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Dr. Amelia Ferdaus Sara"
+    ]
+  },
+  {
+    "id": "bmb1102",
+    "code": "BMB 1102",
+    "name": "Introductory Molecular Biology",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Md. Shameem Ali"
+    ]
+  },
+  {
+    "id": "bmb1103",
+    "code": "BMB 1103",
+    "name": "Biophysical Chemistry",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Ovi Sikder"
+    ]
+  },
+  {
+    "id": "bmb1104",
+    "code": "BMB 1104",
+    "name": "Bioorganic Chemistry",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Zitu Barman"
+    ]
+  },
+  {
+    "id": "bmb1105",
+    "code": "BMB 1105",
+    "name": "Biochemistry & Molecular Biology Lab I",
+    "instructors": [
+      "Dr. Amelia Ferdaus Sara",
+      "Md. Shahed Alam"
+    ]
+  },
+  {
+    "id": "bmb1201",
+    "code": "BMB 1201",
+    "name": "Introductory Biochemistry II",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Dr. Amelia Ferdaus Sara"
+    ]
+  },
+  {
+    "id": "bmb1202",
+    "code": "BMB 1202",
+    "name": "Reaction Mechanisms",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Md. Shameem Ali"
+    ]
+  },
+  {
+    "id": "bmb1203",
+    "code": "BMB 1203",
+    "name": "Biochemistry & Molecular Biology Lab II",
+    "instructors": [
+      "Ovi Sikder",
+      "Zitu Barman"
+    ]
+  },
+  {
+    "id": "bmb2101",
+    "code": "BMB 2101",
+    "name": "Metabolism I",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Dr. Amelia Ferdaus Sara"
+    ]
+  },
+  {
+    "id": "bmb2102",
+    "code": "BMB 2102",
+    "name": "Enzymes & Bioenergetics",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Md. Shameem Ali"
+    ]
+  },
+  {
+    "id": "bmb2103",
+    "code": "BMB 2103",
+    "name": "Biochemistry & Molecular Biology Lab III",
+    "instructors": [
+      "Ovi Sikder",
+      "Md. Rejaul Islam"
+    ]
+  },
+  {
+    "id": "bmb2201",
+    "code": "BMB 2201",
+    "name": "Metabolism II",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Dr. Amelia Ferdaus Sara"
+    ]
+  },
+  {
+    "id": "bmb2202",
+    "code": "BMB 2202",
+    "name": "Biochemistry & Molecular Biology Lab IV",
+    "instructors": [
+      "Zitu Barman",
+      "Md. Shahed Alam"
+    ]
+  },
+  {
+    "id": "bmb2104",
+    "code": "BMB 2104",
+    "name": "Molecular Biology I",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Md. Shameem Ali"
+    ]
+  },
+  {
+    "id": "bmb2203",
+    "code": "BMB 2203",
+    "name": "Molecular Biology II",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Dr. Amelia Ferdaus Sara"
+    ]
+  },
+  {
+    "id": "bmb2204",
+    "code": "BMB 2204",
+    "name": "Molecular Genetics",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Md. Shameem Ali"
+    ]
+  },
+  {
+    "id": "bmb2105",
+    "code": "BMB 2105",
+    "name": "Human Physiology I",
+    "instructors": [
+      "Dr. Shimul Halder",
+      "As-Sazzad Mahmud"
+    ]
+  },
+  {
+    "id": "bmb2106",
+    "code": "BMB 2106",
+    "name": "Microbiology",
+    "instructors": [
+      "Dr. Md. Asaduzzaman Shishir",
+      "Shamim Khandaker"
+    ]
+  },
+  {
+    "id": "bmb2107",
+    "code": "BMB 2107",
+    "name": "Microbiology Lab",
+    "instructors": [
+      "Alfi Anjum Rashid",
+      "Taslima Akter Tisha"
+    ]
+  },
+  {
+    "id": "bmb2205",
+    "code": "BMB 2205",
+    "name": "Human Physiology II",
+    "instructors": [
+      "Dr. Shimul Halder",
+      "As-Sazzad Mahmud"
+    ]
+  },
+  {
+    "id": "bmb3101",
+    "code": "BMB 3101",
+    "name": "Nutritional Biochemistry I",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Ovi Sikder"
+    ]
+  },
+  {
+    "id": "bmb3102",
+    "code": "BMB 3102",
+    "name": "Immunology",
+    "instructors": [
+      "Dr. Md. Asaduzzaman Shishir",
+      "Alfi Anjum Rashid"
+    ]
+  },
+  {
+    "id": "bmb3103",
+    "code": "BMB 3103",
+    "name": "Endocrinology",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Dr. Amelia Ferdaus Sara"
+    ]
+  },
+  {
+    "id": "bmb3104",
+    "code": "BMB 3104",
+    "name": "Biochemistry & Molecular Biology Lab V",
+    "instructors": [
+      "Zitu Barman",
+      "Md. Rejaul Islam"
+    ]
+  },
+  {
+    "id": "bmb3201",
+    "code": "BMB 3201",
+    "name": "Nutritional Biochemistry II",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Ovi Sikder"
+    ]
+  },
+  {
+    "id": "bmb3202",
+    "code": "BMB 3202",
+    "name": "Advanced Immunology",
+    "instructors": [
+      "Dr. Md. Asaduzzaman Shishir",
+      "Shamim Khandaker"
+    ]
+  },
+  {
+    "id": "bmb3203",
+    "code": "BMB 3203",
+    "name": "Plant Biochemistry",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Md. Shameem Ali"
+    ]
+  },
+  {
+    "id": "bmb3204",
+    "code": "BMB 3204",
+    "name": "Chemistry of Natural Products",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Dr. Amelia Ferdaus Sara"
+    ]
+  },
+  {
+    "id": "bmb3205",
+    "code": "BMB 3205",
+    "name": "Biotechnology & Genetic Engineering",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Md. Shameem Ali"
+    ]
+  },
+  {
+    "id": "bmb3206",
+    "code": "BMB 3206",
+    "name": "Pharmaceutical Sciences",
+    "instructors": [
+      "Md. Akbar Hossain",
+      "Dr. Shimul Halder"
+    ]
+  },
+  {
+    "id": "bmb3207",
+    "code": "BMB 3207",
+    "name": "Biochemistry & Molecular Biology Lab VI",
+    "instructors": [
+      "Ovi Sikder",
+      "Md. Shahed Alam"
+    ]
+  },
+  {
+    "id": "bmb4101",
+    "code": "BMB 4101",
+    "name": "Cell Biology I",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Zitu Barman"
+    ]
+  },
+  {
+    "id": "bmb4102",
+    "code": "BMB 4102",
+    "name": "Clinical Biochemistry I",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Dr. Amelia Ferdaus Sara"
+    ]
+  },
+  {
+    "id": "bmb4103",
+    "code": "BMB 4103",
+    "name": "Virology",
+    "instructors": [
+      "Dr. Md. Asaduzzaman Shishir",
+      "Shamim Khandaker"
+    ]
+  },
+  {
+    "id": "bmb4104",
+    "code": "BMB 4104",
+    "name": "Genomics and Proteomics",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Md. Shameem Ali"
+    ]
+  },
+  {
+    "id": "bmb4105",
+    "code": "BMB 4105",
+    "name": "Industrial Biotechnology",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Ovi Sikder"
+    ]
+  },
+  {
+    "id": "bmb4106",
+    "code": "BMB 4106",
+    "name": "Biochemistry & Molecular Biology Lab VII",
+    "instructors": [
+      "Md. Rejaul Islam",
+      "Zitu Barman"
+    ]
+  },
+  {
+    "id": "bmb4201",
+    "code": "BMB 4201",
+    "name": "Cell Biology II",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Dr. Amelia Ferdaus Sara"
+    ]
+  },
+  {
+    "id": "bmb4202",
+    "code": "BMB 4202",
+    "name": "Clinical Biochemistry II",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Md. Shameem Ali"
+    ]
+  },
+  {
+    "id": "bmb4203",
+    "code": "BMB 4203",
+    "name": "Cancer Biology",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Dr. Amelia Ferdaus Sara"
+    ]
+  },
+  {
+    "id": "bmb4204",
+    "code": "BMB 4204",
+    "name": "Neurochemistry",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Ovi Sikder"
+    ]
+  },
+  {
+    "id": "bmb4205",
+    "code": "BMB 4205",
+    "name": "Bioinformatics",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Md. Shameem Ali"
+    ]
+  },
+  {
+    "id": "bmb4990",
+    "code": "BMB 4990",
+    "name": "Capstone Project Design",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  },
+  {
+    "id": "ban1101",
+    "code": "BAN 1101",
+    "name": "Bengali Language and Literature",
+    "instructors": [
+      "Prof. Habibur Rahman",
+      "Dr. Shamima Nasrin"
+    ]
+  },
+  {
+    "id": "eng1101",
+    "code": "ENG 1101",
+    "name": "Basic English",
+    "instructors": [
+      "Prof. Sultana Begum",
+      "Dr. Ashraf Ali"
+    ]
+  },
+  {
+    "id": "bot1101",
+    "code": "BOT 1101",
+    "name": "Botany",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Md. Shameem Ali"
+    ]
+  },
+  {
+    "id": "zoo1101",
+    "code": "ZOO 1101",
+    "name": "Zoology",
+    "instructors": [
+      "Dr. Shimul Halder",
+      "As-Sazzad Mahmud"
+    ]
+  },
+  {
+    "id": "cse1101",
+    "code": "CSE 1101",
+    "name": "Computer Fundamentals",
+    "instructors": [
+      "Md. Safwan Zaher Asif",
+      "Md. Manirujjaman"
+    ]
+  },
+  {
+    "id": "cse1102",
+    "code": "CSE 1102",
+    "name": "Computer Fundamentals Lab",
+    "instructors": [
+      "Anik Mahmud Shanto",
+      "Safwan Ishrak"
+    ]
+  },
+  {
+    "id": "math1101",
+    "code": "MATH 1101",
+    "name": "Mathematics",
+    "instructors": [
+      "Prof. Anisul Haque",
+      "Dr. Rowshan Ara"
+    ]
+  },
+  {
+    "id": "stat1101",
+    "code": "STAT 1101",
+    "name": "Basic Statistics",
+    "instructors": [
+      "Prof. Anisul Haque",
+      "Dr. Rowshan Ara"
+    ]
+  },
+  {
+    "id": "stat2101",
+    "code": "STAT 2101",
+    "name": "Biostatistics",
+    "instructors": [
+      "Prof. Anisul Haque",
+      "Dr. Rowshan Ara"
+    ]
+  },
+  {
+    "id": "stat2102",
+    "code": "STAT 2102",
+    "name": "Biostatistics Lab",
+    "instructors": [
+      "Prof. Anisul Haque",
+      "Dr. Rowshan Ara"
+    ]
+  },
+  {
+    "id": "ban1201",
+    "code": "BAN 1201",
+    "name": "History of Emergence of Bangladesh",
+    "instructors": [
+      "Prof. Habibur Rahman",
+      "Dr. Shamima Nasrin"
+    ]
+  },
+  {
+    "id": "eth3101",
+    "code": "ETH 3101",
+    "name": "Professional Ethics",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Prof. Sultana Begum"
+    ]
+  },
+  {
+    "id": "res4101",
+    "code": "RES 4101",
+    "name": "Research Methodology",
+    "instructors": [
+      "Dr. Tania Mannan",
+      "Dr. Amelia Ferdaus Sara"
+    ]
+  }
+]

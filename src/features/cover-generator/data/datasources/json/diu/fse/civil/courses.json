@@ -1,0 +1,578 @@
+[
+  {
+    "id": "phy101",
+    "code": "PHY 101",
+    "name": "Optics, Waves & Oscillation, Heat & Thermodynamics",
+    "instructors": [
+      "Dr. Ahmed Rahman",
+      "Prof. Nasrin Akhter"
+    ]
+  },
+  {
+    "id": "chem101",
+    "code": "CHEM 101",
+    "name": "Chemistry",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Prof. Fatima Rahman"
+    ]
+  },
+  {
+    "id": "math101",
+    "code": "MATH 101",
+    "name": "Differential and Integral Calculus",
+    "instructors": [
+      "Prof. Anisul Haque",
+      "Dr. Rowshan Ara"
+    ]
+  },
+  {
+    "id": "eng101",
+    "code": "ENG 101",
+    "name": "Basic English Language",
+    "instructors": [
+      "Prof. Sultana Begum",
+      "Dr. Ashraf Ali"
+    ]
+  },
+  {
+    "id": "ce101",
+    "code": "CE 101",
+    "name": "Civil Engineering Drawing",
+    "instructors": [
+      "Eng. Sazzad Ahmed",
+      "Nazmin Akter"
+    ]
+  },
+  {
+    "id": "eng102",
+    "code": "ENG 102",
+    "name": "Communicative English",
+    "instructors": [
+      "Prof. Sultana Begum",
+      "Dr. Ashraf Ali"
+    ]
+  },
+  {
+    "id": "phy102",
+    "code": "PHY 102",
+    "name": "Structure of Matter, Electricity and Magnetism and Modern Physics",
+    "instructors": [
+      "Dr. Ahmed Rahman",
+      "Prof. Nasrin Akhter"
+    ]
+  },
+  {
+    "id": "math102",
+    "code": "MATH 102",
+    "name": "Matrices and Three-Dimensional Coordinate Geometry",
+    "instructors": [
+      "Prof. Anisul Haque",
+      "Dr. Rowshan Ara"
+    ]
+  },
+  {
+    "id": "ban101",
+    "code": "BAN 101",
+    "name": "Bangla Language & Literature",
+    "instructors": [
+      "Prof. Habibur Rahman",
+      "Dr. Shamima Nasrin"
+    ]
+  },
+  {
+    "id": "ce102",
+    "code": "CE 102",
+    "name": "Construction Materials",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Eng. Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "ce103",
+    "code": "CE 103",
+    "name": "Geoinformatics: Surveying",
+    "instructors": [
+      "Eng. Sazzad Ahmed",
+      "Mohammad Morshed"
+    ]
+  },
+  {
+    "id": "phy101l",
+    "code": "PHY 101L",
+    "name": "Engineering Physics Lab",
+    "instructors": [
+      "Dr. Ahmed Rahman",
+      "Prof. Nasrin Akhter"
+    ]
+  },
+  {
+    "id": "chem101l",
+    "code": "CHEM 101L",
+    "name": "Inorganic Quantitative Analysis Lab",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Prof. Fatima Rahman"
+    ]
+  },
+  {
+    "id": "math201",
+    "code": "MATH 201",
+    "name": "Differential Equations and Statistics",
+    "instructors": [
+      "Prof. Anisul Haque",
+      "Dr. Rowshan Ara"
+    ]
+  },
+  {
+    "id": "ce201",
+    "code": "CE 201",
+    "name": "Engineering Geology and Geomorphology",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Eng. Jaber Hossain"
+    ]
+  },
+  {
+    "id": "ce202",
+    "code": "CE 202",
+    "name": "Mechanics of Solid I",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Eng. Ashraful Islam"
+    ]
+  },
+  {
+    "id": "ee201",
+    "code": "EE 201",
+    "name": "Basic Electrical Engineering",
+    "instructors": [
+      "Eng. Mahmudul Hassan",
+      "Shagor Hasan"
+    ]
+  },
+  {
+    "id": "ce203",
+    "code": "CE 203",
+    "name": "Practical Surveying",
+    "instructors": [
+      "Eng. Sazzad Ahmed",
+      "Mohammad Morshed"
+    ]
+  },
+  {
+    "id": "ce204",
+    "code": "CE 204",
+    "name": "Construction Materials Sessional",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Eng. Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "ce205",
+    "code": "CE 205",
+    "name": "Computer Aided Drafting",
+    "instructors": [
+      "Eng. Sazzad Ahmed",
+      "Md. Asif"
+    ]
+  },
+  {
+    "id": "ce206",
+    "code": "CE 206",
+    "name": "Details of Constructions",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tabassima Faria"
+    ]
+  },
+  {
+    "id": "math202",
+    "code": "MATH 202",
+    "name": "Laplace Transform, Fourier and Vector Analysis",
+    "instructors": [
+      "Prof. Anisul Haque",
+      "Dr. Rowshan Ara"
+    ]
+  },
+  {
+    "id": "econ201",
+    "code": "ECON 201",
+    "name": "Principles of Economics",
+    "instructors": [
+      "Dr. Habibur Rahman",
+      "Prof. Shamima Nasrin"
+    ]
+  },
+  {
+    "id": "ce207",
+    "code": "CE 207",
+    "name": "Mechanics of Solids II",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Eng. Ashraful Islam"
+    ]
+  },
+  {
+    "id": "ce208",
+    "code": "CE 208",
+    "name": "Fluid Mechanics",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Eng. Robin Ali"
+    ]
+  },
+  {
+    "id": "math203",
+    "code": "MATH 203",
+    "name": "Numerical Methods",
+    "instructors": [
+      "Prof. Anisul Haque",
+      "Dr. Rowshan Ara"
+    ]
+  },
+  {
+    "id": "ce208l",
+    "code": "CE 208L",
+    "name": "Fluid Mechanics Sessional",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Eng. Robin Ali"
+    ]
+  },
+  {
+    "id": "ce209",
+    "code": "CE 209",
+    "name": "Quantity Surveying",
+    "instructors": [
+      "Eng. Sazzad Ahmed",
+      "Abhijeet Debnath"
+    ]
+  },
+  {
+    "id": "ce210",
+    "code": "CE 210",
+    "name": "Structural Mechanics Sessional",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Eng. Ashraful Islam"
+    ]
+  },
+  {
+    "id": "cse201",
+    "code": "CSE 201",
+    "name": "Computer Programming Sessional",
+    "instructors": [
+      "Md. Asif",
+      "Shahin Sheikh"
+    ]
+  },
+  {
+    "id": "ce301",
+    "code": "CE 301",
+    "name": "Structural Analysis and Design I",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Eng. Saniul Haque Mahi"
+    ]
+  },
+  {
+    "id": "ce302",
+    "code": "CE 302",
+    "name": "Design of Concrete Structure I",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Eng. Ashraful Islam"
+    ]
+  },
+  {
+    "id": "ce303",
+    "code": "CE 303",
+    "name": "Environmental Engineering I",
+    "instructors": [
+      "Dr. Ahmed Rahman",
+      "Eng. Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "ce304",
+    "code": "CE 304",
+    "name": "Principles of Soil Mechanics",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Eng. Jaber Hossain"
+    ]
+  },
+  {
+    "id": "ce305",
+    "code": "CE 305",
+    "name": "Engineering Hydrology",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Eng. Robin Ali"
+    ]
+  },
+  {
+    "id": "soc301",
+    "code": "SOC 301",
+    "name": "Sociology and Accounting",
+    "instructors": [
+      "Dr. Habibur Rahman",
+      "Prof. Shamima Nasrin"
+    ]
+  },
+  {
+    "id": "ce303l",
+    "code": "CE 303L",
+    "name": "Environmental Engineering Sessional",
+    "instructors": [
+      "Dr. Ahmed Rahman",
+      "Eng. Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "ce304l",
+    "code": "CE 304L",
+    "name": "Geotechnical Engineering Laboratory",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Eng. Jaber Hossain"
+    ]
+  },
+  {
+    "id": "ce306",
+    "code": "CE 306",
+    "name": "Structural Analysis and Design II",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Eng. Saniul Haque Mahi"
+    ]
+  },
+  {
+    "id": "ce307",
+    "code": "CE 307",
+    "name": "Design of Concrete Structure II",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Eng. Ashraful Islam"
+    ]
+  },
+  {
+    "id": "ce308",
+    "code": "CE 308",
+    "name": "Environmental Engineering II",
+    "instructors": [
+      "Dr. Ahmed Rahman",
+      "Eng. Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "ce309",
+    "code": "CE 309",
+    "name": "Foundation Engineering",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Eng. Jaber Hossain"
+    ]
+  },
+  {
+    "id": "ce310",
+    "code": "CE 310",
+    "name": "Transportation Planning and Traffic Engineering",
+    "instructors": [
+      "Eng. Sazzad Ahmed",
+      "Mohammad Morshed"
+    ]
+  },
+  {
+    "id": "ce311",
+    "code": "CE 311",
+    "name": "Hydraulic Engineering",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Eng. Robin Ali"
+    ]
+  },
+  {
+    "id": "ce312",
+    "code": "CE 312",
+    "name": "Bridge Design Sessional",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Eng. Ashraful Islam"
+    ]
+  },
+  {
+    "id": "ce313",
+    "code": "CE 313",
+    "name": "Highway Materials Sessional",
+    "instructors": [
+      "Eng. Sazzad Ahmed",
+      "Mohammad Morshed"
+    ]
+  },
+  {
+    "id": "ce311l",
+    "code": "CE 311L",
+    "name": "Hydraulic Engineering Sessional",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Eng. Robin Ali"
+    ]
+  },
+  {
+    "id": "bus401",
+    "code": "BUS 401",
+    "name": "Business and Career Development",
+    "instructors": [
+      "Dr. Habibur Rahman",
+      "Prof. Ahmed Ali"
+    ]
+  },
+  {
+    "id": "ce401",
+    "code": "CE 401",
+    "name": "Structural Analysis and Design III",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Eng. Saniul Haque Mahi"
+    ]
+  },
+  {
+    "id": "ce402",
+    "code": "CE 402",
+    "name": "Pavement Design and Railway Engineering",
+    "instructors": [
+      "Eng. Sazzad Ahmed",
+      "Mohammad Morshed"
+    ]
+  },
+  {
+    "id": "ce403",
+    "code": "CE 403",
+    "name": "Irrigation and Flood Management",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Eng. Robin Ali"
+    ]
+  },
+  {
+    "id": "ce404",
+    "code": "CE 404",
+    "name": "Design of Steel Structures Sessional",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Eng. Ashraful Islam"
+    ]
+  },
+  {
+    "id": "ce405",
+    "code": "CE 405",
+    "name": "Building Design Sessional",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Eng. Saniul Haque Mahi"
+    ]
+  },
+  {
+    "id": "ce490a",
+    "code": "CE 490A",
+    "name": "Undergraduate Thesis",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  },
+  {
+    "id": "ce491a",
+    "code": "CE 491A",
+    "name": "Capstone Project",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  },
+  {
+    "id": "ce4xx1",
+    "code": "CE 4XX1",
+    "name": "Optional Course I (Elective)",
+    "instructors": [
+      "Department Faculty"
+    ]
+  },
+  {
+    "id": "ce4xx2",
+    "code": "CE 4XX2",
+    "name": "Optional Course II (Elective)",
+    "instructors": [
+      "Department Faculty"
+    ]
+  },
+  {
+    "id": "ce406",
+    "code": "CE 406",
+    "name": "Professional Practice, Communication and Ethics",
+    "instructors": [
+      "Eng. Sazzad Ahmed",
+      "Dr. Mohammad Karim"
+    ]
+  },
+  {
+    "id": "ce407",
+    "code": "CE 407",
+    "name": "Project Planning and Management",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Eng. Saniul Haque Mahi"
+    ]
+  },
+  {
+    "id": "ce408",
+    "code": "CE 408",
+    "name": "Pavement Design and Traffic Studies Sessional",
+    "instructors": [
+      "Eng. Sazzad Ahmed",
+      "Mohammad Morshed"
+    ]
+  },
+  {
+    "id": "ce490b",
+    "code": "CE 490B",
+    "name": "Undergraduate Thesis",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  },
+  {
+    "id": "ce491b",
+    "code": "CE 491B",
+    "name": "Capstone Project",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  },
+  {
+    "id": "ce4xx3",
+    "code": "CE 4XX3",
+    "name": "Optional Course I (Elective)",
+    "instructors": [
+      "Department Faculty"
+    ]
+  },
+  {
+    "id": "ce4xx4",
+    "code": "CE 4XX4",
+    "name": "Optional Course II (Elective)",
+    "instructors": [
+      "Department Faculty"
+    ]
+  },
+  {
+    "id": "ce4xx5",
+    "code": "CE 4XX5",
+    "name": "Optional Course III (Elective)",
+    "instructors": [
+      "Department Faculty"
+    ]
+  }
+]

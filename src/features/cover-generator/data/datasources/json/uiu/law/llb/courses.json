@@ -1,0 +1,20 @@
+[
+  {
+    "id": "law1013",
+    "code": "LAW 1013",
+    "name": "Introduction to Law",
+    "instructors": [
+      "Barrister Ahmed Hassan",
+      "Advocate Sultana Begum"
+    ]
+  },
+  {
+    "id": "law2023",
+    "code": "LAW 2023",
+    "name": "Constitutional Law",
+    "instructors": [
+      "Prof. Kamal Uddin",
+      "Dr. Nasrin Ahmed"
+    ]
+  }
+]

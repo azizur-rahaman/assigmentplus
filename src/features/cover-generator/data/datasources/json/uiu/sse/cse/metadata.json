@@ -1,0 +1,22 @@
+{
+  "id": "cse",
+  "name": "Department of Computer Science and Engineering",
+  "shortName": "CSE",
+  "programs": [
+    {
+      "id": "bscse",
+      "name": "B.Sc. in Computer Science & Engineering",
+      "shortName": "BSc CSE"
+    },
+    {
+      "id": "bsds",
+      "name": "B.Sc. in Data Science",
+      "shortName": "BSc DS"
+    },
+    {
+      "id": "mscse",
+      "name": "M.Sc. in Computer Science & Engineering",
+      "shortName": "MSc CSE"
+    }
+  ]
+}

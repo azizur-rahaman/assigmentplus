@@ -1,0 +1,17 @@
+{
+  "id": "sols",
+  "name": "School of Life Sciences",
+  "shortName": "SoLS",
+  "departments": [
+    {
+      "id": "pharmacy",
+      "name": "Department of Pharmacy",
+      "shortName": "Pharmacy"
+    },
+    {
+      "id": "bge",
+      "name": "Department of Biotechnology and Genetic Engineering",
+      "shortName": "BGE"
+    }
+  ]
+}

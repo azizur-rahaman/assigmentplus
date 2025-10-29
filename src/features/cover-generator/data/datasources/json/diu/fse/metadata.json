@@ -1,0 +1,37 @@
+{
+  "id": "fse",
+  "name": "Faculty of Science and Engineering",
+  "shortName": "FSE",
+  "departments": [
+    {
+      "id": "civil",
+      "name": "Department of Civil Engineering",
+      "shortName": "Civil"
+    },
+    {
+      "id": "eee",
+      "name": "Department of Electrical and Electronic Engineering",
+      "shortName": "EEE"
+    },
+    {
+      "id": "cse",
+      "name": "Department of Computer Science and Engineering",
+      "shortName": "CSE"
+    },
+    {
+      "id": "pharmacy",
+      "name": "Department of Pharmacy",
+      "shortName": "Pharmacy"
+    },
+    {
+      "id": "microbiology",
+      "name": "Department of Microbiology",
+      "shortName": "Microbiology"
+    },
+    {
+      "id": "bmb",
+      "name": "Department of Biochemistry and Molecular Biology",
+      "shortName": "BMB"
+    }
+  ]
+}

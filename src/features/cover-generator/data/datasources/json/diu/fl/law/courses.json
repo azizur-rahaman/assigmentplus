@@ -1,0 +1,361 @@
+[
+  {
+    "id": "law1101",
+    "code": "LAW 1101",
+    "name": "Introduction to Law and Legal System",
+    "instructors": [
+      "Prof. Dr. Abdullah-Al-Monzur Hussain",
+      "Nasir Ahmad"
+    ]
+  },
+  {
+    "id": "law1102",
+    "code": "LAW 1102",
+    "name": "Law of Contract I",
+    "instructors": [
+      "Mrs. Mily Sultana",
+      "Mrs. Sunita Rani Biswas"
+    ]
+  },
+  {
+    "id": "law1103",
+    "code": "LAW 1103",
+    "name": "Law of Tort and Easement",
+    "instructors": [
+      "Roksana Akter",
+      "Mrs. Sharmin Sultana"
+    ]
+  },
+  {
+    "id": "eng1101",
+    "code": "ENG 1101",
+    "name": "English Language",
+    "instructors": [
+      "Md. Raisul Islam Sourav",
+      "Dr. Uttam Kumar Das"
+    ]
+  },
+  {
+    "id": "ban1101",
+    "code": "BAN 1101",
+    "name": "Bangla Language",
+    "instructors": [
+      "Mobarak Hossain",
+      "Md. Arif Rabbani Khan"
+    ]
+  },
+  {
+    "id": "law1201",
+    "code": "LAW 1201",
+    "name": "Constitutional Law of Bangladesh I",
+    "instructors": [
+      "Prof. Dr. Abdullah-Al-Monzur Hussain",
+      "Nasir Ahmad"
+    ]
+  },
+  {
+    "id": "law1202",
+    "code": "LAW 1202",
+    "name": "Law of Contract II",
+    "instructors": [
+      "Mrs. Mily Sultana",
+      "Imtiaz Ahmed Sajal"
+    ]
+  },
+  {
+    "id": "law1203",
+    "code": "LAW 1203",
+    "name": "Land Laws including Survey and Settlement",
+    "instructors": [
+      "Mrs. Sunita Rani Biswas",
+      "Mehedi Hasan Anik"
+    ]
+  },
+  {
+    "id": "law1204",
+    "code": "LAW 1204",
+    "name": "Jurisprudence",
+    "instructors": [
+      "Roksana Akter",
+      "Md. Arafat Hossain"
+    ]
+  },
+  {
+    "id": "ban1201",
+    "code": "BAN 1201",
+    "name": "History of Emergence of Bangladesh",
+    "instructors": [
+      "Mrs. Sharmin Sultana",
+      "Md. Zobayer Akon"
+    ]
+  },
+  {
+    "id": "law2101",
+    "code": "LAW 2101",
+    "name": "Constitutional Law of Bangladesh II",
+    "instructors": [
+      "Prof. Dr. Abdullah-Al-Monzur Hussain",
+      "Md. Raisul Islam Sourav"
+    ]
+  },
+  {
+    "id": "law2102",
+    "code": "LAW 2102",
+    "name": "Muslim Law I",
+    "instructors": [
+      "Dr. Uttam Kumar Das",
+      "Nasir Ahmad"
+    ]
+  },
+  {
+    "id": "law2103",
+    "code": "LAW 2103",
+    "name": "Criminal Law I",
+    "instructors": [
+      "Mrs. Mily Sultana",
+      "Mobarak Hossain"
+    ]
+  },
+  {
+    "id": "law2104",
+    "code": "LAW 2104",
+    "name": "Legal and Constitutional History of Bangladesh",
+    "instructors": [
+      "Mrs. Sunita Rani Biswas",
+      "Md. Arif Rabbani Khan"
+    ]
+  },
+  {
+    "id": "law2105",
+    "code": "LAW 2105",
+    "name": "Company Law I",
+    "instructors": [
+      "Roksana Akter",
+      "Imtiaz Ahmed Sajal"
+    ]
+  },
+  {
+    "id": "law2201",
+    "code": "LAW 2201",
+    "name": "Muslim Law II",
+    "instructors": [
+      "Dr. Uttam Kumar Das",
+      "Mehedi Hasan Anik"
+    ]
+  },
+  {
+    "id": "law2202",
+    "code": "LAW 2202",
+    "name": "Criminal Law II",
+    "instructors": [
+      "Mrs. Sharmin Sultana",
+      "Md. Arafat Hossain"
+    ]
+  },
+  {
+    "id": "law2203",
+    "code": "LAW 2203",
+    "name": "Hindu Law",
+    "instructors": [
+      "Mrs. Sunita Rani Biswas",
+      "Md. Zobayer Akon"
+    ]
+  },
+  {
+    "id": "law2204",
+    "code": "LAW 2204",
+    "name": "Company Law II",
+    "instructors": [
+      "Roksana Akter",
+      "Md Riad Arefin"
+    ]
+  },
+  {
+    "id": "law2205",
+    "code": "LAW 2205",
+    "name": "Law of Evidence",
+    "instructors": [
+      "Nasir Ahmad",
+      "Shahidul Islam"
+    ]
+  },
+  {
+    "id": "law3101",
+    "code": "LAW 3101",
+    "name": "Administrative Law",
+    "instructors": [
+      "Prof. Dr. Abdullah-Al-Monzur Hussain",
+      "Md. Raisul Islam Sourav"
+    ]
+  },
+  {
+    "id": "law3102",
+    "code": "LAW 3102",
+    "name": "Civil Procedure Code",
+    "instructors": [
+      "Mrs. Mily Sultana",
+      "Shahriar Mahmud Minar"
+    ]
+  },
+  {
+    "id": "law3103",
+    "code": "LAW 3103",
+    "name": "Criminal Procedure Code",
+    "instructors": [
+      "Mrs. Sharmin Sultana",
+      "Soeb Aktar"
+    ]
+  },
+  {
+    "id": "law3104",
+    "code": "LAW 3104",
+    "name": "International Law",
+    "instructors": [
+      "Dr. Uttam Kumar Das",
+      "Adv. Kamruzzaman Bhuiyan"
+    ]
+  },
+  {
+    "id": "law3105",
+    "code": "LAW 3105",
+    "name": "Labour and Industrial Law",
+    "instructors": [
+      "Mobarak Hossain",
+      "Md. Asadullahil Galib"
+    ]
+  },
+  {
+    "id": "law3201",
+    "code": "LAW 3201",
+    "name": "Law of Taxation",
+    "instructors": [
+      "Roksana Akter",
+      "Imtiaz Ahmed Sajal"
+    ]
+  },
+  {
+    "id": "law3202",
+    "code": "LAW 3202",
+    "name": "Interpretation of Statutes",
+    "instructors": [
+      "Nasir Ahmad",
+      "Mehedi Hasan Anik"
+    ]
+  },
+  {
+    "id": "law3203",
+    "code": "LAW 3203",
+    "name": "Law of Trusts and Specific Relief",
+    "instructors": [
+      "Mrs. Sunita Rani Biswas",
+      "Md. Arafat Hossain"
+    ]
+  },
+  {
+    "id": "law3204",
+    "code": "LAW 3204",
+    "name": "Family Law",
+    "instructors": [
+      "Mrs. Mily Sultana",
+      "Md. Zobayer Akon"
+    ]
+  },
+  {
+    "id": "law3205",
+    "code": "LAW 3205",
+    "name": "Law of Crimes",
+    "instructors": [
+      "Mrs. Sharmin Sultana",
+      "Md Riad Arefin"
+    ]
+  },
+  {
+    "id": "law4101",
+    "code": "LAW 4101",
+    "name": "Intellectual Property Law",
+    "instructors": [
+      "Dr. Uttam Kumar Das",
+      "Shahidul Islam"
+    ]
+  },
+  {
+    "id": "law4102",
+    "code": "LAW 4102",
+    "name": "Environmental Law",
+    "instructors": [
+      "Md. Raisul Islam Sourav",
+      "Shahriar Mahmud Minar"
+    ]
+  },
+  {
+    "id": "law4103",
+    "code": "LAW 4103",
+    "name": "Human Rights and Humanitarian Law",
+    "instructors": [
+      "Prof. Dr. Abdullah-Al-Monzur Hussain",
+      "Soeb Aktar"
+    ]
+  },
+  {
+    "id": "law4104",
+    "code": "LAW 4104",
+    "name": "Banking and Negotiable Instruments Law",
+    "instructors": [
+      "Roksana Akter",
+      "Adv. Kamruzzaman Bhuiyan"
+    ]
+  },
+  {
+    "id": "law4105",
+    "code": "LAW 4105",
+    "name": "Professional Ethics and Bar Bench Relations",
+    "instructors": [
+      "Nasir Ahmad",
+      "Md. Asadullahil Galib"
+    ]
+  },
+  {
+    "id": "law4201",
+    "code": "LAW 4201",
+    "name": "Alternative Dispute Resolution",
+    "instructors": [
+      "Mobarak Hossain",
+      "Imtiaz Ahmed Sajal"
+    ]
+  },
+  {
+    "id": "law4202",
+    "code": "LAW 4202",
+    "name": "Cyber Law",
+    "instructors": [
+      "Md. Arif Rabbani Khan",
+      "Mehedi Hasan Anik"
+    ]
+  },
+  {
+    "id": "law4203",
+    "code": "LAW 4203",
+    "name": "Public International Law",
+    "instructors": [
+      "Dr. Uttam Kumar Das",
+      "Md. Arafat Hossain"
+    ]
+  },
+  {
+    "id": "law4204",
+    "code": "LAW 4204",
+    "name": "Legal Drafting",
+    "instructors": [
+      "Mrs. Mily Sultana",
+      "Md. Zobayer Akon"
+    ]
+  },
+  {
+    "id": "law4990",
+    "code": "LAW 4990",
+    "name": "Moot Court and Legal Aid",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  }
+]

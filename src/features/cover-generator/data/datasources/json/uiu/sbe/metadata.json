@@ -1,0 +1,17 @@
+{
+  "id": "sbe",
+  "name": "School of Business and Economics",
+  "shortName": "SoBE",
+  "departments": [
+    {
+      "id": "bba",
+      "name": "Bachelor of Business Administration (BBA)",
+      "shortName": "BBA"
+    },
+    {
+      "id": "mba",
+      "name": "Master of Business Administration (MBA)",
+      "shortName": "MBA"
+    }
+  ]
+}

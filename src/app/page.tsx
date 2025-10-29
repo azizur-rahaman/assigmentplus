@@ -84,18 +84,21 @@ export default function Home() {
   // Update schools when university changes
   useEffect(() => {
     if (formData.universityId) {
-      const schoolsData = getSchoolsByUniversity(formData.universityId);
-      setSchools(schoolsData);
-      
-      // Update university name and logo
-      const uni = getUniversityById(formData.universityId);
-      if (uni) {
-        setFormData(prev => ({
-          ...prev,
-          universityName: uni.name,
-          universityLogo: uni.logo,
-        }));
-      }
+      // Async data loading
+      (async () => {
+        const schoolsData = await getSchoolsByUniversity(formData.universityId);
+        setSchools(schoolsData);
+        
+        // Update university name and logo
+        const uni = await getUniversityById(formData.universityId);
+        if (uni) {
+          setFormData(prev => ({
+            ...prev,
+            universityName: uni.name,
+            universityLogo: uni.logo,
+          }));
+        }
+      })();
     } else {
       setSchools([]);
       setDepartments([]);
@@ -107,17 +110,20 @@ export default function Home() {
   // Update departments when school changes
   useEffect(() => {
     if (formData.universityId && formData.schoolId) {
-      const depts = getDepartmentsBySchool(formData.universityId, formData.schoolId);
-      setDepartments(depts);
-      
-      // Update school name
-      const schoolData = getSchoolById(formData.universityId, formData.schoolId);
-      if (schoolData) {
-        setFormData(prev => ({
-          ...prev,
-          school: schoolData.name,
-        }));
-      }
+      // Async data loading
+      (async () => {
+        const depts = await getDepartmentsBySchool(formData.universityId, formData.schoolId);
+        setDepartments(depts);
+        
+        // Update school name
+        const schoolData = await getSchoolById(formData.universityId, formData.schoolId);
+        if (schoolData) {
+          setFormData(prev => ({
+            ...prev,
+            school: schoolData.name,
+          }));
+        }
+      })();
     } else {
       setDepartments([]);
       setPrograms([]);
@@ -129,52 +135,66 @@ export default function Home() {
   // Update programs/courses when department changes
   useEffect(() => {
     if (formData.universityId && formData.schoolId && formData.departmentId) {
-      // Check if department has programs
-      const hasPrograms = departmentHasPrograms(formData.universityId, formData.schoolId, formData.departmentId);
-      setShowProgramSelect(hasPrograms);
-      
-      if (hasPrograms) {
-        // Load programs
-        const programsData = getProgramsByDepartment(formData.universityId, formData.schoolId, formData.departmentId);
-        setPrograms(programsData);
-        setCourses([]);
-      } else {
-        // Load courses directly
-        const coursesData = getCoursesByDepartment(formData.universityId, formData.schoolId, formData.departmentId);
-        setCourses(coursesData);
-        setPrograms([]);
-      }
-      
-      // Update department name
-      const dept = getDepartmentById(formData.universityId, formData.schoolId, formData.departmentId);
-      if (dept) {
-        setFormData(prev => ({
-          ...prev,
-          department: dept.name,
-        }));
-      }
+      (async () => {
+        // Check if department has programs
+        const hasPrograms = await departmentHasPrograms(
+          formData.universityId,
+          formData.schoolId,
+          formData.departmentId
+        );
+        setShowProgramSelect(hasPrograms);
+
+        if (hasPrograms) {
+          const programsData = await getProgramsByDepartment(
+            formData.universityId,
+            formData.schoolId,
+            formData.departmentId
+          );
+          setPrograms(programsData);
+        } else {
+          const coursesData = await getCoursesByDepartment(
+            formData.universityId,
+            formData.schoolId,
+            formData.departmentId
+          );
+          setCourses(coursesData);
+        }
+
+        // Update department name
+        const dept = await getDepartmentById(
+          formData.universityId,
+          formData.schoolId,
+          formData.departmentId
+        );
+        if (dept) {
+          setFormData(prev => ({
+            ...prev,
+            department: dept.name,
+          }));
+        }
+      })();
     } else {
       setPrograms([]);
       setCourses([]);
       setInstructors([]);
       setShowProgramSelect(false);
     }
-  }, [formData.universityId, formData.schoolId, formData.departmentId]);
-
-  // Update courses when program changes (for departments with programs)
+  }, [formData.universityId, formData.schoolId, formData.departmentId]);  // Update courses when program changes (for departments with programs)
   useEffect(() => {
     if (formData.universityId && formData.schoolId && formData.departmentId && formData.programId && showProgramSelect) {
-      const coursesData = getCoursesByProgram(formData.universityId, formData.schoolId, formData.departmentId, formData.programId);
-      setCourses(coursesData);
-      
-      // Update program name
-      const prog = getProgramById(formData.universityId, formData.schoolId, formData.departmentId, formData.programId);
-      if (prog) {
-        setFormData(prev => ({
-          ...prev,
-          program: prog.name,
-        }));
-      }
+      (async () => {
+        const coursesData = await getCoursesByProgram(formData.universityId, formData.schoolId, formData.departmentId, formData.programId);
+        setCourses(coursesData);
+        
+        // Update program name
+        const prog = await getProgramById(formData.universityId, formData.schoolId, formData.departmentId, formData.programId);
+        if (prog) {
+          setFormData(prev => ({
+            ...prev,
+            program: prog.name,
+          }));
+        }
+      })();
     } else if (showProgramSelect && !formData.programId) {
       setCourses([]);
       setInstructors([]);
@@ -184,21 +204,23 @@ export default function Home() {
   // Update instructors when course changes
   useEffect(() => {
     if (formData.universityId && formData.schoolId && formData.departmentId && formData.courseId) {
-      const course = getCourseById(
-        formData.universityId, 
-        formData.schoolId, 
-        formData.departmentId, 
-        formData.courseId,
-        formData.programId
-      );
-      if (course) {
-        setInstructors(course.instructors);
-        setFormData(prev => ({
-          ...prev,
-          courseName: course.name,
-          courseCode: course.code,
-        }));
-      }
+      (async () => {
+        const course = await getCourseById(
+          formData.universityId, 
+          formData.schoolId, 
+          formData.departmentId, 
+          formData.courseId,
+          formData.programId
+        );
+        if (course) {
+          setInstructors(course.instructors);
+          setFormData(prev => ({
+            ...prev,
+            courseName: course.name,
+            courseCode: course.code,
+          }));
+        }
+      })();
     } else {
       setInstructors([]);
     }

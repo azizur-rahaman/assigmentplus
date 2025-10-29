@@ -1,0 +1,444 @@
+[
+  {
+    "id": "0232-1101",
+    "code": "0232-1101",
+    "name": "Fundamentals of English",
+    "instructors": [
+      "Arif Ahmad",
+      "Nafia Tabassum"
+    ]
+  },
+  {
+    "id": "0232-1102",
+    "code": "0232-1102",
+    "name": "Introduction to Listening and Speaking",
+    "instructors": [
+      "Nishat Tarannum",
+      "Md. Shahriar Mahmud Rakib"
+    ]
+  },
+  {
+    "id": "0232-1103",
+    "code": "0232-1103",
+    "name": "History of English Literature",
+    "instructors": [
+      "Dr. Sazzad Hossain",
+      "Iffat Binte Mizan"
+    ]
+  },
+  {
+    "id": "0232-1104",
+    "code": "0232-1104",
+    "name": "Introduction to Poetry",
+    "instructors": [
+      "Mahima Akhter Addrita",
+      "Niloy Farhan"
+    ]
+  },
+  {
+    "id": "0611-1105",
+    "code": "0611-1105",
+    "name": "Fundamentals of Computer",
+    "instructors": [
+      "Sanjida Abedin Rafha",
+      "Md. Fozle Rabbi"
+    ]
+  },
+  {
+    "id": "0232-1201",
+    "code": "0232-1201",
+    "name": "Introduction to Reading and Writing",
+    "instructors": [
+      "Tasnim Jarin",
+      "Rubina Arfin Somiya"
+    ]
+  },
+  {
+    "id": "0232-1202",
+    "code": "0232-1202",
+    "name": "Introduction to Drama and Theatre",
+    "instructors": [
+      "Arif Ahmad",
+      "Ms. Tahmina Sultana"
+    ]
+  },
+  {
+    "id": "0232-1203",
+    "code": "0232-1203",
+    "name": "Introduction to Prose",
+    "instructors": [
+      "Dr. Md. Abul Kalam Azad",
+      "Amena Begum"
+    ]
+  },
+  {
+    "id": "0223-1204",
+    "code": "0223-1204",
+    "name": "Ethics and Moral Values",
+    "instructors": [
+      "Mainul Islam",
+      "Arko Halder"
+    ]
+  },
+  {
+    "id": "0222-1205",
+    "code": "0222-1205",
+    "name": "History of the Emergence of Independent Bangladesh",
+    "instructors": [
+      "Md. Redwan Islam",
+      "Nafia Tabassum"
+    ]
+  },
+  {
+    "id": "0232-1206",
+    "code": "0232-1206",
+    "name": "Viva-voce",
+    "instructors": [
+      "Arif Ahmad",
+      "Dr. Sazzad Hossain"
+    ]
+  },
+  {
+    "id": "0232-2101",
+    "code": "0232-2101",
+    "name": "Introduction to Linguistics",
+    "instructors": [
+      "Dr. Md. Zahidul Islam",
+      "Nishat Tarannum"
+    ]
+  },
+  {
+    "id": "0232-2102",
+    "code": "0232-2102",
+    "name": "Ancient Epics in Translation",
+    "instructors": [
+      "Md. Shahriar Mahmud Rakib",
+      "Iffat Binte Mizan"
+    ]
+  },
+  {
+    "id": "0232-2103",
+    "code": "0232-2103",
+    "name": "Chaucer to Shakespeare",
+    "instructors": [
+      "Mahima Akhter Addrita",
+      "Niloy Farhan"
+    ]
+  },
+  {
+    "id": "0222-2104",
+    "code": "0222-2104",
+    "name": "World History",
+    "instructors": [
+      "Sanjida Abedin Rafha",
+      "Md. Fozle Rabbi"
+    ]
+  },
+  {
+    "id": "0232-2105",
+    "code": "0232-2105",
+    "name": "Bangla Language and Literature",
+    "instructors": [
+      "Tasnim Jarin",
+      "Rubina Arfin Somiya"
+    ]
+  },
+  {
+    "id": "0232-2201",
+    "code": "0232-2201",
+    "name": "Academic and Creative Writing",
+    "instructors": [
+      "Ms. Tahmina Sultana",
+      "Dr. Md. Abul Kalam Azad"
+    ]
+  },
+  {
+    "id": "0232-2202",
+    "code": "0232-2202",
+    "name": "ELT Methodology: Principle and Practice",
+    "instructors": [
+      "Amena Begum",
+      "Mainul Islam"
+    ]
+  },
+  {
+    "id": "0232-2203",
+    "code": "0232-2203",
+    "name": "Early Modern Literature",
+    "instructors": [
+      "Arko Halder",
+      "Md. Redwan Islam"
+    ]
+  },
+  {
+    "id": "0232-2204",
+    "code": "0232-2204",
+    "name": "Romantic Poetry",
+    "instructors": [
+      "Nafia Tabassum",
+      "Arif Ahmad"
+    ]
+  },
+  {
+    "id": "0232-2205",
+    "code": "0232-2205",
+    "name": "Reading Novels through Theory",
+    "instructors": [
+      "Dr. Sazzad Hossain",
+      "Dr. Md. Zahidul Islam"
+    ]
+  },
+  {
+    "id": "0223-2206",
+    "code": "0223-2206",
+    "name": "Philosophical Thoughts",
+    "instructors": [
+      "Nishat Tarannum",
+      "Md. Shahriar Mahmud Rakib"
+    ]
+  },
+  {
+    "id": "0232-2207",
+    "code": "0232-2207",
+    "name": "Viva-voce",
+    "instructors": [
+      "Arif Ahmad",
+      "Dr. Sazzad Hossain"
+    ]
+  },
+  {
+    "id": "0232-3101",
+    "code": "0232-3101",
+    "name": "English for Professional Purposes",
+    "instructors": [
+      "Iffat Binte Mizan",
+      "Mahima Akhter Addrita"
+    ]
+  },
+  {
+    "id": "0232-3102",
+    "code": "0232-3102",
+    "name": "Introduction to Sociolinguistics",
+    "instructors": [
+      "Niloy Farhan",
+      "Sanjida Abedin Rafha"
+    ]
+  },
+  {
+    "id": "0232-3103",
+    "code": "0232-3103",
+    "name": "Victorian Poetry and Novels",
+    "instructors": [
+      "Md. Fozle Rabbi",
+      "Tasnim Jarin"
+    ]
+  },
+  {
+    "id": "0232-3104",
+    "code": "0232-3104",
+    "name": "19th-Century American Literature",
+    "instructors": [
+      "Rubina Arfin Somiya",
+      "Ms. Tahmina Sultana"
+    ]
+  },
+  {
+    "id": "0232-3105",
+    "code": "0232-3105",
+    "name": "Understanding Critical Theory",
+    "instructors": [
+      "Dr. Md. Abul Kalam Azad",
+      "Amena Begum"
+    ]
+  },
+  {
+    "id": "0313-3106",
+    "code": "0313-3106",
+    "name": "Understanding Psychology",
+    "instructors": [
+      "Mainul Islam",
+      "Arko Halder"
+    ]
+  },
+  {
+    "id": "0231-3201",
+    "code": "0231-3201",
+    "name": "Translation Studies: Theory and Practice",
+    "instructors": [
+      "Md. Redwan Islam",
+      "Nafia Tabassum"
+    ]
+  },
+  {
+    "id": "0232-3202",
+    "code": "0232-3202",
+    "name": "Language Through Literature",
+    "instructors": [
+      "Arif Ahmad",
+      "Dr. Sazzad Hossain"
+    ]
+  },
+  {
+    "id": "0232-3203",
+    "code": "0232-3203",
+    "name": "20th-Century British Poetry and Drama",
+    "instructors": [
+      "Dr. Md. Zahidul Islam",
+      "Nishat Tarannum"
+    ]
+  },
+  {
+    "id": "0232-3204",
+    "code": "0232-3204",
+    "name": "20th-Century American Literature",
+    "instructors": [
+      "Md. Shahriar Mahmud Rakib",
+      "Iffat Binte Mizan"
+    ]
+  },
+  {
+    "id": "0314-3205",
+    "code": "0314-3205",
+    "name": "Critical Theory and Critical Applied Linguistics",
+    "instructors": [
+      "Mahima Akhter Addrita",
+      "Niloy Farhan"
+    ]
+  },
+  {
+    "id": "0232-3206",
+    "code": "0232-3206",
+    "name": "Media, Culture and Society",
+    "instructors": [
+      "Sanjida Abedin Rafha",
+      "Md. Fozle Rabbi"
+    ]
+  },
+  {
+    "id": "0232-3207",
+    "code": "0232-3207",
+    "name": "Viva-voce",
+    "instructors": [
+      "Arif Ahmad",
+      "Dr. Sazzad Hossain"
+    ]
+  },
+  {
+    "id": "0232-4101",
+    "code": "0232-4101",
+    "name": "Technology-Enhanced Language Learning",
+    "instructors": [
+      "Tasnim Jarin",
+      "Rubina Arfin Somiya"
+    ]
+  },
+  {
+    "id": "0232-4102",
+    "code": "0232-4102",
+    "name": "Language and Intercultural Communication",
+    "instructors": [
+      "Ms. Tahmina Sultana",
+      "Dr. Md. Abul Kalam Azad"
+    ]
+  },
+  {
+    "id": "0232-4103",
+    "code": "0232-4103",
+    "name": "Australian, Canadian and Indian Literature",
+    "instructors": [
+      "Amena Begum",
+      "Mainul Islam"
+    ]
+  },
+  {
+    "id": "0232-4104",
+    "code": "0232-4104",
+    "name": "Continental Literature",
+    "instructors": [
+      "Arko Halder",
+      "Md. Redwan Islam"
+    ]
+  },
+  {
+    "id": "0232-4105",
+    "code": "0232-4105",
+    "name": "Modern Fiction",
+    "instructors": [
+      "Nafia Tabassum",
+      "Arif Ahmad"
+    ]
+  },
+  {
+    "id": "0232-4106",
+    "code": "0232-4106",
+    "name": "Research Methods in English Studies",
+    "instructors": [
+      "Dr. Sazzad Hossain",
+      "Dr. Md. Zahidul Islam"
+    ]
+  },
+  {
+    "id": "0321-4201",
+    "code": "0321-4201",
+    "name": "Digital Writing and New Media",
+    "instructors": [
+      "Nishat Tarannum",
+      "Md. Shahriar Mahmud Rakib"
+    ]
+  },
+  {
+    "id": "0232-4202",
+    "code": "0232-4202",
+    "name": "Environment through Literature",
+    "instructors": [
+      "Iffat Binte Mizan",
+      "Mahima Akhter Addrita"
+    ]
+  },
+  {
+    "id": "0232-4203",
+    "code": "0232-4203",
+    "name": "African and Caribbean Literature",
+    "instructors": [
+      "Niloy Farhan",
+      "Sanjida Abedin Rafha"
+    ]
+  },
+  {
+    "id": "0232-4204",
+    "code": "0232-4204",
+    "name": "Latin American Literature",
+    "instructors": [
+      "Md. Fozle Rabbi",
+      "Tasnim Jarin"
+    ]
+  },
+  {
+    "id": "0322-4205",
+    "code": "0322-4205",
+    "name": "Postmodern Fiction",
+    "instructors": [
+      "Rubina Arfin Somiya",
+      "Ms. Tahmina Sultana"
+    ]
+  },
+  {
+    "id": "0232-4206",
+    "code": "0232-4206",
+    "name": "Research Monograph/Colloquium/Project",
+    "instructors": [
+      "Arif Ahmad",
+      "Dr. Sazzad Hossain",
+      "Dr. Md. Abul Kalam Azad"
+    ]
+  },
+  {
+    "id": "0232-4207",
+    "code": "0232-4207",
+    "name": "Viva-voce",
+    "instructors": [
+      "Arif Ahmad",
+      "Dr. Sazzad Hossain"
+    ]
+  }
+]

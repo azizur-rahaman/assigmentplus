@@ -1,0 +1,378 @@
+[
+  {
+    "id": "eng1011",
+    "code": "ENG 1011",
+    "name": "English I",
+    "instructors": [
+      "Prof. Anisul Haque",
+      "Dr. Rowshan Ara"
+    ]
+  },
+  {
+    "id": "eng1013",
+    "code": "ENG 1013",
+    "name": "English II",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "soc2301",
+    "code": "SOC 2301",
+    "name": "Environmental Sociology",
+    "instructors": [
+      "Dr. Habibur Rahman",
+      "Prof. Shamima Nasrin"
+    ]
+  },
+  {
+    "id": "cst1101",
+    "code": "CST 1101",
+    "name": "Introduction to Computer",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "bds1201",
+    "code": "BDS 1201",
+    "name": "Bangladesh Studies",
+    "instructors": [
+      "Dr. Md. Shahin Alam",
+      "Farhana Yasmin"
+    ]
+  },
+  {
+    "id": "ant2101",
+    "code": "ANT 2101",
+    "name": "Ecological Anthropology",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Fatima Rahman"
+    ]
+  },
+  {
+    "id": "eds1101",
+    "code": "EDS 1101",
+    "name": "Introduction to Environmental Studies",
+    "instructors": [
+      "Dr. Mohammad Hasan",
+      "Prof. Nasrin Akhter"
+    ]
+  },
+  {
+    "id": "eds1201",
+    "code": "EDS 1201",
+    "name": "Introduction to Development Studies",
+    "instructors": [
+      "Dr. Kamrul Islam",
+      "Eng. Tareq Ahmed"
+    ]
+  },
+  {
+    "id": "eds2101",
+    "code": "EDS 2101",
+    "name": "Environment, Development and Sustainability",
+    "instructors": [
+      "Prof. Abdul Mannan",
+      "Dr. Shahana Parveen"
+    ]
+  },
+  {
+    "id": "eds1301",
+    "code": "EDS 1301",
+    "name": "Introduction to Environmental and Natural Resource Development",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "eds2201",
+    "code": "EDS 2201",
+    "name": "GIS and Remote Sensing-I",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "eds1401",
+    "code": "EDS 1401",
+    "name": "Population, Poverty and the Environment",
+    "instructors": [
+      "Mosabbir Ahmed",
+      "Dr. Rahman Khan"
+    ]
+  },
+  {
+    "id": "eds2301",
+    "code": "EDS 2301",
+    "name": "Development Geography and Globalization",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Sabbir Ahmed"
+    ]
+  },
+  {
+    "id": "eds2401",
+    "code": "EDS 2401",
+    "name": "Gender and Sustainable Development",
+    "instructors": [
+      "Prof. Jahangir Alam",
+      "Rashed Khan"
+    ]
+  },
+  {
+    "id": "eds2501",
+    "code": "EDS 2501",
+    "name": "Development and Climate Change",
+    "instructors": [
+      "Dr. Farhan Rahman",
+      "Nusrat Jahan"
+    ]
+  },
+  {
+    "id": "eds3101",
+    "code": "EDS 3101",
+    "name": "Environmental Law and Policy",
+    "instructors": [
+      "Barrister Ahmed Hassan",
+      "Advocate Sultana Begum"
+    ]
+  },
+  {
+    "id": "eds3201",
+    "code": "EDS 3201",
+    "name": "Quantitative Research Methodology",
+    "instructors": [
+      "Dr. Habibur Rahman",
+      "Prof. Shamima Nasrin"
+    ]
+  },
+  {
+    "id": "eds3301",
+    "code": "EDS 3301",
+    "name": "Political Ecology",
+    "instructors": [
+      "Dr. Md. Shahin Alam",
+      "Farhana Yasmin"
+    ]
+  },
+  {
+    "id": "eds3401",
+    "code": "EDS 3401",
+    "name": "Environmental Ethics",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Fatima Rahman"
+    ]
+  },
+  {
+    "id": "eds3501",
+    "code": "EDS 3501",
+    "name": "Environmental Issues in Bangladesh",
+    "instructors": [
+      "Dr. Mohammad Hasan",
+      "Prof. Nasrin Akhter"
+    ]
+  },
+  {
+    "id": "eds3601",
+    "code": "EDS 3601",
+    "name": "Environmental Analysis",
+    "instructors": [
+      "Dr. Kamrul Islam",
+      "Eng. Tareq Ahmed"
+    ]
+  },
+  {
+    "id": "stat2101",
+    "code": "STAT 2101",
+    "name": "Statistics",
+    "instructors": [
+      "Prof. Abdul Mannan",
+      "Dr. Shahana Parveen"
+    ]
+  },
+  {
+    "id": "eco2201",
+    "code": "ECO 2201",
+    "name": "Development Economics",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "eds1501",
+    "code": "EDS 1501",
+    "name": "Environment: Science and Society",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "eds4101",
+    "code": "EDS 4101",
+    "name": "Urban Development and Environmental Management",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "eds4201",
+    "code": "EDS 4201",
+    "name": "Environmental Pollution Control",
+    "instructors": [
+      "Mosabbir Ahmed",
+      "Dr. Rahman Khan"
+    ]
+  },
+  {
+    "id": "eds4301",
+    "code": "EDS 4301",
+    "name": "Environment, Health and Safety",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Sabbir Ahmed"
+    ]
+  },
+  {
+    "id": "eds4401",
+    "code": "EDS 4401",
+    "name": "Qualitative Research Methodology",
+    "instructors": [
+      "Prof. Jahangir Alam",
+      "Rashed Khan"
+    ]
+  },
+  {
+    "id": "eds4501",
+    "code": "EDS 4501",
+    "name": "GIS and Remote Sensing-II",
+    "instructors": [
+      "Dr. Farhan Rahman",
+      "Nusrat Jahan"
+    ]
+  },
+  {
+    "id": "eds4601",
+    "code": "EDS 4601",
+    "name": "Environmental Hazards and Disaster Management",
+    "instructors": [
+      "Dr. Habibur Rahman",
+      "Prof. Shamima Nasrin"
+    ]
+  },
+  {
+    "id": "eds4701",
+    "code": "EDS 4701",
+    "name": "Techniques of Environmental Valuation",
+    "instructors": [
+      "Dr. Md. Shahin Alam",
+      "Farhana Yasmin"
+    ]
+  },
+  {
+    "id": "eds4801",
+    "code": "EDS 4801",
+    "name": "Environmental and Social Impact Assessment (ESIA)",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Fatima Rahman"
+    ]
+  },
+  {
+    "id": "soc3101",
+    "code": "SOC 3101",
+    "name": "Social Inequality",
+    "instructors": [
+      "Dr. Mohammad Hasan",
+      "Prof. Nasrin Akhter"
+    ]
+  },
+  {
+    "id": "eds3701",
+    "code": "EDS 3701",
+    "name": "Environment, Conflict and Security",
+    "instructors": [
+      "Dr. Kamrul Islam",
+      "Eng. Tareq Ahmed"
+    ]
+  },
+  {
+    "id": "ant3101",
+    "code": "ANT 3101",
+    "name": "Cultural Ecology",
+    "instructors": [
+      "Prof. Abdul Mannan",
+      "Dr. Shahana Parveen"
+    ]
+  },
+  {
+    "id": "bio3101",
+    "code": "BIO 3101",
+    "name": "Environmental Biology, Ecology and Conservation",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "eds3801",
+    "code": "EDS 3801",
+    "name": "People's Participation in Environmental Management",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "eco3201",
+    "code": "ECO 3201",
+    "name": "Environmental Economics",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "agr3101",
+    "code": "AGR 3101",
+    "name": "Sustainable Agriculture",
+    "instructors": [
+      "Mosabbir Ahmed",
+      "Dr. Rahman Khan"
+    ]
+  },
+  {
+    "id": "eds3901",
+    "code": "EDS 3901",
+    "name": "Environment, Development and Livelihoods",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Sabbir Ahmed"
+    ]
+  },
+  {
+    "id": "eds4901",
+    "code": "EDS 4901",
+    "name": "Research Project/Monograph",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  },
+  {
+    "id": "eds4902",
+    "code": "EDS 4902",
+    "name": "Practicum and Internship",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  }
+]

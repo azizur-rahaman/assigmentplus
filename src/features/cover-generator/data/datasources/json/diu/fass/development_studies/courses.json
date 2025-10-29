@@ -1,0 +1,298 @@
+[
+  {
+    "id": "dev1101",
+    "code": "DEV 1101",
+    "name": "Introduction to Development Studies",
+    "instructors": [
+      "Dr. Shamim Hamide",
+      "Janifar Alam"
+    ]
+  },
+  {
+    "id": "dev1102",
+    "code": "DEV 1102",
+    "name": "Rural Development",
+    "instructors": [
+      "Dr. Ahsan Ullah",
+      "Md. Nazmul Huda"
+    ]
+  },
+  {
+    "id": "dev1103",
+    "code": "DEV 1103",
+    "name": "Introduction to Sociology",
+    "instructors": [
+      "Dr. Shamim Hamide",
+      "Janifar Alam"
+    ]
+  },
+  {
+    "id": "eng1101",
+    "code": "ENG 1101",
+    "name": "English Language",
+    "instructors": [
+      "Dr. Ahsan Ullah",
+      "Md. Nazmul Huda"
+    ]
+  },
+  {
+    "id": "ban1101",
+    "code": "BAN 1101",
+    "name": "Bangla Language",
+    "instructors": [
+      "Dr. Shamim Hamide",
+      "Janifar Alam"
+    ]
+  },
+  {
+    "id": "dev1201",
+    "code": "DEV 1201",
+    "name": "Theories of Development",
+    "instructors": [
+      "Dr. Ahsan Ullah",
+      "Md. Nazmul Huda"
+    ]
+  },
+  {
+    "id": "dev1202",
+    "code": "DEV 1202",
+    "name": "Urban Development",
+    "instructors": [
+      "Dr. Shamim Hamide",
+      "Janifar Alam"
+    ]
+  },
+  {
+    "id": "dev1203",
+    "code": "DEV 1203",
+    "name": "Introduction to Economics",
+    "instructors": [
+      "Dr. Ahsan Ullah",
+      "Md. Nazmul Huda"
+    ]
+  },
+  {
+    "id": "ban1201",
+    "code": "BAN 1201",
+    "name": "History of Emergence of Bangladesh",
+    "instructors": [
+      "Dr. Shamim Hamide",
+      "Janifar Alam"
+    ]
+  },
+  {
+    "id": "dev2101",
+    "code": "DEV 2101",
+    "name": "Sustainable Development",
+    "instructors": [
+      "Dr. Ahsan Ullah",
+      "Md. Nazmul Huda"
+    ]
+  },
+  {
+    "id": "dev2102",
+    "code": "DEV 2102",
+    "name": "Poverty and Development",
+    "instructors": [
+      "Dr. Shamim Hamide",
+      "Janifar Alam"
+    ]
+  },
+  {
+    "id": "dev2103",
+    "code": "DEV 2103",
+    "name": "Gender and Development",
+    "instructors": [
+      "Dr. Ahsan Ullah",
+      "Md. Nazmul Huda"
+    ]
+  },
+  {
+    "id": "dev2104",
+    "code": "DEV 2104",
+    "name": "Development Communication",
+    "instructors": [
+      "Dr. Shamim Hamide",
+      "Janifar Alam"
+    ]
+  },
+  {
+    "id": "dev2201",
+    "code": "DEV 2201",
+    "name": "Research Methodology",
+    "instructors": [
+      "Dr. Ahsan Ullah",
+      "Md. Nazmul Huda"
+    ]
+  },
+  {
+    "id": "dev2202",
+    "code": "DEV 2202",
+    "name": "Human Resource Development",
+    "instructors": [
+      "Dr. Shamim Hamide",
+      "Janifar Alam"
+    ]
+  },
+  {
+    "id": "dev2203",
+    "code": "DEV 2203",
+    "name": "Environment and Development",
+    "instructors": [
+      "Dr. Ahsan Ullah",
+      "Md. Nazmul Huda"
+    ]
+  },
+  {
+    "id": "dev2204",
+    "code": "DEV 2204",
+    "name": "Population and Development",
+    "instructors": [
+      "Dr. Shamim Hamide",
+      "Janifar Alam"
+    ]
+  },
+  {
+    "id": "dev3101",
+    "code": "DEV 3101",
+    "name": "Development Planning and Administration",
+    "instructors": [
+      "Dr. Ahsan Ullah",
+      "Md. Nazmul Huda"
+    ]
+  },
+  {
+    "id": "dev3102",
+    "code": "DEV 3102",
+    "name": "Project Planning and Management",
+    "instructors": [
+      "Dr. Shamim Hamide",
+      "Janifar Alam"
+    ]
+  },
+  {
+    "id": "dev3103",
+    "code": "DEV 3103",
+    "name": "NGO and Development",
+    "instructors": [
+      "Dr. Ahsan Ullah",
+      "Md. Nazmul Huda"
+    ]
+  },
+  {
+    "id": "dev3104",
+    "code": "DEV 3104",
+    "name": "Globalization and Development",
+    "instructors": [
+      "Dr. Shamim Hamide",
+      "Janifar Alam"
+    ]
+  },
+  {
+    "id": "dev3201",
+    "code": "DEV 3201",
+    "name": "Agriculture and Development",
+    "instructors": [
+      "Dr. Ahsan Ullah",
+      "Md. Nazmul Huda"
+    ]
+  },
+  {
+    "id": "dev3202",
+    "code": "DEV 3202",
+    "name": "Education and Development",
+    "instructors": [
+      "Dr. Shamim Hamide",
+      "Janifar Alam"
+    ]
+  },
+  {
+    "id": "dev3203",
+    "code": "DEV 3203",
+    "name": "Health and Development",
+    "instructors": [
+      "Dr. Ahsan Ullah",
+      "Md. Nazmul Huda"
+    ]
+  },
+  {
+    "id": "dev3204",
+    "code": "DEV 3204",
+    "name": "Entrepreneurship Development",
+    "instructors": [
+      "Dr. Shamim Hamide",
+      "Janifar Alam"
+    ]
+  },
+  {
+    "id": "dev4101",
+    "code": "DEV 4101",
+    "name": "Good Governance and Development",
+    "instructors": [
+      "Dr. Ahsan Ullah",
+      "Md. Nazmul Huda"
+    ]
+  },
+  {
+    "id": "dev4102",
+    "code": "DEV 4102",
+    "name": "Development Economics",
+    "instructors": [
+      "Dr. Shamim Hamide",
+      "Janifar Alam"
+    ]
+  },
+  {
+    "id": "dev4103",
+    "code": "DEV 4103",
+    "name": "Migration and Development",
+    "instructors": [
+      "Dr. Ahsan Ullah",
+      "Md. Nazmul Huda"
+    ]
+  },
+  {
+    "id": "dev4104",
+    "code": "DEV 4104",
+    "name": "Social Protection and Development",
+    "instructors": [
+      "Dr. Shamim Hamide",
+      "Janifar Alam"
+    ]
+  },
+  {
+    "id": "dev4201",
+    "code": "DEV 4201",
+    "name": "Climate Change and Development",
+    "instructors": [
+      "Dr. Ahsan Ullah",
+      "Md. Nazmul Huda"
+    ]
+  },
+  {
+    "id": "dev4202",
+    "code": "DEV 4202",
+    "name": "Disaster Management and Development",
+    "instructors": [
+      "Dr. Shamim Hamide",
+      "Janifar Alam"
+    ]
+  },
+  {
+    "id": "dev4203",
+    "code": "DEV 4203",
+    "name": "International Development",
+    "instructors": [
+      "Dr. Ahsan Ullah",
+      "Md. Nazmul Huda"
+    ]
+  },
+  {
+    "id": "dev4990",
+    "code": "DEV 4990",
+    "name": "Thesis",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  }
+]

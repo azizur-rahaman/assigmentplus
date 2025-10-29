@@ -1,0 +1,515 @@
+[
+  {
+    "id": "eee1101",
+    "code": "EEE 1101",
+    "name": "Electrical Circuits I",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Mahmudul Hassan"
+    ]
+  },
+  {
+    "id": "eee1102",
+    "code": "EEE 1102",
+    "name": "Electrical Circuits II",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Shagor Hasan"
+    ]
+  },
+  {
+    "id": "eee1103",
+    "code": "EEE 1103",
+    "name": "Electrical Circuits Laboratory",
+    "instructors": [
+      "Eng. Mahmudul Hassan",
+      "Shafin Shadman Ahmed"
+    ]
+  },
+  {
+    "id": "eee1104",
+    "code": "EEE 1104",
+    "name": "Circuit Simulation Laboratory",
+    "instructors": [
+      "Eng. Shagor Hasan",
+      "Fahatin Binta Faruque"
+    ]
+  },
+  {
+    "id": "eee2101",
+    "code": "EEE 2101",
+    "name": "Electronics I",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Sayed Hasan Murad"
+    ]
+  },
+  {
+    "id": "eee2201",
+    "code": "EEE 2201",
+    "name": "Electronics II",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Mahim Al Masud"
+    ]
+  },
+  {
+    "id": "eee2202",
+    "code": "EEE 2202",
+    "name": "Electronics Laboratory",
+    "instructors": [
+      "Eng. Mahim Al Masud",
+      "Numayer Andalib Zaman"
+    ]
+  },
+  {
+    "id": "eee2103",
+    "code": "EEE 2103",
+    "name": "Energy Conversion I",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Md. Biplob Hossain"
+    ]
+  },
+  {
+    "id": "eee2203",
+    "code": "EEE 2203",
+    "name": "Energy Conversion II",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Md. Fahid Hasan Mojumder"
+    ]
+  },
+  {
+    "id": "eee2204",
+    "code": "EEE 2204",
+    "name": "Energy Conversion Laboratory",
+    "instructors": [
+      "Eng. Md. Biplob Hossain",
+      "Md. Fahid Hasan Mojumder"
+    ]
+  },
+  {
+    "id": "eee2105",
+    "code": "EEE 2105",
+    "name": "Electrical Properties of Materials",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Mahmudul Hassan"
+    ]
+  },
+  {
+    "id": "eee2301",
+    "code": "EEE 2301",
+    "name": "Electromagnetic Fields and Waves",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Shagor Hasan"
+    ]
+  },
+  {
+    "id": "eee2107",
+    "code": "EEE 2107",
+    "name": "Continuous Signals and Linear Systems",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Sayed Hasan Murad"
+    ]
+  },
+  {
+    "id": "eee3201",
+    "code": "EEE 3201",
+    "name": "Digital Signal Processing",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Mahim Al Masud"
+    ]
+  },
+  {
+    "id": "eee3202",
+    "code": "EEE 3202",
+    "name": "Digital Signal Processing Laboratory",
+    "instructors": [
+      "Eng. Mahim Al Masud",
+      "Numayer Andalib Zaman"
+    ]
+  },
+  {
+    "id": "eee3101",
+    "code": "EEE 3101",
+    "name": "Transmission and Distribution of Electrical Power",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Mahmudul Hassan"
+    ]
+  },
+  {
+    "id": "eee3103",
+    "code": "EEE 3103",
+    "name": "Power System Analysis",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Md. Biplob Hossain"
+    ]
+  },
+  {
+    "id": "eee3104",
+    "code": "EEE 3104",
+    "name": "Power System Analysis Laboratory",
+    "instructors": [
+      "Eng. Md. Biplob Hossain",
+      "Md. Fahid Hasan Mojumder"
+    ]
+  },
+  {
+    "id": "eee4101",
+    "code": "EEE 4101",
+    "name": "Power Stations and Substations",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Mahmudul Hassan"
+    ]
+  },
+  {
+    "id": "eee4103",
+    "code": "EEE 4103",
+    "name": "Power System Protection",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Shagor Hasan"
+    ]
+  },
+  {
+    "id": "eee4105",
+    "code": "EEE 4105",
+    "name": "High Voltage Engineering",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Sayed Hasan Murad"
+    ]
+  },
+  {
+    "id": "eee4107",
+    "code": "EEE 4107",
+    "name": "Renewable Energy",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Mahim Al Masud"
+    ]
+  },
+  {
+    "id": "eee4109",
+    "code": "EEE 4109",
+    "name": "Power System Operation and Control",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Md. Biplob Hossain"
+    ]
+  },
+  {
+    "id": "eee4111",
+    "code": "EEE 4111",
+    "name": "Special Machines",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Mahmudul Hassan"
+    ]
+  },
+  {
+    "id": "eee4113",
+    "code": "EEE 4113",
+    "name": "Energy Economics",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Shagor Hasan"
+    ]
+  },
+  {
+    "id": "eee4115",
+    "code": "EEE 4115",
+    "name": "Power System Reliability",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Md. Biplob Hossain"
+    ]
+  },
+  {
+    "id": "eee3301",
+    "code": "EEE 3301",
+    "name": "Communication Engineering",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Sayed Hasan Murad"
+    ]
+  },
+  {
+    "id": "eee3302",
+    "code": "EEE 3302",
+    "name": "Communication Engineering Laboratory",
+    "instructors": [
+      "Eng. Sayed Hasan Murad",
+      "Numayer Andalib Zaman"
+    ]
+  },
+  {
+    "id": "eee4301",
+    "code": "EEE 4301",
+    "name": "Telecommunication Engineering",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Mahim Al Masud"
+    ]
+  },
+  {
+    "id": "eee4303",
+    "code": "EEE 4303",
+    "name": "Optical Fiber Communication",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Sayed Hasan Murad"
+    ]
+  },
+  {
+    "id": "eee4305",
+    "code": "EEE 4305",
+    "name": "Microwave Engineering",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Shagor Hasan"
+    ]
+  },
+  {
+    "id": "eee4307",
+    "code": "EEE 4307",
+    "name": "Wireless and Cellular Communication",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Mahim Al Masud"
+    ]
+  },
+  {
+    "id": "eee4309",
+    "code": "EEE 4309",
+    "name": "Satellite and Radar Communication",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Sayed Hasan Murad"
+    ]
+  },
+  {
+    "id": "eee3401",
+    "code": "EEE 3401",
+    "name": "Control Systems",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Md. Biplob Hossain"
+    ]
+  },
+  {
+    "id": "eee3402",
+    "code": "EEE 3402",
+    "name": "Control Systems Laboratory",
+    "instructors": [
+      "Eng. Md. Biplob Hossain",
+      "Md. Fahid Hasan Mojumder"
+    ]
+  },
+  {
+    "id": "eee2501",
+    "code": "EEE 2501",
+    "name": "Digital Electronics",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Mahmudul Hassan"
+    ]
+  },
+  {
+    "id": "eee2502",
+    "code": "EEE 2502",
+    "name": "Digital Electronics Laboratory",
+    "instructors": [
+      "Eng. Mahmudul Hassan",
+      "Shafin Shadman Ahmed"
+    ]
+  },
+  {
+    "id": "eee3501",
+    "code": "EEE 3501",
+    "name": "Measurement and Instrumentation",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Shagor Hasan"
+    ]
+  },
+  {
+    "id": "eee3601",
+    "code": "EEE 3601",
+    "name": "Power Electronics",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Md. Biplob Hossain"
+    ]
+  },
+  {
+    "id": "eee3602",
+    "code": "EEE 3602",
+    "name": "Power Electronics Laboratory",
+    "instructors": [
+      "Eng. Md. Biplob Hossain",
+      "Md. Fahid Hasan Mojumder"
+    ]
+  },
+  {
+    "id": "eee3701",
+    "code": "EEE 3701",
+    "name": "Microprocessor and Interfacing",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Mahim Al Masud"
+    ]
+  },
+  {
+    "id": "eee3702",
+    "code": "EEE 3702",
+    "name": "Microprocessor and Interfacing Laboratory",
+    "instructors": [
+      "Eng. Mahim Al Masud",
+      "Numayer Andalib Zaman"
+    ]
+  },
+  {
+    "id": "eee4701",
+    "code": "EEE 4701",
+    "name": "Microprocessor System Design",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Mahim Al Masud"
+    ]
+  },
+  {
+    "id": "eee4703",
+    "code": "EEE 4703",
+    "name": "Embedded System Design",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Sayed Hasan Murad"
+    ]
+  },
+  {
+    "id": "eee1501",
+    "code": "EEE 1501",
+    "name": "Engineering Drawing & Services Design Laboratory",
+    "instructors": [
+      "Eng. Mahmudul Hassan",
+      "Shafin Shadman Ahmed"
+    ]
+  },
+  {
+    "id": "eee4201",
+    "code": "EEE 4201",
+    "name": "VLSI Circuits",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Mahim Al Masud"
+    ]
+  },
+  {
+    "id": "eee4203",
+    "code": "EEE 4203",
+    "name": "Optoelectronic Devices",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Shagor Hasan"
+    ]
+  },
+  {
+    "id": "eee4205",
+    "code": "EEE 4205",
+    "name": "Biomedical Electronics",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Sayed Hasan Murad"
+    ]
+  },
+  {
+    "id": "eee4207",
+    "code": "EEE 4207",
+    "name": "Solid State Devices",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Mahmudul Hassan"
+    ]
+  },
+  {
+    "id": "eee4209",
+    "code": "EEE 4209",
+    "name": "Compound Semiconductor Devices",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Shagor Hasan"
+    ]
+  },
+  {
+    "id": "eee4211",
+    "code": "EEE 4211",
+    "name": "Nano-Electronics and Nanotechnology",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Mahim Al Masud"
+    ]
+  },
+  {
+    "id": "eee4401",
+    "code": "EEE 4401",
+    "name": "Random Signal Processing",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Sayed Hasan Murad"
+    ]
+  },
+  {
+    "id": "eee4403",
+    "code": "EEE 4403",
+    "name": "Digital Filter Design",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Mahim Al Masud"
+    ]
+  },
+  {
+    "id": "eee3801",
+    "code": "EEE 3801",
+    "name": "Web Design and Software Development Fundamentals",
+    "instructors": [
+      "Eng. Mahim Al Masud",
+      "Numayer Andalib Zaman"
+    ]
+  },
+  {
+    "id": "eee4501",
+    "code": "EEE 4501",
+    "name": "Machine Learning and Artificial Neural Network",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Mahim Al Masud"
+    ]
+  },
+  {
+    "id": "eee4503",
+    "code": "EEE 4503",
+    "name": "Information and Coding Theory",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Sayed Hasan Murad"
+    ]
+  },
+  {
+    "id": "eee4505",
+    "code": "EEE 4505",
+    "name": "Data Communication and Computer Networks",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Eng. Mahim Al Masud"
+    ]
+  }
+]

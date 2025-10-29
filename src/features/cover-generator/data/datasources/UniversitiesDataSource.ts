@@ -1,14 +1,9 @@
 /**
- * Universities Data Source
- * Loads university data from JSON files
+ * Universities Data Source - Modular Version
+ * Loads university data from organized folder structure with lazy loading
  */
 
-import uiuData from './json/uiu.json';
-import duData from './json/du.json';
-import buetData from './json/buet.json';
-import nsuData from './json/nsu.json';
-import bracData from './json/brac.json';
-import diuData from './json/diu.json';
+import universitiesIndex from './json/index.json';
 
 // Type definitions
 export interface University {
@@ -16,14 +11,14 @@ export interface University {
   name: string;
   shortName: string;
   logo: string;
-  schools: School[];
+  schools?: School[];
 }
 
 export interface School {
   id: string;
   name: string;
   shortName: string;
-  departments: Department[];
+  departments?: Department[];
 }
 
 export interface Department {
@@ -55,206 +50,284 @@ export interface Instructor {
 }
 
 /**
- * Universities DataSource
- * Manages university data loaded from JSON files
+ * Universities DataSource - Modular Edition
+ * Dynamically loads university data from folder structure with caching
  */
 class UniversitiesDataSource {
-  private universities: University[];
+  private universitiesIndex: University[];
+  private cache: Map<string, any> = new Map();
 
   constructor() {
-    // Load all university data from JSON files
-    this.universities = [
-      uiuData,
-      duData,
-      buetData,
-      nsuData,
-      bracData,
-      diuData,
-    ] as University[];
+    // Load universities index (lightweight)
+    this.universitiesIndex = (universitiesIndex as any).universities;
   }
 
   /**
-   * Get all universities
+   * Get all universities (from index - synchronous)
    */
   getAllUniversities(): University[] {
-    return this.universities;
+    return this.universitiesIndex;
   }
 
   /**
-   * Get a university by ID
+   * Get a university by ID (loads metadata dynamically)
    */
-  getUniversityById(id: string): University | undefined {
-    return this.universities.find((uni) => uni.id === id);
+  async getUniversityById(id: string): Promise<University | undefined> {
+    const cacheKey = `uni:${id}`;
+    
+    if (this.cache.has(cacheKey)) {
+      return this.cache.get(cacheKey);
+    }
+
+    try {
+      const metadata = await import(`./json/${id}/metadata.json`);
+      const university: University = {
+        id: metadata.id,
+        name: metadata.name,
+        shortName: metadata.shortName,
+        logo: metadata.logo,
+        schools: metadata.schools || []
+      };
+      
+      this.cache.set(cacheKey, university);
+      return university;
+    } catch (error) {
+      console.error(`Failed to load university ${id}:`, error);
+      return undefined;
+    }
   }
 
   /**
    * Get a school by university ID and school ID
    */
-  getSchoolById(universityId: string, schoolId: string): School | undefined {
-    const university = this.getUniversityById(universityId);
-    return university?.schools.find((school) => school.id === schoolId);
+  async getSchoolById(universityId: string, schoolId: string): Promise<School | undefined> {
+    const cacheKey = `school:${universityId}:${schoolId}`;
+    
+    if (this.cache.has(cacheKey)) {
+      return this.cache.get(cacheKey);
+    }
+
+    try {
+      const metadata = await import(`./json/${universityId}/${schoolId}/metadata.json`);
+      const school: School = {
+        id: metadata.id,
+        name: metadata.name,
+        shortName: metadata.shortName,
+        departments: metadata.departments || []
+      };
+      
+      this.cache.set(cacheKey, school);
+      return school;
+    } catch (error) {
+      console.error(`Failed to load school ${universityId}/${schoolId}:`, error);
+      return undefined;
+    }
   }
 
   /**
    * Get a department by university, school, and department ID
    */
-  getDepartmentById(
+  async getDepartmentById(
     universityId: string,
     schoolId: string,
     departmentId: string
-  ): Department | undefined {
-    const school = this.getSchoolById(universityId, schoolId);
-    return school?.departments.find((dept) => dept.id === departmentId);
+  ): Promise<Department | undefined> {
+    const cacheKey = `dept:${universityId}:${schoolId}:${departmentId}`;
+    
+    if (this.cache.has(cacheKey)) {
+      return this.cache.get(cacheKey);
+    }
+
+    try {
+      const metadata = await import(`./json/${universityId}/${schoolId}/${departmentId}/metadata.json`);
+      const courses = await this.getCoursesByDepartment(universityId, schoolId, departmentId);
+      
+      const department: Department = {
+        id: metadata.id,
+        name: metadata.name,
+        shortName: metadata.shortName,
+        courses: courses
+      };
+      
+      this.cache.set(cacheKey, department);
+      return department;
+    } catch (error) {
+      console.error(`Failed to load department ${universityId}/${schoolId}/${departmentId}:`, error);
+      return undefined;
+    }
   }
 
   /**
-   * Get a program by university, school, department, and program ID
+   * Get courses for a department (lazy loaded)
    */
-  getProgramById(
+  async getCoursesByDepartment(
     universityId: string,
     schoolId: string,
-    departmentId: string,
-    programId: string
-  ): Program | undefined {
-    const department = this.getDepartmentById(universityId, schoolId, departmentId);
-    return department?.programs?.find((program) => program.id === programId);
+    departmentId: string
+  ): Promise<Course[]> {
+    const cacheKey = `courses:${universityId}:${schoolId}:${departmentId}`;
+    
+    if (this.cache.has(cacheKey)) {
+      return this.cache.get(cacheKey);
+    }
+
+    try {
+      const courses = await import(`./json/${universityId}/${schoolId}/${departmentId}/courses.json`);
+      const coursesList = courses.default || courses;
+      
+      this.cache.set(cacheKey, coursesList);
+      return coursesList;
+    } catch (error) {
+      console.error(`Failed to load courses for ${universityId}/${schoolId}/${departmentId}:`, error);
+      return [];
+    }
   }
 
   /**
    * Get a course by ID
    */
-  getCourseById(
+  async getCourseById(
     universityId: string,
     schoolId: string,
     departmentId: string,
     courseId: string,
     programId?: string
-  ): Course | undefined {
-    const department = this.getDepartmentById(universityId, schoolId, departmentId);
-    
-    // If department has programs, search within the program
-    if (department?.programs && programId) {
-      const program = department.programs.find((prog) => prog.id === programId);
-      return program?.courses.find((course) => course.id === courseId);
-    }
-    
-    // If department has direct courses
-    return department?.courses?.find((course) => course.id === courseId);
+  ): Promise<Course | undefined> {
+    const courses = await this.getCoursesByDepartment(universityId, schoolId, departmentId);
+    return courses.find((course) => course.id === courseId);
   }
 
   /**
    * Get all schools for a university
    */
-  getSchoolsByUniversity(universityId: string): School[] {
-    const university = this.getUniversityById(universityId);
+  async getSchoolsByUniversity(universityId: string): Promise<School[]> {
+    const university = await this.getUniversityById(universityId);
     return university?.schools || [];
   }
 
   /**
    * Get all departments for a school
    */
-  getDepartmentsBySchool(universityId: string, schoolId: string): Department[] {
-    const school = this.getSchoolById(universityId, schoolId);
+  async getDepartmentsBySchool(universityId: string, schoolId: string): Promise<Department[]> {
+    const school = await this.getSchoolById(universityId, schoolId);
     return school?.departments || [];
   }
 
   /**
-   * Get all programs for a department
+   * Get all programs for a department (legacy - not used in modular structure)
    */
-  getProgramsByDepartment(
+  async getProgramsByDepartment(
     universityId: string,
     schoolId: string,
     departmentId: string
-  ): Program[] {
-    const department = this.getDepartmentById(universityId, schoolId, departmentId);
-    return department?.programs || [];
+  ): Promise<Program[]> {
+    return [];
   }
 
   /**
-   * Get all courses for a department (without programs)
+   * Get all courses for a program (legacy - not used in modular structure)
    */
-  getCoursesByDepartment(
-    universityId: string,
-    schoolId: string,
-    departmentId: string
-  ): Course[] {
-    const department = this.getDepartmentById(universityId, schoolId, departmentId);
-    return department?.courses || [];
-  }
-
-  /**
-   * Get all courses for a program
-   */
-  getCoursesByProgram(
+  async getCoursesByProgram(
     universityId: string,
     schoolId: string,
     departmentId: string,
     programId: string
-  ): Course[] {
-    const program = this.getProgramById(universityId, schoolId, departmentId, programId);
-    return program?.courses || [];
+  ): Promise<Course[]> {
+    return [];
   }
 
   /**
-   * Check if a department has programs
+   * Get a program by ID (legacy - not used in modular structure)
    */
-  departmentHasPrograms(
+  async getProgramById(
+    universityId: string,
+    schoolId: string,
+    departmentId: string,
+    programId: string
+  ): Promise<Program | undefined> {
+    return undefined;
+  }
+
+  /**
+   * Check if a department has programs (always false in modular structure)
+   */
+  async departmentHasPrograms(
     universityId: string,
     schoolId: string,
     departmentId: string
-  ): boolean {
-    const department = this.getDepartmentById(universityId, schoolId, departmentId);
-    return !!department?.programs && department.programs.length > 0;
+  ): Promise<boolean> {
+    return false;
+  }
+
+  /**
+   * Clear cache (useful for development/testing)
+   */
+  clearCache(): void {
+    this.cache.clear();
   }
 }
+
 
 // Create and export a singleton instance
 const universitiesDataSource = new UniversitiesDataSource();
 
 export default universitiesDataSource;
 
-// Export helper functions for backward compatibility
+// Export async helper functions
 export const getAllUniversities = () => universitiesDataSource.getAllUniversities();
-export const getUniversityById = (id: string) => universitiesDataSource.getUniversityById(id);
-export const getSchoolById = (universityId: string, schoolId: string) =>
-  universitiesDataSource.getSchoolById(universityId, schoolId);
-export const getDepartmentById = (universityId: string, schoolId: string, departmentId: string) =>
-  universitiesDataSource.getDepartmentById(universityId, schoolId, departmentId);
-export const getProgramById = (
+
+export const getUniversityById = async (id: string) =>
+  await universitiesDataSource.getUniversityById(id);
+
+export const getSchoolById = async (universityId: string, schoolId: string) =>
+  await universitiesDataSource.getSchoolById(universityId, schoolId);
+
+export const getDepartmentById = async (universityId: string, schoolId: string, departmentId: string) =>
+  await universitiesDataSource.getDepartmentById(universityId, schoolId, departmentId);
+
+export const getProgramById = async (
   universityId: string,
   schoolId: string,
   departmentId: string,
   programId: string
-) => universitiesDataSource.getProgramById(universityId, schoolId, departmentId, programId);
-export const getCourseById = (
+) => await universitiesDataSource.getProgramById(universityId, schoolId, departmentId, programId);
+
+export const getCourseById = async (
   universityId: string,
   schoolId: string,
   departmentId: string,
   courseId: string,
   programId?: string
-) => universitiesDataSource.getCourseById(universityId, schoolId, departmentId, courseId, programId);
-export const getSchoolsByUniversity = (universityId: string) =>
-  universitiesDataSource.getSchoolsByUniversity(universityId);
-export const getDepartmentsBySchool = (universityId: string, schoolId: string) =>
-  universitiesDataSource.getDepartmentsBySchool(universityId, schoolId);
-export const getProgramsByDepartment = (
+) => await universitiesDataSource.getCourseById(universityId, schoolId, departmentId, courseId, programId);
+
+export const getSchoolsByUniversity = async (universityId: string) =>
+  await universitiesDataSource.getSchoolsByUniversity(universityId);
+
+export const getDepartmentsBySchool = async (universityId: string, schoolId: string) =>
+  await universitiesDataSource.getDepartmentsBySchool(universityId, schoolId);
+
+export const getProgramsByDepartment = async (
   universityId: string,
   schoolId: string,
   departmentId: string
-) => universitiesDataSource.getProgramsByDepartment(universityId, schoolId, departmentId);
-export const getCoursesByDepartment = (
+) => await universitiesDataSource.getProgramsByDepartment(universityId, schoolId, departmentId);
+
+export const getCoursesByDepartment = async (
   universityId: string,
   schoolId: string,
   departmentId: string
-) => universitiesDataSource.getCoursesByDepartment(universityId, schoolId, departmentId);
-export const getCoursesByProgram = (
+) => await universitiesDataSource.getCoursesByDepartment(universityId, schoolId, departmentId);
+
+export const getCoursesByProgram = async (
   universityId: string,
   schoolId: string,
   departmentId: string,
   programId: string
-) => universitiesDataSource.getCoursesByProgram(universityId, schoolId, departmentId, programId);
-export const departmentHasPrograms = (
+) => await universitiesDataSource.getCoursesByProgram(universityId, schoolId, departmentId, programId);
+
+export const departmentHasPrograms = async (
   universityId: string,
   schoolId: string,
   departmentId: string
-) => universitiesDataSource.departmentHasPrograms(universityId, schoolId, departmentId);
+) => await universitiesDataSource.departmentHasPrograms(universityId, schoolId, departmentId);
+

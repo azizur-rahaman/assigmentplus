@@ -1,0 +1,12 @@
+{
+  "id": "business",
+  "name": "BRAC Business School",
+  "shortName": "BBS",
+  "departments": [
+    {
+      "id": "business",
+      "name": "Business Programs",
+      "shortName": "BUS"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "bge",
+  "name": "Department of Biotechnology and Genetic Engineering",
+  "shortName": "BGE",
+  "programs": [
+    {
+      "id": "bsbge",
+      "name": "B.Sc. in Biotechnology and Genetic Engineering",
+      "shortName": "B.Sc. BGE"
+    }
+  ]
+}

@@ -1,0 +1,399 @@
+[
+  {
+    "id": "PS-0312-1101",
+    "code": "PS-0312-1101",
+    "name": "Western Political Thought: Ancient and Mediaeval",
+    "instructors": [
+      "Md. Fazlul Haque",
+      "Dr. Abdul Latif Masum"
+    ]
+  },
+  {
+    "id": "PS-0312-1102",
+    "code": "PS-0312-1102",
+    "name": "Political Theory and Organization",
+    "instructors": [
+      "Dr. Md. Shariful Alam",
+      "Professor Dr. Md. Nurul Amin Bepari"
+    ]
+  },
+  {
+    "id": "PS-0312-1103",
+    "code": "PS-0312-1103",
+    "name": "Comparative Government and Politics: UK, USA & France",
+    "instructors": [
+      "Doel Akter",
+      "Asaduzzaman"
+    ]
+  },
+  {
+    "id": "PS-0312-1104",
+    "code": "PS-0312-1104",
+    "name": "Basic English",
+    "instructors": [
+      "Mohammad Mehedi Hasan",
+      "Fahim Ahmed Emon"
+    ]
+  },
+  {
+    "id": "S-0312-1105",
+    "code": "S-0312-1105",
+    "name": "Basics of Computer",
+    "instructors": [
+      "Falguni Halder",
+      "Sabina Yasmin Surjamokhey"
+    ]
+  },
+  {
+    "id": "PS-0312-1206",
+    "code": "PS-0312-1206",
+    "name": "Western Political Thought: Modern Period",
+    "instructors": [
+      "Dr. Abdul Latif Masum",
+      "Salima Jannath Lyra"
+    ]
+  },
+  {
+    "id": "PS-0312-1207",
+    "code": "PS-0312-1207",
+    "name": "Government and Politics in South Asia: India, Pakistan and Sri Lanka",
+    "instructors": [
+      "Dr. Md. Shariful Alam",
+      "Mujahidul Islam"
+    ]
+  },
+  {
+    "id": "PS-0312-1208",
+    "code": "PS-0312-1208",
+    "name": "History of the Emergence of Independent Bangladesh",
+    "instructors": [
+      "Md. Fazlul Haque",
+      "Sahabuddin Ahmed"
+    ]
+  },
+  {
+    "id": "PS-0312-1209",
+    "code": "PS-0312-1209",
+    "name": "Bengali Language and Literature",
+    "instructors": [
+      "Professor Dr. Md. Nurul Amin Bepari",
+      "Md. Yousuf Ali"
+    ]
+  },
+  {
+    "id": "PS-0312-12010",
+    "code": "PS-0312-12010",
+    "name": "Political Sociology",
+    "instructors": [
+      "Doel Akter",
+      "Sanjida Afroze"
+    ]
+  },
+  {
+    "id": "PS-0312-12011",
+    "code": "PS-0312-12011",
+    "name": "Viva",
+    "instructors": [
+      "Md. Fazlul Haque",
+      "Dr. Abdul Latif Masum"
+    ]
+  },
+  {
+    "id": "PS-0312-21012",
+    "code": "PS-0312-21012",
+    "name": "Introduction to Sociology",
+    "instructors": [
+      "Dr. Md. Shariful Alam",
+      "Dola Das"
+    ]
+  },
+  {
+    "id": "PS-0312-21013",
+    "code": "PS-0312-21013",
+    "name": "Politics, Power and Corruption",
+    "instructors": [
+      "Md. Jahid Hashan",
+      "Asaduzzaman"
+    ]
+  },
+  {
+    "id": "PS-0312-21014",
+    "code": "PS-0312-21014",
+    "name": "Political System of South-east Asia: Malaysia, Indonesia and Singapore",
+    "instructors": [
+      "Mohammad Mehedi Hasan",
+      "Fahim Ahmed Emon"
+    ]
+  },
+  {
+    "id": "PS-0312-21015",
+    "code": "PS-0312-21015",
+    "name": "Socio-Political and Constitutional Development in British India. (1757-1947)",
+    "instructors": [
+      "Professor Dr. Md. Nurul Amin Bepari",
+      "Falguni Halder"
+    ]
+  },
+  {
+    "id": "PS-0312-21016",
+    "code": "PS-0312-21016",
+    "name": "Public Administration in Bangladesh",
+    "instructors": [
+      "Md. Fazlul Haque",
+      "Sabina Yasmin Surjamokhey"
+    ]
+  },
+  {
+    "id": "PS-0312-22017",
+    "code": "PS-0312-22017",
+    "name": "Principles of Economics",
+    "instructors": [
+      "Dr. Abdul Latif Masum",
+      "Salima Jannath Lyra"
+    ]
+  },
+  {
+    "id": "PS-0312-22018",
+    "code": "PS-0312-22018",
+    "name": "Bangladesh Constitution and Legislative Process",
+    "instructors": [
+      "Dr. Md. Shariful Alam",
+      "Mujahidul Islam"
+    ]
+  },
+  {
+    "id": "PS-0312-22019",
+    "code": "PS-0312-22019",
+    "name": "European History of Modern World",
+    "instructors": [
+      "Sahabuddin Ahmed",
+      "Md. Yousuf Ali"
+    ]
+  },
+  {
+    "id": "PS-0312-22020",
+    "code": "PS-0312-22020",
+    "name": "Geopolitics and Bangladesh",
+    "instructors": [
+      "Doel Akter",
+      "Sanjida Afroze"
+    ]
+  },
+  {
+    "id": "PS-0312-22021",
+    "code": "PS-0312-22021",
+    "name": "Local Governance and Rural Development in Bangladesh.",
+    "instructors": [
+      "Md. Fazlul Haque",
+      "Dola Das"
+    ]
+  },
+  {
+    "id": "PS-0312-22022",
+    "code": "PS-0312-22022",
+    "name": "Viva",
+    "instructors": [
+      "Md. Fazlul Haque",
+      "Dr. Abdul Latif Masum"
+    ]
+  },
+  {
+    "id": "PS-0312-31023",
+    "code": "PS-0312-31023",
+    "name": "Oriental Political Thought",
+    "instructors": [
+      "Md. Jahid Hashan",
+      "Asaduzzaman"
+    ]
+  },
+  {
+    "id": "PS-0312-31024",
+    "code": "PS-0312-31024",
+    "name": "Socio-Political and Constitutional Development in Pre-independent Bangladesh (1947-1971)",
+    "instructors": [
+      "Professor Dr. Md. Nurul Amin Bepari",
+      "Mohammad Mehedi Hasan"
+    ]
+  },
+  {
+    "id": "PS-0312-31025",
+    "code": "PS-0312-31025",
+    "name": "Government and Politics in Middle East",
+    "instructors": [
+      "Dr. Md. Shariful Alam",
+      "Fahim Ahmed Emon"
+    ]
+  },
+  {
+    "id": "PS-0312-31026",
+    "code": "PS-0312-31026",
+    "name": "Political Economy of Bangladesh",
+    "instructors": [
+      "Md. Fazlul Haque",
+      "Falguni Halder"
+    ]
+  },
+  {
+    "id": "PS-0312-31027",
+    "code": "PS-0312-31027",
+    "name": "Qualitative Approaches to the Study of Politics",
+    "instructors": [
+      "Dr. Abdul Latif Masum",
+      "Sabina Yasmin Surjamokhey"
+    ]
+  },
+  {
+    "id": "PS-0312-32028",
+    "code": "PS-0312-32028",
+    "name": "Foreign Policy of Bangladesh",
+    "instructors": [
+      "Dr. Md. Shariful Alam",
+      "Salima Jannath Lyra"
+    ]
+  },
+  {
+    "id": "PS-0312-32029",
+    "code": "PS-0312-32029",
+    "name": "Democracy and Democratization",
+    "instructors": [
+      "Mujahidul Islam",
+      "Sahabuddin Ahmed"
+    ]
+  },
+  {
+    "id": "PS-0312-32030",
+    "code": "PS-0312-32030",
+    "name": "Politics and Development in Bangladesh (1971- till date)",
+    "instructors": [
+      "Md. Fazlul Haque",
+      "Md. Yousuf Ali"
+    ]
+  },
+  {
+    "id": "PS-0312-32031",
+    "code": "PS-0312-32031",
+    "name": "Human Rights and Political Violence",
+    "instructors": [
+      "Doel Akter",
+      "Sanjida Afroze"
+    ]
+  },
+  {
+    "id": "PS-0312-32032",
+    "code": "PS-0312-32032",
+    "name": "Quantitative Approach to the Study of Politics",
+    "instructors": [
+      "Dr. Abdul Latif Masum",
+      "Dola Das"
+    ]
+  },
+  {
+    "id": "PS-0312-32033",
+    "code": "PS-0312-32033",
+    "name": "Viva",
+    "instructors": [
+      "Md. Fazlul Haque",
+      "Dr. Abdul Latif Masum"
+    ]
+  },
+  {
+    "id": "PS-0312-41034",
+    "code": "PS-0312-41034",
+    "name": "Gender and Politics in Bangladesh",
+    "instructors": [
+      "Md. Jahid Hashan",
+      "Asaduzzaman"
+    ]
+  },
+  {
+    "id": "PS-0312-41035",
+    "code": "PS-0312-41035",
+    "name": "Fundamentals of International Politics",
+    "instructors": [
+      "Dr. Md. Shariful Alam",
+      "Mohammad Mehedi Hasan"
+    ]
+  },
+  {
+    "id": "PS-0312-41036",
+    "code": "PS-0312-41036",
+    "name": "Politics of Identity: Ethnicity, Religion and Nationalism",
+    "instructors": [
+      "Professor Dr. Md. Nurul Amin Bepari",
+      "Fahim Ahmed Emon"
+    ]
+  },
+  {
+    "id": "PS-0312-41037",
+    "code": "PS-0312-41037",
+    "name": "Environment: Isssss and Problems",
+    "instructors": [
+      "Falguni Halder",
+      "Sabina Yasmin Surjamokhey"
+    ]
+  },
+  {
+    "id": "PS-0312-41038",
+    "code": "PS-0312-41038",
+    "name": "Research Methodology",
+    "instructors": [
+      "Md. Fazlul Haque",
+      "Dr. Abdul Latif Masum"
+    ]
+  },
+  {
+    "id": "PS-0312-42039",
+    "code": "PS-0312-42039",
+    "name": "Security issues and Conflict Studies",
+    "instructors": [
+      "Dr. Md. Shariful Alam",
+      "Salima Jannath Lyra"
+    ]
+  },
+  {
+    "id": "PS-0312-42040",
+    "code": "PS-0312-42040",
+    "name": "Development Studies",
+    "instructors": [
+      "Mujahidul Islam",
+      "Sahabuddin Ahmed"
+    ]
+  },
+  {
+    "id": "PS-0312-42041",
+    "code": "PS-0312-42041",
+    "name": "Contemporary Political Ideologies",
+    "instructors": [
+      "Dr. Abdul Latif Masum",
+      "Md. Yousuf Ali"
+    ]
+  },
+  {
+    "id": "PS-0312-42042",
+    "code": "PS-0312-42042",
+    "name": "Globalization, Regionalism and International Financial Institutions",
+    "instructors": [
+      "Doel Akter",
+      "Sanjida Afroze"
+    ]
+  },
+  {
+    "id": "PS-0312-42043",
+    "code": "PS-0312-42043",
+    "name": "Research Monograph with Oral Defense",
+    "instructors": [
+      "Md. Fazlul Haque",
+      "Dr. Abdul Latif Masum",
+      "Dr. Md. Shariful Alam"
+    ]
+  },
+  {
+    "id": "PS-0312-42044",
+    "code": "PS-0312-42044",
+    "name": "Comprehensive and Viva",
+    "instructors": [
+      "Md. Fazlul Haque",
+      "Dr. Abdul Latif Masum"
+    ]
+  }
+]

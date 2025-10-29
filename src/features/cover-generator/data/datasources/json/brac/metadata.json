@@ -1,0 +1,18 @@
+{
+  "id": "brac",
+  "name": "BRAC University",
+  "shortName": "BRACU",
+  "logo": "/logos/brac-logo.png",
+  "schools": [
+    {
+      "id": "business",
+      "name": "BRAC Business School",
+      "shortName": "BBS"
+    },
+    {
+      "id": "engineering",
+      "name": "School of Engineering and Computer Science",
+      "shortName": "SECS"
+    }
+  ]
+}

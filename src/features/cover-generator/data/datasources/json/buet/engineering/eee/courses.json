@@ -1,0 +1,20 @@
+[
+  {
+    "id": "eee101",
+    "code": "EEE 101",
+    "name": "Basic Electrical Engineering",
+    "instructors": [
+      "Dr. Mohammad Hasan",
+      "Prof. Nasrin Akhter"
+    ]
+  },
+  {
+    "id": "eee201",
+    "code": "EEE 201",
+    "name": "Electronic Circuits",
+    "instructors": [
+      "Dr. Kamrul Islam",
+      "Eng. Tareq Ahmed"
+    ]
+  }
+]

@@ -1,0 +1,436 @@
+[
+  {
+    "id": "eng1011",
+    "code": "ENG 1011",
+    "name": "Basic English",
+    "instructors": [
+      "Prof. Anisul Haque",
+      "Dr. Rowshan Ara"
+    ]
+  },
+  {
+    "id": "gst1013",
+    "code": "GST 1013",
+    "name": "History of the Emergence of Bangladesh",
+    "instructors": [
+      "Dr. Habibur Rahman",
+      "Prof. Shamima Nasrin"
+    ]
+  },
+  {
+    "id": "math1301",
+    "code": "MATH 1301",
+    "name": "Fundamentals of Mathematics",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Fatima Rahman"
+    ]
+  },
+  {
+    "id": "chem1101",
+    "code": "CHEM 1101",
+    "name": "Biophysical Chemistry",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Sabbir Ahmed"
+    ]
+  },
+  {
+    "id": "chem1201",
+    "code": "CHEM 1201",
+    "name": "Bioorganic Chemistry",
+    "instructors": [
+      "Prof. Jahangir Alam",
+      "Rashed Khan"
+    ]
+  },
+  {
+    "id": "phy1101",
+    "code": "PHY 1101",
+    "name": "Physics for Biologists-I",
+    "instructors": [
+      "Dr. Farhan Rahman",
+      "Nusrat Jahan"
+    ]
+  },
+  {
+    "id": "phy1201",
+    "code": "PHY 1201",
+    "name": "Physics for Biologists-II",
+    "instructors": [
+      "Dr. Mohammad Hasan",
+      "Prof. Nasrin Akhter"
+    ]
+  },
+  {
+    "id": "cst1201",
+    "code": "CST 1201",
+    "name": "Basics of Computing and Information Technology",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "cst1301",
+    "code": "CST 1301",
+    "name": "Software fundamentals in Computation",
+    "instructors": [
+      "Mosabbir Ahmed",
+      "Dr. Rahman Khan"
+    ]
+  },
+  {
+    "id": "stat2301",
+    "code": "STAT 2301",
+    "name": "Biostatistics",
+    "instructors": [
+      "Dr. Kamrul Islam",
+      "Eng. Tareq Ahmed"
+    ]
+  },
+  {
+    "id": "bge1101",
+    "code": "BGE 1101",
+    "name": "General Biology",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "bge1201",
+    "code": "BGE 1201",
+    "name": "Basic Biochemistry",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "bge1301",
+    "code": "BGE 1301",
+    "name": "Introductory Biotechnology and Genetic Engineering",
+    "instructors": [
+      "Prof. Abdul Mannan",
+      "Dr. Shahana Parveen"
+    ]
+  },
+  {
+    "id": "bge1401",
+    "code": "BGE 1401",
+    "name": "Basic Microbiology",
+    "instructors": [
+      "Dr. Mohammad Hasan",
+      "Prof. Nasrin Akhter"
+    ]
+  },
+  {
+    "id": "bge2101",
+    "code": "BGE 2101",
+    "name": "Enzymes and Enzyme Kinetics",
+    "instructors": [
+      "Dr. Kamrul Islam",
+      "Eng. Tareq Ahmed"
+    ]
+  },
+  {
+    "id": "bge2201",
+    "code": "BGE 2201",
+    "name": "Basics of Molecular Biology",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "bge2301",
+    "code": "BGE 2301",
+    "name": "Protein Structure and Function",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "bge2401",
+    "code": "BGE 2401",
+    "name": "Molecular Genetics",
+    "instructors": [
+      "Prof. Abdul Mannan",
+      "Dr. Shahana Parveen"
+    ]
+  },
+  {
+    "id": "bge3101",
+    "code": "BGE 3101",
+    "name": "Advanced Molecular Biology",
+    "instructors": [
+      "Dr. Mohammad Hasan",
+      "Prof. Nasrin Akhter"
+    ]
+  },
+  {
+    "id": "bge2501",
+    "code": "BGE 2501",
+    "name": "Bioenergetics and Metabolism",
+    "instructors": [
+      "Dr. Kamrul Islam",
+      "Eng. Tareq Ahmed"
+    ]
+  },
+  {
+    "id": "bge2601",
+    "code": "BGE 2601",
+    "name": "Cell Biology",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "bge2701",
+    "code": "BGE 2701",
+    "name": "Human Physiology",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "bge3201",
+    "code": "BGE 3201",
+    "name": "Cellular Communication and Signaling",
+    "instructors": [
+      "Prof. Abdul Mannan",
+      "Dr. Shahana Parveen"
+    ]
+  },
+  {
+    "id": "bge2801",
+    "code": "BGE 2801",
+    "name": "Animal and Plant Tissue Culture",
+    "instructors": [
+      "Dr. Mohammad Hasan",
+      "Prof. Nasrin Akhter"
+    ]
+  },
+  {
+    "id": "bge3301",
+    "code": "BGE 3301",
+    "name": "Recombinant DNA Technology",
+    "instructors": [
+      "Dr. Kamrul Islam",
+      "Eng. Tareq Ahmed"
+    ]
+  },
+  {
+    "id": "bge3401",
+    "code": "BGE 3401",
+    "name": "Methods in Biotechnology",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "bge3501",
+    "code": "BGE 3501",
+    "name": "Genomics, Proteomics and Bioinformatics",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "bge4101",
+    "code": "BGE 4101",
+    "name": "Computational Genomics and System Biology",
+    "instructors": [
+      "Prof. Abdul Mannan",
+      "Dr. Shahana Parveen"
+    ]
+  },
+  {
+    "id": "bge3601",
+    "code": "BGE 3601",
+    "name": "Agriculture Biotechnology",
+    "instructors": [
+      "Dr. Mohammad Hasan",
+      "Prof. Nasrin Akhter"
+    ]
+  },
+  {
+    "id": "bge3701",
+    "code": "BGE 3701",
+    "name": "Animal Biotechnology",
+    "instructors": [
+      "Dr. Kamrul Islam",
+      "Eng. Tareq Ahmed"
+    ]
+  },
+  {
+    "id": "bge3801",
+    "code": "BGE 3801",
+    "name": "Medical Biotechnology",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "bge4201",
+    "code": "BGE 4201",
+    "name": "Environmental Biotechnology",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "bge4301",
+    "code": "BGE 4301",
+    "name": "Aquaculture and Marine Biotechnology",
+    "instructors": [
+      "Prof. Abdul Mannan",
+      "Dr. Shahana Parveen"
+    ]
+  },
+  {
+    "id": "bge2901",
+    "code": "BGE 2901",
+    "name": "Molecular Biology of the Diseases",
+    "instructors": [
+      "Dr. Mohammad Hasan",
+      "Prof. Nasrin Akhter"
+    ]
+  },
+  {
+    "id": "bge3001",
+    "code": "BGE 3001",
+    "name": "Microbial Genetics",
+    "instructors": [
+      "Dr. Kamrul Islam",
+      "Eng. Tareq Ahmed"
+    ]
+  },
+  {
+    "id": "bge3102",
+    "code": "BGE 3102",
+    "name": "Developmental Biology",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "bge3901",
+    "code": "BGE 3901",
+    "name": "Fermentation Technology and Bioprocessing",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "bge4401",
+    "code": "BGE 4401",
+    "name": "Biotechnology of Microbial System",
+    "instructors": [
+      "Prof. Abdul Mannan",
+      "Dr. Shahana Parveen"
+    ]
+  },
+  {
+    "id": "bge4501",
+    "code": "BGE 4501",
+    "name": "GMOs, Biosafety and Bioethics",
+    "instructors": [
+      "Dr. Mohammad Hasan",
+      "Prof. Nasrin Akhter"
+    ]
+  },
+  {
+    "id": "bge4601",
+    "code": "BGE 4601",
+    "name": "Business Perspective of Biotechnology",
+    "instructors": [
+      "Dr. Kamrul Islam",
+      "Eng. Tareq Ahmed"
+    ]
+  },
+  {
+    "id": "bge2102",
+    "code": "BGE 2102",
+    "name": "Basic Immunology",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "bge4701",
+    "code": "BGE 4701",
+    "name": "Virology and Oncology",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "bge1501",
+    "code": "BGE 1501",
+    "name": "Lab Experiments-I",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  },
+  {
+    "id": "bge2001",
+    "code": "BGE 2001",
+    "name": "Lab Experiments-II",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  },
+  {
+    "id": "bge2202",
+    "code": "BGE 2202",
+    "name": "Lab Experiments-III",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  },
+  {
+    "id": "bge3202",
+    "code": "BGE 3202",
+    "name": "Lab Experiments-IV",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  },
+  {
+    "id": "bge4001",
+    "code": "BGE 4001",
+    "name": "Lab Experiments-V",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  },
+  {
+    "id": "bge4998",
+    "code": "BGE 4998",
+    "name": "Internship",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  },
+  {
+    "id": "bge4999",
+    "code": "BGE 4999",
+    "name": "Thesis/Project",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  }
+]

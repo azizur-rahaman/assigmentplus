@@ -1,0 +1,12 @@
+{
+  "id": "pharmacy",
+  "name": "Department of Pharmacy",
+  "shortName": "Pharmacy",
+  "programs": [
+    {
+      "id": "bpharm",
+      "name": "Bachelor of Pharmacy",
+      "shortName": "B.Pharm."
+    }
+  ]
+}

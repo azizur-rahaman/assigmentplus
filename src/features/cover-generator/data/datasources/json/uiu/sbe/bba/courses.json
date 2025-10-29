@@ -1,0 +1,704 @@
+[
+  {
+    "id": "bus1102",
+    "code": "BUS 1102",
+    "name": "Introduction to Business",
+    "instructors": [
+      "Dr. Rahman Khan",
+      "Prof. Sultana Akter"
+    ]
+  },
+  {
+    "id": "bus2112",
+    "code": "BUS 2112",
+    "name": "Business Communication",
+    "instructors": [
+      "Prof. Ahmed Ali",
+      "Nasrin Sultana"
+    ]
+  },
+  {
+    "id": "ecn2111",
+    "code": "ECN 2111",
+    "name": "Microeconomics",
+    "instructors": [
+      "Dr. Habibur Rahman",
+      "Prof. Shamima Nasrin"
+    ]
+  },
+  {
+    "id": "ecn2214",
+    "code": "ECN 2214",
+    "name": "Macroeconomics",
+    "instructors": [
+      "Dr. Md. Shahin Alam",
+      "Farhana Yasmin"
+    ]
+  },
+  {
+    "id": "bst1308",
+    "code": "BST 1308",
+    "name": "Business Statistics I",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Fatima Rahman"
+    ]
+  },
+  {
+    "id": "bst2216",
+    "code": "BST 2216",
+    "name": "Business Statistics II",
+    "instructors": [
+      "Prof. Anisul Haque",
+      "Dr. Rowshan Ara"
+    ]
+  },
+  {
+    "id": "bmt2113",
+    "code": "BMT 2113",
+    "name": "Business Mathematics II",
+    "instructors": [
+      "Mosabbir Ahmed",
+      "Dr. Rahman Khan",
+      "Prof. Sultana Akter"
+    ]
+  },
+  {
+    "id": "acn1205",
+    "code": "ACN 1205",
+    "name": "Financial Accounting I",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Fatima Rahman"
+    ]
+  },
+  {
+    "id": "acn1309",
+    "code": "ACN 1309",
+    "name": "Financial Accounting II",
+    "instructors": [
+      "Dr. Mohammad Hasan",
+      "Prof. Nasrin Akhter"
+    ]
+  },
+  {
+    "id": "acn2215",
+    "code": "ACN 2215",
+    "name": "Management Accounting",
+    "instructors": [
+      "Dr. Kamrul Islam",
+      "Eng. Tareq Ahmed"
+    ]
+  },
+  {
+    "id": "mgt1307",
+    "code": "MGT 1307",
+    "name": "Principles of Management",
+    "instructors": [
+      "Prof. Abdul Mannan",
+      "Dr. Shahana Parveen"
+    ]
+  },
+  {
+    "id": "mgt2318",
+    "code": "MGT 2318",
+    "name": "Organizational Behavior",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "mgt3225",
+    "code": "MGT 3225",
+    "name": "E-Business",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "mgt3224",
+    "code": "MGT 3224",
+    "name": "Production & Operations Management",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "mgt3122",
+    "code": "MGT 3122",
+    "name": "Human Resources Management",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "mgt4356",
+    "code": "MGT 4356",
+    "name": "Strategic Management",
+    "instructors": [
+      "Mosabbir Ahmed",
+      "Dr. Rahman Khan"
+    ]
+  },
+  {
+    "id": "mkt2320",
+    "code": "MKT 2320",
+    "name": "Introduction to Marketing",
+    "instructors": [
+      "Prof. Ahmed Ali",
+      "Nasrin Sultana"
+    ]
+  },
+  {
+    "id": "mkt3336",
+    "code": "MKT 3336",
+    "name": "Marketing Management",
+    "instructors": [
+      "Dr. Rahim Sheikh",
+      "Ayesha Khan"
+    ]
+  },
+  {
+    "id": "fin2319",
+    "code": "FIN 2319",
+    "name": "Principles of Finance",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Fatima Rahman"
+    ]
+  },
+  {
+    "id": "fin3123",
+    "code": "FIN 3123",
+    "name": "Managerial Finance",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Sabbir Ahmed"
+    ]
+  },
+  {
+    "id": "law4151",
+    "code": "LAW 4151",
+    "name": "Business Law",
+    "instructors": [
+      "Barrister Ahmed Hassan",
+      "Advocate Sultana Begum"
+    ]
+  },
+  {
+    "id": "ibs3121",
+    "code": "IBS 3121",
+    "name": "International Business",
+    "instructors": [
+      "Prof. Kamal Uddin",
+      "Dr. Nasrin Ahmed"
+    ]
+  },
+  {
+    "id": "eng1011",
+    "code": "ENG 1011",
+    "name": "English I",
+    "instructors": [
+      "Prof. Anisul Haque",
+      "Dr. Rowshan Ara"
+    ]
+  },
+  {
+    "id": "eng1013",
+    "code": "ENG 1013",
+    "name": "English II",
+    "instructors": [
+      "Prof. Anisul Haque",
+      "Dr. Rowshan Ara"
+    ]
+  },
+  {
+    "id": "bds1201",
+    "code": "BDS 1201",
+    "name": "History of the Emergence of Bangladesh",
+    "instructors": [
+      "Dr. Habibur Rahman",
+      "Prof. Shamima Nasrin"
+    ]
+  },
+  {
+    "id": "bmt1103",
+    "code": "BMT 1103",
+    "name": "Business Mathematics I",
+    "instructors": [
+      "Mosabbir Ahmed",
+      "Dr. Rahman Khan"
+    ]
+  },
+  {
+    "id": "cst1206",
+    "code": "CST 1206",
+    "name": "Computer Applications",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "soc1105",
+    "code": "SOC 1105",
+    "name": "Sociology and Psychology",
+    "instructors": [
+      "Dr. Md. Shahin Alam",
+      "Farhana Yasmin"
+    ]
+  },
+  {
+    "id": "mis2218",
+    "code": "MIS 2218",
+    "name": "Advanced Computer Applications in Business",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "mis2220",
+    "code": "MIS 2220",
+    "name": "Fundamentals of Management Information Systems",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "cst2321",
+    "code": "CST 2321",
+    "name": "Business Analytics",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "bus3339",
+    "code": "BUS 3339",
+    "name": "Business Research Methodology",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Fatima Rahman"
+    ]
+  },
+  {
+    "id": "mkt4203",
+    "code": "MKT 4203",
+    "name": "Integrated Communication",
+    "instructors": [
+      "Prof. Ahmed Ali",
+      "Nasrin Sultana"
+    ]
+  },
+  {
+    "id": "mkt4101",
+    "code": "MKT 4101",
+    "name": "Consumer Behavior",
+    "instructors": [
+      "Dr. Rahim Sheikh",
+      "Ayesha Khan"
+    ]
+  },
+  {
+    "id": "mkt4102",
+    "code": "MKT 4102",
+    "name": "Services Marketing",
+    "instructors": [
+      "Prof. Ahmed Ali",
+      "Nasrin Sultana"
+    ]
+  },
+  {
+    "id": "mkt4204",
+    "code": "MKT 4204",
+    "name": "Strategic Marketing",
+    "instructors": [
+      "Dr. Rahim Sheikh",
+      "Ayesha Khan"
+    ]
+  },
+  {
+    "id": "mkt4311",
+    "code": "MKT 4311",
+    "name": "Brand Management",
+    "instructors": [
+      "Prof. Ahmed Ali",
+      "Nasrin Sultana"
+    ]
+  },
+  {
+    "id": "mkt4313",
+    "code": "MKT 4313",
+    "name": "Digital Marketing",
+    "instructors": [
+      "Dr. Rahim Sheikh",
+      "Ayesha Khan"
+    ]
+  },
+  {
+    "id": "mkt4306",
+    "code": "MKT 4306",
+    "name": "Marketing Research",
+    "instructors": [
+      "Prof. Ahmed Ali",
+      "Nasrin Sultana"
+    ]
+  },
+  {
+    "id": "mkt4309",
+    "code": "MKT 4309",
+    "name": "Global Marketing",
+    "instructors": [
+      "Dr. Rahim Sheikh",
+      "Ayesha Khan"
+    ]
+  },
+  {
+    "id": "fin4116",
+    "code": "FIN 4116",
+    "name": "Management of Financial Institutions",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Fatima Rahman"
+    ]
+  },
+  {
+    "id": "fin4117",
+    "code": "FIN 4117",
+    "name": "Corporate Finance",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Sabbir Ahmed"
+    ]
+  },
+  {
+    "id": "fin4218",
+    "code": "FIN 4218",
+    "name": "Financial Statements Analysis",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Fatima Rahman"
+    ]
+  },
+  {
+    "id": "fin4219",
+    "code": "FIN 4219",
+    "name": "Securities Analysis and Portfolio Management",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Sabbir Ahmed"
+    ]
+  },
+  {
+    "id": "fin4331",
+    "code": "FIN 4331",
+    "name": "Financial Modeling",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Fatima Rahman"
+    ]
+  },
+  {
+    "id": "fin4332",
+    "code": "FIN 4332",
+    "name": "Financial Technology (FinTech)",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Sabbir Ahmed"
+    ]
+  },
+  {
+    "id": "fin4322",
+    "code": "FIN 4322",
+    "name": "International Financial Management",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Fatima Rahman"
+    ]
+  },
+  {
+    "id": "acn4135",
+    "code": "ACN 4135",
+    "name": "Taxation",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Fatima Rahman"
+    ]
+  },
+  {
+    "id": "acn4136",
+    "code": "ACN 4136",
+    "name": "Advanced Financial Accounting - I",
+    "instructors": [
+      "Dr. Mohammad Hasan",
+      "Prof. Nasrin Akhter"
+    ]
+  },
+  {
+    "id": "acn4237",
+    "code": "ACN 4237",
+    "name": "Cost Accounting",
+    "instructors": [
+      "Dr. Kamrul Islam",
+      "Eng. Tareq Ahmed"
+    ]
+  },
+  {
+    "id": "acn4238",
+    "code": "ACN 4238",
+    "name": "Advanced Financial Accounting - II",
+    "instructors": [
+      "Dr. Mohammad Hasan",
+      "Prof. Nasrin Akhter"
+    ]
+  },
+  {
+    "id": "acn4340",
+    "code": "ACN 4340",
+    "name": "Auditing",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Fatima Rahman"
+    ]
+  },
+  {
+    "id": "hrm4152",
+    "code": "HRM 4152",
+    "name": "Compensation Management",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "hrm4153",
+    "code": "HRM 4153",
+    "name": "Human Resource Planning",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "hrm4269",
+    "code": "HRM 4269",
+    "name": "Learning and Development Management",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "hrm4270",
+    "code": "HRM 4270",
+    "name": "Industrial Law and Employee Relations",
+    "instructors": [
+      "Barrister Ahmed Hassan",
+      "Advocate Sultana Begum"
+    ]
+  },
+  {
+    "id": "hrm4366",
+    "code": "HRM 4366",
+    "name": "Strategic Human Resource Management",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "mis4181",
+    "code": "MIS 4181",
+    "name": "System Analysis & Design",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "mis4395",
+    "code": "MIS 4395",
+    "name": "Structured Programming Language",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "mis4385",
+    "code": "MIS 4385",
+    "name": "E-Commerce and Web Management",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "mis4388",
+    "code": "MIS 4388",
+    "name": "Advanced Database Management",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "mis4394",
+    "code": "MIS 4394",
+    "name": "Network Resource Management",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "scm4101",
+    "code": "SCM 4101",
+    "name": "Introduction to Supply Chain Management",
+    "instructors": [
+      "Prof. Abdul Mannan",
+      "Dr. Shahana Parveen"
+    ]
+  },
+  {
+    "id": "scm4103",
+    "code": "SCM 4103",
+    "name": "Global Sourcing and Procurement",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "scm4102",
+    "code": "SCM 4102",
+    "name": "Logistics Management",
+    "instructors": [
+      "Prof. Abdul Mannan",
+      "Dr. Shahana Parveen"
+    ]
+  },
+  {
+    "id": "scm4202",
+    "code": "SCM 4202",
+    "name": "Enterprise Resource Planning (ERP)",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "bsa4101",
+    "code": "BSA 4101",
+    "name": "Business Database System Development",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "bsa4102",
+    "code": "BSA 4102",
+    "name": "Business Data Warehousing",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "bsa4201",
+    "code": "BSA 4201",
+    "name": "Applied Decision Modeling",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "bsa4202",
+    "code": "BSA 4202",
+    "name": "Advanced Analytics",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "ibs4170",
+    "code": "IBS 4170",
+    "name": "Legal Environment of International Business",
+    "instructors": [
+      "Barrister Ahmed Hassan",
+      "Advocate Sultana Begum"
+    ]
+  },
+  {
+    "id": "ecn4171",
+    "code": "ECN 4171",
+    "name": "International Economics",
+    "instructors": [
+      "Dr. Habibur Rahman",
+      "Prof. Shamima Nasrin"
+    ]
+  },
+  {
+    "id": "ibs4169",
+    "code": "IBS 4169",
+    "name": "International Management",
+    "instructors": [
+      "Prof. Kamal Uddin",
+      "Dr. Nasrin Ahmed"
+    ]
+  },
+  {
+    "id": "bie4101",
+    "code": "BIE 4101",
+    "name": "Small and Medium Business Entrepreneurship",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "bie4102",
+    "code": "BIE 4102",
+    "name": "Corporate Entrepreneurship",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "bie4201",
+    "code": "BIE 4201",
+    "name": "Business Plan Development",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "bie4202",
+    "code": "BIE 4202",
+    "name": "Business Innovation",
+    "instructors": [
+      "Mosabbir Ahmed",
+      "Dr. Rahman Khan"
+    ]
+  },
+  {
+    "id": "int4399",
+    "code": "INT 4399",
+    "name": "Internship / Project",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  }
+]

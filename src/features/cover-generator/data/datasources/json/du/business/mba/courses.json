@@ -1,0 +1,20 @@
+[
+  {
+    "id": "mba501",
+    "code": "MBA 501",
+    "name": "Managerial Economics",
+    "instructors": [
+      "Dr. Habibur Rahman",
+      "Prof. Shamima Nasrin"
+    ]
+  },
+  {
+    "id": "mba502",
+    "code": "MBA 502",
+    "name": "Organizational Behavior",
+    "instructors": [
+      "Dr. Md. Shahin Alam",
+      "Farhana Yasmin"
+    ]
+  }
+]

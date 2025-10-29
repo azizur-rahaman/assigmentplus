@@ -1,0 +1,33 @@
+{
+  "id": "uiu",
+  "name": "United International University",
+  "shortName": "UIU",
+  "logo": "/logos/uiu-logo.png",
+  "schools": [
+    {
+      "id": "sbe",
+      "name": "School of Business and Economics",
+      "shortName": "SoBE"
+    },
+    {
+      "id": "sse",
+      "name": "School of Science and Engineering",
+      "shortName": "SSE"
+    },
+    {
+      "id": "sohss",
+      "name": "School of Humanities and Social Sciences",
+      "shortName": "SoHSS"
+    },
+    {
+      "id": "sols",
+      "name": "School of Life Sciences",
+      "shortName": "SoLS"
+    },
+    {
+      "id": "law",
+      "name": "School of Law",
+      "shortName": "LAW"
+    }
+  ]
+}

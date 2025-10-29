@@ -1,0 +1,28 @@
+{
+  "id": "diu",
+  "name": "Dhaka International University",
+  "shortName": "DIU",
+  "logo": "/logos/diu-logo.png",
+  "schools": [
+    {
+      "id": "fse",
+      "name": "Faculty of Science and Engineering",
+      "shortName": "FSE"
+    },
+    {
+      "id": "fbs",
+      "name": "Faculty of Business Studies",
+      "shortName": "FBS"
+    },
+    {
+      "id": "fass",
+      "name": "Faculty of Arts and Social Sciences",
+      "shortName": "FASS"
+    },
+    {
+      "id": "fl",
+      "name": "Faculty of Law",
+      "shortName": "FL"
+    }
+  ]
+}

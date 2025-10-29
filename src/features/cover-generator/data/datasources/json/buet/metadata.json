@@ -1,0 +1,13 @@
+{
+  "id": "buet",
+  "name": "Bangladesh University of Engineering and Technology",
+  "shortName": "BUET",
+  "logo": "/logos/buet-logo.png",
+  "schools": [
+    {
+      "id": "engineering",
+      "name": "Faculty of Engineering",
+      "shortName": "Engineering"
+    }
+  ]
+}

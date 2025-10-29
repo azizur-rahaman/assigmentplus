@@ -1,0 +1,22 @@
+{
+  "id": "sse",
+  "name": "School of Science and Engineering",
+  "shortName": "SSE",
+  "departments": [
+    {
+      "id": "cse",
+      "name": "Department of Computer Science and Engineering",
+      "shortName": "CSE"
+    },
+    {
+      "id": "eee",
+      "name": "Department of Electrical and Electronics Engineering",
+      "shortName": "EEE"
+    },
+    {
+      "id": "ce",
+      "name": "Department of Civil Engineering",
+      "shortName": "CE"
+    }
+  ]
+}

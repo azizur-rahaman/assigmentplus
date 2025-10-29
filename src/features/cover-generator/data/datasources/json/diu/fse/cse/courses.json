@@ -1,0 +1,582 @@
+[
+  {
+    "id": "cse1101",
+    "code": "CSE 1101",
+    "name": "Structured Programming Languages",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Md. Safwan Zaher Asif"
+    ]
+  },
+  {
+    "id": "cse1102",
+    "code": "CSE 1102",
+    "name": "Structured Programming Languages Lab",
+    "instructors": [
+      "Md. Manirujjaman",
+      "Anik Mahmud Shanto"
+    ]
+  },
+  {
+    "id": "cse1201",
+    "code": "CSE 1201",
+    "name": "Object-Oriented Programming Languages",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Safwan Ishrak"
+    ]
+  },
+  {
+    "id": "cse1202",
+    "code": "CSE 1202",
+    "name": "Object-Oriented Programming Languages Lab",
+    "instructors": [
+      "Md. Habibul Basar Faruq",
+      "Shobnom Mushtary"
+    ]
+  },
+  {
+    "id": "cse2101",
+    "code": "CSE 2101",
+    "name": "Data Structures",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Jayed Bin Azad"
+    ]
+  },
+  {
+    "id": "cse2102",
+    "code": "CSE 2102",
+    "name": "Data Structures Lab",
+    "instructors": [
+      "Md. Fazle Rabbi Rizon",
+      "Md. Toufiqur Rahman"
+    ]
+  },
+  {
+    "id": "cse2201",
+    "code": "CSE 2201",
+    "name": "Algorithms",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Md. Safwan Zaher Asif"
+    ]
+  },
+  {
+    "id": "cse2202",
+    "code": "CSE 2202",
+    "name": "Algorithms Lab",
+    "instructors": [
+      "Md. Manirujjaman",
+      "Anik Mahmud Shanto"
+    ]
+  },
+  {
+    "id": "phy1101",
+    "code": "PHY 1101",
+    "name": "Physics",
+    "instructors": [
+      "Dr. Ahmed Rahman",
+      "Prof. Nasrin Akhter"
+    ]
+  },
+  {
+    "id": "phy1102",
+    "code": "PHY 1102",
+    "name": "Physics Lab",
+    "instructors": [
+      "Dr. Ahmed Rahman",
+      "Prof. Nasrin Akhter"
+    ]
+  },
+  {
+    "id": "math1101",
+    "code": "MATH 1101",
+    "name": "Linear Algebra and Coordinate Geometry",
+    "instructors": [
+      "Prof. Anisul Haque",
+      "Dr. Rowshan Ara"
+    ]
+  },
+  {
+    "id": "math1201",
+    "code": "MATH 1201",
+    "name": "Differential and Integral Calculus",
+    "instructors": [
+      "Prof. Anisul Haque",
+      "Dr. Rowshan Ara"
+    ]
+  },
+  {
+    "id": "math2101",
+    "code": "MATH 2101",
+    "name": "Discrete Mathematics",
+    "instructors": [
+      "Prof. Anisul Haque",
+      "Dr. Rowshan Ara"
+    ]
+  },
+  {
+    "id": "math2201",
+    "code": "MATH 2201",
+    "name": "Differential Equations and Vector Analysis",
+    "instructors": [
+      "Prof. Anisul Haque",
+      "Dr. Rowshan Ara"
+    ]
+  },
+  {
+    "id": "math3101",
+    "code": "MATH 3101",
+    "name": "Statistical Methods and Probability",
+    "instructors": [
+      "Prof. Anisul Haque",
+      "Dr. Rowshan Ara"
+    ]
+  },
+  {
+    "id": "math3201",
+    "code": "MATH 3201",
+    "name": "Complex Variables and Transforms",
+    "instructors": [
+      "Prof. Anisul Haque",
+      "Dr. Rowshan Ara"
+    ]
+  },
+  {
+    "id": "math4101",
+    "code": "MATH 4101",
+    "name": "Numerical Analysis",
+    "instructors": [
+      "Prof. Anisul Haque",
+      "Dr. Rowshan Ara"
+    ]
+  },
+  {
+    "id": "ee1201",
+    "code": "EE 1201",
+    "name": "Electrical Circuits",
+    "instructors": [
+      "Eng. Mahmudul Hassan",
+      "Shagor Hasan"
+    ]
+  },
+  {
+    "id": "ee2101",
+    "code": "EE 2101",
+    "name": "Electronic Devices and Circuit",
+    "instructors": [
+      "Eng. Sayed Hasan Murad",
+      "Mahim Al Masud"
+    ]
+  },
+  {
+    "id": "ee2102",
+    "code": "EE 2102",
+    "name": "Electronic Devices and Circuit Lab",
+    "instructors": [
+      "Eng. Mahim Al Masud",
+      "Numayer Andalib Zaman"
+    ]
+  },
+  {
+    "id": "cse2301",
+    "code": "CSE 2301",
+    "name": "Digital Logic Design",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Safwan Ishrak"
+    ]
+  },
+  {
+    "id": "cse2302",
+    "code": "CSE 2302",
+    "name": "Digital Logic Design Lab",
+    "instructors": [
+      "Md. Habibul Basar Faruq",
+      "Shobnom Mushtary"
+    ]
+  },
+  {
+    "id": "cse2401",
+    "code": "CSE 2401",
+    "name": "Computer Architecture",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Jayed Bin Azad"
+    ]
+  },
+  {
+    "id": "cse3301",
+    "code": "CSE 3301",
+    "name": "Microprocessor and Assembly Language",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Md. Fazle Rabbi Rizon"
+    ]
+  },
+  {
+    "id": "cse3302",
+    "code": "CSE 3302",
+    "name": "Microprocessor and Assembly Language Lab",
+    "instructors": [
+      "Md. Toufiqur Rahman",
+      "Md. Safwan Zaher Asif"
+    ]
+  },
+  {
+    "id": "chem1101",
+    "code": "CHEM 1101",
+    "name": "Chemistry",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Prof. Fatima Rahman"
+    ]
+  },
+  {
+    "id": "eng1101",
+    "code": "ENG 1101",
+    "name": "Communicative English",
+    "instructors": [
+      "Prof. Sultana Begum",
+      "Dr. Ashraf Ali"
+    ]
+  },
+  {
+    "id": "eng4101",
+    "code": "ENG 4101",
+    "name": "Technical Writing and Presentation",
+    "instructors": [
+      "Prof. Sultana Begum",
+      "Dr. Ashraf Ali"
+    ]
+  },
+  {
+    "id": "eng1201",
+    "code": "ENG 1201",
+    "name": "Engineering Drawing Lab",
+    "instructors": [
+      "Md. Manirujjaman",
+      "Anik Mahmud Shanto"
+    ]
+  },
+  {
+    "id": "ban1101",
+    "code": "BAN 1101",
+    "name": "Bangladesh Studies",
+    "instructors": [
+      "Prof. Habibur Rahman",
+      "Dr. Shamima Nasrin"
+    ]
+  },
+  {
+    "id": "econ1101",
+    "code": "ECON 1101",
+    "name": "Engineering Economics",
+    "instructors": [
+      "Dr. Habibur Rahman",
+      "Prof. Ahmed Ali"
+    ]
+  },
+  {
+    "id": "acc1101",
+    "code": "ACC 1101",
+    "name": "Financial and Managerial Accounting",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Fatima Rahman"
+    ]
+  },
+  {
+    "id": "bus2101",
+    "code": "BUS 2101",
+    "name": "Business Strategy Management",
+    "instructors": [
+      "Dr. Habibur Rahman",
+      "Prof. Ahmed Ali"
+    ]
+  },
+  {
+    "id": "bus4501",
+    "code": "BUS 4501",
+    "name": "Entrepreneurship: Innovation and Commercialization",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Prof. Ahmed Ali"
+    ]
+  },
+  {
+    "id": "eth2101",
+    "code": "ETH 2101",
+    "name": "Professional Ethics and Environmental Protection",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Prof. Sultana Begum"
+    ]
+  },
+  {
+    "id": "cse3401",
+    "code": "CSE 3401",
+    "name": "Compiler Design",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Safwan Ishrak"
+    ]
+  },
+  {
+    "id": "cse3101",
+    "code": "CSE 3101",
+    "name": "Operating System",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Md. Habibul Basar Faruq"
+    ]
+  },
+  {
+    "id": "cse3102",
+    "code": "CSE 3102",
+    "name": "Operating System Lab",
+    "instructors": [
+      "Shobnom Mushtary",
+      "Jayed Bin Azad"
+    ]
+  },
+  {
+    "id": "cse3201",
+    "code": "CSE 3201",
+    "name": "Data Communication",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Md. Fazle Rabbi Rizon"
+    ]
+  },
+  {
+    "id": "cse3501",
+    "code": "CSE 3501",
+    "name": "Computer Networking",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Md. Toufiqur Rahman"
+    ]
+  },
+  {
+    "id": "cse3502",
+    "code": "CSE 3502",
+    "name": "Computer Networking Lab",
+    "instructors": [
+      "Md. Safwan Zaher Asif",
+      "Md. Manirujjaman"
+    ]
+  },
+  {
+    "id": "cse3601",
+    "code": "CSE 3601",
+    "name": "Database Management System",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Anik Mahmud Shanto"
+    ]
+  },
+  {
+    "id": "cse3602",
+    "code": "CSE 3602",
+    "name": "Database Management Systems Lab",
+    "instructors": [
+      "Safwan Ishrak",
+      "Md. Habibul Basar Faruq"
+    ]
+  },
+  {
+    "id": "cse3701",
+    "code": "CSE 3701",
+    "name": "Software Engineering",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Shobnom Mushtary"
+    ]
+  },
+  {
+    "id": "cse4201",
+    "code": "CSE 4201",
+    "name": "Software Development Management",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Jayed Bin Azad"
+    ]
+  },
+  {
+    "id": "cse4202",
+    "code": "CSE 4202",
+    "name": "Software Development Management Lab",
+    "instructors": [
+      "Md. Fazle Rabbi Rizon",
+      "Md. Toufiqur Rahman"
+    ]
+  },
+  {
+    "id": "cse4301",
+    "code": "CSE 4301",
+    "name": "Software Testing and Quality Assurance",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Md. Safwan Zaher Asif"
+    ]
+  },
+  {
+    "id": "cse4302",
+    "code": "CSE 4302",
+    "name": "Software Testing and Quality Assurance Lab",
+    "instructors": [
+      "Md. Manirujjaman",
+      "Anik Mahmud Shanto"
+    ]
+  },
+  {
+    "id": "cse4401",
+    "code": "CSE 4401",
+    "name": "Software Integration and Maintenance",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Safwan Ishrak"
+    ]
+  },
+  {
+    "id": "cse3801",
+    "code": "CSE 3801",
+    "name": "Markup and Scripting Languages",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Md. Habibul Basar Faruq"
+    ]
+  },
+  {
+    "id": "cse3802",
+    "code": "CSE 3802",
+    "name": "Markup and Scripting Languages Lab",
+    "instructors": [
+      "Shobnom Mushtary",
+      "Jayed Bin Azad"
+    ]
+  },
+  {
+    "id": "cse4501",
+    "code": "CSE 4501",
+    "name": "Computer and Cyber Security",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Md. Fazle Rabbi Rizon"
+    ]
+  },
+  {
+    "id": "cse4601",
+    "code": "CSE 4601",
+    "name": "System Configuration and Performance Evaluation Lab",
+    "instructors": [
+      "Md. Toufiqur Rahman",
+      "Md. Safwan Zaher Asif"
+    ]
+  },
+  {
+    "id": "cse3901",
+    "code": "CSE 3901",
+    "name": "Information System Management",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Md. Manirujjaman"
+    ]
+  },
+  {
+    "id": "cse4701",
+    "code": "CSE 4701",
+    "name": "Artificial Intelligence",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Anik Mahmud Shanto"
+    ]
+  },
+  {
+    "id": "cse4702",
+    "code": "CSE 4702",
+    "name": "Artificial Intelligence Lab",
+    "instructors": [
+      "Safwan Ishrak",
+      "Md. Habibul Basar Faruq"
+    ]
+  },
+  {
+    "id": "cse4801",
+    "code": "CSE 4801",
+    "name": "Computer Graphics and Multimedia",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Shobnom Mushtary"
+    ]
+  },
+  {
+    "id": "cse4802",
+    "code": "CSE 4802",
+    "name": "Computer Graphics and Multimedia Lab",
+    "instructors": [
+      "Jayed Bin Azad",
+      "Md. Fazle Rabbi Rizon"
+    ]
+  },
+  {
+    "id": "cse4901",
+    "code": "CSE 4901",
+    "name": "Mobile Application and Development",
+    "instructors": [
+      "Dr. Abdul Based",
+      "Md. Toufiqur Rahman"
+    ]
+  },
+  {
+    "id": "cse4902",
+    "code": "CSE 4902",
+    "name": "Mobile Application and Development Lab",
+    "instructors": [
+      "Md. Safwan Zaher Asif",
+      "Md. Manirujjaman"
+    ]
+  },
+  {
+    "id": "cse4990",
+    "code": "CSE 4990",
+    "name": "Capstone Project Design",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  },
+  {
+    "id": "cse4xx1",
+    "code": "CSE 4XX1",
+    "name": "Elective Course 1",
+    "instructors": [
+      "Department Faculty"
+    ]
+  },
+  {
+    "id": "cse4xx2",
+    "code": "CSE 4XX2",
+    "name": "Elective Course 2",
+    "instructors": [
+      "Department Faculty"
+    ]
+  },
+  {
+    "id": "cse4xx3",
+    "code": "CSE 4XX3",
+    "name": "Elective Course 3",
+    "instructors": [
+      "Department Faculty"
+    ]
+  },
+  {
+    "id": "cse4xx4",
+    "code": "CSE 4XX4",
+    "name": "Elective Course 4",
+    "instructors": [
+      "Department Faculty"
+    ]
+  }
+]

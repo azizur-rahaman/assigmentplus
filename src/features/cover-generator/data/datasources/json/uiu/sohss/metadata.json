@@ -1,0 +1,17 @@
+{
+  "id": "sohss",
+  "name": "School of Humanities and Social Sciences",
+  "shortName": "SoHSS",
+  "departments": [
+    {
+      "id": "eds",
+      "name": "Department of Environment and Development Studies",
+      "shortName": "EDS"
+    },
+    {
+      "id": "english",
+      "name": "Department of English",
+      "shortName": "ENG"
+    }
+  ]
+}

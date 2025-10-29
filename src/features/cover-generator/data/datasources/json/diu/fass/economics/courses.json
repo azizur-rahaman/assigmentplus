@@ -1,0 +1,298 @@
+[
+  {
+    "id": "eco1101",
+    "code": "ECO 1101",
+    "name": "Principles of Economics",
+    "instructors": [
+      "Babor Ahmad",
+      "Shamima Akter"
+    ]
+  },
+  {
+    "id": "eco1102",
+    "code": "ECO 1102",
+    "name": "Introduction to Microeconomics",
+    "instructors": [
+      "Marium Binte Aziz",
+      "Sojib Bhawmick"
+    ]
+  },
+  {
+    "id": "eco1103",
+    "code": "ECO 1103",
+    "name": "Mathematics for Economics I",
+    "instructors": [
+      "Saikat Pande",
+      "Naorin Afroz"
+    ]
+  },
+  {
+    "id": "eng1101",
+    "code": "ENG 1101",
+    "name": "English Language",
+    "instructors": [
+      "Mostafa Monir",
+      "Kazi Farida Parvin"
+    ]
+  },
+  {
+    "id": "ban1101",
+    "code": "BAN 1101",
+    "name": "Bangla Language",
+    "instructors": [
+      "Syeda Maria",
+      "Md. Abu Noman"
+    ]
+  },
+  {
+    "id": "eco1201",
+    "code": "ECO 1201",
+    "name": "Introduction to Macroeconomics",
+    "instructors": [
+      "Babor Ahmad",
+      "Md. Anowar Hossain"
+    ]
+  },
+  {
+    "id": "eco1202",
+    "code": "ECO 1202",
+    "name": "Economic History of Bangladesh",
+    "instructors": [
+      "Shamima Akter",
+      "Marium Binte Aziz"
+    ]
+  },
+  {
+    "id": "eco1203",
+    "code": "ECO 1203",
+    "name": "Mathematics for Economics II",
+    "instructors": [
+      "Sojib Bhawmick",
+      "Saikat Pande"
+    ]
+  },
+  {
+    "id": "ban1201",
+    "code": "BAN 1201",
+    "name": "History of Emergence of Bangladesh",
+    "instructors": [
+      "Naorin Afroz",
+      "Mostafa Monir"
+    ]
+  },
+  {
+    "id": "eco2101",
+    "code": "ECO 2101",
+    "name": "Intermediate Microeconomics",
+    "instructors": [
+      "Babor Ahmad",
+      "Kazi Farida Parvin"
+    ]
+  },
+  {
+    "id": "eco2102",
+    "code": "ECO 2102",
+    "name": "Statistics for Economics",
+    "instructors": [
+      "Syeda Maria",
+      "Md. Abu Noman"
+    ]
+  },
+  {
+    "id": "eco2103",
+    "code": "ECO 2103",
+    "name": "Development Economics I",
+    "instructors": [
+      "Shamima Akter",
+      "Md. Anowar Hossain"
+    ]
+  },
+  {
+    "id": "eco2104",
+    "code": "ECO 2104",
+    "name": "Money and Banking",
+    "instructors": [
+      "Marium Binte Aziz",
+      "Sojib Bhawmick"
+    ]
+  },
+  {
+    "id": "eco2201",
+    "code": "ECO 2201",
+    "name": "Intermediate Macroeconomics",
+    "instructors": [
+      "Babor Ahmad",
+      "Saikat Pande"
+    ]
+  },
+  {
+    "id": "eco2202",
+    "code": "ECO 2202",
+    "name": "Public Finance",
+    "instructors": [
+      "Naorin Afroz",
+      "Mostafa Monir"
+    ]
+  },
+  {
+    "id": "eco2203",
+    "code": "ECO 2203",
+    "name": "Development Economics II",
+    "instructors": [
+      "Shamima Akter",
+      "Kazi Farida Parvin"
+    ]
+  },
+  {
+    "id": "eco2204",
+    "code": "ECO 2204",
+    "name": "Research Methodology",
+    "instructors": [
+      "Syeda Maria",
+      "Md. Abu Noman"
+    ]
+  },
+  {
+    "id": "eco3101",
+    "code": "ECO 3101",
+    "name": "International Economics",
+    "instructors": [
+      "Babor Ahmad",
+      "Md. Anowar Hossain"
+    ]
+  },
+  {
+    "id": "eco3102",
+    "code": "ECO 3102",
+    "name": "Agricultural Economics",
+    "instructors": [
+      "Marium Binte Aziz",
+      "Sojib Bhawmick"
+    ]
+  },
+  {
+    "id": "eco3103",
+    "code": "ECO 3103",
+    "name": "Econometrics I",
+    "instructors": [
+      "Saikat Pande",
+      "Naorin Afroz"
+    ]
+  },
+  {
+    "id": "eco3104",
+    "code": "ECO 3104",
+    "name": "Industrial Economics",
+    "instructors": [
+      "Shamima Akter",
+      "Mostafa Monir"
+    ]
+  },
+  {
+    "id": "eco3201",
+    "code": "ECO 3201",
+    "name": "Labour Economics",
+    "instructors": [
+      "Kazi Farida Parvin",
+      "Syeda Maria"
+    ]
+  },
+  {
+    "id": "eco3202",
+    "code": "ECO 3202",
+    "name": "Environmental Economics",
+    "instructors": [
+      "Md. Abu Noman",
+      "Babor Ahmad"
+    ]
+  },
+  {
+    "id": "eco3203",
+    "code": "ECO 3203",
+    "name": "Econometrics II",
+    "instructors": [
+      "Md. Anowar Hossain",
+      "Saikat Pande"
+    ]
+  },
+  {
+    "id": "eco3204",
+    "code": "ECO 3204",
+    "name": "Welfare Economics",
+    "instructors": [
+      "Marium Binte Aziz",
+      "Sojib Bhawmick"
+    ]
+  },
+  {
+    "id": "eco4101",
+    "code": "ECO 4101",
+    "name": "Health Economics",
+    "instructors": [
+      "Shamima Akter",
+      "Naorin Afroz"
+    ]
+  },
+  {
+    "id": "eco4102",
+    "code": "ECO 4102",
+    "name": "Financial Economics",
+    "instructors": [
+      "Babor Ahmad",
+      "Mostafa Monir"
+    ]
+  },
+  {
+    "id": "eco4103",
+    "code": "ECO 4103",
+    "name": "Urban and Regional Economics",
+    "instructors": [
+      "Kazi Farida Parvin",
+      "Syeda Maria"
+    ]
+  },
+  {
+    "id": "eco4104",
+    "code": "ECO 4104",
+    "name": "Comparative Economic Systems",
+    "instructors": [
+      "Md. Abu Noman",
+      "Md. Anowar Hossain"
+    ]
+  },
+  {
+    "id": "eco4201",
+    "code": "ECO 4201",
+    "name": "Economic Growth and Development",
+    "instructors": [
+      "Marium Binte Aziz",
+      "Sojib Bhawmick"
+    ]
+  },
+  {
+    "id": "eco4202",
+    "code": "ECO 4202",
+    "name": "Project Planning and Evaluation",
+    "instructors": [
+      "Saikat Pande",
+      "Shamima Akter"
+    ]
+  },
+  {
+    "id": "eco4203",
+    "code": "ECO 4203",
+    "name": "Poverty and Inequality",
+    "instructors": [
+      "Naorin Afroz",
+      "Babor Ahmad"
+    ]
+  },
+  {
+    "id": "eco4990",
+    "code": "ECO 4990",
+    "name": "Thesis",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  }
+]

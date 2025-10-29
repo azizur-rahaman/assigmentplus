@@ -1,0 +1,13 @@
+{
+  "id": "nsu",
+  "name": "North South University",
+  "shortName": "NSU",
+  "logo": "/logos/nsu-logo.png",
+  "schools": [
+    {
+      "id": "sse",
+      "name": "School of Engineering and Physical Sciences",
+      "shortName": "SEPS"
+    }
+  ]
+}

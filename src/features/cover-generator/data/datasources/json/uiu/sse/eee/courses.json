@@ -1,0 +1,763 @@
+[
+  {
+    "id": "mat1205",
+    "code": "MAT 1205",
+    "name": "Differential and Integral Calculus",
+    "instructors": [
+      "Dr. Kamal Hossain",
+      "Fatima Rahman"
+    ]
+  },
+  {
+    "id": "mat2201",
+    "code": "MAT 2201",
+    "name": "Linear Algebra and Fourier Analysis",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Sabbir Ahmed"
+    ]
+  },
+  {
+    "id": "mat2203",
+    "code": "MAT 2203",
+    "name": "Complex Variable, Laplace and Z-Transformation",
+    "instructors": [
+      "Prof. Jahangir Alam",
+      "Rashed Khan"
+    ]
+  },
+  {
+    "id": "mat3201",
+    "code": "MAT 3201",
+    "name": "Numerical Analysis",
+    "instructors": [
+      "Dr. Farhan Rahman",
+      "Nusrat Jahan"
+    ]
+  },
+  {
+    "id": "phy1201",
+    "code": "PHY 1201",
+    "name": "Physics I",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "phy1202",
+    "code": "PHY 1202",
+    "name": "Physics I Laboratory",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "phy1207",
+    "code": "PHY 1207",
+    "name": "Physics II",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "phy1208",
+    "code": "PHY 1208",
+    "name": "Physics II Laboratory",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "chem1101",
+    "code": "CHEM 1101",
+    "name": "Chemistry",
+    "instructors": [
+      "Mosabbir Ahmed",
+      "Dr. Rahman Khan"
+    ]
+  },
+  {
+    "id": "chem1102",
+    "code": "CHEM 1102",
+    "name": "Chemistry Laboratory",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Sabbir Ahmed"
+    ]
+  },
+  {
+    "id": "cse1101",
+    "code": "CSE 1101",
+    "name": "Computer Programming",
+    "instructors": [
+      "Prof. Jahangir Alam",
+      "Rashed Khan"
+    ]
+  },
+  {
+    "id": "cse1102",
+    "code": "CSE 1102",
+    "name": "Computer Programming Laboratory",
+    "instructors": [
+      "Dr. Farhan Rahman",
+      "Nusrat Jahan"
+    ]
+  },
+  {
+    "id": "eee1101",
+    "code": "EEE 1101",
+    "name": "Electrical Circuits I",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "eee1102",
+    "code": "EEE 1102",
+    "name": "Electrical Circuits I Laboratory",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "eee1201",
+    "code": "EEE 1201",
+    "name": "Electrical Circuits II",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "eee1202",
+    "code": "EEE 1202",
+    "name": "Electrical Circuits II Laboratory",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "eee2101",
+    "code": "EEE 2101",
+    "name": "Electronics I",
+    "instructors": [
+      "Mosabbir Ahmed",
+      "Dr. Rahman Khan"
+    ]
+  },
+  {
+    "id": "eee2102",
+    "code": "EEE 2102",
+    "name": "Electronics I Laboratory",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Sabbir Ahmed"
+    ]
+  },
+  {
+    "id": "eee2201",
+    "code": "EEE 2201",
+    "name": "Electronics II",
+    "instructors": [
+      "Prof. Jahangir Alam",
+      "Rashed Khan"
+    ]
+  },
+  {
+    "id": "eee2202",
+    "code": "EEE 2202",
+    "name": "Electronics II Laboratory",
+    "instructors": [
+      "Dr. Farhan Rahman",
+      "Nusrat Jahan"
+    ]
+  },
+  {
+    "id": "eee2103",
+    "code": "EEE 2103",
+    "name": "Digital Logic Design",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "eee2104",
+    "code": "EEE 2104",
+    "name": "Digital Logic Design Laboratory",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "eee2301",
+    "code": "EEE 2301",
+    "name": "Electromagnetic Fields and Waves",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "eee3101",
+    "code": "EEE 3101",
+    "name": "Signals and Linear Systems",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "eee3102",
+    "code": "EEE 3102",
+    "name": "Signals and Linear Systems Laboratory",
+    "instructors": [
+      "Mosabbir Ahmed",
+      "Dr. Rahman Khan"
+    ]
+  },
+  {
+    "id": "eee3201",
+    "code": "EEE 3201",
+    "name": "Microprocessors and Microcontrollers",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Sabbir Ahmed"
+    ]
+  },
+  {
+    "id": "eee3202",
+    "code": "EEE 3202",
+    "name": "Microprocessors and Microcontrollers Laboratory",
+    "instructors": [
+      "Prof. Jahangir Alam",
+      "Rashed Khan"
+    ]
+  },
+  {
+    "id": "eee3301",
+    "code": "EEE 3301",
+    "name": "Communication Systems I",
+    "instructors": [
+      "Dr. Farhan Rahman",
+      "Nusrat Jahan"
+    ]
+  },
+  {
+    "id": "eee3302",
+    "code": "EEE 3302",
+    "name": "Communication Systems I Laboratory",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "eee4301",
+    "code": "EEE 4301",
+    "name": "Communication Systems II",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "eee4302",
+    "code": "EEE 4302",
+    "name": "Communication Systems II Laboratory",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "eee3401",
+    "code": "EEE 3401",
+    "name": "Control Systems I",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "eee3402",
+    "code": "EEE 3402",
+    "name": "Control Systems I Laboratory",
+    "instructors": [
+      "Mosabbir Ahmed",
+      "Dr. Rahman Khan"
+    ]
+  },
+  {
+    "id": "eee4401",
+    "code": "EEE 4401",
+    "name": "Control Systems II",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Sabbir Ahmed"
+    ]
+  },
+  {
+    "id": "eee3501",
+    "code": "EEE 3501",
+    "name": "Electrical Machines I",
+    "instructors": [
+      "Prof. Jahangir Alam",
+      "Rashed Khan"
+    ]
+  },
+  {
+    "id": "eee3502",
+    "code": "EEE 3502",
+    "name": "Electrical Machines I Laboratory",
+    "instructors": [
+      "Dr. Farhan Rahman",
+      "Nusrat Jahan"
+    ]
+  },
+  {
+    "id": "eee4501",
+    "code": "EEE 4501",
+    "name": "Electrical Machines II",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "eee4502",
+    "code": "EEE 4502",
+    "name": "Electrical Machines II Laboratory",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "eee4503",
+    "code": "EEE 4503",
+    "name": "Power Systems I",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "eee4504",
+    "code": "EEE 4504",
+    "name": "Power Systems I Laboratory",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "eee4505",
+    "code": "EEE 4505",
+    "name": "Power Systems II",
+    "instructors": [
+      "Mosabbir Ahmed",
+      "Dr. Rahman Khan"
+    ]
+  },
+  {
+    "id": "eee4601",
+    "code": "EEE 4601",
+    "name": "Power Electronics",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Sabbir Ahmed"
+    ]
+  },
+  {
+    "id": "eee4602",
+    "code": "EEE 4602",
+    "name": "Power Electronics Laboratory",
+    "instructors": [
+      "Prof. Jahangir Alam",
+      "Rashed Khan"
+    ]
+  },
+  {
+    "id": "eee2501",
+    "code": "EEE 2501",
+    "name": "Electrical and Electronic Measurement and Instrumentation",
+    "instructors": [
+      "Dr. Farhan Rahman",
+      "Nusrat Jahan"
+    ]
+  },
+  {
+    "id": "eee2502",
+    "code": "EEE 2502",
+    "name": "Electrical and Electronic Measurement and Instrumentation Laboratory",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "eee4201",
+    "code": "EEE 4201",
+    "name": "Digital Signal Processing",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "eee4202",
+    "code": "EEE 4202",
+    "name": "Digital Signal Processing Laboratory",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "me1101",
+    "code": "ME 1101",
+    "name": "Engineering Drawing",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "eee4303",
+    "code": "EEE 4303",
+    "name": "Wireless Communication",
+    "instructors": [
+      "Mosabbir Ahmed",
+      "Dr. Rahman Khan"
+    ]
+  },
+  {
+    "id": "eee4305",
+    "code": "EEE 4305",
+    "name": "Optical Fiber Communication",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Sabbir Ahmed"
+    ]
+  },
+  {
+    "id": "eee4307",
+    "code": "EEE 4307",
+    "name": "Satellite Communication",
+    "instructors": [
+      "Prof. Jahangir Alam",
+      "Rashed Khan"
+    ]
+  },
+  {
+    "id": "eee4309",
+    "code": "EEE 4309",
+    "name": "Antenna and Wave Propagation",
+    "instructors": [
+      "Dr. Farhan Rahman",
+      "Nusrat Jahan"
+    ]
+  },
+  {
+    "id": "eee4311",
+    "code": "EEE 4311",
+    "name": "Mobile and Cellular Communication",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "eee4203",
+    "code": "EEE 4203",
+    "name": "VLSI Design",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "eee4204",
+    "code": "EEE 4204",
+    "name": "VLSI Design Laboratory",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "eee4205",
+    "code": "EEE 4205",
+    "name": "Digital System Design",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "eee4207",
+    "code": "EEE 4207",
+    "name": "Embedded Systems",
+    "instructors": [
+      "Mosabbir Ahmed",
+      "Dr. Rahman Khan"
+    ]
+  },
+  {
+    "id": "eee4209",
+    "code": "EEE 4209",
+    "name": "Microelectronics",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Sabbir Ahmed"
+    ]
+  },
+  {
+    "id": "eee4507",
+    "code": "EEE 4507",
+    "name": "Renewable Energy Systems",
+    "instructors": [
+      "Prof. Jahangir Alam",
+      "Rashed Khan"
+    ]
+  },
+  {
+    "id": "eee4509",
+    "code": "EEE 4509",
+    "name": "Electric Drives",
+    "instructors": [
+      "Dr. Farhan Rahman",
+      "Nusrat Jahan"
+    ]
+  },
+  {
+    "id": "eee4511",
+    "code": "EEE 4511",
+    "name": "Power System Protection",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "eee4513",
+    "code": "EEE 4513",
+    "name": "High Voltage Engineering",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "eee4515",
+    "code": "EEE 4515",
+    "name": "Smart Grid Technology",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "eee4517",
+    "code": "EEE 4517",
+    "name": "Power Quality",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "eee4403",
+    "code": "EEE 4403",
+    "name": "Digital Control Systems",
+    "instructors": [
+      "Mosabbir Ahmed",
+      "Dr. Rahman Khan"
+    ]
+  },
+  {
+    "id": "eee4405",
+    "code": "EEE 4405",
+    "name": "Robotics",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Sabbir Ahmed"
+    ]
+  },
+  {
+    "id": "eee4407",
+    "code": "EEE 4407",
+    "name": "Industrial Automation",
+    "instructors": [
+      "Prof. Jahangir Alam",
+      "Rashed Khan"
+    ]
+  },
+  {
+    "id": "eee4409",
+    "code": "EEE 4409",
+    "name": "Mechatronics",
+    "instructors": [
+      "Dr. Farhan Rahman",
+      "Nusrat Jahan"
+    ]
+  },
+  {
+    "id": "eee4701",
+    "code": "EEE 4701",
+    "name": "Internet of Things (IoT)",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "eee4703",
+    "code": "EEE 4703",
+    "name": "Artificial Intelligence and Machine Learning",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "eee4705",
+    "code": "EEE 4705",
+    "name": "Computer Networks",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "eee4707",
+    "code": "EEE 4707",
+    "name": "Image Processing",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "eee4709",
+    "code": "EEE 4709",
+    "name": "Biomedical Engineering",
+    "instructors": [
+      "Mosabbir Ahmed",
+      "Dr. Rahman Khan"
+    ]
+  },
+  {
+    "id": "eee4711",
+    "code": "EEE 4711",
+    "name": "Nanotechnology",
+    "instructors": [
+      "Dr. Mohammad Karim",
+      "Sabbir Ahmed"
+    ]
+  },
+  {
+    "id": "pmg4101",
+    "code": "PMG 4101",
+    "name": "Entrepreneurship Development",
+    "instructors": [
+      "Prof. Jahangir Alam",
+      "Rashed Khan"
+    ]
+  },
+  {
+    "id": "pmg4103",
+    "code": "PMG 4103",
+    "name": "Project Management",
+    "instructors": [
+      "Dr. Farhan Rahman",
+      "Nusrat Jahan"
+    ]
+  },
+  {
+    "id": "eee4801",
+    "code": "EEE 4801",
+    "name": "Engineering Economics",
+    "instructors": [
+      "Dr. Syed Akhter Hossain",
+      "Mahbubul Alam"
+    ]
+  },
+  {
+    "id": "soc2101",
+    "code": "SOC 2101",
+    "name": "Society, Environment and Engineering Ethics",
+    "instructors": [
+      "Prof. Nabila Chowdhury",
+      "Dr. Shahriar Rahman"
+    ]
+  },
+  {
+    "id": "eng1011",
+    "code": "ENG 1011",
+    "name": "English I",
+    "instructors": [
+      "Dr. Mumit Khan",
+      "Md. Eunus Ali"
+    ]
+  },
+  {
+    "id": "eng1013",
+    "code": "ENG 1013",
+    "name": "English II",
+    "instructors": [
+      "Dr. Salahuddin Ahmed",
+      "Tahmina Khatun"
+    ]
+  },
+  {
+    "id": "bds1201",
+    "code": "BDS 1201",
+    "name": "History of the Emergence of Bangladesh",
+    "instructors": [
+      "Mosabbir Ahmed",
+      "Dr. Rahman Khan"
+    ]
+  },
+  {
+    "id": "eee4000a",
+    "code": "EEE 4000A",
+    "name": "Capstone Project I",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  },
+  {
+    "id": "eee4000b",
+    "code": "EEE 4000B",
+    "name": "Capstone Project II",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  },
+  {
+    "id": "eee4000c",
+    "code": "EEE 4000C",
+    "name": "Capstone Project III",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  },
+  {
+    "id": "eee4900",
+    "code": "EEE 4900",
+    "name": "Industrial Training/Internship",
+    "instructors": [
+      "All Faculty Members"
+    ]
+  }
+]
