@@ -29,8 +29,8 @@ import {
   type Department,
   type Program,
   type Course
-} from '@/infrastructure/data/universities.data';
-import { SECTIONS, TRIMESTERS, ASSIGNMENT_TYPES } from '@/infrastructure/data/options.data';
+} from '@/features/cover-generator/infrastructure/data/universities.data';
+import { SECTIONS, TRIMESTERS, ASSIGNMENT_TYPES } from '@/features/cover-generator/infrastructure/data/options.data';
 import { baseUrl, apiBaseUrl } from '@/shared/utils';
 
 const storage = new LocalStorageService();
