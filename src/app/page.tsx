@@ -2,12 +2,10 @@
 
 import { useState, useEffect } from 'react';
 import toast from 'react-hot-toast';
-import { 
-  InputField, 
-  SelectField, 
-  GenerateButton, 
-  CoverPreview 
-} from '@/features/cover-generator';
+import StepIndicator from '@/components/ui/StepIndicator';
+import SearchableSelect from '@/components/ui/SearchableSelect';
+import ModernInput from '@/components/ui/ModernInput';
+import { CoverPreview } from '@/features/cover-generator';
 import { LocalStorageService } from '@/features/cover-generator';
 import type { CoverData } from '@/shared/types';
 import { getCurrentDate, validateCoverData } from '@/shared/utils';
@@ -31,14 +29,23 @@ import {
   type Course
 } from '@/features/cover-generator/data/datasources/UniversitiesDataSource';
 import { SECTIONS, TRIMESTERS, ASSIGNMENT_TYPES } from '@/features/cover-generator/data/datasources/options.data';
-import { baseUrl, apiBaseUrl } from '@/shared/utils';
+import { apiBaseUrl } from '@/shared/utils';
 
 const storage = new LocalStorageService();
 
+const STEPS = [
+  { number: 1, title: 'Institution', description: 'University & Department' },
+  { number: 2, title: 'Course', description: 'Select Course' },
+  { number: 3, title: 'Assignment', description: 'Details' },
+  { number: 4, title: 'Personal', description: 'Your Information' },
+];
+
 export default function Home() {
+  const [currentStep, setCurrentStep] = useState(1);
   const [formData, setFormData] = useState<CoverData>({
     universityId: '',
     universityName: '',
+    universityLogo: '',
     schoolId: '',
     school: '',
     departmentId: '',
@@ -55,67 +62,49 @@ export default function Home() {
     section: '',
     trimester: '',
     submissionDate: getCurrentDate(),
-    universityLogo: '',
   });
 
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [loading, setLoading] = useState(false);
-  const [showPreview, setShowPreview] = useState(true);
-
-  // State for "Other" option selections
-  const [showOtherUniversity, setShowOtherUniversity] = useState(false);
-  const [showOtherSchool, setShowOtherSchool] = useState(false);
-  const [showOtherDepartment, setShowOtherDepartment] = useState(false);
-  const [showOtherProgram, setShowOtherProgram] = useState(false);
-  const [showOtherCourse, setShowOtherCourse] = useState(false);
-  const [showOtherAssignment, setShowOtherAssignment] = useState(false);
-  const [showOtherSection, setShowOtherSection] = useState(false);
-  const [showOtherTrimester, setShowOtherTrimester] = useState(false);
-
-  // Cascading dropdown options
+  
+  // Data states
   const [universities] = useState<University[]>(getAllUniversities());
   const [schools, setSchools] = useState<School[]>([]);
   const [departments, setDepartments] = useState<Department[]>([]);
   const [programs, setPrograms] = useState<Program[]>([]);
   const [courses, setCourses] = useState<Course[]>([]);
-  const [instructors, setInstructors] = useState<string[]>([]);
   const [showProgramSelect, setShowProgramSelect] = useState(false);
 
-  // Update schools when university changes
+  // Load universities and schools when university changes
   useEffect(() => {
-    if (formData.universityId) {
-      // Async data loading
+    if (formData.universityId && formData.universityId !== 'other') {
       (async () => {
         const schoolsData = await getSchoolsByUniversity(formData.universityId);
         setSchools(schoolsData);
-        
-        // Update university name and logo
         const uni = await getUniversityById(formData.universityId);
         if (uni) {
           setFormData(prev => ({
             ...prev,
             universityName: uni.name,
-            universityLogo: uni.logo,
+            universityLogo: uni.logo || '',
           }));
         }
       })();
     } else {
       setSchools([]);
       setDepartments([]);
+      setPrograms([]);
       setCourses([]);
-      setInstructors([]);
     }
   }, [formData.universityId]);
 
-  // Update departments when school changes
+  // Load departments when school changes
   useEffect(() => {
-    if (formData.universityId && formData.schoolId) {
-      // Async data loading
+    if (formData.universityId && formData.schoolId && formData.schoolId !== 'other') {
       (async () => {
         const depts = await getDepartmentsBySchool(formData.universityId, formData.schoolId);
         setDepartments(depts);
         
-        // Update school name
         const schoolData = await getSchoolById(formData.universityId, formData.schoolId);
         if (schoolData) {
           setFormData(prev => ({
@@ -128,15 +117,13 @@ export default function Home() {
       setDepartments([]);
       setPrograms([]);
       setCourses([]);
-      setInstructors([]);
     }
   }, [formData.universityId, formData.schoolId]);
 
-  // Update programs/courses when department changes
+  // Load programs/courses when department changes
   useEffect(() => {
-    if (formData.universityId && formData.schoolId && formData.departmentId) {
+    if (formData.universityId && formData.schoolId && formData.departmentId && formData.departmentId !== 'other') {
       (async () => {
-        // Check if department has programs
         const hasPrograms = await departmentHasPrograms(
           formData.universityId,
           formData.schoolId,
@@ -160,7 +147,6 @@ export default function Home() {
           setCourses(coursesData);
         }
 
-        // Update department name
         const dept = await getDepartmentById(
           formData.universityId,
           formData.schoolId,
@@ -176,17 +162,17 @@ export default function Home() {
     } else {
       setPrograms([]);
       setCourses([]);
-      setInstructors([]);
       setShowProgramSelect(false);
     }
-  }, [formData.universityId, formData.schoolId, formData.departmentId]);  // Update courses when program changes (for departments with programs)
+  }, [formData.universityId, formData.schoolId, formData.departmentId]);
+
+  // Load courses when program changes
   useEffect(() => {
-    if (formData.universityId && formData.schoolId && formData.departmentId && formData.programId && showProgramSelect) {
+    if (formData.universityId && formData.schoolId && formData.departmentId && formData.programId && formData.programId !== 'other' && showProgramSelect) {
       (async () => {
         const coursesData = await getCoursesByProgram(formData.universityId, formData.schoolId, formData.departmentId, formData.programId);
         setCourses(coursesData);
         
-        // Update program name
         const prog = await getProgramById(formData.universityId, formData.schoolId, formData.departmentId, formData.programId);
         if (prog) {
           setFormData(prev => ({
@@ -197,13 +183,12 @@ export default function Home() {
       })();
     } else if (showProgramSelect && !formData.programId) {
       setCourses([]);
-      setInstructors([]);
     }
   }, [formData.universityId, formData.schoolId, formData.departmentId, formData.programId, showProgramSelect]);
 
-  // Update instructors when course changes
+  // Load course details
   useEffect(() => {
-    if (formData.universityId && formData.schoolId && formData.departmentId && formData.courseId) {
+    if (formData.universityId && formData.schoolId && formData.departmentId && formData.courseId && formData.courseId !== 'other') {
       (async () => {
         const course = await getCourseById(
           formData.universityId, 
@@ -213,7 +198,6 @@ export default function Home() {
           formData.programId
         );
         if (course) {
-          setInstructors(course.instructors);
           setFormData(prev => ({
             ...prev,
             courseName: course.name,
@@ -221,15 +205,12 @@ export default function Home() {
           }));
         }
       })();
-    } else {
-      setInstructors([]);
     }
   }, [formData.universityId, formData.schoolId, formData.departmentId, formData.courseId, formData.programId]);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
-    // Clear error for this field
     if (errors[name]) {
       setErrors((prev) => {
         const newErrors = { ...prev };
@@ -239,177 +220,69 @@ export default function Home() {
     }
   };
 
-  const handleSelectChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+  const handleSelectChange = (e: { target: { name: string; value: string } }) => {
     const { name, value } = e.target;
     
-    // Handle "Other" option selections with cascading behavior
-    if (value === 'other') {
-      if (name === 'universityId') {
-        // If university is "Other", make all subsequent fields custom inputs
-        setShowOtherUniversity(true);
-        setShowOtherSchool(true);
-        setShowOtherDepartment(true);
-        setShowOtherProgram(true);
-        setShowOtherCourse(true);
-        setFormData((prev) => ({
-          ...prev,
-          universityId: 'other',
-          universityName: '',
-          universityLogo: '',
-          schoolId: 'other',
-          school: '',
-          departmentId: 'other',
-          department: '',
-          programId: 'other',
-          program: '',
-          courseId: 'other',
-          courseName: '',
-          courseCode: '',
-        }));
-      } else if (name === 'schoolId') {
-        // If school is "Other", make all subsequent fields custom inputs
-        setShowOtherSchool(true);
-        setShowOtherDepartment(true);
-        setShowOtherProgram(true);
-        setShowOtherCourse(true);
-        setFormData((prev) => ({
-          ...prev,
-          schoolId: 'other',
-          school: '',
-          departmentId: 'other',
-          department: '',
-          programId: 'other',
-          program: '',
-          courseId: 'other',
-          courseName: '',
-          courseCode: '',
-        }));
-      } else if (name === 'departmentId') {
-        // If department is "Other", make all subsequent fields custom inputs
-        setShowOtherDepartment(true);
-        setShowOtherProgram(true);
-        setShowOtherCourse(true);
-        setFormData((prev) => ({
-          ...prev,
-          departmentId: 'other',
-          department: '',
-          programId: 'other',
-          program: '',
-          courseId: 'other',
-          courseName: '',
-          courseCode: '',
-        }));
-      } else if (name === 'programId') {
-        // If program is "Other", make all subsequent fields custom inputs
-        setShowOtherProgram(true);
-        setShowOtherCourse(true);
-        setFormData((prev) => ({
-          ...prev,
-          programId: 'other',
-          program: '',
-          courseId: 'other',
-          courseName: '',
-          courseCode: '',
-        }));
-      } else if (name === 'courseId') {
-        setShowOtherCourse(true);
-        setFormData((prev) => ({
-          ...prev,
-          courseId: 'other',
-          courseName: '',
-          courseCode: '',
-        }));
-      } else if (name === 'assignmentTitle') {
-        setShowOtherAssignment(true);
-        setFormData((prev) => ({ ...prev, assignmentTitle: '' }));
-      } else if (name === 'section') {
-        setShowOtherSection(true);
-        setFormData((prev) => ({ ...prev, section: '' }));
-      } else if (name === 'trimester') {
-        setShowOtherTrimester(true);
-        setFormData((prev) => ({ ...prev, trimester: '' }));
-      }
+    // Handle "Other" selections and cascading resets
+    if (name === 'universityId') {
+      setFormData((prev) => ({
+        ...prev,
+        [name]: value,
+        universityName: value === 'other' ? '' : prev.universityName,
+        schoolId: '',
+        school: '',
+        departmentId: '',
+        department: '',
+        programId: '',
+        program: '',
+        courseId: '',
+        courseName: '',
+        courseCode: '',
+      }));
+    } else if (name === 'schoolId') {
+      setFormData((prev) => ({
+        ...prev,
+        [name]: value,
+        school: value === 'other' ? '' : prev.school,
+        departmentId: '',
+        department: '',
+        programId: '',
+        program: '',
+        courseId: '',
+        courseName: '',
+        courseCode: '',
+      }));
+    } else if (name === 'departmentId') {
+      setFormData((prev) => ({
+        ...prev,
+        [name]: value,
+        department: value === 'other' ? '' : prev.department,
+        programId: '',
+        program: '',
+        courseId: '',
+        courseName: '',
+        courseCode: '',
+      }));
+    } else if (name === 'programId') {
+      setFormData((prev) => ({
+        ...prev,
+        [name]: value,
+        program: value === 'other' ? '' : prev.program,
+        courseId: '',
+        courseName: '',
+        courseCode: '',
+      }));
+    } else if (name === 'courseId') {
+      setFormData((prev) => ({
+        ...prev,
+        [name]: value,
+        courseName: value === 'other' ? '' : prev.courseName,
+        courseCode: value === 'other' ? '' : prev.courseCode,
+      }));
     } else {
-      // Reset "Other" states when not selecting "Other"
-      if (name === 'universityId') {
-        setShowOtherUniversity(false);
-        setShowOtherSchool(false);
-        setShowOtherDepartment(false);
-        setShowOtherProgram(false);
-        setShowOtherCourse(false);
-        setFormData((prev) => ({
-          ...prev,
-          [name]: value,
-          schoolId: '',
-          school: '',
-          departmentId: '',
-          department: '',
-          programId: '',
-          program: '',
-          courseId: '',
-          courseName: '',
-          courseCode: '',
-        }));
-      } else if (name === 'schoolId') {
-        setShowOtherSchool(false);
-        setShowOtherDepartment(false);
-        setShowOtherProgram(false);
-        setShowOtherCourse(false);
-        setFormData((prev) => ({
-          ...prev,
-          [name]: value,
-          departmentId: '',
-          department: '',
-          programId: '',
-          program: '',
-          courseId: '',
-          courseName: '',
-          courseCode: '',
-        }));
-      } else if (name === 'departmentId') {
-        setShowOtherDepartment(false);
-        setShowOtherProgram(false);
-        setShowOtherCourse(false);
-        setFormData((prev) => ({
-          ...prev,
-          [name]: value,
-          programId: '',
-          program: '',
-          courseId: '',
-          courseName: '',
-          courseCode: '',
-        }));
-      } else if (name === 'programId') {
-        setShowOtherProgram(false);
-        setShowOtherCourse(false);
-        setFormData((prev) => ({
-          ...prev,
-          [name]: value,
-          courseId: '',
-          courseName: '',
-          courseCode: '',
-        }));
-      } else if (name === 'courseId') {
-        setShowOtherCourse(false);
-        setFormData((prev) => ({
-          ...prev,
-          [name]: value,
-        }));
-      } else if (name === 'assignmentTitle') {
-        setShowOtherAssignment(false);
-        setFormData((prev) => ({ ...prev, [name]: value }));
-      } else if (name === 'section') {
-        setShowOtherSection(false);
-        setFormData((prev) => ({ ...prev, [name]: value }));
-      } else if (name === 'trimester') {
-        setShowOtherTrimester(false);
-        setFormData((prev) => ({ ...prev, [name]: value }));
-      } else {
-        setFormData((prev) => ({ ...prev, [name]: value }));
-      }
+      setFormData((prev) => ({ ...prev, [name]: value }));
     }
 
-    // Clear error for this field
     if (errors[name]) {
       setErrors((prev) => {
         const newErrors = { ...prev };
@@ -419,61 +292,77 @@ export default function Home() {
     }
   };
 
-  const handleGenerate = async () => {
-    // Validate
-    const validationErrors = validateCoverData(formData);
-    if (validationErrors.length > 0) {
-      const errorMap: Record<string, string> = {};
-      validationErrors.forEach((err) => {
-        errorMap[err.field] = err.message;
-      });
-      setErrors(errorMap);
+  const validateStep = (step: number): boolean => {
+    const stepErrors: Record<string, string> = {};
+
+    if (step === 1) {
+      if (!formData.universityId) stepErrors.universityId = 'Please select a university';
+      if (formData.universityId === 'other' && !formData.universityName) stepErrors.universityName = 'Please enter university name';
+      if (!formData.schoolId) stepErrors.schoolId = 'Please select a school/faculty';
+      if (formData.schoolId === 'other' && !formData.school) stepErrors.school = 'Please enter school name';
+      if (!formData.departmentId) stepErrors.departmentId = 'Please select a department';
+      if (formData.departmentId === 'other' && !formData.department) stepErrors.department = 'Please enter department name';
+      if (showProgramSelect && !formData.programId) stepErrors.programId = 'Please select a program';
+      if (formData.programId === 'other' && !formData.program) stepErrors.program = 'Please enter program name';
+    } else if (step === 2) {
+      if (!formData.courseId) stepErrors.courseId = 'Please select a course';
+      if (formData.courseId === 'other') {
+        if (!formData.courseCode) stepErrors.courseCode = 'Please enter course code';
+        if (!formData.courseName) stepErrors.courseName = 'Please enter course name';
+      }
+    } else if (step === 3) {
+      if (!formData.assignmentTitle) stepErrors.assignmentTitle = 'Please enter assignment title';
+      if (!formData.submittedTo) stepErrors.submittedTo = 'Please enter instructor name';
+    } else if (step === 4) {
+      if (!formData.submittedBy) stepErrors.submittedBy = 'Please enter your name';
+      if (!formData.studentId) stepErrors.studentId = 'Please enter student ID';
+      if (!formData.section) stepErrors.section = 'Please select section';
+      if (!formData.trimester) stepErrors.trimester = 'Please select trimester';
+    }
+
+    setErrors(stepErrors);
+    return Object.keys(stepErrors).length === 0;
+  };
+
+  const handleNext = () => {
+    if (validateStep(currentStep)) {
+      setCurrentStep(prev => Math.min(prev + 1, 4));
+    } else {
+      toast.error('Please fill in all required fields');
+    }
+  };
+
+  const handlePrevious = () => {
+    setCurrentStep(prev => Math.max(prev - 1, 1));
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    
+    if (!validateStep(4)) {
       toast.error('Please fill in all required fields');
       return;
     }
 
     setLoading(true);
     const loadingToast = toast.loading('Generating your cover page...');
-    
-    try {
-      console.log('Sending request to generate PDF...', formData);
-      
-      const response = await fetch(
-        `${apiBaseUrl}/api/generate`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ data: formData, template: 'default' }),
-      });
 
-      console.log('Response status:', response.status);
+    try {
+      const response = await fetch(`${apiBaseUrl}/api/generate`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
 
       if (!response.ok) {
         const errorData = await response.json().catch(() => ({ error: 'Unknown error' }));
-        console.error('Server error:', errorData);
         throw new Error(errorData.error || 'Failed to generate cover');
       }
 
-      const contentType = response.headers.get('content-type');
-      console.log('Content-Type:', contentType);
-
-      if (!contentType || !contentType.includes('application/pdf')) {
-        const text = await response.text();
-        console.error('Unexpected response:', text);
-        throw new Error('Server did not return a PDF');
-      }
-
       const blob = await response.blob();
-      console.log('PDF blob size:', blob.size);
-
-      if (blob.size === 0) {
-        throw new Error('Generated PDF is empty');
-      }
+      if (blob.size === 0) throw new Error('Generated PDF is empty');
 
       const url = URL.createObjectURL(blob);
-
-      // Download the PDF
       const a = document.createElement('a');
       a.href = url;
       a.download = `assignment-cover-${formData.studentId}.pdf`;
@@ -482,53 +371,49 @@ export default function Home() {
       document.body.removeChild(a);
       URL.revokeObjectURL(url);
 
-      // Save to localStorage for history
       storage.save('lastCover', formData);
-
       toast.success('Cover page generated successfully!', { id: loadingToast });
     } catch (error) {
-      console.error('Error:', error);
-      const errorMessage = error instanceof Error ? error.message : 'Failed to generate cover page. Please try again.';
+      const errorMessage = error instanceof Error ? error.message : 'Failed to generate cover page';
       toast.error(errorMessage, { id: loadingToast });
     } finally {
       setLoading(false);
     }
   };
 
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 py-8 px-4">
-      <div className="max-w-7xl mx-auto">
-        <header className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-blue-900 mb-2">Assignment+</h1>
-          <p className="text-gray-600">Generate Professional Assignment Cover Pages</p>
-        </header>
+  const renderStep = () => {
+    switch (currentStep) {
+      case 1:
+        return (
+          <div className="space-y-6 animate-slideIn">
+            <div className="text-center mb-8">
+              <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent mb-2">
+                Institution Details
+              </h2>
+              <p className="text-gray-600">Select your university, school, and department</p>
+            </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          {/* Form Section */}
-          <div className="bg-white rounded-lg shadow-lg p-6">
-            <h2 className="text-2xl font-bold text-gray-800 mb-6">Cover Details</h2>
-
-            {/* University Selection */}
-            <SelectField
-              label="Select University"
+            <SearchableSelect
+              label="University"
               name="universityId"
               value={formData.universityId}
               onChange={handleSelectChange}
               options={[
-                ...universities.map(uni => ({
-                  value: uni.id,
-                  label: uni.name
-                })),
-                { value: 'other', label: 'Other (Please specify)' }
+                ...universities.map(uni => ({ value: uni.id, label: uni.name })),
+                { value: 'other', label: '✏️ Other (Custom)' }
               ]}
               placeholder="Choose your university"
               required
               error={errors.universityId}
+              icon={
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                </svg>
+              }
             />
-            
-            {/* Custom University Input */}
-            {showOtherUniversity && (
-              <InputField
+
+            {formData.universityId === 'other' && (
+              <ModernInput
                 label="University Name"
                 name="universityName"
                 value={formData.universityName}
@@ -536,94 +421,112 @@ export default function Home() {
                 placeholder="Enter your university name"
                 required
                 error={errors.universityName}
+                icon={
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                  </svg>
+                }
               />
             )}
 
-            {/* School Selection */}
-            {!showOtherSchool ? (
-              <SelectField
-                label="Select School/Faculty"
-                name="schoolId"
-                value={formData.schoolId}
-                onChange={handleSelectChange}
-                options={[
-                  ...schools.map(school => ({
-                    value: school.id,
-                    label: school.name
-                  })),
-                  { value: 'other', label: 'Other (Please specify)' }
-                ]}
-                placeholder="Choose your school"
-                required
-                error={errors.schoolId}
-                disabled={!formData.universityId}
-              />
-            ) : (
-              <InputField
-                label="School/Faculty Name"
+            <SearchableSelect
+              label="School / Faculty"
+              name="schoolId"
+              value={formData.schoolId}
+              onChange={handleSelectChange}
+              options={[
+                ...schools.map(school => ({ value: school.id, label: school.name })),
+                { value: 'other', label: '✏️ Other (Custom)' }
+              ]}
+              placeholder="Choose your school or faculty"
+              required
+              error={errors.schoolId}
+              disabled={!formData.universityId}
+              icon={
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                </svg>
+              }
+            />
+
+            {formData.schoolId === 'other' && (
+              <ModernInput
+                label="School / Faculty Name"
                 name="school"
                 value={formData.school}
                 onChange={handleChange}
-                placeholder="Enter your school/faculty name"
+                placeholder="Enter your school or faculty name"
                 required
                 error={errors.school}
+                icon={
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                  </svg>
+                }
               />
             )}
 
-            {/* Department Selection */}
-            {!showOtherDepartment ? (
-              <SelectField
-                label="Select Department/Program"
-                name="departmentId"
-                value={formData.departmentId}
-                onChange={handleSelectChange}
-                options={[
-                  ...departments.map(dept => ({
-                    value: dept.id,
-                    label: dept.name
-                  })),
-                  { value: 'other', label: 'Other (Please specify)' }
-                ]}
-                placeholder="Choose your department"
-                required
-                error={errors.departmentId}
-                disabled={!formData.schoolId}
-              />
-            ) : (
-              <InputField
-                label="Department/Program Name"
+            <SearchableSelect
+              label="Department / Program"
+              name="departmentId"
+              value={formData.departmentId}
+              onChange={handleSelectChange}
+              options={[
+                ...departments.map(dept => ({ value: dept.id, label: dept.name })),
+                { value: 'other', label: '✏️ Other (Custom)' }
+              ]}
+              placeholder="Choose your department"
+              required
+              error={errors.departmentId}
+              disabled={!formData.schoolId}
+              icon={
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+              }
+            />
+
+            {formData.departmentId === 'other' && (
+              <ModernInput
+                label="Department / Program Name"
                 name="department"
                 value={formData.department}
                 onChange={handleChange}
-                placeholder="Enter your department/program name"
+                placeholder="Enter your department or program name"
                 required
                 error={errors.department}
+                icon={
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                  </svg>
+                }
               />
             )}
 
-            {/* Program Selection - Only shown if department has programs or if using custom input */}
-            {(showProgramSelect || showOtherProgram) && (
+            {showProgramSelect && (
               <>
-                {!showOtherProgram ? (
-                  <SelectField
-                    label="Select Program"
-                    name="programId"
-                    value={formData.programId || ''}
-                    onChange={handleSelectChange}
-                    options={[
-                      ...programs.map(prog => ({
-                        value: prog.id,
-                        label: prog.name
-                      })),
-                      { value: 'other', label: 'Other (Please specify)' }
-                    ]}
-                    placeholder="Choose your program"
-                    required
-                    error={errors.programId}
-                    disabled={!formData.departmentId}
-                  />
-                ) : (
-                  <InputField
+                <SearchableSelect
+                  label="Program"
+                  name="programId"
+                  value={formData.programId || ''}
+                  onChange={handleSelectChange}
+                  options={[
+                    ...programs.map(prog => ({ value: prog.id, label: prog.name })),
+                    { value: 'other', label: '✏️ Other (Custom)' }
+                  ]}
+                  placeholder="Choose your program"
+                  required
+                  error={errors.programId}
+                  disabled={!formData.departmentId}
+                  icon={
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg>
+                  }
+                />
+
+                {formData.programId === 'other' && (
+                  <ModernInput
                     label="Program Name"
                     name="program"
                     value={formData.program}
@@ -631,86 +534,148 @@ export default function Home() {
                     placeholder="Enter your program name"
                     required
                     error={errors.program}
+                    icon={
+                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                      </svg>
+                    }
                   />
                 )}
               </>
             )}
+          </div>
+        );
 
-            {/* Course Selection */}
-            {!showOtherCourse ? (
-              <SelectField
-                label="Select Course"
-                name="courseId"
-                value={formData.courseId}
-                onChange={handleSelectChange}
-                options={[
-                  ...courses.map(course => ({
-                    value: course.id,
-                    label: `${course.code} - ${course.name}`
-                  })),
-                  { value: 'other', label: 'Other (Please specify)' }
-                ]}
-                placeholder="Choose your course"
-                required
-                error={errors.courseId}
-                disabled={!showOtherDepartment && !showOtherProgram && (showProgramSelect ? !formData.programId : !formData.departmentId)}
-              />
-            ) : (
+      case 2:
+        return (
+          <div className="space-y-6 animate-slideIn">
+            <div className="text-center mb-8">
+              <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent mb-2">
+                Course Selection
+              </h2>
+              <p className="text-gray-600">Choose the course for this assignment</p>
+            </div>
+
+            <SearchableSelect
+              label="Course"
+              name="courseId"
+              value={formData.courseId}
+              onChange={handleSelectChange}
+              options={[
+                ...courses.map(course => ({
+                  value: course.id,
+                  label: `${course.code} - ${course.name}`
+                })),
+                { value: 'other', label: '✏️ Other (Custom Course)' }
+              ]}
+              placeholder="Search and select your course"
+              required
+              error={errors.courseId}
+              disabled={showProgramSelect ? !formData.programId : !formData.departmentId}
+              icon={
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                </svg>
+              }
+            />
+
+            {formData.courseId === 'other' && (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <InputField
+                <ModernInput
                   label="Course Code"
                   name="courseCode"
                   value={formData.courseCode}
                   onChange={handleChange}
-                  placeholder="e.g., CSE101"
+                  placeholder="e.g., CSE 3412"
                   required
                   error={errors.courseCode}
+                  icon={
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14" />
+                    </svg>
+                  }
                 />
-                <InputField
+                <ModernInput
                   label="Course Name"
                   name="courseName"
                   value={formData.courseName}
                   onChange={handleChange}
-                  placeholder="e.g., Introduction to Programming"
+                  placeholder="e.g., System Analysis and Design"
                   required
                   error={errors.courseName}
+                  icon={
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                    </svg>
+                  }
                 />
               </div>
             )}
 
-            {/* Assignment Title */}
-            <SelectField
-              label="Assignment Title"
+            {formData.courseId && formData.courseId !== 'other' && (
+              <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-6 border-2 border-blue-200">
+                <div className="flex items-start gap-3">
+                  <svg className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
+                  </svg>
+                  <div>
+                    <h4 className="font-semibold text-blue-900 mb-1">Selected Course</h4>
+                    <p className="text-blue-700 font-medium">{formData.courseCode}</p>
+                    <p className="text-blue-600 text-sm">{formData.courseName}</p>
+                  </div>
+                </div>
+              </div>
+            )}
+          </div>
+        );
+
+      case 3:
+        return (
+          <div className="space-y-6 animate-slideIn">
+            <div className="text-center mb-8">
+              <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent mb-2">
+                Assignment Details
+              </h2>
+              <p className="text-gray-600">Enter assignment title and instructor information</p>
+            </div>
+
+            <SearchableSelect
+              label="Assignment Type"
               name="assignmentTitle"
               value={formData.assignmentTitle}
               onChange={handleSelectChange}
               options={[
-                ...ASSIGNMENT_TYPES.map(type => ({
-                  value: type,
-                  label: type
-                })),
-                { value: 'other', label: 'Other (Please specify)' }
+                ...ASSIGNMENT_TYPES.map(type => ({ value: type, label: type })),
+                { value: 'other', label: '✏️ Custom Title' }
               ]}
-              placeholder="Select assignment type"
+              placeholder="Select or enter assignment type"
               required
               error={errors.assignmentTitle}
+              icon={
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                </svg>
+              }
             />
-            
-            {/* Custom Assignment Title Input */}
-            {showOtherAssignment && (
-              <InputField
+
+            {formData.assignmentTitle === 'other' && (
+              <ModernInput
                 label="Assignment Title"
                 name="assignmentTitle"
-                value={formData.assignmentTitle}
+                value={formData.assignmentTitle === 'other' ? '' : formData.assignmentTitle}
                 onChange={handleChange}
-                placeholder="Enter your assignment title"
+                placeholder="e.g., Mid-term Project Report"
                 required
                 error={errors.assignmentTitle}
+                icon={
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                  </svg>
+                }
               />
             )}
 
-            {/* Instructor Input */}
-            <InputField
+            <ModernInput
               label="Submitted To (Instructor)"
               name="submittedTo"
               value={formData.submittedTo}
@@ -718,10 +683,27 @@ export default function Home() {
               placeholder="e.g., Dr. Rahman Khan"
               required
               error={errors.submittedTo}
+              helperText="Enter your instructor's or professor's name"
+              icon={
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                </svg>
+              }
             />
+          </div>
+        );
 
-            {/* Student Information */}
-            <InputField
+      case 4:
+        return (
+          <div className="space-y-6 animate-slideIn">
+            <div className="text-center mb-8">
+              <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent mb-2">
+                Your Information
+              </h2>
+              <p className="text-gray-600">Enter your personal details</p>
+            </div>
+
+            <ModernInput
               label="Submitted By (Your Name)"
               name="submittedBy"
               value={formData.submittedBy}
@@ -729,10 +711,15 @@ export default function Home() {
               placeholder="e.g., Azizur Rahaman"
               required
               error={errors.submittedBy}
+              icon={
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                </svg>
+              }
             />
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <InputField
+              <ModernInput
                 label="Student ID"
                 name="studentId"
                 value={formData.studentId}
@@ -740,32 +727,38 @@ export default function Home() {
                 placeholder="e.g., 1112420167"
                 required
                 error={errors.studentId}
+                icon={
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2" />
+                  </svg>
+                }
               />
 
-              <SelectField
+              <SearchableSelect
                 label="Section"
                 name="section"
                 value={formData.section}
                 onChange={handleSelectChange}
                 options={[
-                  ...SECTIONS.map(sec => ({
-                    value: sec,
-                    label: `Section ${sec}`
-                  })),
-                  { value: 'other', label: 'Other (Please specify)' }
+                  ...SECTIONS.map(sec => ({ value: sec, label: sec })),
+                  { value: 'other', label: '✏️ Custom' }
                 ]}
                 placeholder="Select section"
                 required
                 error={errors.section}
+                icon={
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+                  </svg>
+                }
               />
             </div>
-            
-            {/* Custom Section Input */}
-            {showOtherSection && (
-              <InputField
+
+            {formData.section === 'other' && (
+              <ModernInput
                 label="Section"
                 name="section"
-                value={formData.section}
+                value={formData.section === 'other' ? '' : formData.section}
                 onChange={handleChange}
                 placeholder="Enter your section"
                 required
@@ -773,62 +766,161 @@ export default function Home() {
               />
             )}
 
-            <SelectField
-              label="Trimester"
+            <SearchableSelect
+              label="Trimester / Semester"
               name="trimester"
               value={formData.trimester}
               onChange={handleSelectChange}
               options={[
-                ...TRIMESTERS.map(tri => ({
-                  value: tri,
-                  label: tri
-                })),
-                { value: 'other', label: 'Other (Please specify)' }
+                ...TRIMESTERS.map(tri => ({ value: tri, label: tri })),
+                { value: 'other', label: '✏️ Custom' }
               ]}
               placeholder="Select trimester"
               required
               error={errors.trimester}
+              icon={
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+              }
             />
-            
-            {/* Custom Trimester Input */}
-            {showOtherTrimester && (
-              <InputField
-                label="Trimester"
+
+            {formData.trimester === 'other' && (
+              <ModernInput
+                label="Trimester / Semester"
                 name="trimester"
-                value={formData.trimester}
+                value={formData.trimester === 'other' ? '' : formData.trimester}
                 onChange={handleChange}
-                placeholder="Enter your trimester (e.g., Fall 2024)"
+                placeholder="e.g., Spring 2025"
                 required
                 error={errors.trimester}
               />
             )}
 
-            <InputField
+            <ModernInput
               label="Submission Date"
               name="submissionDate"
+              type="date"
               value={formData.submissionDate}
               onChange={handleChange}
-              placeholder="DD.MM.YYYY"
               required
-              error={errors.submissionDate}
+              icon={
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+              }
             />
 
-            <div className="mt-6">
-              <GenerateButton onClick={handleGenerate} loading={loading} />
+            {/* Preview in final step */}
+            <div className="mt-8 pt-6 border-t border-gray-200">
+              <h3 className="text-lg font-bold text-gray-800 mb-4 flex items-center gap-2">
+                <svg className="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                </svg>
+                Preview Your Cover Page
+              </h3>
+              <div className="bg-gray-50 rounded-xl p-4 border-2 border-gray-200">
+                <CoverPreview data={formData} />
+              </div>
             </div>
           </div>
+        );
 
-          {/* Preview Section */}
-          <div className="bg-white rounded-lg shadow-lg p-6">
-            <h2 className="text-2xl font-bold text-gray-800 mb-6">Live Preview</h2>
-            <CoverPreview data={formData} />
+      default:
+        return null;
+    }
+  };
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100">
+      {/* Header */}
+      <header className="bg-white shadow-sm border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+          <div className="flex items-center justify-between">
+            <div>
+              <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+                Assignment+
+              </h1>
+              <p className="text-gray-600 mt-1">Professional Assignment Cover Generator</p>
+            </div>
+            <div className="hidden sm:flex items-center gap-2 text-sm text-gray-600">
+              <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+              </svg>
+              <span>All data saved locally</span>
+            </div>
           </div>
         </div>
+      </header>
 
-        <footer className="text-center mt-8 text-gray-600 text-sm">
-<p>© 2025 CG4Academy. All rights reserved.</p>
-        </footer>
-      </div>
-    </div>
-  );
-}
+      {/* Main Content */}
+      <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div className="bg-white rounded-2xl shadow-xl p-8">
+          {/* Step Indicator */}
+          <StepIndicator steps={STEPS} currentStep={currentStep} />
+
+          {/* Form */}
+          <form onSubmit={handleSubmit} className="mt-8">
+            {renderStep()}
+
+                {/* Navigation Buttons */}
+                <div className="flex items-center justify-between mt-8 pt-6 border-t border-gray-200">
+                  <button
+                    type="button"
+                    onClick={handlePrevious}
+                    disabled={currentStep === 1}
+                    className={`px-6 py-3 rounded-xl font-semibold transition-all duration-200 flex items-center gap-2 ${
+                      currentStep === 1
+                        ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
+                        : 'bg-gray-200 text-gray-700 hover:bg-gray-300 hover:shadow-md'
+                    }`}
+                  >
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                    </svg>
+                    Previous
+                  </button>
+
+                  {currentStep < 4 ? (
+                    <button
+                      type="button"
+                      onClick={handleNext}
+                      className="px-8 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-xl font-semibold hover:from-blue-700 hover:to-indigo-700 transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-2"
+                    >
+                      Next Step
+                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                      </svg>
+                    </button>
+                  ) : (
+                    <button
+                      type="submit"
+                      disabled={loading}
+                      className="px-8 py-3 bg-gradient-to-r from-green-600 to-emerald-600 text-white rounded-xl font-semibold hover:from-green-700 hover:to-emerald-700 transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
+                    >
+                      {loading ? (
+                        <>
+                          <svg className="animate-spin w-5 h-5" fill="none" viewBox="0 0 24 24">
+                            <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                            <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+                          </svg>
+                          Generating...
+                        </>
+                      ) : (
+                        <>
+                          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                          </svg>
+                          Generate Cover
+                        </>
+                      )}
+                    </button>
+                  )}
+                </div>
+              </form>
+            </div>
+          </main>
+        </div>
+      );
+    }
